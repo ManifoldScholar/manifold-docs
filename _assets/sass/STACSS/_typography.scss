@@ -1,0 +1,386 @@
+// Component Typography and Prototypes
+// -----------------------------------
+
+// Template typography mixins/prototypes and utility classes that can be extended into content classes.
+// Typographic classes can contain some structural (not textural) design where it does not require abstraction,
+// and textural classes dealing with typography (color, text-decoration, pseudo elements that modify text, etc).
+
+// They may contain:
+// Nested classes or elements with typographic/basic structural modifications only, for instance a header
+// with <span> classes inside.
+
+// These should not contain classes/prototypes to handle icon fonts. Those should be handles in a separate icons partial.
+
+// Copy
+// --------------------------------------------------------
+
+@mixin copyPrimary {
+  @include fontCopy;
+  font-size: 17px;
+  font-weight: $regular;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 16px;
+  }
+}
+
+.copy-primary {
+  @include copyPrimary;
+}
+
+@mixin copySecondary {
+  @include fontCopy;
+  font-size: 18px;
+  font-weight: $regular;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 16px;
+  }
+}
+
+.copy-secondary {
+  @include copySecondary;
+}
+
+@mixin copyTertiary {
+  @include fontCopy;
+  font-size: 15px;
+  font-weight: $regular;
+  line-height: 1.3;
+}
+
+.copy-tertiary {
+  @include copyTertiary;
+}
+
+@mixin copyQuaternary {
+  @include fontCopy;
+  font-size: 16px;
+  font-weight: $regular;
+  line-height: 1.313;
+
+  @include respond($break20) {
+    font-size: 13px;
+  }
+}
+
+.copy-quaternary {
+  @include copyQuaternary;
+}
+
+@mixin copyQuinary {
+  @include fontCopy;
+  font-size: 20px;
+  font-weight: $regular;
+  line-height: 1.3;
+
+  @include respond($break20) {
+    font-size: 16px;
+  }
+}
+
+.copy-quinary {
+  @include copyQuinary;
+}
+
+
+// Headings
+// --------------------------------------------------------
+
+@mixin headingPrimary {
+  @include fontHead;
+  font-size: 34px;
+  font-weight: $medium;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 23px;
+  }
+}
+
+.heading-primary {
+  @include headingPrimary;
+}
+
+@mixin headingSecondary {
+  @include fontHead;
+  font-size: 32px;
+  font-weight: $semibold;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 23px;
+  }
+}
+
+.heading-secondary {
+  @include headingSecondary;
+}
+
+@mixin headingTertiary {
+  @include fontHead;
+  font-size: 27px;
+  font-weight: $medium;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 17px;
+  }
+}
+
+.heading-tertiary {
+  @include headingTertiary;
+}
+
+@mixin headingQuaternary {
+  @include fontHead;
+  font-size: 22px;
+  font-weight: $medium;
+  line-height: 1.2;
+}
+
+.heading-quaternary {
+  @include headingQuaternary;
+}
+
+
+// Subheadings
+// --------------------------------------------------------
+
+@mixin subheadingPrimary {
+  @include fontHead;
+  font-size: 18px;
+  font-weight: $medium;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 15px;
+  }
+}
+
+.subheading-primary {
+  @include subheadingPrimary;
+}
+
+@mixin subheadingSecondary {
+  @include fontHead;
+  font-size: 16px;
+  font-weight: $semibold;
+  line-height: 1.2;
+  letter-spacing: 0.075em;
+}
+
+.subheading-secondary {
+  @include subheadingSecondary;
+}
+
+@mixin subheadingTertiary {
+  @include fontHead;
+  font-size: 18px;
+  font-weight: $regular;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 16px;
+  }
+}
+
+.subheading-tertiary {
+  @include subheadingTertiary;
+}
+
+@mixin subheadingQuaternary {
+  @include fontHead;
+  font-size: 14px;
+  font-weight: $semibold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+
+
+// Signs
+// --------------------------------------------------------
+
+@mixin signPrimary {
+  @include fontHead;
+  font-size: 57px;
+  font-weight: $semibold;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 32px;
+  }
+}
+
+.sign-primary {
+  @include signPrimary;
+}
+
+@mixin signSecondary {
+  @include fontHead;
+  font-size: 20px;
+  font-weight: $medium;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 14px;
+  }
+}
+
+.sign-secondary {
+  @include signSecondary;
+}
+
+@mixin signTertiary {
+  @include fontHead;
+  font-size: 24px;
+  font-weight: $medium;
+  line-height: 1.2;
+
+  @include respond($break20) {
+    font-size: 14px;
+  }
+}
+
+.sign-tertiary {
+  @include signTertiary;
+}
+
+// Links/Buttons
+// --------------------------------------------------------
+
+@mixin buttonPrimary {
+  @include fontHead;
+  font-size: 16px;
+  font-weight: $medium;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+
+  @include respond($break20) {
+    font-size: 13px;
+  }
+}
+
+@mixin linkSecondary {
+  @include fontHead;
+  font-size: 12px;
+  font-weight: $semibold;
+  line-height: 1.2;
+  color: $accentPrimary;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+
+
+// Lists
+// --------------------------------------------------------
+@mixin listPrimary {
+  @include fontHead;
+  @include listUnstyled;
+  font-size: 16px;
+  font-weight: $semibold;
+  line-height: 1.2;
+
+  > li {
+    vertical-align: middle;
+
+    &::before {
+      padding-right: 6px;
+      color: $accentPrimary;
+      content: '•';
+    }
+
+    + li {
+      margin-top: 5px;
+    }
+  }
+}
+
+.list-primary {
+  @include listPrimary;
+}
+
+@mixin listSecondary {
+  @include listPrimary;
+
+  > li {
+    &::before {
+      color: $gray03;
+    }
+  }
+}
+
+.list-secondary {
+  @include listSecondary;
+}
+
+@mixin listTertiary {
+  @include listPrimary;
+
+  > li {
+    &::before {
+      color: $white;
+    }
+  }
+}
+
+.list-tertiary {
+  @include listTertiary;
+}
+
+@mixin listQuaternary {
+  @include listPrimary;
+  @include copySecondary;
+
+  > li {
+    &::before {
+      color: $accentSecondary;
+    }
+  }
+}
+
+.list-quaternary {
+  @include listQuaternary;
+}
+
+// Navs
+// --------------------------------------------------------
+
+@mixin navPrimary {
+  @include fontHead;
+  font-size: 16px;
+  font-weight: $medium;
+  line-height: 1.2;
+
+  @include respond($break60) {
+    font-size: 32px;
+  }
+
+  @include respond($break30) {
+    font-size: 5.5vw;
+  }
+
+  @include respond($break20) {
+    font-size: 23px;
+  }
+}
+
+@mixin navSecondary {
+  @include fontHead;
+  font-size: 15px;
+  font-weight: $medium;
+
+  @include respond($break20) {
+    font-size: 13px;
+  }
+}
+
+@mixin navSidebar {
+  @include fontHead;
+  font-size: 17px;
+  font-weight: $medium;
+}

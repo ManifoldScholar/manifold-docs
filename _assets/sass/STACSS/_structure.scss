@@ -1,0 +1,258 @@
+// Component Structure
+// -------------------
+
+// Structure-only mixins (and maybe utility classes), with parameters for margins, padding, position, display, etc.
+
+// They may contain:
+// Nested classes/elements that have structural parameters only
+
+// NB: Containers that are modular regardless of context can use em units
+// Structure should not be dependent on typography styles but font-size CAN be used as a structural style if necessary
+// for scaling
+
+// Containers
+// --------------------------------------------------------
+
+@mixin containerMain {
+  max-width: $containerWidth;
+  padding-right: $containerPaddingMax;
+  padding-left: $containerPaddingMax;
+  margin: 0 auto;
+
+  @include respond($break110) {
+    padding-right: $containerPaddingFlex;
+    padding-left: $containerPaddingFlex;
+  }
+
+  @include respond($break20) {
+    padding-right: $containerPaddingMin;
+    padding-left: $containerPaddingMin;
+  }
+}
+
+.container-main {
+  @include containerMain;
+}
+
+@mixin blockPadding {
+  padding-top: $blockPaddingMax;
+  padding-bottom: $blockPaddingMax;
+
+  @include respond($break110) {
+    padding-top: $blockPaddingFlex;
+    padding-bottom: $blockPaddingFlex;
+  }
+
+  @include respond($break20) {
+    padding-top: $blockPaddingMin;
+    padding-bottom: 45px;
+  }
+}
+
+.block {
+  @include containerMain;
+  @include blockPadding;
+
+  &.narrow {
+    padding-right: 132px;
+    padding-left: 132px;
+
+    @include respond($break110) {
+      padding-right: 11vw;
+      padding-left: 11vw;
+    }
+
+    @include respond($break20) {
+      padding-right: $containerPaddingMin;
+      padding-left: $containerPaddingMin;
+    }
+  }
+}
+
+@mixin containerHeader {
+  @include containerMain;
+  padding-top: 25px;
+  padding-bottom: 26px;
+}
+
+.container-header {
+  @include containerHeader;
+}
+
+@mixin containerFooter {
+  @include containerMain;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.container-footer {
+  @include containerFooter;
+}
+
+.documentation-footer {
+  z-index: 1;
+}
+
+@mixin containerCalloutPrimary {
+  max-width: $containerWidth;
+  padding-top: 40px;
+  padding-right: 132px;
+  padding-bottom: 40px;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  padding-left: 132px;
+  margin: 0 auto;
+
+  @include respond($break110) {
+    padding-right: 11vw;
+    padding-left: 11vw;
+  }
+
+  @include respond($break20) {
+    padding-right: $containerPaddingMin;
+    padding-left: $containerPaddingMin;
+  }
+}
+
+.container-callout-primary {
+  @include containerCalloutPrimary;
+}
+
+@mixin containerCalloutSecondary {
+  @include blockPadding;
+  max-width: $containerWidth;
+  padding-right: 225px;
+  padding-left: 225px;
+  margin: 0 auto;
+
+  @include respond($break110) {
+    padding-right: 18.75vw;
+    padding-left: 18.75vw;
+  }
+
+  @include respond($break50) {
+    padding-right: 4.76vw;
+    padding-left: 4.76vw;
+  }
+
+  @include respond($break20) {
+    padding-right: $containerPaddingMin;
+    padding-left: $containerPaddingMin;
+  }
+}
+
+.container-callout-secondary {
+  @include containerCalloutSecondary;
+}
+
+@mixin containerCalloutTertiary {
+  @include blockPadding;
+  max-width: $containerWidth;
+  padding-right: 270px;
+  padding-left: 270px;
+  margin: 0 auto;
+
+  @include respond($break110) {
+    padding-right: 22.5vw;
+    padding-left: 22.5vw;
+  }
+
+  @include respond($break50) {
+    padding-right: 4.76vw;
+    padding-left: 4.76vw;
+  }
+
+  @include respond($break20) {
+    padding-right: $containerPaddingMin;
+    padding-left: $containerPaddingMin;
+  }
+}
+
+.container-callout-tertiary {
+  @include containerCalloutTertiary;
+
+  &.tall {
+    padding-top: 24.33vh;
+    padding-bottom: 24.33vh;
+
+    @include respond($break20) {
+      padding-top: 18.33vh;
+      padding-bottom: 18.33vh;
+    }
+  }
+}
+
+@mixin containerCalloutQuaternary {
+  @include containerMain;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.container-callout-quaternary {
+  @include containerCalloutQuaternary;
+}
+
+
+// Layout
+// --------------------------------------------------------
+.of-hidden-y {
+  overflow-y: hidden;
+}
+
+.of-hidden-x {
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  main {
+    flex: 1;
+  }
+}
+
+.rel {
+  position: relative;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &.vert-centered {
+    align-items: center;
+  }
+
+  &.vert-top {
+    align-items: flex-start;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+
+    &.col-2 {
+      width: 50%;
+    }
+
+    &.col-3 {
+      width: 33.333%;
+    }
+
+    &.lat-centered {
+      align-items: center;
+    }
+  }
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fl {
+  float: left;
+}

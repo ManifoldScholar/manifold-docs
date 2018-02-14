@@ -1,0 +1,32 @@
+.accordions-list {
+  @include listUnstyled;
+}
+
+.accordion-toggle {
+  @include iconPost($plus);
+  cursor: pointer;
+
+  &::after {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 16px;
+    color: $gray02;
+    vertical-align: middle;
+  }
+
+  &.open {
+    @include iconPost($minus);
+
+    &::after {
+      margin-top: 7px;
+      font-size: 2px;
+      vertical-align: baseline;
+    }
+  }
+}
+
+.accordion {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height $durationSlow $timing;
+}

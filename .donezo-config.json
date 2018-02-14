@@ -1,0 +1,11 @@
+{
+  "fontFile": "/assets/fonts/manifold-icons.svg",
+  "stylesFile": "/_sass/_icons.scss",
+  "fontName": "manifold-icons",
+  "fontPath": "../fonts/",
+  "variablePrefix": "",
+  "dashToCamelCase": false,
+  "outputFontFace": true,
+  "outputMixins": true,
+  "useRailsFontPath": false
+}

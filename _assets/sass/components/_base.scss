@@ -1,0 +1,126 @@
+// Base
+// ----
+
+// Applies a natural box layout model to all the things
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Sets text selection background color
+// @include selection(#b3d4fd);
+
+// Global
+// --------------------------------------------------------
+html {
+  // Set the base font size here, which will correspond to 1em inside <body>
+  font-size: 100%;
+  // Do you want to force grayscale antialiasing globally in webkit & gecko?
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // Do you want to enable kerning and ligatures globally in webkit & gecko?
+  // Beware that this occasionally causes width:auto elements to break to multiple lines in Chrome
+  // It seems that the width of the element is computed prior to kerning
+  // https://code.google.com/p/chromium/issues/detail?id=189755
+  // text-rendering: optimizeLegibility;
+}
+
+body {
+  // Set base font-family here
+  @include fontCopy;
+  font-size: 1em;
+  font-weight: $regular;
+  line-height: $baseLineHeight;
+  color: $gray07;
+}
+
+// Typography
+// --------------------------------------------------------
+// Block-level elements
+// --------------------------
+%proto-heading {
+  margin: 0;
+  line-height: 1;
+}
+
+h1 {
+  @extend %proto-heading;
+  // font-size: $alpha;
+}
+
+h2 {
+  @extend %proto-heading;
+  // font-size: $beta;
+}
+
+h3 {
+  @extend %proto-heading;
+  // font-size: $gamma;
+}
+
+h4 {
+  @extend %proto-heading;
+  // font-size: $delta;
+}
+
+h5 {
+  @extend %proto-heading;
+  // font-size: $epsilon;
+}
+
+h6 {
+  @extend %proto-heading;
+  // font-size: $zeta;
+}
+
+p {
+  margin: 0;
+
+  & + & {
+    margin-top: $verticalSpace;
+  }
+}
+
+ul,
+ol {
+  // Base list styles
+}
+
+hr {
+  // display: block;
+  // padding: 0;
+  // margin: 0;
+  // border: 0;
+  // border-top: 1px solid $black;
+}
+
+// Inline elements
+// --------------------------
+a {
+  // Do you want links to transition smoothly between states?
+  color: inherit;
+  text-decoration: underline;
+  transition: color $timing $duration;
+
+  &:hover {
+    color: $accentPrimary;
+
+    .background-primary & {
+      color: inherit;
+    }
+  }
+
+  &:active {
+    // color: $something;
+  }
+
+  &:visited {
+    // color: $something;
+  }
+}
+
+b,
+strong {
+  // font-weight: $bold;
+}

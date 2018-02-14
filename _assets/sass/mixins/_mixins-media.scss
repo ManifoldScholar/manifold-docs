@@ -1,0 +1,26 @@
+/* stylelint-disable */
+// Media Query Mixins
+// ------------------
+
+// Media queries
+// --------------------------------------------------------
+// Respond to viewport size
+// $size -> viewport size
+// $operator -> 'min' or 'max'
+// $aspect -> 'width' or 'height'
+// --------------------------
+@mixin respond($size, $operator: max, $aspect: width) {
+  @media all and (#{$operator}-#{$aspect}: $size) {
+    @content;
+  }
+}
+
+// Respond to pixel density
+// --------------------------
+@mixin respondMinDensity($density: 1.5) {
+  @media only screen and (-Webkit-min-device-pixel-ratio: $density),
+  only screen and (min--moz-device-pixel-ratio: $density),
+  only screen and (min-device-pixel-ratio: $density) {
+    @content;
+  }
+}

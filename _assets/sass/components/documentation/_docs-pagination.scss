@@ -1,0 +1,66 @@
+.documentation-pagination {
+  @include clearfix;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 26px;
+  padding-bottom: 18px;
+  margin-top: 55px;
+  border-top: 1px solid $gray05;
+
+  .pager {
+    @include navSidebar;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    color: $gray05;
+    text-decoration: none;
+
+    @include respond($break20) {
+      font-size: 15px;
+    }
+
+    &.hidden {
+      display: none;
+    }
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .pager:hover {
+    color: $accentSecondary;
+  }
+
+  .page-left {
+    justify-content: flex-start;
+    padding-right: 7px;
+
+    .icon {
+      @include iconPre($arrow-short-left);
+
+      &::before {
+        padding-right: 10px;
+        font-size: 12px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .page-right {
+    justify-content: flex-end;
+    padding-left: 7px;
+    text-align: right;
+
+    .icon {
+      @include iconPost($arrow-short-right);
+
+      &::after {
+        padding-left: 10px;
+        font-size: 12px;
+        vertical-align: middle;
+      }
+    }
+  }
+}

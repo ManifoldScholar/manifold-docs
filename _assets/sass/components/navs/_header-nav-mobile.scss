@@ -1,0 +1,64 @@
+.main-header {
+  .mobile-main-nav {
+    @include listUnstyled;
+    max-height: 100%;
+    padding: 48px 27px 27px calc(50px + 7.5vw);
+
+    @include respond($break20) {
+      padding: 48px 27px 27px 72px;
+    }
+
+    .mobile-main-nav-item {
+      display: block;
+
+      &.active a {
+        color: $white;
+      }
+
+      + .mobile-main-nav-item {
+        margin-top: 10px;
+      }
+
+      a {
+        @include navPrimary;
+        color: $offBlack;
+        text-decoration: none;
+
+        &:hover {
+          color: $white;
+        }
+      }
+
+      .search-link {
+        color: $white;
+
+        &::before {
+          padding-right: 9px;
+          font-size: 25px;
+          color: $white;
+          vertical-align: baseline;
+
+          @include respond($break60) {
+            font-size: 25px;
+          }
+
+          @include respond($break30) {
+            font-size: 4.2vw;
+          }
+
+          @include respond($break20) {
+            font-size: 18px;
+          }
+        }
+
+        &:hover {
+          color: $offBlack;
+
+          &::before {
+            color: $offBlack;
+          }
+        }
+      }
+    }
+  }
+}

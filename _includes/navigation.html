@@ -1,0 +1,45 @@
+{% if menu %}
+    {% assign level = level | plus: 1 %}
+    {% for item in menu %}
+    {% capture slug    %}{{ item.url | split: "/"   | last                       }}{% endcapture %}
+    {% capture path  %}{{ item.url | remove: slug | append: "/" | remove: "//" }}{% endcapture %}
+
+    {% comment %}
+    If the current page includes this item, it is "current"
+    {% endcomment %}
+    {% if page.url contains path %}
+    {% assign current = true %}
+    {% else %}
+    {% assign current = false %}
+    {% endif %}
+
+    {% comment %}
+    If this item's URL matches the current URL, it is "active"
+    {% endcomment %}
+    {% if page.url == item.url %}
+    {% assign active = true %}
+    {% else %}
+    {% assign active = false %}
+    {% endif %}
+
+    {% if level < 2 or current == true %}
+    {% assign open = true %}
+    {% else %}
+    {% assign open = false %}
+    {% endif %}
+
+    <li class="{% if item.children %}toggle{% endif %} {% if current%}open{% endif %}">
+        {% if item.children %}
+        <span class="toggle-indicator {% if active %}active{% endif %} {% if open%}open{% endif %}" data-sidebar-accordion-toggle="{{item.identifier}}"></span>
+        {% endif %}
+        <a class="{% if active %}active{% endif %} {% if open %}open{% endif %}" href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+        {% if item.children %}
+        <ul class="accordion {% if open %}open{% endif %}" data-sidebar-accordion-reveal="{{item.identifier}}">
+        {% assign menu = item.children %}
+        {% include navigation.html %}
+        {% assign level = level | minus: 1 %}
+        </ul>
+        {% endif %}
+    </li>
+    {% endfor %}
+{% endif %}

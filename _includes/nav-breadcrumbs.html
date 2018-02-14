@@ -1,0 +1,35 @@
+{% if menu %}
+
+    {% assign stop = false %}
+    {% for item in menu %}
+        {% if page.url == item.url %}
+        {% assign stop = true %}
+        {% endif %}
+    {% endfor %}
+
+    {% assign level = level | plus: 1 %}
+    {% for item in menu %}
+        {% capture slug    %}{{ item.url | split: "/"   | last                       }}{% endcapture %}
+        {% capture path  %}{{ item.url | remove: slug | append: "/" | remove: "//" }}{% endcapture %}
+
+        {% assign include_in_breadcrumb = false %}
+        {% if page.url contains path or page.url == item.url %}
+        {% assign include_in_breadcrumb = true %}
+        {% endif %}
+        {% if stop == true %}
+        {% assign include_in_breadcrumb = false %}
+        {% endif %}
+
+        {% if include_in_breadcrumb %}
+            {% if item.url == "/docs/index" %}
+            <a class="breadcrumb-link" href="{{ item.url }}" title="Go to {{ item.title }}">Home</a>
+            {% else %}
+            <a class="breadcrumb-link" href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+            {% endif %}
+            {% assign menu = item.children %}
+            {% include nav-breadcrumbs.html %}
+            {% assign level = level | minus: 1 %}
+        {% endif %}
+
+    {% endfor %}
+{% endif %}

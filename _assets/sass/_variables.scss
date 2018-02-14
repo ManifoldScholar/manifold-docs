@@ -1,0 +1,75 @@
+// Variables
+//----------
+
+// Colors
+// --------------------------------------------------------
+// Neutrals
+$white: #ffffff;
+$black: #000000;
+$offBlack: #2e2e2e;
+
+$gray01: #f7f7f7;
+$gray02: #d6d6d6;
+$gray03: #c3c3c3;
+$gray04: #9a9a9a;
+$gray05: #696969;
+$gray06: #555555;
+$gray07: #363636;
+$gray08: #ECECEC;
+$gray09: #828282;
+
+// Accent Colors
+$accentPrimary: #52e3ac;
+$accentPale: #f0faf7;
+$accentDark: #4ad9a7;
+$accentSecondary: #008753;
+$accentSvg: #c1f7e4;
+
+// Error
+$error: #f75884;
+
+// Measurements
+// --------------------------------------------------------
+$containerWidth: 1200px;
+$containerPaddingMax: 90px;
+$containerPaddingFlex: 7.5vw;
+$containerPaddingMin: 20px;
+
+$blockPaddingMax: 100px;
+$blockPaddingFlex: 8.33vw;
+$blockPaddingMin: 35px;
+
+$sidebarWidth: 265px;
+$sidebarWidthMobile: 315px;
+
+$baseLineHeight: 1.2;
+$verticalSpace: $baseLineHeight * 1em;
+
+// $durationFast: 0.1s;
+$duration: 0.2s;
+$durationSlow: 0.4s;
+$timing: ease;
+
+// Font Weights
+// --------------------------------------------------------
+// $thin: 200;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+// Responsive breakpoints
+// --------------------------------------------------------
+// $break130: ;
+// $break120: ;
+$break110: $containerWidth;
+$break100: 1000px;
+// $break90: ;
+// $break80: ;
+$break70: 930px;
+$break60: 845px;
+$break50: 768px;
+// $break40: ;
+$break30: 580px;
+$break20: 420px;
+$break10: 320px;

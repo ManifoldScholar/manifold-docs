@@ -1,0 +1,17 @@
+.main-header {
+  background-color: $white;
+
+  &.documentation-header {
+    z-index: 3;
+    border-bottom: 2px solid $gray03;
+  }
+
+  a.main-logo {
+    font-size: 17px;
+    color: $gray06;
+
+    &:hover {
+      color: $gray04;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.docs-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - #{$sidebarWidth});
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-left: $containerPaddingMax;
+
+  @include respond($break110 + $containerPaddingMax) {
+    padding-left: $containerPaddingFlex;
+  }
+
+  @include respond($break60) {
+    width: 100%;
+    padding-left: 45px;
+  }
+
+  .notice {
+    color: $gray05;
+    font-style: italic;
+  }
+}

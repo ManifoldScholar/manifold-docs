@@ -1,0 +1,86 @@
+// Donezo Generated Icon File:
+// File will be overwritten if regenerated
+
+// Icon Variables
+// --------------------------------------------------------
+$slack-logo: '\e900';
+$caret: '\e901';
+$venn-diagram: '\e902';
+$arrow-short-left: '\e903';
+$arrow-short-right: '\e904';
+$gitter-logo: '\e905';
+$laptop-dev: '\e906';
+$manifold-doc: '\e907';
+$minus: '\e908';
+$plus: '\e909';
+$quotes: '\e90a';
+$arrow-right: '\e90b';
+$bar-graph: '\e90c';
+$binoculars: '\e90d';
+$book-page-turn: '\e90e';
+$bookpile-small: '\e90f';
+$bugle: '\e910';
+$caliper: '\e911';
+$cloud-down: '\e912';
+$cone: '\e913';
+$email: '\e914';
+$github: '\e915';
+$glasses: '\e916';
+$hand: '\e917';
+$human-reading: '\e918';
+$laptop: '\e919';
+$magnify: '\e91a';
+$manifold-logo: '\e91b';
+$nodes: '\e91c';
+$pencil: '\e91d';
+$transform-square-to-circle: '\e91e';
+$triangle: '\e91f';
+$twitter: '\e920';
+$watering-can: '\e921';
+$word-bubble-multiple: '\e922';
+$wrench: '\e923';
+
+
+@font-face {
+  font-family: 'manifold-icons';
+  src: url('../fonts/manifold-icons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/manifold-icons.woff') format('woff'),
+    url('../fonts/manifold-icons.ttf') format('truetype'),
+    url('../fonts/manifold-icons.svg') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin fontIcon {
+  font-family: 'manifold-icons', sans-serif;
+}
+
+@mixin protoIcon {
+  @include fontIcon;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  vertical-align: baseline;
+  speak: none;
+}
+
+@mixin iconPre($icon) {
+  speak: none;
+
+  &::before {
+    @include protoIcon;
+    content: $icon;
+  }
+}
+
+@mixin iconPost($icon) {
+  speak: none;
+
+  &::after {
+    @include protoIcon;
+    content: $icon;
+  }
+}

@@ -1,0 +1,202 @@
+.docs-sidebar {
+  width: $sidebarWidth;
+  padding: 25px 25px 100px 0;
+  background-color: $white;
+  border-right: 2px solid $gray03;
+  // opacity: 0;
+  // transition: opacity $duration $timing;
+
+  @include respond($break60) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidebarWidthMobile;
+    height: 100vh;
+    padding: 103px 50px 100px;
+    transition: transform $durationSlow $timing;
+    transform: translateX(-$sidebarWidth);
+
+    &.open {
+      z-index: 2;
+      transform: translateX(0);
+    }
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .sidebar-toggle {
+    @include iconPost($caret);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    width: 45px;
+    height: 100%;
+    color: $accentSecondary;
+    cursor: pointer;
+
+    @include respond($break60) {
+      display: block;
+    }
+
+    &::after {
+      position: absolute;
+      top: 118px;
+      right: 18px;
+      font-size: 16px;
+      transition: font-size $duration $timing, transform $durationSlow $timing;
+      transform: rotate(0deg);
+    }
+
+    &.open {
+      &::after {
+        transform: rotate(180deg);
+      }
+    }
+
+    &:hover {
+      &::after {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .search-block.form-primary {
+    margin-bottom: 46px;
+
+    .form-input {
+      position: relative;
+
+      &::before {
+        display: none;
+      }
+
+      .icon {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 15px;
+        color: $gray05;
+        transition: color $duration $timing;
+      }
+
+      input {
+        @include navSecondary;
+        width: auto;
+        padding-bottom: 3px;
+        padding-left: 0;
+        margin-left: 28px;
+        color: $gray05;
+        background-color: $white;
+        border-bottom-color: $gray05;
+        transition: border-bottom-color $duration $timing;
+
+        &::placeholder {
+          color: $gray03;
+        }
+
+        &:focus {
+          border-bottom-color: $accentPrimary;
+
+          + .icon {
+            color: $accentPrimary;
+          }
+        }
+      }
+    }
+  }
+
+  ul {
+    @include fontHead;
+    @include listUnstyled;
+    font-size: 16px;
+    font-weight: $regular;
+    line-height: 1.2;
+
+    li {
+      position: relative;
+    }
+
+    > li {
+      + li {
+        padding-top: 15px;
+      }
+
+      ul {
+        padding: 0 0 0 18px;
+
+        &.closed {
+          max-height: 0;
+        }
+
+        &.open {
+          max-height: none;
+        }
+
+        li:first-child {
+          padding-top: 12px;
+        }
+
+        li:last-child {
+          padding-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  a {
+    @include navSidebar;
+    display: inline-block;
+    width: calc(100% - 24px);
+    color: $gray05;
+    text-decoration: none;
+
+    &:hover, &.active {
+      color: $accentSecondary;
+    }
+  }
+
+  .toggle-indicator, .placeholder-toggle-indicator {
+    @include iconPre($caret);
+    display: block;
+    position: absolute;
+    left: -18px;
+    top: 19px;
+    font-size: 12px;
+  }
+
+  .toggle-indicator {
+    color: $gray05;
+    cursor: pointer;
+
+    &::before {
+      transition: transform $duration $timing;
+      transform: rotate(0deg);
+    }
+
+    &:hover, &.active {
+      color: $accentSecondary;
+    }
+
+    &.open {
+      &::before {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  .placeholder-toggle-indicator {
+    color: transparent;
+
+    &:hover {
+      color: transparent;
+    }
+
+    &::before {
+      transition: unset;
+    }
+  }
+}

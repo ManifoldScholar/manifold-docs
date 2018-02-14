@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign menu = site.menus.main %}
+<div class="documentation-breadcrumb" data-documentation-breadcrumb="documentation">
+  {% include nav-breadcrumbs.html %}
+</div>
+
+<div id="doc-page" class="markdown">
+  <h1>{{ page.title | escape }}</h1>
+  {% assign content = content | strip_newlines %}
+  {% unless content == "" %}
+    {{ content }}
+  {% else %}
+  <p class="notice">
+    This page is a placeholder.
+  </p>
+  <p class="notice">
+    Manifold documentation is still very much a work in progress, and we appreciate your
+    patience while we complete it.
+  </p>
+  {% endunless %}
+</div>
+

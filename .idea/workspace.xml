@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2c38618-287e-4964-ac8d-6d54f8014067" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-02-04-welcome-to-jekyll.markdown" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/STACSS/_appearance.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/STACSS/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/STACSS/_structure.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/STACSS/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/_fonts.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_accordions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_blocks.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_blog.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_contact.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_faqs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_features.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_footers.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_forms.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_headers.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_newsletter.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_overlay.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_search.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_services.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_sliders.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_summaries-list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_testimonials.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_three-column-summaries.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_two-column-newspaper.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_z-stack.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/actions/_action.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/actions/_actions-badge.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/actions/_actions-grid.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/actions/_actions-group.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/actions/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/animations/_book-to-manifold.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/animations/_bookpile.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/animations/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/animations/_logo.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_announcement-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_button-callouts.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_four-button-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_full-width-image-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_image-to-left-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_links-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_one-button-callout-centered.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_one-button-hero.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_placeholder-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_project-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_two-button-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_video-callout-centered.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/callouts/_video-callout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/documentation/_docs-breadcrumb.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/documentation/_docs-main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/documentation/_docs-pagination.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/documentation/_docs-sidebar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/documentation/_docs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/documentation/_markdown.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/documentation/index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/navs/_footer-nav.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/navs/_hamburger-nav.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/navs/_header-nav-desktop.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/navs/_header-nav-mobile.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/navs/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/tabs/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/tabs/_tab-triggers.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/tabs/_tabbed-grid.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/tabs/_tabs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/lib/_normalize.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/mixins/_index.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/mixins/_mixins-base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/mixins/_mixins-media.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/recycle/minima.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/recycle/minima/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/recycle/minima/_layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/recycle/minima/_syntax-highlighting.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_sass/styles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/about.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/minima-social-icons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/authors/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/authors/project_proposals.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/authors/resources.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/authors/rights.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/authors/writing.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/google_services/analytics.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/google_services/drive.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/google_services/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/index.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/oauth/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/oauth/facebook.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/oauth/google.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/configuration/oauth/twitter.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/developers/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/developers/architecture.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/developers/command_line_interface.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/developers/development_environment.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/developers/directory_structure.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/getting_started/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/getting_started/access_backend.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/getting_started/first_project.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/getting_started/install.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/people.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/people/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/people/makers.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/people/users.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/activity.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/collections.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/general.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/metadata.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/people.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/resources/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/resources/resource_annotations.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/texts/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/projects/texts/ingestion.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/settings/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/settings/email.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/settings/general.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/settings/integrations.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/backend/settings/theme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/project_types.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/proposals.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/publishers/workflow.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/readers/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/readers/project_page.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/readers/projects_library.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/readers/reading-interface.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/readers/resources.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/reference/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/reference/downloads.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/reference/glossary.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/reference/metadata.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/reference/support.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/tmp/installation/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/tmp/installation/from_package.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contents/tmp/installation/from_source.md" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="writing.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_docs/writing/writing.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="782">
+                <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docs-sidebar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/js/docs-sidebar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/sass/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_docs.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_docs.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_docs-main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_docs-main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_markdown.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_markdown.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_docs-pagination.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_docs-pagination.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>block-intro</find>
+      <find>include icon</find>
+      <find>iconPost</find>
+      <find>entry</find>
+      <find>php-ma</find>
+      <find>Php</find>
+      <find>devServerPort</find>
+      <find>-theme</find>
+      <find>projectName</find>
+      <find>stats</find>
+      <find>assetMan</find>
+      <find>css</find>
+      <find>manifest</find>
+      <find>Manifest</find>
+      <find>webpackasset</find>
+      <find>Rellax</find>
+      <find>is_ch</find>
+      <find>addEventLis</find>
+      <find>addEvent</find>
+      <find>closed</find>
+      <find>child_menu_for</find>
+      <find>.toggle</find>
+      <find>li</find>
+      <find>li</find>
+      <find>right:</find>
+      <find>-----</find>
+      <find>docs-side</find>
+      <find>{</find>
+      <find>level</find>
+      <find>console</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/_sass</dir>
+      <dir>$PROJECT_DIR$/webpack</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_docs/reading/project_page.md" />
+        <option value="$PROJECT_DIR$/_docs/reading/interface/index.md" />
+        <option value="$PROJECT_DIR$/_docs/reading/interface/favorites.md" />
+        <option value="$PROJECT_DIR$/_docs/reading/interface/highlighting.md" />
+        <option value="$PROJECT_DIR$/_docs/reading/interface/annotating.md" />
+        <option value="$PROJECT_DIR$/_docs/reading/interface/commenting.md" />
+        <option value="$PROJECT_DIR$/_docs/reading/interface/my_notes.md" />
+        <option value="$PROJECT_DIR$/_docs/reference/index.md" />
+        <option value="$PROJECT_DIR$/_docs/reference/metadata.md" />
+        <option value="$PROJECT_DIR$/_docs/reference/glossary.md" />
+        <option value="$PROJECT_DIR$/_docs/customizing/settings/general.md" />
+        <option value="$PROJECT_DIR$/_docs/reference/downloads.md" />
+        <option value="$PROJECT_DIR$/_sass/components/animations/_index.scss" />
+        <option value="$PROJECT_DIR$/_sass/components/_index.scss" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/.donezo-config.json" />
+        <option value="$PROJECT_DIR$/_sass/_icons.scss" />
+        <option value="$PROJECT_DIR$/assets/manifest.js" />
+        <option value="$PROJECT_DIR$/manifest.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack/base.conf.js" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/_assets/sass/_icons.scss" />
+        <option value="$PROJECT_DIR$/_assets/manifest.js" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_assets/js/accordions.js" />
+        <option value="$PROJECT_DIR$/_assets/js/docs-theme.js" />
+        <option value="$PROJECT_DIR$/_includes/navigation.html" />
+        <option value="$PROJECT_DIR$/_assets/sass/components/documentation/_docs-sidebar.scss" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_assets/sass/components/documentation/_markdown.scss" />
+        <option value="$PROJECT_DIR$/_plugins/breadcrumbs.rb" />
+        <option value="$PROJECT_DIR$/_docs/customizing/settings/external_services/google/analytics.md" />
+        <option value="$PROJECT_DIR$/_includes/nav-breadcrumbs.html" />
+        <option value="$PROJECT_DIR$/_docs/customizing/settings/theme.md" />
+        <option value="$PROJECT_DIR$/_docs/customizing/email.md" />
+        <option value="$PROJECT_DIR$/_docs/customizing/index.md" />
+        <option value="$PROJECT_DIR$/_docs/customizing/subjects.md" />
+        <option value="$PROJECT_DIR$/_docs/installing/docker/index.md" />
+        <option value="$PROJECT_DIR$/_docs/projects/texts/index.md" />
+        <option value="$PROJECT_DIR$/_docs/projects/texts/published.md" />
+        <option value="$PROJECT_DIR$/_docs/projects/texts/reingestion.md" />
+        <option value="$PROJECT_DIR$/_docs/projects/creating.md" />
+        <option value="$PROJECT_DIR$/_docs/reading/resources.md" />
+        <option value="$PROJECT_DIR$/_docs/writing/file_prep.md" />
+        <option value="$PROJECT_DIR$/_assets/sass/components/documentation/_docs-main.scss" />
+        <option value="$PROJECT_DIR$/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/_assets/js/docs-sidebar.js" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1680" />
+    <option name="y" value="-367" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manifold-docs-jekyll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manifold-docs-jekyll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manifold-docs-jekyll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manifold-docs-jekyll" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_assets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_docs/reading/interface" />
+      <recent name="$PROJECT_DIR$/_docs/reading/library" />
+      <recent name="$PROJECT_DIR$/_docs/projects/customizing" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2c38618-287e-4964-ac8d-6d54f8014067" name="Default" comment="" />
+      <created>1517865329817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517865329817</updated>
+      <workItem from="1517865331229" duration="1646000" />
+      <workItem from="1517931451261" duration="624000" />
+      <workItem from="1517932386062" duration="890000" />
+      <workItem from="1518012632968" duration="256000" />
+      <workItem from="1518109180714" duration="731000" />
+      <workItem from="1518270074723" duration="5000" />
+      <workItem from="1520353345003" duration="31098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35250000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="-367" width="2560" height="1417" extended-state="6" />
+    <layout>
+      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1683876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_docs/projects/customizing/activity.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/customizing/appearance.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/customizing/general.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/customizing/social.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/people/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/people/makers.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/people/users.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/resources/collections.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/resources/creating.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/resources/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/texts/drafts.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/texts/grouping.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/texts/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/texts/published.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/texts/reingestion.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/texts/types.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/creating.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/projects/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/publishing/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/publishing/project_types.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/publishing/proposals.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/publishing/workflow.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/interface/annotating.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/interface/commenting.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/interface/favorites.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/interface/highlighting.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/interface/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/interface/my_notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/library/citing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/library/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/project_page.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="69">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reading/resources.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reference/downloads.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reference/glossary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reference/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/reference/metadata.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/writing/file_prep.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/writing/proposals.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/writing/resources.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/writing/rights.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_docs/writing/writing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="782">
+            <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_docs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_markdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_docs-pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/sass/components/documentation/_docs-main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/js/docs-sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aasm (v4.12.0, rbenv: 2.3.3) [gem]</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>rbenv: 2.0.0-p648</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>manifold-docs-jekyll</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>rbenv: 2.1.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+  <body>
+      <!-- Site Header, Nav -->
+      {% include header.html %}
+      <!-- Main page content -->
+      <main>
+        <div style="width: 0; height: 0; visibility: hidden;"></div>
+        <section class="background-white docs-container">
+          <div class="container-main docs">
+            <div class="flex-row">
+              <aside class="docs-sidebar" data-hamburger-togglable="sidebar">
+                <div class="sidebar-toggle" data-hamburger-toggle="sidebar"></div>
+                {% assign menu = site.menus.main %}
+                <ul>
+                  {% include navigation.html %}
+                </ul>
+              </aside>
+              <div class="docs-main">
+                <div>
+                  {{ content }}
+                </div>
+                <div class="documentation-pagination" data-documentation-pagination="documentation">
+                  <!-- prev / next -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer navigation, colophon -->
+      {% include footer.html %}
+  </body>
+</html>
