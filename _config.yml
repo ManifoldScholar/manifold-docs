@@ -52,8 +52,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - Procfile
-
-breadcrumbs:
-  root:
-    hide: false  # show breadcrumbs on root/home page
-    image: true # Show image or title text
