@@ -27,10 +27,10 @@
 ## Editing Manifold Documentation
 To Edit Manifold documentation, please do the following:
 1. In the command line, navigate to the docs repository (manifold-docs-jekyll) 
-2. **Pull origin master** to ensure you have the latest updates
+2. **git pull origin master** to ensure you have the latest updates
 3. Run **bundle exec jekyll serve** so that you can see edits live
 4. Edit files in a text browser
-5. **Git add** your changed files
+5. **git add** your changed files
 6. **Commit -m "Commit description"**
 7. **push origin master**
 
