@@ -1,4 +1,11 @@
-# Install Manifold on Ubuntu
+---
+layout: page
+title: Install Manifold on Ubuntu
+menu:
+  omnibus:
+    title: Install on Ubuntu
+    weight: 1
+---
 
 The following instructions have only been tested on Ubuntu 16 hosts. Your mileage will almost certainly vary if you attempt to install Manifold on a different linux distribution.
 

@@ -1,4 +1,11 @@
-# Create your First Project
+---
+layout: page
+title: Create your First Project
+menu:
+  omnibus:
+    title: Create your First Project
+    weight: 2
+---
 
 Creating projects in Manifold is meant to be straight forward and easy. The first thing you see in the backend is the list of projects:
 
