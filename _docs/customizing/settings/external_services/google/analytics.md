@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Google Analytics Configuration
-menus: 
+menus:
   google:
     title: Analytics
 ---
 
 Configure this feature to enable analytics reporting to your Google account, and to display analytics data in the Manifold backend.
 
-Before using this feature, you must [configure Google services](README.md).
+Before using this feature, you must [configure Google services](index.html).
 
 ### Enable Analytics
 
@@ -25,7 +25,7 @@ Before using this feature, you must [configure Google services](README.md).
 4. Click on "User Management" under your property's name.
 5. Add "Read & Analyze" permissions for your service account.
 
-![Analytics Permissions](/_assets/analytics-permissions.png)
+![Analytics Permissions](/docs/assets/customizing/analytics-permissions.png)
 
 ### Get Tracking ID and Profile ID
 
@@ -34,9 +34,9 @@ Before using this feature, you must [configure Google services](README.md).
 3. Click on "View Settings" under "All Web Site Data".
 4. Make note of the View Id.
 
-![Analytics Tracking](/_assets/analytics-tracking.png)
+![Analytics Tracking](/docs/assets/customizing/analytics-tracking.png)
 
-![Analytics Profile](/_assets/analytics-profile.png)
+![Analytics Profile](/docs/assets/customizing/analytics-profile.png)
 
 ### Update Manifold Settings
 

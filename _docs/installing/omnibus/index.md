@@ -11,8 +11,8 @@ menu:
 Welcome! We're glad you've decided to try out Manifold. In this quick tutorial, you will:
 
 1. Install Manifold on an [Ubuntu](install_ubuntu.html) or [OS10](install_os10.html) host
-2. [Create an admin user and login to the backend](/access_backend.html)
-3. [Create your first project and upload a text](/first_project.html)
+2. [Create an admin user and login to the backend](/docs/installing/access_backend.html)
+3. [Create your first project and upload a text](/docs/installing/first_project.html)
 
 ### Prerequisites
 

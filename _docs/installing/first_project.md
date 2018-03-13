@@ -23,7 +23,7 @@ A good first step on a project is to ingest a text. Click on the "texts" tab to 
 
 Manifold can ingest EPUBs, Markdown documents, HTML, or Google Docs. [Ingesting Google docs requires some additional configuration](/docs/customizing/settings/external_services/google/index.html), so for the purposes getting started, we'll begin with an EPUB ingestion. If you don't have a DRM-free EPUB on hand, you can always grab one from the [standard ebooks project](https://standardebooks.org/).
 
-Click on the "Add a new text" butotn to bring up step one of the ingestion process:
+Click on the "Add a new text" button to bring up step one of the ingestion process:
 
 ![Select Ingestion Type](/docs/assets/installing/ingestion-one.png)
 

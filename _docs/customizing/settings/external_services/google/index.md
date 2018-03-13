@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Google
-menus: 
-  external_services: 
+menus:
+  external_services:
     identifier: google
 ---
 
 Manifold can utilize Google Services to enable additional helpful features.
 
-* [Analytics](analytics.md)
-* [Drive](drive.md)
+* [Analytics](analytics.html)
+* [Drive](drive.html)
 
 To begin using these features, you must first complete some configuration through the Google Developer Console.
 

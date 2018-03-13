@@ -46,7 +46,7 @@ For now, let's just make sure Manifold is on the right domain. Open `/etc/manifo
 
 Once this process is complete, visit the fully qualified domain name in your browser. You should see an empty Manifold home page.
 
-If everything looks good, [proceed to the next step](access_backend.html).
+If everything looks good, [proceed to the next step](/docs/installing/access_backend.html).
 
 #### Notes
 
