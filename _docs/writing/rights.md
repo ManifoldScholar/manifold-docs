@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Copyright and Permissions
-menus: 
+menus:
   writing:
     weight: 3
     title: Copyright
 ---
-
-## Introduction
 
 It is the author’s responsibility to obtain permission for the use of material copyrighted by others. Because obtaining permission often takes several weeks or months, we urge you to send out permission requests as early as possible. Keep records of all correspondence. If you are unable to contact the rights holder of a particular piece of copyrighted material for permission to reuse, consult with your publisher regarding the best course of action. **All** permissions should accompany the materials they are associated with when submitted to your publisher.
 
@@ -120,4 +118,4 @@ Scans or copies of all emails and letters you receive granting permission, as we
 
 ### List of Material
 
-Along with the gratned permissions, provide a detailed list of all materials in your submission that you are not responsible for creating or for which you assigned rights to another party, along with the location or publication information for each.
+Along with the granted permissions, provide a detailed list of all materials in your submission that you are not responsible for creating or for which you assigned rights to another party, along with the location or publication information for each.
