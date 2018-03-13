@@ -2,7 +2,7 @@
 layout: page
 title: Accessing the Manifold Backend
 menu:
-  omnibus:
+  installation:
     title: Accessing the Manifold Backend
     weight: 3
 ---
@@ -24,4 +24,4 @@ manifold@manifold-deb:/etc/manifold# sudo manifold-api manifold:user:create:admi
 
 Once you've created an admin user, click on the avatar icon in the top right corner of the Manifold frontend to login. After logging in successfully, you will see an "admin mode" button in the header.
 
-Click the admin mode button to access the backend, then [proceed to the next step](first_project.md).
+Click the admin mode button to access the backend, then [proceed to the next step](first_project.html).
