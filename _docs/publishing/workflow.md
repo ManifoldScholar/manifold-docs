@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Editorial and Production Workflow
-menus: 
+menus:
   workflows:
+    title: Workflow
     weight: 3
 ---
 
@@ -24,7 +25,7 @@ The iterative process precedes and stands apart from the standard production wor
 
 Manifold editions are smoothly integrated into the existing production processes so publishers considering Manifold won't have to change their fundamental workflows to use it.
 
-![Manifold Workflow](/_assets/workflow.jpg)
+![Manifold Workflow](/docs/assets/publishing/workflow.jpg)
 
 In the figure above, white tiles denote existing production processes, green tiles describe actions that occur on the Manifold platform, and dotted arrows suggest optional paths to pursue.
 
@@ -39,8 +40,8 @@ In the figure above, white tiles denote existing production processes, green til
 ### Internal Considerations
 
 *   Outline what level of attention you want to provide to “gray” publications—- those that are in-process, still being thought through, drafty
-*   Sketch out a staff map of who will be involved, from interactions with the author, preparation of materials, editorial discretion, direct engagement with the platform: 
-	* what is expected of them, and for what parts of the process? 
+*   Sketch out a staff map of who will be involved, from interactions with the author, preparation of materials, editorial discretion, direct engagement with the platform:
+	* what is expected of them, and for what parts of the process?
 	* Will this be true of every project, or will different staff be used for different projects?
 *   How will you treat Resources versus Texts in terms of editorial oversight and vetting—will those concerns be decided by acquisitions, editorial, or production staff?
 *   Do you want to create a pipeline for iterative projects to flow through into standard production processes or should they remain completely distinct, with a handoff from one process to another?

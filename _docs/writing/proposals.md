@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Project Proposals
-menus: 
+title: Crafting Your Proposal
+menus:
   writing:
     weight: 2
-    title: Proposals
+    title: Crafting Your Proposal
 ---
 
 Unless otherwise invited to do so by your publisher, plan on submitting a prospectus in advance of a complete manuscript. The submission of unrevised dissertations, unless solicited, is generally discouraged. Your prospectus should include, at a minimum, the following information:

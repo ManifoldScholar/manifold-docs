@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Install Manifold on Ubuntu
+title: Installing Manifold on Ubuntu
 menu:
   omnibus:
-    title: Install on Ubuntu
+    title: Ubuntu
     weight: 1
 ---
 

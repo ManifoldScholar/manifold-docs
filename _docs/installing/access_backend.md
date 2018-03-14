@@ -3,7 +3,7 @@ layout: page
 title: Accessing the Manifold Backend
 menu:
   installation:
-    title: Accessing the Manifold Backend
+    title: Accessing the Backend
     weight: 3
 ---
 
