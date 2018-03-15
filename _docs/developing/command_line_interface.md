@@ -1,8 +1,15 @@
-# Command Line Interface
+---
+layout: page
+title: Command Line Interface
+menu:
+  developers:
+    title: Command Line Interface
+    weight: 4
+---
 
 Manifold includes a command line interface \(CLI\) that can be used to start and stop services, import texts, and to perform administrative tasks. There are low-level tasks defined in client/package.json, and there are numerous rake tasks defined for the Manifold's API. Manifold's global CLI provides a unified interface to client and server tasks.
 
-### Getting Started with the CLI
+## Getting Started with the CLI
 
 Relative to the Manifold repository root, the CLI script is located at `./bin/manifold` \(and aliased at `./bin/m`\). Most developers on the Manifold team have included `./bin` to their `$PATH` environment variable, and simple execute the CLI by typing `m` from the project root.
 
@@ -40,7 +47,6 @@ Options:
     -h, --help                    print help
 ```
 
-The Manifold development team uses the CLI to start services, lint code, and run tests. Linting and testing can be limited to just the client application or the API application. 
+The Manifold development team uses the CLI to start services, lint code, and run tests. Linting and testing can be limited to just the client application or the API application.
 
 To start all Manifold services \(API, Workers, Clockwork, and the Client\), just type `manifold start`. Or, for that matter, just type `manifold`, as starting services is the default subcommand.
-

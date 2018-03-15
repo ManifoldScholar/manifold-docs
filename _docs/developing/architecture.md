@@ -1,8 +1,15 @@
-# Architecture
+---
+layout: page
+title: Architecture
+menu:
+  developers:
+    title: Architecture
+    weight: 2
+---
 
 For Manifold to run properly, a number of distinct services must be running at all times on the host. This section includes a brief description of each service and a sample systemd startup script. We've found Ubuntu 16 to be a reliable host environment for Manifold, and we use the systemd scripts below to manage each service. The paths in the systemd service snippets below assume a typical Capistrano deployment to /home/manifold/deploy. If you take a different approach to deployment, you may need to change the paths.
 
-### API
+## API
 
 The Manifold API service provides a RESTful interface to all of the underlying data stored in Manifold. The API is a Rails application running on Puma \(although it should be possible to choose a different Rack-compatible application server.
 
@@ -26,7 +33,7 @@ Restart=always
 SyslogIdentifier=manifold-api
 ```
 
-### Client
+## Client
 
 The client is a node-js application that's responsible for the server-side render of Manifold URLs. Remember, Manifold is a universal or isomorphic single page web application. That means that the first request hits an index.html page that loads a Javascript bundle. This single html page is updated as the user interacts with Manifold and data is requested and returned from the API. To avoid an initial white screen while the Javascript bundle is loading, and to ensure archivability and easier search engine indexing, the client application renders each page on the server-side first and returns the rendered HTML to the client on the initial request.
 
@@ -55,7 +62,7 @@ SyslogIdentifier=manifold-client
 
 Note that the main point of entry to the client application is the "start" command in `client/package.json`.
 
-### Worker
+## Worker
 
 To improve the user experience and overall performance, Manifold runs a number of resource-intensive tasks in the background. Sending emails, generating thumbnails, monitoring tweets related to a project, are examples of tasks that are normally managed in the background. For this background processing, Manifold relies on a redis queue and the powerful background job processor application, [Sidekiq](http://sidekiq.org/). For background jobs to be handled correctly, Sidekiq must be running at all times.
 
@@ -131,7 +138,7 @@ RemainAfterExit=yes
 SyslogIdentifier=manifold-workers
 ```
 
-### Scheduler
+## Scheduler
 
 The Scheduler service is responsible for creating background jobs according to a schedule. With this service, there's no need to create cron-job for background maintenance tasks and synchronizing data between Manifold and external services. The scheduler, for example, tells Manifold to check for new project tweets on an hourly basis.
 
@@ -155,7 +162,7 @@ Restart=always
 SyslogIdentifier=manifold-scheduler
 ```
 
-### Cable
+## Cable
 
 The cable service is a WebSocket service. When texts are ingested into Manifold through the backend, the API provides real-time feedback to the client application about the ingestion process. This takes place over the Cable WebSocket channel.
 
@@ -180,7 +187,7 @@ Restart=always
 SyslogIdentifier=manifold-cable
 ```
 
-### Starting and Stopping Services
+## Starting and Stopping Services
 
 We use sysctl to start and stop Manifold services in a systemd environment.
 
@@ -214,7 +221,7 @@ sudo systemctl restart manifold_workers
 sudo systemctl restart manifold_cable
 ```
 
-### Logging and Troubleshooting
+## Logging and Troubleshooting
 
 When it comes to figuring out why services aren't running as expected in a systemd environment, `journalctl` is your best friend! Use this command to tail log output from the principle Manifold services:
 
@@ -222,7 +229,6 @@ When it comes to figuring out why services aren't running as expected in a syste
 journalctl --unit=manifold* -f
 ```
 
-### Managing Services with the Manifold CLI
+## Managing Services with the Manifold CLI
 
-It is also possible to start Manifold services using the CLI interface and the bundled [forman procfile](https://ddollar.github.io/foreman/). For more information, consult the [Command Line Interface](/developers/command-line-interface.md) section of this documentation.
-
+It is also possible to start Manifold services using the CLI interface and the bundled [forman procfile](https://ddollar.github.io/foreman/). For more information, consult the [Command Line Interface](command_line_interface.html) section of this documentation.
