@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Metadata
-menus: 
+menus:
   projects_customizing:
-    weight: 4
+    weight: 7
 ---

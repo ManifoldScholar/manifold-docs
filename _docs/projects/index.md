@@ -8,7 +8,7 @@ menus:
 ---
 
 
-The Projects page is the default landing space when accessing the backend with Administrative credentials. Here new projects can be created and existing ones modified.
+The Projects page is the default landing space when accessing the backend. Here new projects can be created and existing ones modified.
 
 <a name="search"></a>
 ## Search

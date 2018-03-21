@@ -1,18 +1,16 @@
 ---
 layout: page
-title: Types of Ingestion
-menus: 
+title: Ingestion Strategies
+menus:
   project_texts:
     weight: 1
 ---
 
 TKTKTK
 
-## ePub
+## EPUB
 
 TKTKTK
-
-### sidebar: articles to read!
 
 ## Google docs
 

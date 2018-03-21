@@ -1,7 +1,7 @@
 ---
 layout: page
-title: General
+title: Resources
 menus:
   projects_customizing:
-    weight: 1
+    weight: 4
 ---

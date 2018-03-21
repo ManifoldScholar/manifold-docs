@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Ingesting Texts
-menus: 
+menus:
   projects:
     identifier: project_texts
-    weight: 3
+    weight: 2
 ---

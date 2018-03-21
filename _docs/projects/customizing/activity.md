@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Activity
-menus: 
+menus:
   projects_customizing:
-    weight: 5
+    weight: 6
 ---
+TKTKTK
+
+## Editing Activity Items

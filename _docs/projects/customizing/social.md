@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Social
-menus: 
+menus:
   projects_customizing:
-    weight: 3
+    weight: 8
 ---
 
 ## Twitter Queries
