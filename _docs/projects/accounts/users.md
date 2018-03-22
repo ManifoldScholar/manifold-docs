@@ -6,7 +6,7 @@ menus:
     weight: 3
 ---
 
-User accounts are for those who are logging into Manifold to engage with projects. Users are created by those first signing up for an account with a particular instance of Manifold—or by an existing user with Administrator credentials on behalf of one who doesn't yet have an account. User accounts carry different CRUD (Create, Read, Update, Delete) permission credentials according to the following roles:
+Users are created by those first signing up for an account with a particular instance of Manifold—or by an existing user with Administrator credentials on behalf of one who doesn't yet have an account. User accounts carry different CRUD (Create, Read, Update, Delete) permission credentials according to the following roles:
 
 ## Global User Roles
 
@@ -40,7 +40,7 @@ The default user role. When logged in a Reader can highlight, annotate, comment,
 
 ## User Permissions Available for Scoping
 
-These permissions live in a project’s People tab and can be assigned to users with Reader roles (the default user role) on a project-by-project basis.
+These permissions live in a project’s Permissions tab and can be assigned to users with Reader roles (the default user role) on a project-by-project basis.
 
 ### Can modify the project
 
