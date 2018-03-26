@@ -8,7 +8,7 @@ menus:
 
 Commenting is a related but distinct function from annotations that describes interaction between readers. When a passage or word is annotated, you can comment by clicking on the "reply" field on the annotation dropdown. 
 
-![Comment](/docs/assets/reading/comment.png)
+![Comment](/docs/assets/reading/annotationcomment.png)
 
 When you select text, you will be given the option to comment. Once a comment is logged, you may view your comments throughout the text, or you may open your collected notes using the notepad icon in the top right menu bar.
 
