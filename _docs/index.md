@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Overview
-menu: 
+menu:
   main:
     identifier: overview
     weight: 1
@@ -17,13 +17,13 @@ If you find yourself unclear about the process, what is expected of you, or if y
 
 If you are interested in hosting your own instance of Manifold, begin with the [Getting Started](/contents/getting_started/README.md) section, where you'll find instructions for how to install Manifold. If you would prefer not to manage your own instance of Manifold, [the University of Minnesota Press](https://www.upress.umn.edu/) offers [digital services](http://manifoldapp.org/services) covering project preparation, hosting, customization and support in partnership with [Cast Iron Coding](http://castironcoding.com). Once Manifold has been installed and configured, documentation is broken into parts that reflect operations of Manifold:
 
-* [Installing Manifold](installing/index.md)
-* [Customizing Manifold](customizing/index.md)
-* [Working with Projects](projects/index.md)
-* [Writing for Manifold](writing/index.md)
-* [Integrating Manifold into Publishing Workflows](publishing/index.md)
-* [Reading Manifold Texts](reading/index.md)
-* [Developing for Manifold](developing/index.md)
+* [Installing Manifold](installing/index.html)
+* [Customizing Manifold](customizing/index.html)
+* [Working with Projects](projects/index.html)
+* [Writing for Manifold](writing/index.html)
+* [Integrating Manifold into Publishing Workflows](publishing/index.html)
+* [Reading Manifold Texts](reading/index.html)
+* [Developing for Manifold](developing/index.html)
 * [References](reference/index.md)
 
 <a name="getting_support"></a>

@@ -24,7 +24,7 @@ Has full CRUD permissions within an instance, except in the Settings and Analyti
 
 ### Project Creator
 
-Has C permissions for Projects and People menus—and by default will have the “Can modify the project” permission toggled on, allowing role to not only create new projects but have the rights to modify them too.
+Has creation permissions (C) for the Projects and People menus—and by default will have the “Can Modify the Project” permission toggled on, allowing those assigned this role the ability to not only create new projects but have the rights to modify them.
 
 **Use Cases**. Coordinator permissions could be assigned to (acquisitions) editorial and production staff, within a university press, to manage their specific projects and the people contributing to them. At other publishing centers this allows distinct units to control their own projects without affecting the instance as a whole or the publishing work of other units on the same instance.
 
@@ -40,7 +40,7 @@ The default user role. When logged in a Reader can highlight, annotate, comment,
 
 ## User Permissions Available for Scoping
 
-These permissions live in a project’s Permissions tab and can be assigned to users with Reader roles (the default user role) on a project-by-project basis.
+These permissions live in a project’s [Permissions menu](/docs/projects/customizing/permissions.html) and can be assigned to users with Reader roles (the default user role) on a project-by-project basis.
 
 ### Can Modify the Project
 
@@ -65,6 +65,6 @@ Grants users the ability to see author dashboard and tags project annotations an
 | Reader          | —                  | —      | —       | —        | —         | —                            |
 
 <small>
-<sup>a</sup>Access to RUD functions is not inherent to the role but provided through the “Can modify the project” permission, which will be toggled on by default to the role.  
-<sup>b</sup>Access to the Author Dashboard is not inherent to any role. Only Readers who have the “Is a project author” permission toggled on will be able to access the dashboard.
+<sup>a</sup>Access to RUD functions is not inherent to the role but provided through the “Can Modify the Project” permission, which will be toggled on by default to the role.  
+<sup>b</sup>Access to the Author Dashboard is not inherent to any role. Only Readers who have the “Is a Project Author” permission toggled on will be able to access the dashboard.
 </small>
