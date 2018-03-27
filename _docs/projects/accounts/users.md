@@ -44,7 +44,7 @@ These permissions live in a project’s [Permissions menu](/docs/projects/custom
 
 ### Can Modify the Project
 
-Grants user the ability to make any change within the scope of the backend project page.
+Grants user the ability to make any change within the scope of the backend project page as well as modify existing Maker Records.
 
 ### Can Modify Resource Metadata
 
@@ -56,15 +56,16 @@ Grants users the ability to see author dashboard and tags project annotations an
 
 ## Table 1. Inherent backend permissions for global roles
 
-|                 |Projects            | People | Content | Settings | Analytics | Author Dashboard<sup>b</sup> |
-|-----------------|--------------------|--------|---------|----------|-----------|------------------------------|
-| Administrator   | CRUD               | CRUD   | CRUD    | CRUD     | R         | —                            |
-| Editor          | CRUD               | CRUD   | CRUD    | R        | R         | —                            |
-| Project Creator | C(RUD)<sup>a</sup> | CRUD   | —       | —        | —         | —                            |
-| Marketeer       | RU                 | —      | CRUD    | —        | R         | —                            |
-| Reader          | —                  | —      | —       | —        | —         | —                            |
+|                 |Projects            | People             | Content | Settings | Analytics | Author Dashboard<sup>b</sup> |
+|-----------------|--------------------|--------------------|---------|----------|-----------|------------------------------|
+| Administrator   | CRUD               | CRUD               | CRUD    | CRUD     | R         | —                            |
+| Editor          | CRUD               | CRUD               | CRUD    | R        | R         | —                            |
+| Project Creator | C(RUD)<sup>a</sup> | RU<sup>c</sup>     | —       | —        | —         | —                            |
+| Marketeer       | RU                 | —                  | CRUD    | —        | R         | —                            |
+| Reader          | —                  | —                  | —       | —        | —         | —                            |
 
 <small>
 <sup>a</sup>Access to RUD functions is not inherent to the role but provided through the “Can Modify the Project” permission, which will be toggled on by default to the role.  
 <sup>b</sup>Access to the Author Dashboard is not inherent to any role. Only Readers who have the “Is a Project Author” permission toggled on will be able to access the dashboard.
+<sup>c</sup>Read and Update rights are specific to Maker records and do not include any CRUD permissions for User accounts.
 </small>

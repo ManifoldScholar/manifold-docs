@@ -11,7 +11,7 @@ When you click on an existing project listed on the <a href="/docs/assets/projec
 
 If you user account role is that of an Administrator or Editor, you will be able to fully modify everything on the project page for any project in the instance where you have those credentials.
 
-Project Creators will be able to modify only the project pages for those projects they have created or have been given that permission.
+Project Creators will be able to see and modify only the project pages for those projects they have created or have been given that permission.
 
 Marketeers will be able to see and update all items on any project within an instance, but they will not be able to create new projects or delete existing ones.
 
