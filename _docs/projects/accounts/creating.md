@@ -8,19 +8,23 @@ menus:
 
 ## Users vs. Makers
 
-Users are those who sign up for a Manifold account as a means to actively engage with projects. That may be simply as a Reader, who can highlight and annotate text, share materials to social media, or take part in conversations with other readers. Or, depending on the role assigned to a user, they might also access the backend where they could change or add materials to a project or entire Manifold instance.
+Users are those who sign up for a Manifold account as a means to actively engage with a project's texts or resources. That may be simply as a Reader—who can highlight and annotate text, share materials to social media, or take part in conversations with other readers—or, depending on the [role assigned](users.html) to a user, it might also mean accessing the backend where the user could change or add materials to a project or entire Manifold instance.
 
-Maker records are just that—records appended to a project to describe those who have authored, edited, or otherwise produced the projects and texts on Manifold.
+Maker records are just that—records appended to a project to describe those who have authored, edited, or otherwise produced the projects and texts on Manifold. More simply, Maker records are bylines with avatars.
 
-If we had _Jane Eyre_ loaded into the system we'd have a Maker record for Charlotte Brontë, but there couldn't be a Charlotte Brontë User account.
+An example of how these two differ: if we had _Jane Eyre_ loaded into the system, there would be a Maker record for Charlotte Brontë, but there couldn't be a Charlotte Brontë User account.
 
-## Creating User Account
+To learn how to associate a contemporary author's User account with their own project, see the the [Customizing section](/docs/projects/customizing/people.html).
+
+## Creating a User Account
 
 ### From the Homepage
-User accounts can be created by new visitors to a Manifold instance by clicking on the silhouette avatar in the upper left of the screen and then clicking `Need to sign up?` on the modal screen that pops up. From there
+
+User accounts can be created by new visitors to a Manifold instance by clicking on the silhouette avatar in the upper left of the screen and then clicking `Need to sign up?` on the modal screen that pops up. From there the new user can sign up by entering their email, name, and a password. Alternatively one can create an account using their Facebook, Twitter, or Google credentials from the same screen.
 
 ### From the Backend
-To create a new User account in the backend, navigate to the People menu in the backend, select `Users` from the sidebar, and click `Add a New User` below the search bar:
+
+To create a new User account in the backend, navigate to the People menu, select `Users` from the sidebar, and click `Add a New User` below the search bar:
 
 ![New User](/docs/assets/projects/new-user.png)
 
@@ -32,12 +36,30 @@ The system will automatically generate a password for the new user. To view or a
 
 When you click `Save User` the new account will be created, and the details, including password, will be automatically sent to the email entered for the account.
 
-
 ## Creating a Maker Record
 
-Maker accounts are created automatically by the system when a text is ingested, populated by author metadata included within those texts. If your text doesn't have the requisite metadata, Maker accounts can be created manually by users with Administrative, Editor, or Project Creator credentials in either the Projects of People menus.
+Maker accounts can be associated with a project generally and also with specific texts. For the latter, Maker accounts are created automatically by the system when a text is ingested, populated by author metadata included within those texts. If your text doesn't have the requisite metadata, Maker accounts can be created manually by users with Administrative, Editor, or Project Creator credentials in the Projects menu.
 
-### From the Projects Menu
+Project-level Makers are displayed on a project's landing banner. Text-level Makers aren't displayed on the system but are incorporated into a text's metadata and are required to [create citations](/docs/reading/interface/sharing.html).
 
+<small>
+**Note**. There is only one Maker record database. While you can create a Maker record on either the project or text levels, the record will be available in both places. That is, if you create a record for H. G. Wells on the Project level, you will also be able to call upon that same record on the text level and vice-versa.
+</small>
 
-### From the People Menu
+### New Project-Level Maker Records
+
+Under the Projects menu, select `People` from the sidebar. If any Maker records are already associated with the Project they will appear here under the `Authors` or `Contributors` headings. (For a rundown on the differences between Authors and Contributors see the [Customizing section](/docs/projects/customizing/people.html))
+
+![New Maker](/docs/assets/projects/new-maker.png)
+
+To create a new Maker, simply begin typing a name in the `Add an Author` or `Add a Contributor` fields. If there is an existing Maker record in system that matches the name you type in, the system will populate the name below the field. If you select it, you will associate it with the project. If there is no name match you can simply hit enter, and a new record will be created.
+
+To modify the new record you can click on the pen icon that floats to the right of the Maker's name:
+
+![Edit Maker](/docs/assets/projects/edit-maker.png)
+
+When you do, a drawer will open from the right allowing you to adjust the Maker's name and avatar.
+
+### New Text-Level Maker Records
+
+The method to create a text-level Maker record is exactly the same as for the project-level Maker. The difference is simply one of location: to create a Maker on the text level, select `Texts` from the sidebar under Projects, and click on the text to which you wish to add a Maker record. When you click on the text a new, shorter sidebar will appear. Click on `People` and follow the same steps from above.

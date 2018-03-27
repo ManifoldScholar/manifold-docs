@@ -14,7 +14,7 @@ Users are created by those first signing up for an account with a particular ins
 
 Has full CRUD permissions within a specific instance and Read access to the (forthcoming) Analytics menu item.
 
-**Use Cases**. Administrator permissions would be assigned to the person (or team members) overseeing a Manifold installation at an institution. Within a university press, this permission designation would be assigned to one or a subset of the following: a digital editor, someone from either the editorial or production departments, or, in some cases, an IT manager.
+**Use Cases**. Administrator permissions would be assigned to the person (or team members) overseeing a Manifold installation at an institution or publishing unit. Within a university press, this permission designation would be assigned to one or a subset of the following: a digital editor, someone from either the editorial or production departments, or, in some cases, an IT manager.
 
 ### Editor
 

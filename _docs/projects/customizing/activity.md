@@ -4,5 +4,5 @@ title: Editing Activity Items
 menus:
   projects_customizing:
     title: Activity
-    weight: 7
+    weight: 8
 ---

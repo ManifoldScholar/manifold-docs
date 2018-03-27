@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resources
+title: Permissions
 menus:
   projects_customizing:
-    weight: 6
+    weight: 3
 ---

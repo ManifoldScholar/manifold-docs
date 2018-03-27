@@ -3,7 +3,7 @@ layout: page
 title: Social
 menus:
   projects_customizing:
-    weight: 9
+    weight: 10
 ---
 
 ## Twitter Queries

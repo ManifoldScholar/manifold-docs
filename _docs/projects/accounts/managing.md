@@ -6,13 +6,19 @@ menus:
     weight: 2
 ---
 
-This section describes how to modify and manager Manifold accounts in the backend and assumes you are in the User account drawer, accessed by clicking on a name from the list of Users.
+This section describes how to modify and manage Manifold accounts in the backend and assumes you are in the User (or Maker) account drawer, accessed by clicking on a name from the list of Users (or Makers) under the People menu.
+
+<small>
+**Note**. Everything described here requires Administrator credentials.
+</small>
+
+![User Drawer](/docs/assets/projects/user-drawer.png)
 
 ## Modifying User Accounts
 
 ### Changing a User's Password
 
-To change a User's password, click `Reset Password` below the user's name. A prompt will come up asking if you want to Generate a New Password or Set a New Password. If you click `Generate New Password` the system will automatically create a new password and email it to the address on file. If you click `Generate New Password` you can manually input a new password and save it to the system.
+To change a User's password, click `Reset Password` below the user's name, beside the green key icon. A prompt will come up asking if you want to Generate a New Password or Set a New Password. If you click `Generate New Password` the system will automatically create a new password and email it to the address on file. If you click `Generate New Password` you can manually input a new password and save it to the system.
 
 ### Deleting a User
 
@@ -28,9 +34,13 @@ You can directly modify a User's name using the `First Name`, `Middle Name`, `La
 
 ### User Avatars
 
-User avatars are not accessible from the User account drawer. User avatars can only be added or modified by users themselves from the Edit Profile link attached to their avatar dropdown menu.
+User avatars are not accessible from the User account drawer. User avatars can only be added or modified by users themselves from the `Edit Profile` link attached to their avatar dropdown menu.
+
+![Edit Profile](/docs/assets/projects/edit-profile.png)
 
 ## Modifying Maker Records
+
+The Maker record drawer is also accessible from (1) the `People` sidebar link under the `Projects` menu and (2) the `People` sidebar of a specific text, arrived at by clicking the name of a text under `Texts` in the `Projects` menu and then `People` from the truncated sidebar.
 
 ### Deleting a Maker
 

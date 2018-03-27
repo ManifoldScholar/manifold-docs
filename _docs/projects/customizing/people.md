@@ -3,5 +3,5 @@ layout: page
 title: People
 menus:
   projects_customizing:
-    weight: 3
+    weight: 4
 ---

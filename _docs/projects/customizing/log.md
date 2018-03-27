@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Resources
+title: Log
 menus:
   projects_customizing:
-    weight: 6
+    weight: 11
 ---
