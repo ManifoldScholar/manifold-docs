@@ -19,6 +19,11 @@ When you log in to Manifold, you will arrive at the main Projects page. The firs
 
 Below "Featured Projects" is the "Our Projects" section, which displays all the Press's holdings. From a dropdown menu, you can select filters to view titles by category such as "Film and Media," or "Education and Law"
 
+<a name="subjects"></a>
+# Subjects
+
+ The Subjects dropdown to the right of "Projects" lets you sort projects by subjects authors have assigned to the projects. Sorting by these categories creates a stable URL that can be shared so others can land on the page with the same results.
+
 <a name="following"></a>
 # Following
 
