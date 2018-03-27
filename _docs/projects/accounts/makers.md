@@ -3,7 +3,7 @@ layout: page
 title: Maker Records
 menus:
   accounts:
-    weight: 4
+    weight: 2
 ---
 
 Only Maker accounts can be assigned as authors or contributors of projects and texts, though Makers can have different roles on different projects (e.g., an author of one project may be a contributor to another). To associate Makers with a specific project, refer to the [Projects](/docs/projects/customizing/people.html) section.

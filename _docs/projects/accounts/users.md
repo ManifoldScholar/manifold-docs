@@ -3,7 +3,7 @@ layout: page
 title: User Accounts
 menus:
   accounts:
-    weight: 3
+    weight: 1
 ---
 
 Users are created by those first signing up for an account with a particular instance of Manifold—or by an existing user with Administrator credentials on behalf of one who doesn't yet have an account. User accounts carry different CRUD (Create, Read, Update, Delete) permission credentials according to the following roles:
@@ -42,15 +42,15 @@ The default user role. When logged in a Reader can highlight, annotate, comment,
 
 These permissions live in a project’s Permissions tab and can be assigned to users with Reader roles (the default user role) on a project-by-project basis.
 
-### Can modify the project
+### Can Modify the Project
 
 Grants user the ability to make any change within the scope of the backend project page.
 
-### Can modify resource metadata
+### Can Modify Resource Metadata
 
 Grants users the ability to update resource metadata.
 
-### Is a project author
+### Is a Project Author
 
 Grants users the ability to see author dashboard and tags project annotations and comments as having been made by the project’s "author."
 

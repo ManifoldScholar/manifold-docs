@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Managing Accounts
+title: Managing User Accounts and Maker Records
 menus:
   accounts:
-    weight: 2
+    title: Managing
+    weight: 4
 ---
 
 This section describes how to modify and manage Manifold accounts in the backend and assumes you are in the User (or Maker) account drawer, accessed by clicking on a name from the list of Users (or Makers) under the People menu.

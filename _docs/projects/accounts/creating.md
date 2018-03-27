@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Creating Accounts
+title: Creating User Accounts and Maker Records
 menus:
   accounts:
-    weight: 1
+    title: Creating
+    weight: 3
 ---
 
 ## Users vs. Makers
