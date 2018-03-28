@@ -56,16 +56,16 @@ Grants users the ability to see author dashboard and tags project annotations an
 
 ## Table 1. Inherent backend permissions for global roles
 
-|                 |Projects            | People             | Content | Settings | Analytics | Author Dashboard<sup>b</sup> |
+|                 |Projects            | People             | Content | Settings | Analytics | Author Dashboard<sup>a</sup> |
 |-----------------|--------------------|--------------------|---------|----------|-----------|------------------------------|
 | Administrator   | CRUD               | CRUD               | CRUD    | CRUD     | R         | —                            |
 | Editor          | CRUD               | CRUD               | CRUD    | R        | R         | —                            |
-| Project Creator | C(RUD)<sup>a</sup> | RU<sup>c</sup>     | —       | —        | —         | —                            |
+| Project Creator | C(RUD)<sup>b</sup> | RU<sup>c</sup>     | —       | —        | —         | —                            |
 | Marketeer       | RU                 | —                  | CRUD    | —        | R         | —                            |
 | Reader          | —                  | —                  | —       | —        | —         | —                            |
 
 <small>
-<sup>a</sup>Access to RUD functions is not inherent to the role but provided through the “Can Modify the Project” permission, which will be toggled on by default to the role.  
-<sup>b</sup>Access to the Author Dashboard is not inherent to any role. Only Readers who have the “Is a Project Author” permission toggled on will be able to access the dashboard.
+<sup>a</sup>Access to the Author Dashboard is not inherent to any role. Only Readers who have the “Is a Project Author” permission toggled on will be able to access the dashboard.  
+<sup>b</sup>Access to RUD functions is not inherent to the role but provided through the “Can Modify the Project” permission, which will be toggled on by default to the role.  
 <sup>c</sup>Read and Update rights are specific to Maker records and do not include any CRUD permissions for User accounts.
 </small>

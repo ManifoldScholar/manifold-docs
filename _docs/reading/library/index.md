@@ -22,7 +22,7 @@ Below "Featured Projects" is the "Our Projects" section, which displays all the 
 <a name="subjects"></a>
 # Subjects
 
- The Subjects dropdown to the right of "Projects" lets you sort projects by subjects authors have assigned to the projects. Sorting by these categories creates a stable URL that can be shared so others can land on the page with the same results.
+ The Subjects dropdown to the right of "Projects" lets you sort projects by subjects the publisher has assigned to the projects. Sorting by these categories creates a stable URL that can be shared so others can land on the page with the same results.
 
 <a name="following"></a>
 # Following
