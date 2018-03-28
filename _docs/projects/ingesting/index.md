@@ -11,8 +11,8 @@ Once you have [created a project](/docs/projects/creating.html), you may ingest 
 
 In the sections that follow, you can read about:
 
-* [ingestion strategies](/docs/projects/ingesting/strategies.md)
-* [drafts](/docs/projects/ingesting/drafts.md)
-* [setting published texts](/docs/projects/ingesting/published.md)
-* [grouping texts](/docs/projects/ingesting/grouping.md) within a project
-* [reingestion](/docs/projects/ingesting/reingestion.md)
+* [ingestion strategies](/docs/projects/ingesting/strategies.html)
+* [drafts](/docs/projects/ingesting/drafts.html)
+* [setting published texts](/docs/projects/ingesting/published.html)
+* [grouping texts](/docs/projects/ingesting/grouping.html) within a project
+* [reingestion](/docs/projects/ingesting/reingestion.html)
