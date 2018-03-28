@@ -30,8 +30,8 @@ Grants user the ability to make any change within the scope of the backend proje
 
 ### Can Modify Metadata
 
-Grants users the ability to update resource metadata. This permission will be most useful to bestow on authors or assistants who want to directly flesh out the information that support a project's resources.
+Grants users the ability to update resource metadata. This permission will be most useful to bestow on support staff who can directly flesh out the information that support a project's resources.
 
 ### Is a Project Author
 
-Grants users the ability to see the (forthcoming) author dashboard and differentiates annotations and highlights (with a pink color) on projects where this permission has been granted as having been made by the project’s author.
+Grants users the ability to see the (forthcoming) author dashboard, modify metadata, and differentiates annotations and highlights (with a pink color) on projects where this permission has been granted as having been made by the project’s author.
