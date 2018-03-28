@@ -26,6 +26,8 @@ Has full CRUD permissions within an instance, except in the Settings and Analyti
 
 Has creation permissions (C) for the Projects and People menus—and by default will have the “Can Modify the Project” permission toggled on, allowing those assigned this role the ability to not only create new projects but have the rights to modify them.
 
+For more about how to assign permissions to a user, see the [Permissions section](/docs/projects/customizing/permissions.html).
+
 **Use Cases**. Coordinator permissions could be assigned to (acquisitions) editorial and production staff, within a university press, to manage their specific projects and the people contributing to them. At other publishing centers this allows distinct units to control their own projects without affecting the instance as a whole or the publishing work of other units on the same instance.
 
 ### Marketeer
@@ -38,21 +40,7 @@ Has CRU (not D) permissions for only Projects and Content menus and Read access 
 
 The default user role. When logged in a Reader can highlight, annotate, comment, and use share functionality. This user doesn’t have access to the backend in any capacity but can access the Author Dashboard on projects where `Is a Project author` permission is toggled on for that user.
 
-## User Permissions Available for Scoping
-
-These permissions live in a project’s [Permissions menu](/docs/projects/customizing/permissions.html) and can be assigned to users with Reader roles (the default user role) on a project-by-project basis.
-
-### Can Modify the Project
-
-Grants user the ability to make any change within the scope of the backend project page as well as modify existing Maker Records.
-
-### Can Modify Resource Metadata
-
-Grants users the ability to update resource metadata.
-
-### Is a Project Author
-
-Grants users the ability to see author dashboard and tags project annotations and comments as having been made by the project’s "author."
+For more about what permissions can be scoped to the Reader role, see the [Permissions section](/docs/projects/customizing/permissions.html)
 
 ## Table 1. Inherent backend permissions for global roles
 
