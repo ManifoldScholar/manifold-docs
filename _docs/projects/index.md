@@ -7,6 +7,9 @@ menus:
     weight: 4
 ---
 
+Readers + permissions gets to editor mode
+All else + permissions gets to admin mode
+
 
 The Projects page is the default landing space when accessing the backend. Here new projects can be created and existing ones modified.
 
