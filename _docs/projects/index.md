@@ -7,20 +7,49 @@ menus:
     weight: 4
 ---
 
-Readers + permissions gets to editor mode
-All else + permissions gets to admin mode
+To create or modify new projects, accounts, global content, and system settings, users will first need to be able to access the Manifold backend.
 
+The backend is available by default to users with the following roles: `Administrator`, `Editor`, `Project Creator`, and `Marketeer`. The backend is also available to `Readers` who have been granted permissions to do so. For more details, see the [User Accounts](accounts/users.html) and [Permissions](customizing/permissions.html) sections.
 
-The Projects page is the default landing space when accessing the backend. Here new projects can be created and existing ones modified.
+## Accessing the Backend
 
-<a name="search"></a>
-## Search
+To access the backend, first log in with your existing Manifold account credentials. If you are an `Administrator`, `Editor`, `Project Creator`, or `Marketeer` you will see a button labelled `Admin Mode` appear to the left of your user avatar after you are logged in:
 
-The search bar immediately below the Projects header allows a user to search through existing projects in the system and to then access those projects directly from the list of results that appears below the search bar. The search engine, powered by Elasticsearch, evaluates titles, subtitles, and author names, returning exact, as well as likely, matches.
+![Admin Button](/docs/assets/projects/admin-button.png)
+
+If you are a reader with permission to access the backend you will see a button labelled `Editor Mode`:
+
+![Editor Button](/docs/assets/projects/editor-button.png)
+
+When you click on that button you will be taken to the Manifold dashboard, which is the default landing space when accessing the backend.
+
+![Backend Dashboard](/docs/assets/projects/backend-dashboard.png)
+
+## Manifold Dashboard
+
+Depending on your role and permissions the menus and functionality will vary here. But all users who can access the backend will have a search bar, project list, and recently updated pane on the dashboard with which they can interact:
+
+### Search
+
+The search bar immediately below the Projects header allows a user to search through existing projects in the system they have permissions to access.
+
+The search engine, powered by Elasticsearch, evaluates titles, subtitles, and author names, returning exact, as well as likely, matches.
 
 To clear your current search, click on `Reset Search` beneath the search bar.
 
-<a name="project-list"></a>
-## Project List
+### Project List
 
-The project list displays all projects (in groups of five) that have been created on an instance of Manifold. The project list is displaced by active search results from the search bar above the list. If no projects have yet been created, only the `Add a New Project` button will be present.
+The project list displays all projects (in groups of five) that have been created on an instance of Manifold that you have access to edit. The project list is displaced by active search results from the search bar above the list. If no projects have yet been created, the list will remain empty or, for those with permissions to do so, the `Add a New Project` button will be present.
+
+### Recently Updated
+
+The recently updated pane provides users an easy way to jump back into the two most recent projects they have modified without having to search or page through the project list.
+
+## Working with Projects
+
+The rest of this section is broken into the following four sections and within each are details for add and modify content and settings.
+
+* [Creating Projects](creating.html)
+* [Ingesting Texts](ingesting/index.html)
+* [Customizing Projects](customizing/index.html)
+* [Accounts](accounts/index.html)
