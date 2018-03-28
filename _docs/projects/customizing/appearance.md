@@ -28,16 +28,48 @@ Acceptable formats for upload are GIF, JPG, JPEG, PNG, and SVG.
 
 ## Cover
 
+The cover is intended to be used for projects that are official versions or record—that is, they are not in a draft state but considered formally published. When set, the cover image will appear over the right side of the hero image on the project landing page.
+
+The system will automatically resize your image to fit the available space, but it need not be cropped and can retain its original ratio. For best results, the smallest side shouldn't be any less than 600 pixels.
+
+Acceptable formats for upload are GIF, JPG, JPEG, PNG, and SVG.
+
 ## Purchase URL
+
+If your project has a print edition available for purchase, you can direct readers to the URL where they can purchase the text. The URL entered here will serve as the target to the text entered in `Purchase Call to Action` field. If this field is left blank the value in the `Purchase Call to Action` will not appear.
+
+The call-to-action link will appear below the cover image on the right side of the hero image. If there is no cover image, the link will float on the right of the hero image, centered vertically.
+
+Entering a valid URL in this field will also automatically cause the value entered in the `Purchase Price` field to appear beside the call-to-action text.
 
 ## Purchase Call to Action
 
+This field works in conjunction with the `Purchase URL`. Text entered here serves as the description to the target link entered in the `Purchase URL` field. By default the link will read `Buy Print Version`.
+
 ## Purchase Price
+
+This field words in conjunction with the `Purchase URL` and will only appear if the `Purchase URL` contains a valid URL. The numerical value here indicates the cost of the print edition being directed to by the `Purchase URL`. As with the `Call to Action`, the value here can be clicked and will direct readers to the target entered in the `Purchase URL` field.
+
+The default value for this field is `0.00`.
 
 ## Currency
 
+This is a metadata field that allows you to describe the currency with which the purchase price is associated (e.g., USD for US Dollars or AUD for Australian Dollars). A full list of ISO 4217 currency codes can be [found here](http://www.xe.com/iso4217.php).
+
 ## Twitter Username
+
+This field allows you to associate a Twitter account with the project—an author's or one created specifically for the project. Enter the Twitter username (with *or* without the `@` sign) and a link to the Twitter account, in the form a Twitter bird icon, will appear over the lower left of the Hero image, below the project description.
+
+Tweets from this account will not automatically appear in the Recent Activity pane on the project's landing page. But that functionality is possible through the settings in the [Social section](social.html).
 
 ## Instagram Username
 
+This field allows you to associate an Instagram account with the project—an author's or one created specifically for the project. Enter the Instagram username (*without* the `@` sign) and a link to the Instagram account, in the form of the Instagram icon, will appear over the lower left of the Hero image, below the project description and beside the Twitter icon, if present.
+
 ## Hide Project Activity
+
+This slider provides an option to remove the `Recent Activity` blade from the project landing page in the front end.
+
+![Activity Feed](/docs/assets/projects/activity-feed.png)
+
+This can be used by those publishers whose projects don't warrant an `Recent Activity` section or who don't want to curate what appears in the section. For more about manually adjusting `Recent Activity` blade, see the [Activity section](activity.html).
