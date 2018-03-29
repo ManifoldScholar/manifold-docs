@@ -4,7 +4,7 @@ title: Customizing Projects
 menus:
   projects:
     identifier: projects_customizing
-    weight: 3
+    weight: 4
 ---
 
 When you click on an existing project listed on the <a href="/docs/assets/projects/backend-dashboard.png" target="blank">backend dashboard</a>, you will be taken to the backend project page, where you can modify, add, or delete texts, resources, or the metadata associated with them, as well as adjust how the project appears for readers.

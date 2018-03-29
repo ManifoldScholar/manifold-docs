@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Resources
-menus: 
-  reading:
-    weight: 4
+title: Preparing Resources
+menus:
+  projects:
+    weight: 3
 ---
 
 
