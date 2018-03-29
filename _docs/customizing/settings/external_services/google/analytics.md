@@ -44,7 +44,7 @@ In the Manifold backend, navigate to the "settings" menu item. Under the "integr
 
 If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
-```
+``` conf
 # Google Analytics Integration
 MANIFOLD_SETTING_INTEGRATIONS_GA_TRACKING_ID=
 MANIFOLD_SETTING_INTEGRATIONS_GA_PROFILE_ID=

@@ -36,7 +36,7 @@ In the Manifold backend, navigate to the "settings" menu item. Under the "integr
 
 If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
-```
+``` conf
 # Config Files
 MANIFOLD_SETTING_CONFIG_GOOGLE_SERVICE="/var/opt/manifold/api/keys/google_service.json"
 
