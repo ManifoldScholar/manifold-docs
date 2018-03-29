@@ -25,3 +25,10 @@ manifold@manifold-deb:/etc/manifold# sudo manifold-api manifold:user:create:admi
 Once you've created an admin user, click on the avatar icon in the top right corner of the Manifold frontend to login. After logging in successfully, you will see an "admin mode" button in the header.
 
 Click the admin mode button to access the backend, then [proceed to the next step](first_project.html).
+
+<div class="documentation-pagination" data-documentation-pagination="documentation">
+<a href="first_project.html" class="pager page-right ">
+<span>Next step: Create your First Project</span>
+<span class="icon"></span>
+</a>
+</div>

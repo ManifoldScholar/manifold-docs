@@ -7,6 +7,9 @@ menu:
     weight: 1
 ---
 
+{% assign release = site.data.releases.debian[site.data.current.version] %}
+
+
 The following instructions have only been tested on Ubuntu 16 hosts. Your mileage will almost certainly vary if you attempt to install Manifold on a different linux distribution.
 
 ## Installation Prerequisites
@@ -25,13 +28,13 @@ Shell into the server as root and download the most recent package.
 
 ``` shell
 cd ~
-curl -O https://storage.googleapis.com/manifold-dist/debian/manifold_0.4.1-1_amd64.deb
+curl -O {{ release.url }}
 ```
 
 #### 2. Install the package
 
 ``` shell
-dpkg -i manifold_0.4.1-1_amd64.deb
+dpkg -i {{ release.basename }}
 ```
 
 #### 3. Apply Minimal Configuration
@@ -53,3 +56,12 @@ If everything looks good, [proceed to the next step](/docs/installing/access_bac
 <small>
 <a name="note-1"></a><sup>1</sup> We advise against attempting to install Manifold in a shared hosting environment for security and stability reasons. We're working on coming up with a distribution of Manifold that requires less RAM. If your environment has less than 4 GB of RAM, it's possible that Elastic Search will  not start correctly.
 </small>
+
+
+<div class="documentation-pagination" data-documentation-pagination="documentation">
+<a href="../access_backend.html" class="pager page-right ">
+<span>Next step: Access the Backend </span>
+<span class="icon"></span>
+</a>
+</div>
+

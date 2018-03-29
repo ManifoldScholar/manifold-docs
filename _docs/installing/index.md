@@ -12,6 +12,13 @@ Unless you are reading or adding a text to an existing Manifold instance, you wi
 
 There are currently two methods for installing Manifold Scholarship on your own servers.
 
-The first method is to use operating system packages (e.g., .deb packages for Debian systems and .pkg for MacOS). These packages are built using Omnibus, and are the quickest, easiest way to get Manifold up and running. [Learn more about using Manifold package installers](omnibus/index.html)
+The first method is to use operating system packages (e.g., .deb packages for Debian systems and .pkg for MacOS). These packages are built using Omnibus, and are the quickest, easiest way to get Manifold up and running. [Learn more about using Manifold package installers](linux/index.html)
 
 The second method is to deploy Manifold on Docker, using our pre-made Docker images. This approach is under development, but coming soon. [Learn more about hosting Manifold with Docker](docker/index.html)
+
+<div class="documentation-pagination" data-documentation-pagination="documentation">
+<a href="linux" class="pager page-right ">
+<span>Next step: Linux Installation Overview </span>
+<span class="icon"></span>
+</a>
+</div>
