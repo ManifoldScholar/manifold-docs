@@ -12,13 +12,13 @@ When you log into your Manifold account, you will see two main display options i
 
 ## Projects
 
-Each project has its own home page. At the top of the page, you will find author photos, a book abstract, a "Start Reading" button, a "View Contents]" button, Twitter and Facebook widgets, as well as the project hashtag, and a link to purchase the print version. This page displays the cover of the book, which you will also see on the [Projects Library](library/index.html) page.
+Each project has its own home page. At the top of the page, you will find author photos, a book abstract, a `Start Reading` button, a `View Contents` button, Twitter and Facebook widgets, as well as the project hashtag, and a link to purchase the print version. This page displays the cover of the book, which you will also see on the [Projects Library](library/index.html) page.
 
-Further down the Project home page, you will see a feed of "Recent Activity." Because Manifold is iterative, and authors may add resources and texts, the feed provides information about when things are added.
+Further down the Project home page, you will see a feed of `Recent Activity`. Because Manifold is iterative, and authors may add resources and texts, the feed provides information about when things are added.
 
 Below this feed, you will find a segment titled "Texts" which shows you the version of the text you are reading, what date it was added, and tallies of how many notes and highlights you have added to the text.
 
-Scrolling below "Texts," you will find "Resources," which shows [resources](resources.html) by collection. You will see a summary of the project's resources and you may follow a link to "View All Resources."
+Scrolling below "Texts," you will find "Resources," which shows [resources](resources.html) by collection. You will see a summary of the project's resources and you may follow a link to `View All Resources`.
 
 Metadata comes after Resources. Before the footer, there is a link which will take you back to the Projects page.
 
