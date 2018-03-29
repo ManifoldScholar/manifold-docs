@@ -3,7 +3,7 @@ layout: page
 title: Copyright and Permissions
 menus:
   writing:
-    weight: 3
+    weight: 2
     title: Copyright
 ---
 

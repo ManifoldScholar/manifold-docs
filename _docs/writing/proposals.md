@@ -3,7 +3,7 @@ layout: page
 title: Crafting Your Proposal
 menus:
   writing:
-    weight: 2
+    weight: 1
     title: Crafting Your Proposal
 ---
 

@@ -74,6 +74,6 @@ This slider provides an option to remove the `Recent Activity` blade from the pr
 
 This can be used by those publishers whose projects don't warrant an `Recent Activity` section or who don't want to curate what appears in the section. For more about manually adjusting `Recent Activity` blade, see the [Activity section](activity.html).
 
-## Project Image
+## Project Thumbnail
 
-For information about changing the project thumbnail (visible in the `Projects Library`), see customizing [general](/docs/projects/customizing/general.html)
+For information about changing the project thumbnail (visible in the `Projects Library`), see the [General section](/docs/projects/customizing/general.html).

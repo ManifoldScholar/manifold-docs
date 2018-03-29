@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Writing for the Web
-menus: 
+menus:
   writing:
-    weight: 4
+    weight: 3
 ---
 
 This section describes the best practices for composing and formatting your manuscript for both Manifold and traditional print publication.
