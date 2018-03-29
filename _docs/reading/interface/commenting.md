@@ -14,7 +14,7 @@ When you select text, you will be given the option to comment. Once a comment is
 
 ![Comment](/docs/assets/reading/comment3.png)
 
-"SEE ALL" will open a new screen of just your personal annotations, with clickable links to the text.
+`SEE ALL` will open a new screen of just your personal annotations, with clickable links to the text.
 
 
 Unlike annotations, comments are strictly public and refer to responses to public annotations. You must be logged in to write comments, but anyone can view comments whether logged in or not. Each comment is saved to the project and is associated with the account that created it. Comments can themselves be replied to and are set off visually from those they are responding up through four levels of nesting. After the fourth level, responses to comments aren't visually distinct, but replies are always possible, regardless of how deep a conversation may go. Additionally, comments can be edited by those who created them, deleted, or flagged as inappropriate.

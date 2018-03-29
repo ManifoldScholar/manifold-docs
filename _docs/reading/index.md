@@ -10,9 +10,9 @@ Manifold books were made to be read and to fulfill specific functions for academ
 
 Manifold works in your internet browser or on your mobile device (tablet or phone). To access the full toolbox, you must sign in from the home page. You'll notice a user icon in the top right corner. Once you log in, when you click on your selected image, you will have the option to update your profile or log out. When you select "Edit Profile," you will be able to change your nickname, your chosen image (which you may upload), and your password.
 
-On the top left of the home page, you will notice "Projects" and "Following." These options allow you to view libraries in different ways.
+On the top left of the home page, you will notice `Projects` and `Following`. These options allow you to view libraries in different ways.
 
-Selecting "Projects" will give you an overview of the Manifold library separated by [Featured Projects](library/index.html), [Our Projects](library/index.html), and [Projects You're Following](library/index.html).
+Selecting `Projects` will give you an overview of the Manifold library separated by [Featured Projects](library/index.html), [Our Projects](library/index.html), and [Projects You're Following](library/index.html).
 
 From the home page, you can click through to [Featured Projects](library/index.html) or [Our Projects](library/index.html), which you filter by theme from drop down menus. You may also access those titles you have selected by clicking the "Projects You're Following" button at the bottom of the page.
 
