@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Downloads
-menu: 
+menu:
   reference:
-    weight: 
+    weight: 2
 ---
 
 ## [Manifold v0.4.1 - Debian](https://storage.googleapis.com/manifold-dist/debian/manifold_0.4.1-1_amd64.deb)

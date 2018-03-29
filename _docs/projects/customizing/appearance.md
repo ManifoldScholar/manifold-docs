@@ -28,7 +28,7 @@ Acceptable formats for upload are GIF, JPG, JPEG, PNG, and SVG.
 
 ## Cover
 
-The cover is intended to be used for projects that are official versions or record—that is, they are not in a draft state but considered formally published. When set, the cover image will appear over the right side of the hero image on the project landing page.
+The cover is intended to be used for projects that are official versions or record—that is, they are not in a draft state but considered formally published. When set, the cover image will appear over the right side of the hero image on the project landing page once the text that serves as the version of record is moved into the [`Published` category](/docs/projects/customizing/texts.html#grouping-texts).
 
 The system will automatically resize your image to fit the available space, but it need not be cropped and can retain its original ratio. For best results, the smallest side shouldn't be any less than 600 pixels.
 
@@ -41,6 +41,8 @@ If your project has a print edition available for purchase, you can direct reade
 The call-to-action link will appear below the cover image on the right side of the hero image. If there is no cover image, the link will float on the right of the hero image, centered vertically.
 
 Entering a valid URL in this field will also automatically cause the value entered in the `Purchase Price` field to appear beside the call-to-action text.
+
+It is expected that before entering a purchase URL a text has been moved into the Published category, as described in the [Texts section](/docs/projects/customizing/texts.html#grouping-texts).
 
 ## Purchase Call to Action
 
