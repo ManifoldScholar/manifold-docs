@@ -3,7 +3,7 @@ layout: page
 title: Highlighting Texts
 menus:
   reading_interface:
-    weight: 2
+    weight: 1
 ---
 
 Highlighting provides you a means to set off specific passages of text visually.

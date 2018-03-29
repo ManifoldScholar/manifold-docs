@@ -39,13 +39,19 @@ When you click `Save User` the new account will be created, and the details, inc
 
 ## Creating a Maker Record
 
-Maker accounts can be associated with a project generally and also with specific texts. For the latter, Maker accounts are created automatically by the system when a text is ingested, populated by author metadata included within those texts. If your text doesn't have the requisite metadata, Maker accounts can be created manually by users with Administrative, Editor, or Project Creator credentials in the Projects menu.
+Maker accounts can be associated with a project generally and also with specific texts. For the latter, Maker accounts are created automatically by the system when a text is ingested, populated by author metadata included within those texts. If your text doesn't have the requisite metadata, Maker accounts can be created manually by users with Administrative, Editor, or Project Creator credentials in both the People and Projects menus.
 
 Project-level Makers are displayed on a project's landing banner. Text-level Makers aren't displayed on the system but are incorporated into a text's metadata and are required to [create citations](/docs/reading/interface/sharing.html).
 
 <small>
 **Note**. There is only one Maker record database. While you can create a Maker record on either the project or text levels, the record will be available in both places. That is, if you create a record for H. G. Wells on the Project level, you will also be able to call upon that same record on the text level and vice-versa.
 </small>
+
+### New General Maker Record
+
+To create a new Maker record from the People menu that is unassociated with a project or text, navigate to the People menu, select `Makers` from the sidebar, and click `Add a New Maker` below the search bar.
+
+If there are no existing Makers in the system, this button will appear alone; otherwise it will always appear as the first entry. A drawer will open up from the right prompting for the Makers's name and avatar.
 
 ### New Project-Level Maker Records
 

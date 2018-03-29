@@ -3,7 +3,7 @@ layout: page
 title: Annotating Texts
 menus:
   reading_interface:
-    weight: 3
+    weight: 2
 ---
 
 With Annotate, you can write notes which Manifold will save for you. You may choose to make your annotations private by selecting the tick box below the field where you type in your notes. If you leave your annotation publicly it can be commented on by other readers who are logged in.

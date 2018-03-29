@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 menus:
-  projects:
+  reading:
     weight: 4
 ---
 

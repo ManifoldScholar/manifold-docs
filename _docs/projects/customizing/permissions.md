@@ -34,4 +34,4 @@ Grants users the ability to update resource metadata. This permission will be mo
 
 ### Is a Project Author
 
-Grants users the ability to see the (forthcoming) author dashboard, modify metadata, and differentiates annotations and highlights (with a pink color) on projects where this permission has been granted as having been made by the project’s author.
+Grants users the ability to see the (forthcoming) author dashboard, modify metadata, place resources onto texts, and differentiates annotations and highlights (with a pink color) on projects where this permission has been granted as having been made by the project’s author.
