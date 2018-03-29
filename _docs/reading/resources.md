@@ -11,13 +11,13 @@ Manifold expands scholarly books in many ways. Importantly, Manifold makes avail
 
 You access Resources from each project home page or from any text annotated with them—denoted in the reader by a gray cube that turns green when the cursor hovers over it. When accessed directly from the text, resources open a modal window allowing readers to review the resource and, depending on the resource type, engage with it directly without leaving the text.
 
-## Placing Resources in Text
+## Placing Resources in Texts
 
 If you're logged in as an admin (or other credentials noted) you can highlight text in the reader and the `RESOURCE` option will open a drawer from the right allowing you to select a resource that's already been uploaded to that project.
 
 ## Resource comments
 
-Resources, like text, are also available for discussion on the platform. Each Resource in the system has its own page whereon you can comment and discuss the Resource publicly (comments to Resources cannot be made private). These comments will remain within your account when you return to the text and reopen the Resource. Each comment has options to "Reply," "Edit," "Delete," or "Flag."
+Resources, like text, are also available for discussion on the platform. Each Resource in the system has its own page whereon you can comment and discuss the Resource publicly (comments to Resources cannot be made private). These comments will remain within your account when you return to the text and reopen the Resource. Each comment has options to `Reply`, `Edit`, `Delete`, or `Flag`.
 
 ## Sharing Resources
 
