@@ -34,7 +34,7 @@ If you've composed your materials in Markdown, you'll need to zip your files int
 
 Following is an example of what the content of the `book.json` file might look like:
 
-```
+``` json
 {
   "author": "H. G. Wells",
   "title": "War of the Worlds",
@@ -47,17 +47,17 @@ Following is an example of what the content of the `book.json` file might look l
   }
 }
 ```
-<br/>
+
 If you'd like the text to have internal navigation by way of the `Contents` dropdown in the reader, include a file titled `SUMMARY.md` and structure it like this:
 
-```
+``` md
 # Summary
 ## Contents
 * [1. The Eve of The War](wow-ch01.md)
 * [2. The Falling Star](wow-ch02.md)
 * [3. On Horsell Common](wow-ch03.md)
 ```
-<br/>
+
 Note that nested contents are acceptable.
 
 It is also acceptable to include a CSS file to describe how different structures should render.

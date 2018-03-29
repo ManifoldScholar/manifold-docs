@@ -73,6 +73,8 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-menus
   jekyll-seo-tag
+  kramdown
+  rouge
   tzinfo-data
 
 BUNDLED WITH

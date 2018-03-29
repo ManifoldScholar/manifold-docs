@@ -14,7 +14,11 @@
     margin-bottom: 0.65em;
   }
 
-  p, ol, ul, pre {
+  div.highlighter-rouge {
+    margin-top: 0.85em;
+  }
+
+  p, ol, ul, pre, div.highlighter-rouge {
     + h2 {
       margin-top: 45px;
     }
@@ -97,13 +101,11 @@
   pre {
     padding: 0.85em 1em;
     margin-bottom: 0;
-    background-color: $gray01;
   }
 
   code {
     padding: 1px;
     font-size: 16px;
-    background-color: $gray01;
   }
 
   table {

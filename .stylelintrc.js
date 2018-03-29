@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ["stylelint-scss"],
   extends: "stylelint-config-recess-order",
-  ignoreFiles: [`vendor/**/*`, `plugins/**/*`, `themes/manifold-marketing/assets/stylesheets/lib/*`],
+  ignoreFiles: ["_assets/sass/lib/*"],
   defaultSeverity: "warning",
   rules: {
     "function-calc-no-unspaced-operator": true,

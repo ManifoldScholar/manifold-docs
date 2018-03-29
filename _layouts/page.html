@@ -9,8 +9,8 @@ layout: default
 
 <div id="doc-page" class="markdown">
   <h1>{{ page.title | escape }}</h1>
-  {% assign content = content | strip_newlines %}
-  {% unless content == "" %}
+  {% assign check_for_content = content | strip_newlines %}
+  {% unless check_for_content == "" %}
     {{ content }}
   {% else %}
   <p class="notice">
