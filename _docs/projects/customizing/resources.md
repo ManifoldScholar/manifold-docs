@@ -8,4 +8,4 @@ menus:
 
 In `ADMIN MODE` you can customize Resources attached to your project.
 
-Once Resources have been prepared (see [documentation](/docs/projects/preparing_resources.md))
+Once Resources have been prepared (see [documentation](/docs/projects/preparing.html)), you may upload them to your project. The `ADD RESOURCE` select resources to add to collections. 
