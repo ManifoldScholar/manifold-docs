@@ -23,14 +23,14 @@ The following instructions have only been tested on Ubuntu 16 hosts. Your mileag
 
 Shell into the server as root and download the most recent package.
 
-```
+``` shell
 cd ~
 curl -O https://storage.googleapis.com/manifold-dist/debian/manifold_0.4.1-1_amd64.deb
 ```
 
 #### 2. Install the package
 
-```
+``` shell
 dpkg -i manifold_0.4.1-1_amd64.deb
 ```
 
@@ -40,7 +40,7 @@ The package installer creates a file at `/etc/manifold/manifold.rb`. Use this fi
 
 For now, let's just make sure Manifold is on the right domain. Open `/etc/manifold/manifold.rb` in your preferred text editor (nano, vi, etc.) and look for the `external_url` setting near the top of the file. Set this to the fully qualified domain name of your Manifold installation, then reconfigure Manifold:
 
-```
+``` shell
 /usr/local/bin/manifold-ctl reconfigure
 ```
 
