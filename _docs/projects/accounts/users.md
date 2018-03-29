@@ -42,7 +42,7 @@ Has RU (not C or D) permissions for only Projects and Content menus and Read acc
 
 The default user role. When logged in a Reader can highlight, annotate, comment, and use share functionality. This user doesn’t have native access to the backend in any capacity but can access the Author Dashboard on projects where `Is a Project author` permission is toggled on for that user.
 
-For more about what permissions can be scoped to the Reader role, see the [Permissions section](/docs/projects/customizing/permissions.html)
+For more about what permissions can be scoped to the Reader role, see the [Permissions section](/docs/projects/customizing/permissions.html).
 
 ## Table 1. Inherent backend permissions for global roles
 

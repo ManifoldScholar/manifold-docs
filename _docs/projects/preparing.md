@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Ingesting Texts
+title: Preparing Texts
 menus:
   projects:
-    identifier: project_texts
     weight: 2
 ---
 
@@ -16,3 +15,23 @@ In the sections that follow, you can read about:
 * [setting published texts](/docs/projects/ingesting/published.html)
 * [grouping texts](/docs/projects/ingesting/grouping.html) within a project
 * [reingestion](/docs/projects/ingesting/reingestion.html)
+
+## Strategies
+
+TKTKTK
+
+## EPUB
+
+TKTKTK
+
+## Google docs
+
+TKTKTK
+
+## Markdown
+
+TKTKTK
+
+## HTML
+
+TKTKTK
