@@ -14,7 +14,7 @@ Welcome! We're glad you've decided to try out Manifold. In this quick tutorial, 
 2. [Create an admin user and login to the backend](/docs/installing/access_backend.html)
 3. [Create your first project and upload a text](/docs/installing/first_project.html)
 
-### Prerequisites
+### Skills and Experience
 
 While we'll do our best to explain concepts as they come up, we assume you have some basic familiarity with the following:
 

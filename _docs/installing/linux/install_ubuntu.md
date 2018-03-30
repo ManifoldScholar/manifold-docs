@@ -22,7 +22,7 @@ The following instructions have only been tested on Ubuntu 16 hosts. Your mileag
 
 ## Installation Process
 
-#### 1. Download the package
+### 1. Download the Package
 
 Shell into the server as root and download the most recent package.
 
@@ -31,13 +31,13 @@ cd ~
 curl -O {{ release.url }}
 ```
 
-#### 2. Install the package
+### 2. Install the Package
 
 ``` shell
 dpkg -i {{ release.basename }}
 ```
 
-#### 3. Apply Minimal Configuration
+### 3. Apply Minimal Configuration
 
 The package installer creates a file at `/etc/manifold/manifold.rb`. Use this file to configure and manage the various services that Manifold is composed of. After changing this file, you'll need to run `sudo manifold-ctl reconfigure` from the command line so that Manifold picks up the changes and regenerates various configuration files based on the new settings.
 
@@ -51,7 +51,7 @@ Once this process is complete, visit the fully qualified domain name in your bro
 
 If everything looks good, [proceed to the next step](/docs/installing/access_backend.html).
 
-#### Notes
+### Notes
 
 <small>
 <a name="note-1"></a><sup>1</sup> We advise against attempting to install Manifold in a shared hosting environment for security and stability reasons. We're working on coming up with a distribution of Manifold that requires less RAM. If your environment has less than 4 GB of RAM, it's possible that Elastic Search will  not start correctly.
@@ -64,4 +64,3 @@ If everything looks good, [proceed to the next step](/docs/installing/access_bac
 <span class="icon"></span>
 </a>
 </div>
-

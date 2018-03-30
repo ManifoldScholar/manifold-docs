@@ -66,7 +66,7 @@ It is also acceptable to include a CSS file to describe how different structures
 
 To ingest materials composed in HTML, create a zip archive with an .htm or .html file in the root directory. It is also acceptable to include in the archive a CSS file to describe how different structures should render.
 
-Like Google Docs, HTML files cannot be grouped together to form one text. For each HTML file you have you will have to create a new text in Manifold. 
+Like Google Docs, HTML files cannot be grouped together to form one text. For each HTML file you have you will have to create a new text in Manifold.
 
 ## Related Themes
 
