@@ -9,27 +9,36 @@ menu:
 
 Manifold Scholarship is an open-source publishing platform that enables authors and publishers a means to showcase and enhance the electronic content they already produce in their existing workflows: texts are displayed in a responsive, elegant reader crafted for all modern browsers and devices—desktop and mobile. Powerful built-in annotation and commenting systems allow readers to annotate, highlight, discuss, cite, and share passages from any Manifold text. Resources that are foundational to a particular discussion but that are often tabled because of physical, technical, logistic, or legal limitations can be layered dynamically and directly onto the digital text. And with Manifold, a new kind of publication is possible, one where authors create projects that grow iteratively and that are published online as they are created and then later in print, when they have been codified as versions of record. In short, Manifold transforms scholarly publications into living digital works.
 
-This documentation will serve as a guide to different users aiming to publish materials openly, iteratively, and elsewise on Manifold. Brief by design and written for publishers, authors, readers and developers to be of immediate, practical use, these instructions function as a walk-through of the Manifold format.
-
-If you find yourself unclear about the process, what is expected of you, or if you have questions that extend beyond the scope of what is covered herein, please contact your publisher or the Manifold team for assistance specific to your situation. Contact information is found below in the `Getting Support` section.
+Learn more at [manifoldapp.org](https://manifoldapp.org)
 
 ## Using the Manifold Documentation
 
-If you are interested in hosting your own instance of Manifold, begin with the [Getting Started](/contents/getting_started/README.md) section, where you'll find instructions for how to install Manifold. If you would prefer not to manage your own instance of Manifold, [the University of Minnesota Press](https://www.upress.umn.edu/) offers [digital services](http://manifoldapp.org/services) covering project preparation, hosting, customization and support in partnership with [Cast Iron Coding](http://castironcoding.com). Once Manifold has been installed and configured, documentation is broken into parts that reflect operations of Manifold:
+This documentation will serve as a guide to different users aiming to publish materials openly, iteratively, and elsewise on Manifold. Brief by design and written for publishers, authors, readers and developers to be of immediate, practical use, these instructions function as a walk-through of the Manifold format.
 
-* [Installing Manifold](installing/index.html)
+If you are interested in hosting your own instance of Manifold, begin with the [Installing Manifold](installing/index.html) section. If you would prefer not to manage your own instance of Manifold, [the University of Minnesota Press](https://www.upress.umn.edu/) offers [digital services](http://manifoldapp.org/services) covering project preparation, hosting, customization and support in partnership with [Cast Iron Coding](http://castironcoding.com). Once Manifold has been installed and configured, documentation is broken into parts that reflect operations of Manifold:
+
 * [Customizing Manifold](customizing/index.html)
 * [Working with Projects](projects/index.html)
 * [Writing for Manifold](writing/index.html)
 * [Integrating Manifold into Publishing Workflows](publishing/index.html)
 * [Reading Manifold Texts](reading/index.html)
 * [Developing for Manifold](developing/index.html)
-* [References](reference/index.md)
+* [References](reference/index.html)
 
 <a name="getting_support"></a>
 ## Getting Support: Where and How
 
+If you find yourself unclear about the process, what is expected of you, or if you have questions that extend beyond the scope of what is covered herein, please reach out to the Manifold team for assistance.
+
+The Manifold team lives on Slack, and we'd love for you to join us in conversation there. Use [this link](https://manifold-slackin.herokuapp.com/) to secure an invite to our chat room where you can speak with our developers and other community members for assistance in real time. Or send us an email at <a href="mailto:contact@manifoldapp.org?subject=Manifold Help:">contact@manifoldapp.org</a>.
+
 ## Reporting an Issue
+
+If you find a bug, let us know over on GitHub by [submitting an issue](https://github.com/ManifoldScholar/manifold/issues/new?template=bugs.md). If you don't already have a GitHub account, you'll be able to create one when you click that link.
+
+## Request a Feature
+
+If there are features you'd like us to consider building into Manifold, we want to know. [Request a feature](https://github.com/ManifoldScholar/manifold/issues/new?template=features.md) on our GitHub repo and begin that conversation.
 
 ## Short History
 
@@ -38,10 +47,6 @@ The [University of Minnesota Press](https://www.upress.umn.edu) in partnership w
 ## Open Development
 
 Our ultimate goal is to build an open source tool that other university presses will use. To that end, we want to hear from our prospective users throughout the design and development process. To participate in the discussion, join us on our [Building Manifold Development Blog](http://blog.manifoldapp.org).
-
-## Get the Source Code
-
-Manifold's source code is [hosted on Github](https://github.com/manifoldscholar/manifold). Early adopters of Manifold are encouraged to download the source code, experiment, and submit fixes and features in the form of pull requests.
 
 ## Contribute Documentation
 
