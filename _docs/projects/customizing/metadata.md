@@ -3,6 +3,7 @@ layout: page
 title: Metadata
 menus:
   projects_customizing:
+    exclude: true
     weight: 9
 ---
 

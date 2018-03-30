@@ -17,7 +17,7 @@ The General category provides controls for the most top-level elements for how a
 
 ***Draft Mode***. For use when wanting to load and edit a project and its materials before publishing it for a broad readership. When toggled on, projects are only visible to users logged in with Administrator, Editor, or Marketeer roles—and to Project Creators on projects where they have `Can Modify Project` permissions. New projects are set to Draft Mode by default, and Draft status is denoted in the project library, as well as on the project landing page.
 
-When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on Twitter will only work for those who also have permission to access the project and are logged in.
+When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on Twitter will only work for those who also have permission to access the project and are logged in. All annotations, comments, and highlights will persist with the project's text when Draft Mode is toggled off.
 
 Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](/docs/projects/ingesting/published.html), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
 

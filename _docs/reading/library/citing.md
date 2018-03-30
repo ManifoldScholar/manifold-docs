@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Citing Projects Library
-menus: 
+menus:
   reading_library:
+    exclude: true
     weight: 1
 ---
