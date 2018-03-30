@@ -7,12 +7,14 @@ menus:
     weight: 2
 ---
 
-Manifold integrates with a number of external services, including Google, Twitter, and Facebook, for 3rd party authentication and for social sharing functionality.
+Manifold Administrators can set up integrations with
 
-* [Google Services](google/index.html)
-* [OAuth](oauth/index.html)
-	* [Google OAuth](oauth/google.html)
-	* [Twitter OAuth](oauth/twitter.html)
-	* [Facebook OAuth](oauth/facebook.html)
+* [Facebook](/docs/customizing/settings/external_services/oauth/facebook.html),
+* [Twitter](/docs/customizing/settings/external_services/oauth/twitter.html), and
+* [Google](/docs/customizing/settings/external_services/oauth/google.html).
+
+In addition to login with Google, Manifold also offers
+
+* integration with [Google Analytics](/docs/customizing/settings/external_services/google/index.html)
 
 These fields are found under the `SETTINGS` tab in the admin top navigation bar.
