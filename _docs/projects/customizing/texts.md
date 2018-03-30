@@ -8,11 +8,11 @@ menus:
 
 The Texts panel will be one that users will often interact with, as this is the spot where texts are added, categorized, updated, and set as the published version of record.
 
-For new projects or projects that haven't yet ingested a text, the panel is composed of two buttons (`Add a new text` and `Create a new category`) and two category sections with `Published` and `Uncategorized` for headings, respectively.
+For new projects—or projects that haven't yet ingested a text—the panel is composed of two buttons (`Add a new text` and `Create a new category`) and two category sections (`Published` and `Uncategorized`).
 
 ![Texts Panel](/docs/assets/projects/texts-panel.png)
 
-When texts are added to a project they will be oriented the `Uncategorized` section. New, custom, category sections can be added as required to suit the needs of a project.
+When texts are added to a project they will be oriented in the `Uncategorized` section. New, custom, category sections can be added as required to suit the needs of a project.
 
 This section is portioned along the following themes:
 
@@ -177,7 +177,7 @@ The content entered in the `Title` and `Description` fields are included when a 
 
 Through the `People` sidebar element you can add, remove, and modify Maker records associated with the text just as you could for the project generally. For details on that process, which is the same here, see the [People section](people.html).
 
-### Modifying an Ingested Text's Style Sheet
+### Modifying an Ingested Text's Stylesheet
 
 The `Styles` sidebar menu allows users who are versed in CSS (cascading stylesheets) to modify how certain elements in their text render in the reader by adjusting an existing—or associating a new—CSS file with the text.
 
@@ -205,4 +205,4 @@ This process is not versioning control but a means to address the need to make m
 
 When you reingest a text, all the annotations, highlights, and resource placements that have been made will persist, unless such drastic changes were performed that the system can no longer identify their original anchors. In this unlikely case, annotations and highlights will be orphaned and no longer accessible.
 
-To reingest a text, click on `Reingest` from the text landing page sidebar. You will see the same readout as when you initially ingested the text. Follow the same steps from the [`Adding Texts` section](#adding-texts) above and when completed your text will have been replaced by the newer version. 
+To reingest a text, click on `Reingest` from the text landing page sidebar. You will see the same readout as when you initially ingested the text. Follow the same steps from the [`Adding Texts` section](#adding-texts) above and when completed your text will have been replaced by the newer version.

@@ -3,7 +3,7 @@ layout: page
 title: Downloads
 menu:
   reference:
-    weight: 2
+    weight: 3
 ---
 {% for release in site.data.releases.debian %}
   {% assign key = release[0] %}
