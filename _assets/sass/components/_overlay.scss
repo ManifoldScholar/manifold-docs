@@ -1,0 +1,117 @@
+// Can be abstracted to overlay-primary or something similar
+// if there is more than one.
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  visibility: hidden;
+  background-color: transparentize($white, 0.1);
+  opacity: 0;
+  transition: opacity $duration $timing,
+    visibility $duration $timing;
+
+  &.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .close {
+    @include fontHead;
+    @include iconPost($x);
+    position: absolute;
+    top: 18px;
+    right: 25px;
+    font-size: 17px;
+    font-weight: $regular;
+    color: $gray06;
+    transition: color $duration $timing;
+
+    @include respond($break70) {
+      right: $containerPaddingFlex;
+    }
+
+    @include respond($break20) {
+      right: $containerPaddingMin;
+    }
+
+    @include respond($break30, max, height) {
+      top: 10px;
+      right: 12px;
+    }
+
+    &:hover {
+      color: $accentPrimary;
+
+      &::after {
+        color: $white;
+        background-color: $accentPrimary;
+      }
+    }
+
+    &::after {
+      display: inline-block;
+      width: 2.143em;
+      height: 2.143em;
+      margin-left: 8px;
+      font-size: 21px;
+      line-height: 2.143em;
+      color: $gray02;
+      text-align: center;
+      vertical-align: middle;
+      background-color: $gray08;
+      border-radius: 100%;
+      transition: background-color $duration $timing,
+        color $duration $timing;
+
+      @include respond($break30) {
+        font-size: 18px;
+      }
+
+      @include respond($break30, max, height) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  figure {
+    @include containerMain;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+    @include respond($break110) {
+      padding-top: 20px;
+    }
+  }
+
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      position: absolute;
+      right: -8px;
+      bottom: -8px;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      content: '';
+    }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 82vh;
+    margin: 0 auto;
+
+    @include respond($break30, max, height) {
+      max-height: 76vh;
+    }
+  }
+}

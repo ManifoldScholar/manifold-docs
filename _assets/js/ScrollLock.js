@@ -1,4 +1,4 @@
-// Plin JS class converted from react component here:
+// Plain JS class converted from react component here:
 // https://github.com/orteth01/react-scroll-lock-component/
 
 const upKeys = [

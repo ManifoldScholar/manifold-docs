@@ -1,6 +1,6 @@
 {
-  "fontFile": "/assets/fonts/manifold-icons.svg",
-  "stylesFile": "/_sass/_icons.scss",
+  "fontFile": "/_assets/fonts/manifold-icons.svg",
+  "stylesFile": "/_assets/sass/_icons.scss",
   "fontName": "manifold-icons",
   "fontPath": "../fonts/",
   "variablePrefix": "",

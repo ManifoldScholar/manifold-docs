@@ -161,10 +161,10 @@
 
   .toggle-indicator, .placeholder-toggle-indicator {
     @include iconPre($caret);
-    display: block;
     position: absolute;
-    left: -18px;
     top: 19px;
+    left: -18px;
+    display: block;
     font-size: 12px;
   }
 

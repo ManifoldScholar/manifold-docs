@@ -94,8 +94,19 @@
 
   img {
     max-width: 100%;
+    height: auto;
     border: 0;
     page-break-inside: avoid;
+
+    &.clickable {
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: border-color $duration $timing;
+
+      &:hover {
+        border-color: $accentPrimary;
+      }
+    }
   }
 
   pre {

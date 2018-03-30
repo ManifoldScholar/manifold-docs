@@ -123,6 +123,9 @@
       + span {
         opacity: 0;
 
+        opacity: 0;
+        animation: 0.5s 1.5s ease-in forwards fadeLogoText;
+
         @keyframes fadeLogoText {
           0% {
             opacity: 0;
@@ -132,9 +135,6 @@
             opacity: 1;
           }
         }
-
-        opacity: 0;
-        animation: 0.5s 1.5s ease-in forwards fadeLogoText;
       }
     }
   }
