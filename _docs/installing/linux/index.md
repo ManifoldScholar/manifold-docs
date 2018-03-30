@@ -3,7 +3,7 @@ layout: page
 title: Installing Manifold on Linux
 menu:
   installation:
-    identifier: omnibus
+    identifier: linux
     title: From Linux Packages
     weight: 1
 ---

@@ -32,6 +32,7 @@
         {% if item.children %}
         <span class="toggle-indicator {% if active %}active{% endif %} {% if open%}open{% endif %}" data-sidebar-accordion-toggle="{{item.identifier}}"></span>
         {% endif %}
+        {% unless item.exclude %}
         <a class="{% if active %}active{% endif %} {% if open %}open{% endif %}" href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
         {% if item.children %}
         <ul class="accordion {% if open %}open{% endif %}" data-sidebar-accordion-reveal="{{item.identifier}}">
@@ -40,6 +41,7 @@
         {% assign level = level | minus: 1 %}
         </ul>
         {% endif %}
+        {% endunless %}
     </li>
     {% endfor %}
 {% endif %}
