@@ -9,7 +9,6 @@ menu:
 
 {% assign release = site.data.releases.debian[site.data.current.version] %}
 
-
 The following instructions have only been tested on Ubuntu 16 hosts. Your mileage will almost certainly vary if you attempt to install Manifold on a different linux distribution.
 
 ## Installation Prerequisites
