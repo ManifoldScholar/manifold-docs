@@ -60,16 +60,17 @@
 // Unstyled List
 // --------------------------
 @mixin listUnstyled {
-  list-style-type: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 // Horizontal List
 // --------------------------
 @mixin listHorizontal {
   @include listUnstyled;
+
   li {
     display: inline-block;
   }
@@ -78,10 +79,10 @@
 // Links, Buttons
 // --------------------------------------------------------
 @mixin buttonUnstyled {
-  appearance: none;
   background: transparent;
   border: 0;
   outline: none;
+  appearance: none;
 }
 
 // Prevents user from accidentally selecting text

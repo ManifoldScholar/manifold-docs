@@ -19,8 +19,8 @@
 // --------------------------
 @mixin respondMinDensity($density: 1.5) {
   @media only screen and (-Webkit-min-device-pixel-ratio: $density),
-  only screen and (min--moz-device-pixel-ratio: $density),
-  only screen and (min-device-pixel-ratio: $density) {
+    only screen and (min--moz-device-pixel-ratio: $density),
+    only screen and (min-device-pixel-ratio: $density) {
     @content;
   }
 }

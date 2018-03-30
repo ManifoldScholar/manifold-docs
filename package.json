@@ -7,7 +7,7 @@
   "author": "Cast Iron Coding",
   "license": "MIT",
   "scripts": {
-    "clean-build": "rimraf www/assets",
+    "clean-build": "rimraf docs-assets",
     "dev": "NODE_ENV=development WEBPACK_DEV_SERVER=true webpack-dev-server --config webpack/base.conf.js",
     "build": "NODE_ENV=production webpack --bail --config webpack/base.conf.js",
     "pretty": "prettier --write \"{themes,webpack}/**/*.js\"",

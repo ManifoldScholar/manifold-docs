@@ -39,17 +39,19 @@ $twitter: '\e920';
 $watering-can: '\e921';
 $word-bubble-multiple: '\e922';
 $wrench: '\e923';
+$x: '\e924';
 
 
 @font-face {
   font-family: 'manifold-icons';
+  font-style: normal;
+  font-weight: normal;
   src: url('../fonts/manifold-icons.eot?#iefix') format('embedded-opentype'),
     url('../fonts/manifold-icons.woff') format('woff'),
     url('../fonts/manifold-icons.ttf') format('truetype'),
     url('../fonts/manifold-icons.svg') format('svg');
-  font-style: normal;
-  font-weight: normal;
 }
+
 
 @mixin fontIcon {
   font-family: 'manifold-icons', sans-serif;
