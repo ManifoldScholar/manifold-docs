@@ -6,7 +6,7 @@ menus:
     identifier: reading
     weight: 7
 ---
-Manifold books were made to be read and to fulfill specific functions for academic readers. This section of the documentation explains the [reading interface](interface/index.html) options and available activities like [bookmarks](interface/bookmarks.html), [annotation](interface/annotating.html), and [citation](library/citing.html). This section also reviews Manifold [project pages](project_page.html), [resources](resources.html) and introduces how readers can organize their Manifold [project libraries](library/index.html).
+Manifold books were made to be read and to fulfill specific functions for academic readers. This section of the documentation explains the [reading interface](interface/index.html) options and available activities like [annotation](interface/annotating.html), and [citation](library/citing.html). This section also reviews Manifold [project pages](project_page.html), [resources](resources.html) and introduces how readers can organize their Manifold [project libraries](library/index.html).
 
 Manifold works in your internet browser or on your mobile device (tablet or phone). To access the full toolbox, you must sign in from the home page. You'll notice a user icon in the top right corner. Once you log in, when you click on your selected image, you will have the option to update your profile or log out. When you select "Edit Profile," you will be able to change your nickname, your chosen image (which you may upload), and your password.
 

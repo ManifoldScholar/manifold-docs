@@ -6,7 +6,7 @@ menus:
     weight: 4
 ---
 
-In this menu users who have permissions to modify the project at hand can associate Maker records with it. Doing so relates a Maker record to the project as a whole and not to a specific text within it. For more about the latter, please refer to the [Texts section](text.html).
+In this menu users who have permissions to modify the project at hand can associate Maker records with it. Doing so relates a Maker record to the project as a whole and not to a specific text within it. For more about the latter, please refer to the [Texts section](texts.html).
 
 Maker records can be associated with a project as `Authors` or as `Contributors`. At present there are no options for more refined categorization (i.e., Edited by, Translated by, Introduction by, etc.)
 

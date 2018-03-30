@@ -50,6 +50,6 @@ The recently updated pane provides users an easy way to jump back into the two m
 The rest of this section is broken into the following four sections and within each are details for add and modify content and settings.
 
 * [Creating Projects](creating.html)
-* [Ingesting Texts](ingesting/index.html)
+* [Ingesting Texts](customizing/texts.html#adding-texts)
 * [Customizing Projects](customizing/index.html)
 * [Accounts](accounts/index.html)

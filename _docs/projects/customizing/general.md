@@ -19,7 +19,7 @@ The General category provides controls for the most top-level elements for how a
 
 When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on Twitter will only work for those who also have permission to access the project and are logged in. All annotations, comments, and highlights will persist with the project's text when Draft Mode is toggled off.
 
-Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](/docs/projects/ingesting/published.html), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
+Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](texts.html#published-texts), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
 
 ***Featured***. Featured projects take pride of place on the home page in a section of the library all of their own. Only four projects display in this section at a time. If more than four projects are toggled to be featured, only the four most recent will show. By default, new projects are *not* set to be featured.
 
@@ -39,7 +39,7 @@ Determining when drafts are made public falls to the discretion of publishers. Y
 
 Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To do so, simply begin typing, and the system will populate those subjects in the system that most closely resemble what you are typing.
 
-To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/subjects.html).
+To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/#subjects).
 
 ***Project Thumbnail***. This table allows you to modify or customize the avatar representing the project, which displays in the library on the landing page. If no custom avatar has been added to the system, the default icon—made up of eye glasses, a dialog bubble, and a pencil—shows in the left panel.
 
