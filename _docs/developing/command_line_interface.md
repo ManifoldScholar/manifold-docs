@@ -15,7 +15,7 @@ Relative to the Manifold repository root, the CLI script is located at `./bin/ma
 
 To see a list of subcommands offered by the CLI, type `manifold --help`.
 
-```
+``` shell
 Manifold CLI Usage Help:
     m [OPTIONS] [SUBCOMMAND] [ARG] ...
 
@@ -35,7 +35,7 @@ Options:
 
 To see the help screen for a given subcommand, type `manifold subcommand --help`. For example, typing `manifold start --help` returns the following:
 
-```
+``` shell
 Manifold CLI Usage Help:
     manifold start [OPTIONS]
 

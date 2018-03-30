@@ -59,7 +59,7 @@ _Note_. The number described in the heading title (e.g., the `1` in `Heading 1`)
 
 In Markdown use one to three hash marks (`#`) followed by a space to denote the level of heading:
 
-```
+``` markdown
 # This Is a Level 1 Heading
 ## This Is a Level 2 Heading
 ### This Is a Level 3 Heading
@@ -67,7 +67,7 @@ In Markdown use one to three hash marks (`#`) followed by a space to denote the 
 
 In HTML, enclose your headings with `<h1>` to `<h3>` tags.
 
-```
+``` markdown
 <h1>This Is a Level 1 Heading</h1>
 <h2>This Is a Level 2 Heading</h2>
 <h3>This Is a Level 3 Heading</h3>
@@ -76,7 +76,7 @@ In HTML, enclose your headings with `<h1>` to `<h3>` tags.
 ##### Nesting
 With the exception of headings announcing abstracts, notes and bibliographies, acknowledgments, and author biography sections, headings should not appear in isolation. For each heading you create, there should be at least one other member of that heading level nested in that same section. For example:
 
-```
+``` markdown
 Level 1 heading
 Body text
 
@@ -102,7 +102,7 @@ Block quotes (also called extracts) should be set off from body text in Word and
 
 In Markdown, begin paragraphs of the block quote using the `>` marker followed by a space:
 
-```
+``` markdown
 Body text paragraph.
 
 > This is a block quote paragraph.
@@ -112,7 +112,7 @@ Body text paragraph.
 
 If you are writing in HTML, use the `<blockquote>` tag to see off your quotes:
 
-```
+``` markdown
 <p>Body text paragraph.</p>
 
 <blockquote>
@@ -139,7 +139,7 @@ In Word and Google Docs, compose tables using the app’s native table features.
 
 In Markdown, create tables by separating cell content with a pipe (`|`). Headers should be set off by a row of at least three hyphens per column. Cells can vary in width and do not need to be perfectly aligned within columns.
 
-```
+``` markdown
 #### Table 1. Title Structured as a Level 4 Heading
 | First Header  | Second Header | Third Header<sup>a</sup> |
 | ------------- | ------------- | ------------------------ |
@@ -150,7 +150,7 @@ In Markdown, create tables by separating cell content with a pipe (`|`). Headers
 ```
 In HTML, create tables using the `<table>`, `<caption>` (used for table titles), `<tr>` (table row), `<th>` (table header), and `<td>` (table data) tags. Tables syntax describes rows, left to right, moving from the top of the table downward:
 
-```
+``` markdown
 <table>
 <caption>Table 2. Title Structured Using the Caption Tags</caption>
   <tr>
@@ -195,7 +195,7 @@ In Word and Google Docs use the Numbered or Bulleted list feature to structure p
 
 In Markdown, style your lists using asterisks followed by tabs. Adding tabs before the asterisk increases the level of the list item:
 
-```
+``` markdown
 #### List Title
 *	Level 1 list paragraph
 *	Level 1 list paragraph
@@ -205,7 +205,7 @@ In Markdown, style your lists using asterisks followed by tabs. Adding tabs befo
 
 For HTML, use ordered (`<ol>`) or unordered (`<ul>`) tags in conjunction with the list tag (`<li>`) to describe a list:
 
-```
+``` markdown
 <h4>List Title</h4>
 <ul>
   <li>Level 1 list paragraph</li>
@@ -230,14 +230,14 @@ Structure an opening list title as a Level 4 heading.
 ##### Side-by-Side Lists
 If you would like two or more vertical lists to appear side by side, have the lists follow one after the other and make note in the file of how they should appear like this:
 
-```
+``` markdown
 <!-- PUBLISHER: These lists should appear side by side. -->
 ```
 
 ##### Consistency
 Consolidate various kinds of lists to one standard—all lists are numbered or all are bulleted. If your lists require separate treatment, please make that known like this:
 
-```
+``` markdown
 <!-- PUBLISHER: This list should appear with numbers. -->
 ```
 
@@ -246,7 +246,7 @@ In Word and Google Docs, notes—excepting those for tables—should be inserted
 
 If you are composing in Markdown, notes should be styled as follows:
 
-```
+``` markdown
 This sentence is annotated.[^1]
 
 # Notes
@@ -269,7 +269,7 @@ Use italics for emphasis and to designate the names of titles of works, names of
 
 For Word and Google Docs, use the Italics feature to transform characters and words into italics. In Markdown, enclose terms that should italicized in asterisks like `*this*`. The following structure, which better differentiates the function of the elements, can be applied in HTML absent specific recommendations by your publisher:
 
-```
+``` markdown
 <em>emphasized terms</em>
 <i class="title">Titles of Works, Ships, Species, Legal Cases</i>
 <i class="term">Species names and foreign terms</i>

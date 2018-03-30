@@ -22,9 +22,22 @@
                 <div>
                   {{ content }}
                 </div>
+                <!--
                 <div class="documentation-pagination" data-documentation-pagination="documentation">
-                  <!-- prev / next -->
-                </div>
+                  {% if page.previous.url %}
+                  <a href="{{page.previous.url}}" class="pager page-left ">
+                    <span class="icon"></span>
+                    <span>{{page.previous.title}}</span>
+                  </a>
+                  {% endif %}
+                  {% if page.next.url %}
+                  <a href="{{page.next.url}}" class="pager page-right ">
+                    <span>{{page.next.title}}</span>
+                    <span class="icon"></span>
+                  </a>
+                  {% endif %}
+                </div>              
+                -->
               </div>
             </div>
           </div>

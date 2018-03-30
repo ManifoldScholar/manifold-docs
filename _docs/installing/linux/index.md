@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Installing Manifold from Omnibus Packages
+title: Installing Manifold on Linux
 menu:
   installation:
-    identifier: omnibus
-    title: From Omnibus Packages
+    identifier: linux
+    title: From Linux Packages
     weight: 1
 ---
 
 Welcome! We're glad you've decided to try out Manifold. In this quick tutorial, you will:
 
-1. Install Manifold on an [Ubuntu](install_ubuntu.html) or [OS10](install_os10.html) host
+1. [Install Manifold on an Ubuntu host](install_ubuntu.html)
 2. [Create an admin user and login to the backend](/docs/installing/access_backend.html)
 3. [Create your first project and upload a text](/docs/installing/first_project.html)
 
@@ -31,3 +31,10 @@ Manifold is composed of a handful of services, with two services, the client and
 ### If You Get Stuck
 
 Manifold, which is still in beta, is a relatively young piece of software. The more people who install it and experiment with it, the more feedback we'll get, which helps us improve Manifold. If you get stuck, don't hesitate to ask us for help. For more information on how to get in touch with the Manifold team, please consult the [getting support section](/docs/index.html#getting_support).
+
+<div class="documentation-pagination" data-documentation-pagination="documentation">
+<a href="install_ubuntu.html" class="pager page-right ">
+<span>Next step: Install Manifold on Ubuntu 16</span>
+<span class="icon"></span>
+</a>
+</div>

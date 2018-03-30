@@ -3,7 +3,7 @@ layout: page
 title: Glossary
 menu:
   reference:
-    weight: 2
+    weight: 1
 ---
 
 ## Annotations

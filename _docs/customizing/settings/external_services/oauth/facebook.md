@@ -42,7 +42,7 @@ In the Manifold backend, navigate to the "settings" menu item. Under the "integr
 
 If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
-```
+``` conf
 # Facebook OAuth Integration
 MANIFOLD_SETTING_INTEGRATIONS_FACEBOOK_APP_ID=
 MANIFOLD_SETTING_SECRETS_FACEBOOK_APP_SECRET=

@@ -11,13 +11,13 @@ All content stored in Manifold—texts, projects, authors, resources, users, etc
 
 Before you can login to the backend, you will need to make an administrative user. Manifold exposes Rake commands provided by the API Rails application by way of a `manifold-api` executable located at `/usr/local/bin/manifold-api`. This executable includes a command for creating an admin user. Call this command as follows:
 
-```
+``` shell
 sudo manifold-api manifold:user:create:admin["you@email.com","password","firstName","lastName"]
 ```
 
 Substitute your email, password, first and last into the command above. If the command succeed, Manifold will let you know. For example:
 
-```
+``` shell
 manifold@manifold-deb:/etc/manifold# sudo manifold-api manifold:user:create:admin["john@milton.com","Lycidas","John","Milton"]
     INFO: A User has been created. Its ID is 9b8c863f-60cd-44aa-ad99-dbb842e51aa2
 ```
@@ -25,3 +25,10 @@ manifold@manifold-deb:/etc/manifold# sudo manifold-api manifold:user:create:admi
 Once you've created an admin user, click on the avatar icon in the top right corner of the Manifold frontend to login. After logging in successfully, you will see an "admin mode" button in the header.
 
 Click the admin mode button to access the backend, then [proceed to the next step](first_project.html).
+
+<div class="documentation-pagination" data-documentation-pagination="documentation">
+<a href="first_project.html" class="pager page-right ">
+<span>Next step: Create your First Project</span>
+<span class="icon"></span>
+</a>
+</div>

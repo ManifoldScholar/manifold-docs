@@ -39,7 +39,7 @@ In the figure above, white tiles denote existing production processes, green til
 
 ### Internal Considerations
 
-*   Outline what level of attention you want to provide to “gray” publications—- those that are in-process, still being thought through, drafty
+*   Outline what level of attention you want to provide to “gray” publications—those that are in-process, still being thought through, drafty
 *   Sketch out a staff map of who will be involved, from interactions with the author, preparation of materials, editorial discretion, direct engagement with the platform:
 	* what is expected of them, and for what parts of the process?
 	* Will this be true of every project, or will different staff be used for different projects?

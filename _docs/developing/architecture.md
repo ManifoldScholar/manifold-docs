@@ -15,7 +15,7 @@ The Manifold API service provides a RESTful interface to all of the underlying d
 
 In your installation, you'll need to make sure that the PATH environment variable includes any gem executables. We store the systemd configuration at _/lib/systemd/system/manifold\_api.service_
 
-```
+``` conf
 #/lib/systemd/system/manifold_api.service
 [Unit]
 Description=Manifold API Server
@@ -41,7 +41,7 @@ We manage this service with the following systemd configuration.
 
 _/lib/systemd/system/manifold\_client.service:_
 
-```
+``` conf
 #/lib/systemd/system/manifold_client.service
 [Unit]
 Description=Manifold Client Application
@@ -70,7 +70,7 @@ Because sidekiq is a forking process that spawns multiple workers, we have three
 
 _/lib/systemd/system/manifold\_sidekiq@.service:_
 
-```
+``` conf
 #/lib/systemd/system/manifold_sidekiq@.service
 [Unit]
 Description=A CIC Sidekiq service
@@ -90,7 +90,7 @@ SyslogIdentifier=sidekiq-%i
 
 _/lib/systemd/system/manifold\_sidekiq\_workers.service:_
 
-```
+``` conf
 #/lib/systemd/system/manifold_sidekiq_workers.service
 [Unit]
 Description=A CIC Sidekiq worker service, calls script to start/stop sidekiq workers
@@ -105,7 +105,7 @@ KillMode=process
 
 _/lib/systemd/system/manifold\_worker@.service:_
 
-```
+``` conf
 [Unit]
 Description=Manifold Sidekiq Worker #%i
 After=syslog.target network.target
@@ -124,7 +124,7 @@ SyslogIdentifier=manifold-worker-%i
 
 _/lib/systemd/system/manifold\_workers.service:_
 
-```
+``` conf
 #/lib/systemd/system/manifold_workers.service
 [Unit]
 Description=Manifolder Workers
@@ -144,7 +144,7 @@ The Scheduler service is responsible for creating background jobs according to a
 
 We store the systemd configuration at _/lib/systemd/system/manifold\_scheduler.service:_
 
-```
+``` conf
 #/lib/systemd/system/manifold_scheduler.service
 [Unit]
 Description=Manifold Background Scheduler
@@ -168,7 +168,7 @@ The cable service is a WebSocket service. When texts are ingested into Manifold 
 
 We store the systemd configuration at _/lib/systemd/system/manifold\_cable.service:_
 
-```
+``` conf
 #/lib/systemd/system/manifold_cable.service
 [Unit]
 Description=Manifold Action Cable Server
@@ -193,7 +193,7 @@ We use sysctl to start and stop Manifold services in a systemd environment.
 
 Each service can be started with the following commands:
 
-```
+``` shell
 sudo systemctl start manifold_client
 sudo systemctl start manifold_api
 sudo systemctl start manifold_scheduler
@@ -203,7 +203,7 @@ sudo systemctl start manifold_workers
 
 Each service can be stopped with the following commands:
 
-```
+``` shell
 sudo systemctl stop manifold_client
 sudo systemctl stop manifold_api
 sudo systemctl stop manifold_scheduler
@@ -213,7 +213,7 @@ sudo systemctl stop manifold_cable
 
 Each service can be restarted with the following commands:
 
-```
+``` shell
 sudo systemctl restart manifold_client
 sudo systemctl restart manifold_api
 sudo systemctl restart manifold_scheduler
@@ -225,7 +225,7 @@ sudo systemctl restart manifold_cable
 
 When it comes to figuring out why services aren't running as expected in a systemd environment, `journalctl` is your best friend! Use this command to tail log output from the principle Manifold services:
 
-```
+``` shell
 journalctl --unit=manifold* -f
 ```
 
