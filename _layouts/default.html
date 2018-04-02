@@ -11,12 +11,14 @@
         <section class="background-white docs-container">
           <div class="container-main docs">
             <div class="flex-row">
-              <aside class="docs-sidebar" data-hamburger-togglable="sidebar">
+              <aside class="docs-sidebar" data-sidebar data-hamburger-togglable="sidebar">
                 <div class="sidebar-toggle" data-hamburger-toggle="sidebar"></div>
-                {% assign menu = site.menus.main %}
-                <ul>
-                  {% include navigation.html %}
-                </ul>
+                <div class="menu-wrapper" data-sidebar-menu>
+                  {% assign menu = site.menus.main %}
+                  <ul>
+                    {% include navigation.html %}
+                  </ul>
+                </div>
               </aside>
               <div class="docs-main" data-image-modals>
                 <div>
@@ -36,7 +38,7 @@
                     <span class="icon"></span>
                   </a>
                   {% endif %}
-                </div>              
+                </div>
                 -->
               </div>
             </div>

@@ -3,8 +3,6 @@
   padding: 25px 25px 100px 0;
   background-color: $white;
   border-right: 2px solid $gray03;
-  // opacity: 0;
-  // transition: opacity $duration $timing;
 
   @include respond($break60) {
     position: fixed;
@@ -12,7 +10,8 @@
     left: 0;
     width: $sidebarWidthMobile;
     height: 100vh;
-    padding: 103px 50px 100px;
+    padding: 113px 50px 0;
+    // overflow: scroll;
     transition: transform $durationSlow $timing;
     transform: translateX(-$sidebarWidth);
 
@@ -43,7 +42,7 @@
     }
 
     &::after {
-      position: absolute;
+      position: fixed;
       top: 118px;
       right: 18px;
       font-size: 16px;
@@ -109,12 +108,22 @@
     }
   }
 
+  .menu-wrapper {
+    position: relative;
+    max-height: 100%;
+    overflow: scroll;
+  }
+
   ul {
     @include fontHead;
     @include listUnstyled;
     font-size: 16px;
     font-weight: $regular;
     line-height: 1.2;
+
+    @include respond($break60) {
+      padding-bottom: 100px;
+    }
 
     li {
       position: relative;

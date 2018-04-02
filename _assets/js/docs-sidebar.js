@@ -1,5 +1,7 @@
+import {debounce} from 'lodash';
+import ClassBurger from "./class-burger";
+import ScrollLock from "./ScrollLock";
 import {
-  debounce,
   addClass,
   removeClass,
   hasClass,
@@ -9,10 +11,30 @@ import { expand, collapse } from "./lib/height-help.js";
 
 class DocumentationSidebar {
   constructor(
+    el,
     toggleSelector = '[data-sidebar-accordion-toggle]',
     revealSelector = '[data-sidebar-accordion-reveal]',
     onClass = 'open',
   ) {
+    // Setup open/close, and scroll locking behavior for sidebar itself
+    this.scrollLock = new ScrollLock();
+    const debouncedScrollLock = debounce(this.maybeLockScroll, 200);
+
+    if (el) {
+      this.menu = el.querySelector('[data-sidebar-menu]');
+      // Setup class burger to open and close sidebar
+      const burger = new ClassBurger('sidebar', 'open', (toggle) => {
+        // If sidebar is open, lock the scroll on mobile
+        this.maybeLockScroll();
+        // But keep checking scroll lock on resize
+        window.addEventListener('resize', debouncedScrollLock);
+      }, () => {
+        // Always unlock scroll (and unbind) on close
+        this.scrollLock.unlock(this.menu);
+        window.removeEventListener('resize', debouncedScrollLock);
+      });
+    }
+
     const toggleAttr = toggleSelector.match(/\[(.*)\]/)[1];
     const revealAttr = revealSelector.match(/\[(.*)\]/)[1];
     const toggles = document.querySelectorAll(toggleSelector);
@@ -27,6 +49,16 @@ class DocumentationSidebar {
         reveal,
         onClass
       );
+    }
+  }
+
+  maybeLockScroll = () => {
+    if (window.innerWidth <= 845) {
+      this.scrollLock.lock(this.menu);
+      console.log('lock!');
+    } else {
+      this.scrollLock.unlock(this.menu);
+      console.log('unlock!');
     }
   }
 }

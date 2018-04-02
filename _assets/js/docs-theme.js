@@ -21,13 +21,9 @@ class DocsTheme {
       // Initialize Accordions
       const accordions = new Accordions();
 
-      // Initialize Mobile Documentation Sidebar
-      if (document.querySelector('[data-hamburger-togglable=sidebar]')) {
-        const mobileDocSidebar = new ClassBurger('sidebar', 'open');
-      }
-
       // Initialize Documentation Sidebar Accordions
-      const docSidebar = new DocumentationSidebar();
+      const docSidebar =
+        new DocumentationSidebar(document.querySelector('[data-sidebar]'));
 
       // Setup image modals
       const hasModals = document.querySelectorAll('[data-image-modals]');
