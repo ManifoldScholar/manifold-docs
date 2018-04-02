@@ -156,6 +156,12 @@
     }
   }
 
+  .accordion {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height $durationSlow $timing;
+  }
+
   a {
     @include navSidebar;
     display: inline-block;
@@ -174,6 +180,8 @@
     top: 19px;
     left: -18px;
     display: block;
+    width: 11px;
+    text-align: center;
     font-size: 12px;
   }
 
