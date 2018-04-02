@@ -1,5 +1,4 @@
 import domHelp from "./lib/dom-help";
-import Accordions from "./accordions";
 import ClassBurger from "./class-burger";
 import DocumentationSidebar from "./docs-sidebar";
 import ImageModal from "./ImageModal";
@@ -17,9 +16,6 @@ class DocsTheme {
       }, function(el) {
         scrollLock.unlock(el);
       });
-
-      // Initialize Accordions
-      const accordions = new Accordions();
 
       // Initialize Documentation Sidebar Accordions
       const docSidebar =
