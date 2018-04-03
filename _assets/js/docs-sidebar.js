@@ -33,7 +33,7 @@ class DocumentationSidebar {
         window.addEventListener('resize', debouncedScrollLock);
       }, () => {
         // Always unlock scroll (and unbind) on close
-        this.scrollLock.unlock(this.menu);
+        this.scrollLock.any(this.menu);
         window.removeEventListener('resize', debouncedScrollLock);
       });
 
@@ -85,9 +85,9 @@ class DocumentationSidebar {
 
   maybeLockScroll = () => {
     if (window.innerWidth <= 845) {
-      this.scrollLock.lock(this.menu);
+      this.scrollLock.only(this.menu);
     } else {
-      this.scrollLock.unlock(this.menu);
+      this.scrollLock.any(this.menu);
     }
   }
 }
