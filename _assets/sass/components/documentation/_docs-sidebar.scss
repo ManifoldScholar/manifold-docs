@@ -10,7 +10,7 @@
     left: 0;
     width: $sidebarWidthMobile;
     height: 100vh;
-    padding: 113px 50px 0;
+    padding: 28px 50px 0;
     // overflow: scroll;
     transition: transform $durationSlow $timing;
     transform: translateX(-$sidebarWidth);
@@ -21,12 +21,16 @@
     }
   }
 
+  @include respond($break60, min) {
+    // Overwrite JS padding on desktop
+    padding-top: 25px !important; /* stylelint-disable-line declaration-no-important */
+  }
+
   h1 {
     display: none;
   }
 
   .sidebar-toggle {
-    @include iconPost($caret);
     position: absolute;
     top: 0;
     right: 0;
@@ -41,9 +45,10 @@
       display: block;
     }
 
-    &::after {
+    .caret {
+      @include iconPost($caret);
       position: fixed;
-      top: 118px;
+      top: 28px;
       right: 18px;
       font-size: 16px;
       transition: font-size $duration $timing, transform $durationSlow $timing;
@@ -51,13 +56,13 @@
     }
 
     &.open {
-      &::after {
+      .caret {
         transform: rotate(180deg);
       }
     }
 
     &:hover {
-      &::after {
+      .caret {
         font-size: 18px;
       }
     }
@@ -181,8 +186,8 @@
     left: -18px;
     display: block;
     width: 11px;
-    text-align: center;
     font-size: 12px;
+    text-align: center;
   }
 
   .toggle-indicator {
