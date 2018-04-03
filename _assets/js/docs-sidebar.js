@@ -1,4 +1,4 @@
-import {debounce} from 'lodash';
+import {debounce, throttle} from 'lodash';
 import ClassBurger from "./class-burger";
 import ScrollLock from "./ScrollLock";
 import {
@@ -21,7 +21,10 @@ class DocumentationSidebar {
     const debouncedScrollLock = debounce(this.maybeLockScroll, 200);
 
     if (el) {
+      this.el = el;
       this.menu = el.querySelector('[data-sidebar-menu]');
+      this.toggleMarker = el.querySelector('[data-sidebar-toggle-marker]');
+
       // Setup class burger to open and close sidebar
       const burger = new ClassBurger('sidebar', 'open', (toggle) => {
         // If sidebar is open, lock the scroll on mobile
@@ -33,6 +36,14 @@ class DocumentationSidebar {
         this.scrollLock.unlock(this.menu);
         window.removeEventListener('resize', debouncedScrollLock);
       });
+
+      // Update padding on list/marker on load, and until header is gone
+      this.headerHeight = 118;
+      this.headerAdjustHeight = 118;
+      this.maybeUpdatePadding();
+
+      const throttledUpdate = throttle(this.maybeUpdatePadding, 10);
+      window.addEventListener('scroll', throttledUpdate);
     }
 
     const toggleAttr = toggleSelector.match(/\[(.*)\]/)[1];
@@ -52,13 +63,31 @@ class DocumentationSidebar {
     }
   }
 
+  maybeUpdatePadding = () => {
+    // On mobile only
+    if (window.innerWidth <= 845) {
+      // Get the window scroll position
+      const scrollTop =
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop || 0;
+
+      // If the class' adjusted height hasn't hit its minimum
+      if (this.headerAdjustHeight >= this.headerHeight - 90) {
+        // Subtract either the scrolltop or 90 (whichever is smaller)
+        this.headerAdjustHeight = (this.headerHeight - Math.min(scrollTop, 90));
+        // Apply it to both scroll sensitive elements
+        this.el.style.paddingTop = this.headerAdjustHeight + 'px';
+        this.toggleMarker.style.top = this.headerAdjustHeight + 'px';
+      }
+    }
+  }
+
   maybeLockScroll = () => {
     if (window.innerWidth <= 845) {
       this.scrollLock.lock(this.menu);
-      console.log('lock!');
     } else {
       this.scrollLock.unlock(this.menu);
-      console.log('unlock!');
     }
   }
 }

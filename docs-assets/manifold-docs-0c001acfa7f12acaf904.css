@@ -2246,7 +2246,7 @@ a {
       left: 0;
       width: 315px;
       height: 100vh;
-      padding: 113px 50px 0;
+      padding: 28px 50px 0;
       -webkit-transition: -webkit-transform 0.4s ease;
       transition: -webkit-transform 0.4s ease;
       transition: transform 0.4s ease;
@@ -2257,10 +2257,13 @@ a {
         z-index: 2;
         -webkit-transform: translateX(0);
                 transform: translateX(0); } }
+  @media all and (min-width: 845px) {
+    .docs-sidebar {
+      padding-top: 25px !important;
+      /* stylelint-disable-line declaration-no-important */ } }
   .docs-sidebar h1 {
     display: none; }
   .docs-sidebar .sidebar-toggle {
-    speak: none;
     position: absolute;
     top: 0;
     right: 0;
@@ -2270,23 +2273,13 @@ a {
     height: 100%;
     color: #008753;
     cursor: pointer; }
-    .docs-sidebar .sidebar-toggle::after {
-      font-family: 'manifold-icons', sans-serif;
-      display: inline-block;
-      font-style: normal;
-      font-weight: normal;
-      font-variant: normal;
-      line-height: 1;
-      text-transform: none;
-      vertical-align: baseline;
-      speak: none;
-      content: "\E901"; }
     @media all and (max-width: 845px) {
       .docs-sidebar .sidebar-toggle {
         display: block; } }
-    .docs-sidebar .sidebar-toggle::after {
+    .docs-sidebar .sidebar-toggle .caret {
+      speak: none;
       position: fixed;
-      top: 118px;
+      top: 28px;
       right: 18px;
       font-size: 16px;
       -webkit-transition: font-size 0.2s ease, -webkit-transform 0.4s ease;
@@ -2295,10 +2288,21 @@ a {
       transition: font-size 0.2s ease, transform 0.4s ease, -webkit-transform 0.4s ease;
       -webkit-transform: rotate(0deg);
               transform: rotate(0deg); }
-    .docs-sidebar .sidebar-toggle.open::after {
+      .docs-sidebar .sidebar-toggle .caret::after {
+        font-family: 'manifold-icons', sans-serif;
+        display: inline-block;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        line-height: 1;
+        text-transform: none;
+        vertical-align: baseline;
+        speak: none;
+        content: "\E901"; }
+    .docs-sidebar .sidebar-toggle.open .caret {
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg); }
-    .docs-sidebar .sidebar-toggle:hover::after {
+    .docs-sidebar .sidebar-toggle:hover .caret {
       font-size: 18px; }
   .docs-sidebar .search-block.form-primary {
     margin-bottom: 46px; }
@@ -2394,8 +2398,8 @@ a {
     left: -18px;
     display: block;
     width: 11px;
-    text-align: center;
-    font-size: 12px; }
+    font-size: 12px;
+    text-align: center; }
     .docs-sidebar .toggle-indicator::before, .docs-sidebar .placeholder-toggle-indicator::before {
       font-family: 'manifold-icons', sans-serif;
       display: inline-block;
