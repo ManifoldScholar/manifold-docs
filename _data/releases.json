@@ -107,6 +107,18 @@
          "platform_version":"16.04",
          "arch":"x86_64",
          "url":"https://storage.googleapis.com/manifold-dist/debian/manifold_1.0.0~rc.3-1_amd64.deb"
+      },
+      "1.0.1":{
+         "build_version":"1.0.1",
+         "build_git_revision":"ae6797628b91a03d307cf987c269fd61ccad3459",
+         "basename":"manifold_1.0.1-1_amd64.deb",
+         "sha1":"cd33bb6071521cecd751f1cbe716eefc3e690393",
+         "sha256":"86d9d82cd4f58d5744378d96189cb605b3eab795bb46e366f82f190a61bf7625",
+         "sha512":"745e9ebf29859ad3fd32744cf235892f48329fb74059d4856150deec8d14f30973533cbfb9079a93890b67172bafb3ec5a43a6c36e9b6dd1ca81961632d2214a",
+         "platform":"ubuntu",
+         "platform_version":"16.04",
+         "arch":"x86_64",
+         "url":"https://storage.googleapis.com/manifold-dist/debian/manifold_1.0.1-1_amd64.deb"
       }
    }
 }

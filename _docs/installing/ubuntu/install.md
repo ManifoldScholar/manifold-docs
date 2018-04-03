@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Installing Manifold on Ubuntu
+title: "Installing Manifold on Ubuntu: Download & Install Package"
 menu:
-  linux:
-    title: Ubuntu
+  installation_ubuntu:
+    title: "Step 1: Installation"
     weight: 1
 ---
 
 {% assign release = site.data.releases.debian[site.data.current.version] %}
+
+{% include installation/notice.md %}
 
 The following instructions have only been tested on Ubuntu 16 hosts. Your mileage will almost certainly vary if you attempt to install Manifold on a different linux distribution.
 
@@ -56,10 +58,10 @@ If everything looks good, [proceed to the next step](/docs/installing/access_bac
 <a name="note-1"></a><sup>1</sup> We advise against attempting to install Manifold in a shared hosting environment for security and stability reasons. We're working on coming up with a distribution of Manifold that requires less RAM. If your environment has less than 4 GB of RAM, it's possible that Elastic Search will  not start correctly.
 </small>
 
+{% include pagination.html 
+	prev_label="Previous step: Install on Ubuntu" 
+	prev_url="index.html" 
+	next_label="Next step: Access the Backend" 
+	next_url="backend.html" 
+%}
 
-<div class="documentation-pagination" data-documentation-pagination="documentation">
-<a href="../access_backend.html" class="pager page-right ">
-<span>Next step: Access the Backend </span>
-<span class="icon"></span>
-</a>
-</div>

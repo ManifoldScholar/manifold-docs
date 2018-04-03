@@ -1,0 +1,3 @@
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note:</strong> Manifold is a new piece of software, and we're working hard to refine and improve the installation process. If you run into problems, please don't get frustrated. Let us know in Slack (<a href="https://manifold-slackin.herokuapp.com/">join here</a>) or <a href="https://github.com/ManifoldScholar/omnibus-manifold/issues">report the issue here</a>. It's very important to us that Manifold be easy to install, and we appreciate your help as we improve this process.
+</div>

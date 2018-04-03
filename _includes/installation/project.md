@@ -1,12 +1,3 @@
----
-layout: page
-title: Create your First Project
-menu:
-  installation:
-    title: Create your First Project
-    weight: 4
----
-
 Creating projects in Manifold is meant to be straight forward and easy. The first thing you see in the backend is the list of projects:
 
 ![Projects List](/docs/assets/installing/projects.png)

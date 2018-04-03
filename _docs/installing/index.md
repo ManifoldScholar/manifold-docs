@@ -10,15 +10,13 @@ menu:
 
 Unless you are reading or adding a text to an existing Manifold instance, you will need to install the software on a server to publish texts.
 
-There are currently two methods for installing Manifold Scholarship on your own servers.
+**The current, stable version of Manifold is v{{site.data.current.version}}**.
 
-The first method is to use operating system packages (e.g., .deb packages for Debian systems and .pkg for MacOS). These packages are built using Omnibus, and are the quickest, easiest way to get Manifold up and running. [Learn more about using Manifold package installers](linux/index.html)
+Currently, the simplest way to host your own instance of Manifold is to utilize our Debian package installer. 
 
-The second method is to deploy Manifold on Docker, using our pre-made Docker images. This approach is under development, but coming soon. [Learn more about hosting Manifold with Docker](docker/index.html)
+In the future, we will be offering package installers for Centos/RHEL, Docker images, and a MacOS installer. The Docker images are currently in-progress, and should be made public in April 2018. The MacOS installer is in testing, and will likely also be released in April 2018. 
 
-<div class="documentation-pagination" data-documentation-pagination="documentation">
-<a href="linux" class="pager page-right ">
-<span>Next step: Linux Installation Overview </span>
-<span class="icon"></span>
-</a>
-</div>
+* [Installing Manifold on Ubuntu](ubuntu)
+* [Installing Manifold on RHEL/Centos (coming soon)](rhel)
+* [Installing Manifold on Docker (coming soon)](docker)
+* [Installing Manifold on OSX (coming soon)](macos)

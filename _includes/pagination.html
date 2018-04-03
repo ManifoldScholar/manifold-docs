@@ -1,0 +1,18 @@
+<div class="documentation-pagination" data-documentation-pagination="documentation">
+
+{% if include.prev_url %}
+  <a href="{{ include.prev_url}}" class="pager page-left ">
+    <span class="icon"></span>
+    <span>{{ include.prev_label}}</span>
+  </a>
+{% endif %}
+
+
+{% if include.next_url %}
+  <a href="{{ include.next_url}}" class="pager page-right ">
+    <span>{{ include.next_label}}</span>
+    <span class="icon"></span>
+  </a>
+{% endif %}
+
+</div>
