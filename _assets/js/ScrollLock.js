@@ -21,6 +21,15 @@ export default class ScrollLock {
     this.stopListeningToScrollEvents(this.scrollingElement);
   }
 
+  only(el) {
+    this.scrollingElement = el;
+    this.listenToScrollEvents(this.scrollingElement, true);
+  }
+
+  any(el) {
+    this.stopListeningToScrollEvents(this.scrollingElement, true);
+  }
+
   handleEventDelta = (e, delta) => {
     const isDeltaPositive = delta > 0;
     const elem = this.scrollingElement;
@@ -68,20 +77,37 @@ export default class ScrollLock {
     }
   }
 
+  preventOutside = (e) => {
+    const elem = this.scrollingElement;
+    if(!elem.contains(e.target)) {
+      this.cancelScrollEvent(e);
+    }
+  }
+
   cancelScrollEvent = (e) => {
     e.stopImmediatePropagation();
     e.preventDefault();
     return false;
   }
 
-  listenToScrollEvents(el) {
+  listenToScrollEvents(el, only) {
+    if (only) {
+      window.addEventListener('wheel', this.preventOutside);
+      el.addEventListener('touchstart', this.preventOutside);
+      el.addEventListener('touchmove', this.preventOutside);
+    }
     el.addEventListener('wheel', this.onWheelHandler, false);
     el.addEventListener('touchstart', this.onTouchStartHandler, false);
     el.addEventListener('touchmove', this.onTouchMoveHandler, false);
     el.addEventListener('keydown', this.onKeyDownHandler, false);
   }
 
-  stopListeningToScrollEvents(el) {
+  stopListeningToScrollEvents(el, any) {
+    if (any) {
+      window.removeEventListener('wheel', this.preventOutside);
+      el.removeEventListener('touchstart', this.preventOutside);
+      el.removeEventListener('touchmove', this.preventOutside);
+    }
     el.removeEventListener('wheel', this.onWheelHandler, false);
     el.removeEventListener('touchstart', this.onTouchStartHandler, false);
     el.removeEventListener('touchmove', this.onTouchMoveHandler, false);
