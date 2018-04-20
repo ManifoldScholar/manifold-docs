@@ -16,9 +16,18 @@
 title: Manifold Documentation
 email: contact@manifoldapp.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Manifold Scholarship is an open-source publishing platform that enables authors and
+  publishers a means to showcase and enhance the electronic content they already produce
+  in their existing workflows: texts are displayed in a responsive, elegant reader
+  crafted for all modern browsers and devices—desktop and mobile. Powerful built-in
+  annotation and commenting systems allow readers to annotate, highlight, discuss,
+  cite, and share passages from any Manifold text. Resources that are foundational
+  to a particular discussion but that are often tabled because of physical, technical,
+  logistic, or legal limitations can be layered dynamically and directly onto the digital
+  text. And with Manifold, a new kind of publication is possible, one where authors create
+  projects that grow iteratively and that are published online as they are created and
+  then later in print, when they have been codified as versions of record. In short,
+  Manifold transforms scholarly publications into living digital works.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
