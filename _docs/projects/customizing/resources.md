@@ -25,9 +25,8 @@ In this space, devoted to the `Resource` sidebar of the backend project page, we
 
 * [Required User Credentials](#credentials)
 * [Adding Resources Individually](#adding-resources-single)
-* [Resource Fields](#resource-fields)
 * [Adding Resources in Bulk](#adding-resources-bulk)
-* [Editing Resources](#editing-resources)
+* [Managing Resources](#editing-resources)
 * [Searching through Existing Resources](#searching-resources)
 
 Details on how to place already loaded resources (or collections of resources) in a text is discussed in the [Interface](/docs/reading/interface/placing.html) section.
