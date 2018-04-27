@@ -90,7 +90,7 @@ You will be taken to a screen where you can load your CSV file or provide the UR
 
 When you click continue you'll be taken to `Step 3: Map Columns to Resource Attributes`. The column on the left side lists the column headers found in your spreadsheet. The column on the right lists the attributes that can be set on Manifold resources. Drag the attributes on the right to the corresponding columns on the left. The [Resource Import Matrix](#resource-import) below serves as a map between those columns.
 
-Pressing the `Automatically Map Attributes` button will attempt to automatically match the attributes with the spreadsheet columns. If you are using the Manifold Resource Log you'll need to only map three attributes manually: `external_id` to `Video ID`, `metadata.rights` to `License`, and `tag_list` to `Tags`.
+Pressing the `Automatically Map Attributes` button will attempt to automatically match the attributes with the spreadsheet columns. If you are using the Manifold Resource Log you'll need to only map two attributes manually: `external_id` to `Video ID`, and `metadata.rights` to `License`.
 
 When you click continue your resources will be uploaded into the system with the information from your sheet populating the appropriate fields for each. This process may take a few moment to complete. As it is working you will see regular updates to the status of your uploads.
 
