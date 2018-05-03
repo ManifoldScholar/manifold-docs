@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Accounts
+title: User Accounts and Roles
 menus:
   projects:
     identifier: accounts
-    title: Accounts
     weight: 5
 ---
 
