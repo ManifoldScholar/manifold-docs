@@ -7,7 +7,7 @@ menus:
     weight: 5
 ---
 
-This section of documentation describes how to create and modify user accounts and maker records (see below on how the two are different), how the various user roles differ, and what system functionality is unlocked through the different permission allowances that can be assigned to users.
+This section of documentation describes how to create and modify user accounts and maker records (see below on how the two are different), what user roles are available and how they differ, and what system functionality is unlocked through the different permission allowances that can be assigned to users on a project-by-project basis.
 
 * [User Roles](users.html)
 * [Maker Records](makers.html)
@@ -16,11 +16,11 @@ This section of documentation describes how to create and modify user accounts a
 
 ## User Accounts vs. Maker Records
 
-User accounts are for those who sign up for a Manifold account as a means to actively engage with a project's texts or resources. That may be simply as a Reader—who can highlight and annotate text, share materials to social media, or take part in conversations with other readers—or, depending on the [role](users.html) designated to them, it might also mean accessing the backend where the user could change or add materials to a project or entire Manifold instance.
+The terms *user* and *maker* are well intentioned but also somewhat fuzzy. To help dispel any possible confusion, it is important to note that user accounts are for those who mean to use Manifold actively—readers, authors, research assistants, publishers, DH or library staff—engaging with texts and resources on the frontend or by curating and managing projects in the backend.
 
-Maker records are just that—metadata records appended to a project to describe those who have authored, edited, or otherwise produced the projects and texts on Manifold. More simply, Maker records are bylines with avatars.
+Maker records are just that—editable metadata records—appended to projects and texts as bylines. Maker records relate to the reader who authored, edited, or otherwise produced the projects and texts with which they are engaging by way of the author's preferred display name and photo.
 
-An example of how these two differ: if _Jane Eyre_ was loaded into the system, there would be a maker record for Charlotte Brontë, but there couldn't be a Charlotte Brontë user account.
+An example of how these two differ: if _Jane Eyre_ was loaded into the system, there would be a maker record for Charlotte Brontë, since she is the author of that text, but there couldn't be a Charlotte Brontë user account because she won't be reading, annotating, or curating projects on the platform.
 
 ## See Also
 
