@@ -7,16 +7,6 @@ menus:
     weight: 3
 ---
 
-## Users vs. Makers
-
-Users are those who sign up for a Manifold account as a means to actively engage with a project's texts or resources. That may be simply as a Reader—who can highlight and annotate text, share materials to social media, or take part in conversations with other readers—or, depending on the [role assigned](users.html) to a user, it might also mean accessing the backend where the user could change or add materials to a project or entire Manifold instance.
-
-Maker records are just that—records appended to a project to describe those who have authored, edited, or otherwise produced the projects and texts on Manifold. More simply, Maker records are bylines with avatars.
-
-An example of how these two differ: if we had _Jane Eyre_ loaded into the system, there would be a Maker record for Charlotte Brontë, but there couldn't be a Charlotte Brontë User account.
-
-To learn how to associate a contemporary author's User account with their own project, see the the [Customizing section](/docs/projects/customizing/people.html).
-
 ## Creating a User Account
 
 ### From the Homepage

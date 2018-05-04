@@ -28,10 +28,16 @@ You can now toggle the sliders for the following three permissions. To formally 
 
 Grants user the ability to make any change within the scope of the backend project page as well as modify Maker records directly associated with those projects where they have been granted this permissions. This includes the ability to permanently delete a Maker record that may also be associated with other projects.
 
+When this option is selected the title `Project Editor` will be appended next to the user's name.
+
 ### Can Modify Metadata
 
 Grants users the ability to update resource metadata. This permission will be most useful to bestow on support staff who can directly flesh out the information that support a project's resources.
 
+When this option is selected the title `Metadata Author` will be appended next to the user's name.
+
 ### Is a Project Author
 
 Grants users the ability to see the (forthcoming) author dashboard, modify metadata, place resources onto texts, and differentiates annotations and highlights (with a pink color) on projects where this permission has been granted as having been made by the project’s author.
+
+When this option is selected the title `Author` will be appended next to the user's name.
