@@ -14,33 +14,36 @@ The following metadata fields are made available through Manifold. The three col
 |--------------------------|:------------:|:---------:|:-------------:|
 | Alt Text                 |              |           |       x       |
 | Caption                  |              |           |       x       |
-| Container Title          |       x      |           |       x       |
+| Container Title          |       x      |     x     |       x       |
 | Copyright Status         |              |           |       x       |
 | Creator                  |              |           |       x       |
 | Credit                   |              |           |       x       |
 | Description              |       x      |     x     |       x       |
-| DOI                      |       x      |           |       x       |
-| Edition                  |       x      |           |       x       |
-| ISBN                     |       x      |           |       x       |
-| ISSN                     |       x      |           |       x       |
-| Issue                    |       x      |           |       x       |
-| Original Publisher       |       x      |           |       x       |
-| Original Publisher Place |       x      |           |       x       |
-| Original Title           |       x      |           |       x       |
+| DOI                      |       x      |     x     |       x       |
+| Edition                  |       x      |     x     |       x       |
+| ISBN                     |       x      |     x     |       x       |
+| ISSN                     |       x      |     x     |       x       |
+| Issue                    |       x      |     x     |       x       |
+| Language                 |              |     x     |               |
+| Original Publisher       |       x      |     x     |       x       |
+| Original Publisher Place |       x      |     x     |       x       |
+| Original Title           |       x      |     x     |       x       |
 | Publication Date         |       x      |     x     |               |
-| Publisher                |       x      |           |       x       |
-| Publisher Place          |       x      |           |       x       |
-| Restrictions             |       x      |           |       x       |
-| Rights                   |       x      |           |       x       |
-| Rights Holder            |       x      |           |       x       |
-| Rights Territory         |       x      |           |       x       |
-| Series Number            |       x      |           |       x       |
-| Series Title             |       x      |           |       x       |
+| Publisher                |       x      |     x     |       x       |
+| Publisher Place          |       x      |     x     |       x       |
+| Resources DOI            |       x      |           |               |
+| Restrictions             |       x      |     x     |       x       |
+| Rights                   |       x      |     x     |       x       |
+| Rights Holder            |       x      |     x     |       x       |
+| Rights Territory         |       x      |     x     |       x       |
+| Series Number            |       x      |     x     |       x       |
+| Series Title             |       x      |     x     |       x       |
 | Subtitle                 |       x      |           |               |
 | Tags                     |              |           |       x       |
 | Title                    |       x      |     x     |       x       |
-| Version                  |       x      |           |       x       |
-| Volume                   |       x      |           |       x       |
+| Unique Identifier        |              |     x     |               |
+| Version                  |       x      |     x     |       x       |
+| Volume                   |       x      |     x     |       x       |
 
 ## Metadata Field Descriptions
 
@@ -73,6 +76,10 @@ If you have a resource that has been assigned an ISBN, it can be included in the
 If you have a resource that has been assigned an ISSN, it can be included in the [Resource metadata](/docs/projects/customizing/resources.html) section.
 
 **DOI**. A digital object identifier can be entered for projects, generally, and all resources associated with it.
+
+**Resources DOI**. This field is specific to the DOI for the collection of all resources contained within a project.
+
+**Unique Identifier**. An internal ID that describes the material in question within an instance.
 
 ### Publisher
 
@@ -121,6 +128,8 @@ For resources, the `Description` is an opportunity to translate the visual to th
 ### Other
 
 **Copyright Status**. A means to describe where this material falls in the copyright landscape (e.g., Public Domain, Fair Use, In Copyright, Unknown)
+
+**Language**. Describes the primary language of which the text is composed in, using the ISO 639-1 abbreviations.
 
 **Tags**. Tags group and relate media to one another and can server as a mean to navigate among like materials.
 

@@ -173,6 +173,8 @@ The content entered in the `Title` and `Description` fields are included when a 
 
 `Section Label` refers to the navigation header that appear at the bottom of a unit of text. By default the header reads `Next Chapter`. Below the header is the name of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
 
+There is also a separate sidebar menu item `Metadata` that will open a panel specific to metadata associated with a particular text. See the [Reference](/docs/reference/metadata.html) section for a list and description of all the metadata fields available for texts.
+
 ### Associating Maker Records with a Text
 
 Through the `People` sidebar element you can add, remove, and modify Maker records associated with the text just as you could for the project generally. For details on that process, which is the same here, see the [People section](people.html).
