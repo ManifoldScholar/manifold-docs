@@ -27,9 +27,9 @@ Determining when drafts are made public falls to the discretion of publishers. Y
 
 ***Publisher***. The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/interface/sharing.html)). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](texts.html).
 
-<small>
-**Note**. This field is also repeated in the [Metadata](metadata.html) section: they are linked together, and changes to one will be reflected in the other. This field is surfaced in two places because of its importance.
-</small>
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. This field is also repeated in the <a href="metadata.html">Metadata</a> section: they are linked together, and changes to one will be reflected in the other. This field is surfaced in two places because of its importance.
+</div>
 
 ***Publication Date***. A publication date is required by the system to [generate citations](/docs/reading/interface/sharing.html)). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
 

@@ -151,9 +151,9 @@ When you move a text into this section, the [cover image](/docs/projects/customi
 
 If the title is for sale, then a link to the online shopping cart and the purchase price will also appear beneath the cover if set in the [Appearance section](/docs/projects/customizing/appearance.html).
 
-<small>
-**Note**. For [open-access or enhanced projects](/docs/publishing/project_types.html), there is no question which document is considered the version of record. But for iterative projects there may be more of a discussion. See the [Workflow section](/docs/publishing/workflow.html) for some thoughts that may better orient those internal discussions.
-</small>
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. For <a href="/docs/publishing/project_types.html">open-access or enhanced projects</a>, there is no question which document is considered the version of record. But for iterative projects there may be more of a discussion. See the <a href="/docs/publishing/workflow.html">Workflow section</a> for some thoughts that may better orient those internal discussions.
+</div>
 
 
 <a name="managing-texts"></a>

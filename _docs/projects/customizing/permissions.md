@@ -20,9 +20,9 @@ Click `Select User` and begin typing in the name of the user whom you want to as
 
 You can now toggle the sliders for the following three permissions. To formally extend those permissions click `Save Permissions`. Once clicked those permissions will be activated and ready to use immediately.
 
-<small>
-**Note**. It would be redundant to grant a user both “Can Modify Project” and “Can Modify Metadata,” as someone who can modify a project can also inherently modify its metadata.
-</small>
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. It would be redundant to grant a user both “Can Modify Project” and “Can Modify Metadata,” as someone who can modify a project can also inherently modify its metadata.
+</div>
 
 ### Can Modify Project
 

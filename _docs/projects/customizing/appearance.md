@@ -24,9 +24,9 @@ Acceptable formats for upload are GIF, JPG, JPEG, PNG, and SVG.
 
 When a project is shared socially the hero image is included as part of that transaction so that other platforms can render the look and feel of the source material from Manifold.
 
-<small>
-**Warning**. Be sure you have the necessary permissions to upload your hero image to the system.
-</small>
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Warning</strong>. Be sure you have the necessary permissions to upload your hero image to the system.
+</div>
 
 ## Cover
 

@@ -31,9 +31,9 @@ Clicking `Preview` from the header will load the project's landing page in a new
 
 When you click the `Delete` button from the header, the system will prompt you to confirm that you want to delete the project. If you click `Yes`, all of the project's texts, resources, annotations, highlights, and comments will be purged from the system; however, any Maker records associated with the project as authors or contributors will remain in the system unless they are removed manually through the [People](/docs/projects/accounts/managing.html) menu.
 
-<small>
-**Warning**. There is no means to recover a project that has been deleted.
-</small>
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Warning</strong>. There is no means to recover a project that has been deleted.
+</div>
 
 ## Managing a Project
 
