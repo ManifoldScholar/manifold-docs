@@ -41,9 +41,9 @@ Video files can be uploaded into the native Manifold video player in MP4 and WEB
 
 ### Audio
 
-Audio files can be uploaded into the native Manifold audio player in the MP3 format. Audio files saved in different formats can be uploaded onto Manifold, but they won't be playable onsite; instead readers can download those files for play on their local devices.
+Audio files can be uploaded into the native Manifold audio player in the MP3, FLAC, and WAV formats. Audio files saved in different formats can be uploaded onto Manifold, but they won't be playable onsite; instead readers can download those files for play on their local devices.
 
-*	**Playable Formats**: MP3
+*	**Playable Formats**: MP3, FLAC, WAV
 *	**Upload Formats**: MP3, FLAC, WMA, WAV, MID, OGG
 *	**Size**: Please consult your publisher about any files that exceed 200 MB.
 *   **Variants**: File type 1, File type 2
