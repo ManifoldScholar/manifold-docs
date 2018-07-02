@@ -36,53 +36,109 @@ If this field is left blank the system will default to using `Manifold Scholarsh
 
 ### Default Publisher
 
+The name entered here will automatically populate this field for newly created projects. It will not, however, populate the like field for newly added texts. Changing this field will not automatically update existing records.
+
 ### Default Place of Publication
+
+As with the field above, the name entered here will automatically populate this field for newly created projects. It will not, however, populate the like field for newly added texts. Changing this field will not automatically update existing records.
 
 ### Copyright
 
+The Manifold footer, which runs across all pages of an instance, except those in the reader, includes a space to indicate the copyright information for the instance as a whole. This field allows users to add or adjust how that line reads. If left blank, no default notice will appear. The copyright symbol (©) will precede entered text by default.
+
+![Footer](/docs/assets/customizing/footer.png)
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+Texts rendered in the reader have their own copyright footer. To edit how that reads, adjust the <strong>Rights</strong> field in the text's <a href="/docs/projects/customizing/texts.html#managing-texts">Metadata menu</a>.
+</div>
+
 ### Social Sharing Message
+
+The message a publisher enters here will pre-populate the Twitter and Facebook pop-ups that users create when they share text from the reader.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+See the <a href="/docs/reading/sharing.html">Sharing section</a> for more on how users can share texts through social media.
+</div>
 
 ### Twitter Account
 
+This field allows publishers to create a link in the Manifold footer to their Twitter account. Twitter usernames here can be entered with or without an ampersand (@). If left blank, no Twitter icon will appear in the footer.
+
 ### Facebook Page ID
+
+This field allows publishers to create a link in the Manifold footer to their Facebook account. If left blank, no Facebook icon will appear in the footer.
 
 ### Contact Email
 
+This field allows publishers to create a link in the Manifold footer to an email account they would like to associate with this Manifold instance. It might be to a general institutional email, an account specific to this instance, or to an individual's account. If left blank, no email icon will appear in the footer.
+
+When a reader clicks on the email icon link they will be directed to an editable form, where they can input their email address, name, and message. Once sent, the contents of the form will be directed to the email account noted in the `Contact Email` field.
+
+![Email Form](/docs/assets/customizing/email-form.png)
+
 ### Terms and Conditions Link URL
 
-<!--
-For example, you could call it "Manifold at the University of Minnesota Press" or just "University of Minnesota Digital Books." Or, if you prefer, you can leave this blank, and Manifold will just refer to itself as "Manifold."
+If your institution has a terms and conditions document that you'd like to share with your readers, you can include its URL here. The link to this document will appear in the new user signup form. If left blank there will be no mention of any terms or conditions on the signup form.
 
-You can also set (or leave blank) `Default Publisher`, `Default Place of Publication`, `Copyright Information` to be displayed in the footer, `Social Sharing` message that will appear when a page is shared, and your `Contact` link url.
--->
+If your terms exists as a Manifold Page created in the [Contents menu](contents.html#pages) you need only enter here the slug you created for that page. Otherwise, if your terms exist on a page outside of this Manifold instance, you'll need to include the full URL.
 
 <a name="theme"></a>
 ## Theme
 
-`Theme` settings allow you to set the `PRESS LOGO`. Logos are constrained at 40px wide with flexible height. For retina displays, upload logos that are 80px wide. You may add Logo Styles by entering a JSON style object, which will be applied to the logo image, For example: {"left": -1}, and set `TYPEKIT ID`.
+The fields contained in the `Theme` section allow a publisher to replace the default Manifold icon with their own branded logo.
+
+### Press Logo
+
+A publisher's logo can be uploaded here as a GIF, JPEG, JPG, PNG, or SVG file. Publisher logos replace the default Manifold icon and will appear in the upper lefthand corner of the Manifold homepage, as well as on the right of the footer that appears on all instance pages, except those rendering a text in the reader, where the footer is replaced by a text's copyright information.
+
+Logos are constrained at 40 px wide with flexible height. For retina displays, upload logos that are 80 px wide.
+
+### Press Website URL
+
+This field allows publisher's to direct users to a specific URL they want to associate with their logo (usually the publisher's homepage). If left empty the logo will not be clickable.
+
+### Logo Styles
+
+Publishers can adjust the placement of their logo, as it appears in the header, by entering a JSON style object. Logos are anchored on their the top and left, so our suggestion would be to use those parameters in adjusting it's placement.
+
+For example, `{"left": 100, "top": 100}` would push the logo 100 pixels to the right (or from the left) and 100 pixels down (or from the top) from its default location in the header.
+
+In terms of syntax, the entire instruction should be surrounded by braces (`{}`), with the parameters enclosed in quote marks and separated by a comma. Units are in pixels.
+
+Presently, it is not possible to style the logo that appears in the Manifold footer.
+
+### Typekit ID
+
+Manifold was designed to employ two TypeKit fonts throughout the app: `Sofia Pro` and `Freight Text`. If you have a valid Typekit account and enter your ID in this field, those two fonts will load for your readers.
+
+If you do not have a Typekit account, Manifold will defer to two sets of open-license alternatives that are included at installation: `Trueno` and `Aleo`.
 
 <a name="integrations"></a>
 ## Integrations
 
-`Integrations` is where you set up Facebook, Twitter, and Google integrations.
-OAuth allows users to use their existing Google, Facebook, or Twitter accounts to create an account on your instance. By configuring Google Drive and Analytics, you will unlock the ability to import texts from Google Docs into the Manifold reader, resources in bulk into existing projects, and get detailed analytics about reader use and interaction with your instance.
+The `Integrations` menu is where a publisher can set up Facebook, Twitter, and Google integrations.
+Configuring OAuth allows new users to create an account using their existing Google, Facebook, or Twitter accounts. By configuring Google Drive and Analytics, a publisher will unlock the ability to import texts from Google Docs into the Manifold reader, import resources in bulk into existing projects, and get detailed analytics about reader use and interaction with the Manifold instance.
 
-For a detailed walkthrough on how to setup these integrations, see the [External Services section](/docs/customizing/settings.html).
+For a detailed walkthrough on how to set up these integrations and record the appropriate information in the system, see the [External Services section](/docs/customizing/settings.html).
 
 <a name="subjects"></a>
 ## Subjects
 
-To add a subject, click `Add a Subject` and begin typing. If there are subjects already in the system, Manifold will provide suggestions to you that you can select; otherwise you can simply hit return (or enter) on your keyboard or click `Create New` in the field, and your subject will be created and assigned to the project. You can create and add as many subjects as needed for each project.
+The `Subjects` menu enables management of the subjects a publisher wishes to associate with the catalog of their projects. Here you can add new subjects to the system, search through existing subjects, modify subject titles, and delete unwanted subject categories.
 
-Click the `X` on the right side of a Subject entry to remove it from the project. Note that doing so will only remove the subject from the project.
-
-`SUBJECTS` enables management of the subjects generated by individual projects. Here you can search your subjects, modify subject titles, and delete unwanted subjects.
+To add a new subject to the system, click `Add a Subject` and begin typing. If there are subjects already in the system close to what you are typing, Manifold will populate those automatically for your review. Otherwise you can simply hit return (or enter) on your keyboard or click `Create New` in the field, and your subject will be created for other users to assign to projects as needed. You can create as many subjects as needed.
 
 ![Subjects](/docs/assets/customizing/subjects.png)
+
+To modify or delete a subject, click its name from the listing. Doing so will open a drawer from the right, making it's name visible and editable. If you want to delete the subject, click `Delete Subject` below the subject's name.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+See the <a href="/docs/projects/customizing/general.html#subjects">Customizing section</a> for instructions on how to associate subjects with a specific project.
+</div>
 
 <a name="email"></a>
 ## Email
 
-In the `Email` tab of the `Settings` menu, you can configure how Manifold will send email to users. Manifold supports sending mail via an external SMTP server or via a local Sendmail installation. To test your configuration, press the "send test email" button. Doing so will send a message to the email address on file for you user.
+In the `Email` tab of the `Settings` menu, you can configure how Manifold will send email to users. Manifold supports sending mail via an external SMTP server or via a local Sendmail installation. To test your configuration, press the "Send Test Email" button at the top of screen. Doing so will send a message to the email address on file for you user.
 
 In addition to setting up the email account, Manifold lets you customize your email closing.
