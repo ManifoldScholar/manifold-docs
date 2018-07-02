@@ -93,11 +93,16 @@ A publication date is required by the system to [generate citations](/docs/readi
 
 ### Subjects
 
+<<<<<<< HEAD
 Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library/index.html)).
+=======
+<a name="subjects"></a>
+***Subjects***. Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library/index.html)).
+>>>>>>> Updates Customizing section
 
-Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To do so, simply begin typing, and the system will populate those subjects in the system that most closely resemble what you are typing.
+Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing.
 
-To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/#subjects).
+To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings.html#subjects).
 
 ### Project Thumbnail
 
