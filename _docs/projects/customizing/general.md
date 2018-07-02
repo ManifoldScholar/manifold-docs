@@ -45,11 +45,12 @@ Determining when drafts are made public falls to the discretion of publishers. Y
 
 ***Hashtag***. This field is a means to suggest a hashtag to those interested in discussing a project in social media. Include the hashmark (#) with the tag, and it will appear in the lower left part of the header on the project's landing page. See the [Social](social.html) section for instruction on how to pull Tweets using the hashtag into the project's [activity](activity.html) feed.
 
+<a name="subjects"></a>
 ***Subjects***. Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library/index.html)).
 
-Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To do so, simply begin typing, and the system will populate those subjects in the system that most closely resemble what you are typing.
+Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing.
 
-To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/#subjects).
+To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings.html#subjects).
 
 ***Project Thumbnail***. This table allows you to modify or customize the avatar representing the project, which displays in the library on the landing page. If no custom avatar has been added to the system, the default icon—made up of eye glasses, a dialog bubble, and a pencil—shows in the left panel.
 
