@@ -54,10 +54,14 @@ Texts rendered in the reader have their own copyright footer. To edit how that r
 
 ### Social Sharing Message
 
-The message a publisher enters here will pre-populate the Twitter and Facebook pop-ups that users create when they share text from the reader.
+The message a publisher enters here will pre-populate the Twitter and Facebook pop-ups that users create when they share resources and collections through social media. The content of the message will be followed by a URL to the resource or collection in question.
+
+![Resource Share](/docs/assets/customizing/resource-share.png)
+
+![Collection Share](/docs/assets/customizing/collection-share.png)
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-See the <a href="/docs/reading/sharing.html">Sharing section</a> for more on how users can share texts through social media.
+See the <a href="/docs/reading/sharing.html">Sharing section</a> for how users can share texts in the reader through social media.
 </div>
 
 ### Twitter Account
