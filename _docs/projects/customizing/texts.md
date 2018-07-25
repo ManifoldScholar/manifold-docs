@@ -24,27 +24,17 @@ This section is portioned along the following themes:
 <a name="adding-texts"></a>
 ## Adding Texts to Projects
 
-To begin the process of adding a text to a project, click on the `Add a new text` button. When you do the system will overlay your screen with a modal menu labelled `Text Format`, which serves as a prompt to you for which file type you are going to load into the system. Your options are
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+The process detailed here speaks to the mechanics of adding an already prepared text into Manifold. Before proceeding, please read through the <a href="/docs/projects/preparing.html">Preparing Texts</a> section to ensure your materials are in a state acceptable for ingestion.
+</div>
 
-``` txt
-EPUB V2 or V3
-Markdown Document(s)
-Google Doc
-HTML Document
-```
+To begin the process of adding a text to a project, click on the `Add a new text` button. When you do, the system will overlay your screen with a modal menu allowing you to drag and drop a file onto the screen or select a file from your device using the file directory.
 
-Before adding a text, please read through the [Preparing Texts](/docs/projects/preparing.html) section to ensure your materials are in the necessary state for ingestion.
+![Upload Modal](/docs/assets/projects/upload-modal.png)
 
-### File Selection
+Alternatively, if the text you want to ingest is already being hosted remotely, you can designate the URL where Manifold can fetch it. For instance, the following is the URL to the Standard Ebooks Project's copy of Edwin A. Abbott's *Flatland*:
 
-Select the radio button for the file type you want to upload and then click `Continue`—or if you want to back away from an upload at this time, you can click the `Cancel` button.
-
-#### EPUB V2 or V3
-After you select the EPUB format, a new modal will show up giving you the option to upload your EPUB file from your machine. You can either drag and drop the file into the area with the cloud icon, or you can click `Upload a File`, which will open a file directory window, allowing you to navigate to the file's location on your machine. When you have done so the cloud icon will change to a document icon and the filename will appear beneath it.
-
-Alternatively, if your EPUB is already being hosted remotely, you can designate the URL where Manifold can fetch it. For instance, the following is the URL to the Standard Ebooks Project's copy of Edwin A. Abbott's *Flatland*:
-
-``` txt
+``` shell
 https://standardebooks.org/ebooks/edwin-a-abbott/flatland/dist/edwin-a-abbott_flatland.epub
 ```
 
@@ -52,52 +42,18 @@ Note that the link is not to the page where you can download the file, but inste
 
 Once you have selected a file or designated a URL, the `Continue` button will change from gray to green. Click it and a new modal will appear to analyze your file.
 
-<small>
-If you click the button and nothing happens, double check to make sure you have selected a valid file or URL.
-</small>
-
-#### Markdown Document(s)
-
-After you select the Markdown option, a new modal will open where you can either drag and drop your zipped Markdown collection into the area with the cloud icon, or you can click `Upload a File`, which will open a file directory window, allowing you to navigate to the file's location on your machine. When you have done so the cloud icon will change to a document icon and the filename will appear beneath it. Click the green `Continue` button in the lower right and proceed the file analysis step.
-
-#### Google Doc
-
-After you select Google Doc, a modal will appear prompting you to enter the URL of your document. Paste the shareable link (secured from URL bar of your browser or from the Share menu in Google) into the modal and click `Continue` and proceed to the file analysis step.
-
-#### HTML Document
-
-After you select the HTML option, a new modal will open where you can either drag and drop your zipped HTML collection into the area with the cloud icon, or you can click `Upload a File`, which will open a file directory window, allowing you to navigate to the file's location on your machine. When you have done so the cloud icon will change to a document icon and the filename will appear beneath it. Click the green `Continue` button in the lower right and proceed the file analysis step.
-
-### File Analysis
+### File Analysis and Ingestion
 
 The file analysis modal will review the file you've suggested for ingestion, with the following output:
 
-``` txt
+``` shell
 Current State: Sleeping
 Strategy: None
 Text ID: This ingestion will create a new text
 Log: Connecting to Manifold websocket...
 ```
 
-Click on the green `Analyze` button in the lower right to proceed. A process will run silently behind view, and the readout will change to the following:
-
-``` txt
-Current State: Analyzed
-Strategy: {file type selected earlier}
-Text ID: This ingestion will create a new text
-Log: Connecting to Manifold websocket...
-     Ingesting "{filename}"
-     Ingestor::Strategy::{file type}::Strategy can ingest? true
-     Using strategy Ingestor::Strategy::{file type}::Strategy
-```
-
-If you the second to last line finishes with `Strategy can ingest? true` you are ready to proceed. Click on the green `Ingest` button in the lower right.
-
-If the `Ingest` button does not turn green, there is a problem, and you can use the text in `Log` field when [reporting the error](/docs/index.html).
-
-### File Ingestion
-
-On the same modal your file way analyzed, Manifold will now ingest it. The `Current State` field will read `Processing`, and the log will stream text describing what the system is doing. If everything goes correctly, when the process is finished the `Current State` should say `Finished`, a hexadecimal value should be listed under the `Text ID`, and the last line of the log should read `Ingestion Complete`.
+Once the `Connecting to Manifold websocket` appears in the Log section of the modal, the `Ingest` button at the bottom right will turn green and the text can be ingested. When clicked Manifold will process your file. The `Current State` field will read `Processing`, and the log will stream text describing what the system is doing. If everything goes correctly, when the process is finished the `Current State` should say `Finished`, a hexadecimal value should be listed under the `Text ID`, and the last line of the log should read `Ingestion Complete`.
 
 If you get anything different from the log, [reach out for support](/docs/index.html).
 
@@ -179,6 +135,7 @@ There is also a separate sidebar menu item `Metadata` that will open a panel spe
 
 Through the `People` sidebar element you can add, remove, and modify Maker records associated with the text just as you could for the project generally. For details on that process, which is the same here, see the [People section](people.html).
 
+<a name="mod-styles"></a>
 ### Modifying an Ingested Text's Stylesheet
 
 The `Styles` sidebar menu allows users who are versed in CSS (cascading stylesheets) to modify how certain elements in their text render in the reader by adjusting an existing—or associating a new—CSS file with the text.
