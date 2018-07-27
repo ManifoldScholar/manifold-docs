@@ -105,6 +105,28 @@ You can also add a stylesheet after upload, in lieu of or in addition to any sty
 
 #### External Resources
 
+Authors can embed media assets, such as images, audio, and video into their content, referencing them in keeping with standard practice:
+
+##### Images
+
+Call-outs to images in the code can be formatted like this:
+
+``` md
+Some text.
+
+![Image Alt-Text](godzilla.jpg)
+
+Some more text.
+```
+
+The directory that would be compressed for upload would include the Markdown file, image file, and any associated stylesheet.
+
+![Markdown Image Asset](/docs/assets/projects/md-image.png)
+
+##### Audio and Video
+
+Markdown does not have specific syntax to embed audio or video content, but given it's relationship to HTML, author's can inject HTML code into a Markdown document and get the expected results. As such, by using the same coding as described in the HTML section below, authors can add [audio](#audio) and [video](#video), respectively.
+
 <a name="html"></a>
 ### HTML
 
@@ -176,12 +198,86 @@ Authors can embed media assets, such as images, audio, and video into their cont
 
 ##### Images
 
+Call-outs to images in the code can be formatted like this:
+
+``` html
+<p>Some text.</p>
+<img src="godzilla.jpg" alt="Alt-text for screen readers">
+<p>Some more text.</p>
+```
+
+The directory that would be compressed for upload would include the HTML, image file, and any associated stylesheet.
+
+![HTML Image Asset](/docs/assets/projects/html-image.png)
+
+<a name="audio"></a>
 ##### Audio
 
+Call-outs to embedded audio can be formatted like this in the code:
+
+``` html
+<p>Some text.</p>
+<audio controls>
+  <source src="sample.ogg" type="audio/ogg">
+  <source src="sample.mp3" type="audio/mpeg">
+Oops, it looks like your browser does not support
+this audio element.
+</audio>
+<p>Some more text.</p>
+```
+
+The text between the `<audio>` tags only renders if the reader's browser is unable to play the file. In this example the author has submitted two identical audio files to help protect against that possibility, as the browser automatically will play the first file it can. For more, see the [w3schools.com website](https://www.w3schools.com/html/html5_audio.asp).
+
+With this example, the directory to be compressed would include the HTML, the audio files, and any associated stylesheet, if there was one:
+
+![HTML Audio Asset](/docs/assets/projects/html-audio.png)
+
+<a name="video"></a>
 ##### Video
+
+Call-outs to embedded video can be formatted like this in the code:
+
+``` html
+<p>Some text.</p>
+<video controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.webm" type="video/webm">
+Oops, it looks like your browser does not support
+this video element.
+</video>
+<p>Some more text.</p>
+```
+
+The text between the `<video>` tags only renders if the reader's browser is unable to play the file. In this example the author has submitted two identical video files to help protect against that possibility, as the browser automatically will play the first file it can. For more, see the [w3schools.com website](https://www.w3schools.com/html/html5_video.asp).
+
+![HTML Video Asset](/docs/assets/projects/html-video.png)
 
 <a name="docx"></a>
 ### Word
+
+Word documents saved in the DOCX format can be ingested directly into Manifold and will render the following paragraph and character styles consistent with expectations:
+
+#### Supported Paragraph Styles
+
+- Title
+- Subtitle
+- Author
+- Date
+- Abstract
+- Headings 1–9
+- First Paragraph
+- Body Text
+- Block Text
+- Table Caption
+- Image Caption
+- Definition Term
+- Definition
+
+This also includes support with basic tables where the first row will be counted as column heads. Subsequent rows will appear as standard table data.
+
+#### Supported Character Styles
+
+
 
 <a name="tex"></a>
 ### LaTeX
