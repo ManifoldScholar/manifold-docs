@@ -13,10 +13,12 @@ The following metadata fields are made available through Manifold. The three col
 | Metadata Field           | [Project][1] | [Text][2] | [Resource][3] |
 |--------------------------|:------------:|:---------:|:-------------:|
 | Alt Text                 |              |           |       x       |
+| Author (see Creator)     |              |           |               |
 | Caption                  |              |           |       x       |
 | Container Title          |       x      |     x     |       x       |
+| Contributor              |       x      |     x     |               |
 | Copyright Status         |              |           |       x       |
-| Creator                  |              |           |       x       |
+| Creator                  |       x      |     x     |       x       |
 | Credit                   |              |           |       x       |
 | Description              |       x      |     x     |       x       |
 | DOI                      |       x      |     x     |       x       |
