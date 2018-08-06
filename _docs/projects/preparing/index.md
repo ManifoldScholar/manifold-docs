@@ -108,8 +108,8 @@ include all authors and contributors in the meta block.
 ### TOC Block
 
 - The TOC block allows users to name, order, and locate the source files for the system.
-- The input for the label field will appear in the Contents dropdown in the reader.
-- The `source_path` tells Manifold where to find the file: in the compressed archive or from a remote host.
+- The input for the `label` serves as the title of the text section and will appear in the Contents dropdown in the reader.
+- The `source_path` tells Manifold where to find the file: it's location in the compressed archive or from a remote host. If there are no folders within the archive being compressed then the location is simply the name of the file. If the file is nested in a folder, it would be `{folder-name}\{filename.extension}` or, for example `part1\chap_1.md`.
 - The `start_section` describes what part of the text the Manifold reader will open to. The field can only be used once and can be associated with any section. Thus a user can have the reader open to chapter 1 instead of, say, a preface.
 - The `children` tag allows users to nest content. This nesting will also be rendered as expected on the Contents dropdown. It is important that nested content be spaced in the file as shown above (with indents described by two spaces).
 
