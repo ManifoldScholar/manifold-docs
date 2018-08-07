@@ -31,12 +31,12 @@ The Contents menu is populated from the <code>toc.ncx</code> or <code>tox.xhtml<
 <a name="title-bar"></a>
 ## Title Bar
 
-The title bar alternates display of the title of the text (e.g., a book title) and the title of the active text section (e.g., a chapter title), if there are any.
+The title bar alternates display of the title of the text as a whole (e.g., a book title) and the title of the active text section (e.g., a chapter title) for documents that are structured (EPUBs and [Manifest uploads](/docs/projects/preparing/index.html#manifest)). When a single document is ingested alone, Manifold will assume the document title to be both the title as a whole and the text section title.
 
 ![Title Bar](/docs/assets/reading/title-bar.png)
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-See the <a href="/docs/projects/preparing/index.html">Preparing Texts section</a> for how to adjust what is displayed in the Title Bar for each of the different text types.
+See the <a href="/docs/projects/preparing/index.html">Preparing Texts section</a> for how to adjust what is displayed in the Title Bar.
 </div>
 
 <a name="tools"></a>

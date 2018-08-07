@@ -37,9 +37,24 @@ The document ingestion strategy allows a user to create a new text in Manifold f
 
 ![Document Strategy](/docs/assets/projects/strategy-doc.png)
 
-When using this method, the resulting Manifold text will have an empty Contents dropdown. It is not presently possibly to create a table of contents that references specific sections of a single document.
+When using this method, the resulting Manifold text will have an empty Contents dropdown (excepting EPUB ingestions). It is not presently possibly to create a table of contents that references specific sections of a single document.
 
 ![Unstructured Document](/docs/assets/projects/unstructured.png)
+
+The title of the document will automatically populate the [`Title` field](/docs/projects/customizing/texts.html#managing-texts) in the backend and display in the reader's [title bar](/docs/reading/interface.html#title-bar). The title bar alternates between the title of the text and the title of the active section (e.g., book title versus chapter title) for structured documents. For unstructured documents, the system will assume the title supplied during ingest to be both the title of the text and the title of the active section. If a backend user adjusts the [`Title`](/docs/projects/customizing/texts.html#managing-texts) field after ingest, the title that was initially supplied will remain as the text section title, and the newly input title will serve as the text title.
+
+The following table scopes out the source of the text title for each of the available ingestible file types when uploaded as a single document:
+
+| Source File             | Text Title Source                                |
+|-------------------------|--------------------------------------------------|
+| EPUB<sup>a</sup>        | The `dc:title` element in the `content.opf` file |
+| Markdown                | [Metadata Header](md.html#md-sdu)                |
+| HTML                    | [Metadata Header](html.html#html-sdu)            |
+| Google Doc              | Title of the document                            |
+| Word                    | Paragraph styled as `Title`                      |
+| LaTeX                   | —                                                |
+
+<sup>a</sup>EPUBs can only be ingested using the Document strategy but are themselves self-contained structured documents. As such the system will be able to ascertain the title of the individual text sections based off the metadata provided within the EPUB.
 
 <a name="manifest"></a>
 ### Manifest
@@ -48,12 +63,12 @@ A Manifest upload can be composed of a collection of one file type or a mixture 
 
 ![Manifest Strategy](/docs/assets/projects/strategy-manifest.png)
 
-When the various source documents have been prepared [according to the requirements of their format](#formats), users should compress (or zip) all of the documents—**along with the required YAML file described below**—into a single archive, which can then be uploaded into Manifold.
+When the various source documents have been prepared [according to the requirements of their format](#formats), users should compress (or zip) all of the documents—**along with the required YAML file described below**—into a single archive, which can then be uploaded into Manifold. The structure of YAML file will be represented on the reader's [contents dropdown](/docs/reading/interface.html#contents), and its content will inform what is displayed on the [title bar](/docs/reading/interface.html#title-bar). See the YAML section following for details.
 
 <a name="yml"></a>
 ## YAML File
 
-In order for Manifold to properly ingest multiple source documents at once, the system requires a YAML file to be included along with any source documents in the compressed archive that will be loaded into the system.
+In order for Manifold to properly ingest multiple source documents at once, the system requires a YAML file to be included along with them in the compressed archive that will be loaded into the system.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 In cases where there are no source documents to upload (e.g., if you are creating a text from multiple Google Docs) then only the YAML file needs to be loaded. When uploaded alone, the YAML file does not need to be compressed or zipped.
@@ -99,6 +114,7 @@ toc:
 ### Meta Block
 
 - The meta block allows users to describe the text that is being created as a whole.
+- The title field in the meta block will be understood by Manifold as being the title of the text as whole.
 - Authors (creators) and contributors cannot be assigned to specific sections within the text being created; instead
 include all authors and contributors in the meta block.
 - Other than creators and contributors, fields can only have one input, as shown here.
@@ -108,10 +124,10 @@ include all authors and contributors in the meta block.
 ### TOC Block
 
 - The TOC block allows users to name, order, and locate the source files for the system.
-- The input for the `label` serves as the title of the text section and will appear in the Contents dropdown in the reader.
+- The input for the `label` serves as the title of the text section and will appear in both the [contents dropdown](/docs/reading/interface.html#contents) in the reader as well as on the [title bar](/docs/reading/interface.html#title-bar).
 - The `source_path` tells Manifold where to find the file: it's location in the compressed archive or from a remote host. If there are no folders within the archive being compressed then the location is simply the name of the file. If the file is nested in a folder, it would be `{folder-name}\{filename.extension}` or, for example `part1\chap_1.md`.
 - The `start_section` describes what part of the text the Manifold reader will open to. The field can only be used once and can be associated with any section. Thus a user can have the reader open to chapter 1 instead of, say, a preface.
-- The `children` tag allows users to nest content. This nesting will also be rendered as expected on the Contents dropdown. It is important that nested content be spaced in the file as shown above (with indents described by two spaces).
+- The `children` tag allows users to nest content. This nesting will also be rendered as expected on the Contents dropdown. It is important that nested content be spaced as is shown in the sample above, with each level of nesting described by an indent of two spaces). Manifold can render nesting up to three levels in the contents dropdown.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 In order to be properly processed by the system, the YAML file has to be titled <code>manifest.yml</code>.
