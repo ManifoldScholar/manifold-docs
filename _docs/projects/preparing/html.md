@@ -19,14 +19,17 @@ If submitting a single HTML file for ingestion, authors can include within the `
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title of the Text Section</title>
+<!-- The title block immediately below this line
+is only used by the system if the metadata title element
+<meta name="dc.title" content="title">
+is not included below. -->
+    <title>Title of the Text</title>
     <meta charset="UTF-8">
 
 <!-- This is how the Metadata Elements are structured in HTML.
 Authors need only adjust what appears within the quote marks
 following the content attribute. The title information in the
-metadata section supersedes the title in the <title> tags above
-in display elements on the platform.-->
+metadata section supersedes the title in the <title> tag above. -->
     <meta name="dc.date" content="2016-01-15">
     <meta name="dc.title" content="title">
     <meta name="dc.language" content="language">

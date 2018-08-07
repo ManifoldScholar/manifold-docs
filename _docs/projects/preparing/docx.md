@@ -14,7 +14,7 @@ Word documents saved in the DOCX format can be ingested directly into Manifold a
 Apply paragraph styles in Word by using the Style pane in the Ribbon or shortcuts on the Ribbon itself. The following links redirect to the appropriate instruction page on Microsoft's Word support site.
 
 - [Title](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
-    - Only one per document
+    - Only one per document. The content of the paragraph applied with this style will appear in the reader's [title bar](/docs/reading/interface.html#title-bar).
 - [Subtitle](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
     - Only one per document
 - [Author](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
