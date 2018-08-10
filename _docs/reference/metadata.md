@@ -10,42 +10,42 @@ The following metadata fields are made available through Manifold. The three col
 
 `Project`-level metadata describes a project in its entirety, whereas `Text`- and `Resource`-level metadata describes specific materials within a project.
 
-| Metadata Field           | [Project][1] | [Text][2] | [Resource][3] |
-|--------------------------|:------------:|:---------:|:-------------:|
-| Alt Text                 |              |           |       x       |
-| Caption                  |              |           |       x       |
-| Container Title          |       x      |     x     |       x       |
-| Copyright Status         |              |           |       x       |
-| Creator                  |              |           |       x       |
-| Credit                   |              |           |       x       |
-| Description              |       x      |     x     |       x       |
-| DOI                      |       x      |     x     |       x       |
-| Edition                  |       x      |     x     |       x       |
-| Fingerprint              |              |           |       x       |
-| ISBN                     |       x      |     x     |       x       |
-| ISSN                     |       x      |     x     |       x       |
-| Issue                    |       x      |     x     |       x       |
-| Language                 |              |     x     |               |
-| Original Publisher       |       x      |     x     |       x       |
-| Original Publisher Place |       x      |     x     |       x       |
-| Original Title           |       x      |     x     |       x       |
-| Publication Date         |       x      |     x     |               |
-| Publisher                |       x      |     x     |       x       |
-| Publisher Place          |       x      |     x     |       x       |
-| Resources DOI            |       x      |           |               |
-| Restrictions             |       x      |     x     |       x       |
-| Rights                   |       x      |     x     |       x       |
-| Rights Holder            |       x      |     x     |       x       |
-| Rights Territory         |       x      |     x     |       x       |
-| Series Number            |       x      |     x     |       x       |
-| Series Title             |       x      |     x     |       x       |
-| Slug                     |       x      |           |       x       |
-| Subtitle                 |       x      |           |               |
-| Tags                     |              |           |       x       |
-| Title                    |       x      |     x     |       x       |
-| Unique Identifier        |              |     x     |               |
-| Version                  |       x      |     x     |       x       |
-| Volume                   |       x      |     x     |       x       |
+| Metadata Field           | [Project][1] | [Text][2] | [Resource][3] | [Collection][4]             |
+|--------------------------|:------------:|:---------:|:-------------:|:---------------------------:|
+| Alt Text                 |              |           |       x       |                             |
+| Caption                  |              |           |       x       |                             |
+| Container Title          |       x      |     x     |       x       |                             |
+| Copyright Status         |              |           |       x       |                             |
+| Creator                  |              |           |       x       |                             |
+| Credit                   |              |           |       x       |                             |
+| Description              |       x      |     x     |       x       |              x              |
+| DOI                      |       x      |     x     |       x       |                             |
+| Edition                  |       x      |     x     |       x       |                             |
+| ISBN                     |       x      |     x     |       x       |                             |
+| ISSN                     |       x      |     x     |       x       |                             |
+| Issue                    |       x      |     x     |       x       |                             |
+| Language                 |              |     x     |               |                             |
+| Original Publisher       |       x      |     x     |       x       |                             |
+| Original Publisher Place |       x      |     x     |       x       |                             |
+| Original Title           |       x      |     x     |       x       |                             |
+| Publication Date         |       x      |     x     |               |                             |
+| Publisher                |       x      |     x     |       x       |                             |
+| Publisher Place          |       x      |     x     |       x       |                             |
+| Resources DOI            |              |           |               |        x<sup>a</sup>        |
+| Restrictions             |       x      |     x     |       x       |                             |
+| Rights                   |       x      |     x     |       x       |                             |
+| Rights Holder            |       x      |     x     |       x       |                             |
+| Rights Territory         |       x      |     x     |       x       |                             |
+| Series Number            |       x      |     x     |       x       |                             |
+| Series Title             |       x      |     x     |       x       |                             |
+| Subtitle                 |       x      |           |               |                             |
+| Tags                     |              |           |       x       |                             |
+| Title                    |       x      |     x     |       x       |              x              |
+| Unique Identifier        |              |     x     |               |                             |
+| Version                  |       x      |     x     |       x       |                             |
+| Volume                   |       x      |     x     |       x       |                             |
+
+<sup>a</sup>The Resources DOI applies to project's entire library of resources, not sub-collections created and curated by users.
 
 <a name="descriptions"></a>
 ## Metadata Field Descriptions
@@ -78,9 +78,9 @@ If you have a resource that has been assigned an ISBN, it can be included in the
 
 If you have a resource that has been assigned an ISSN, it can be included in the [Resource metadata](/docs/projects/customizing/resources.html) section.
 
-**DOI**. A digital object identifier can be entered for projects, generally, and all resources associated with it.
+**DOI**. A digital object identifier can be entered for projects, generally, individual texts within projects, a project's library of resources as a whole (see `Resources DOI` below), as well as for individual resources.
 
-**Resources DOI**. This field is specific to the DOI for the collection of all resources contained within a project.
+**Resources DOI**. This field is specific to the DOI for the library of all resources contained within a project. There is no presently no way to assign DOIs to smaller collections, created and curated by users.
 
 **Unique Identifier**. An internal ID that describes the material in question within an instance.
 
@@ -140,6 +140,41 @@ For resources, the `Description` is an opportunity to translate the visual to th
 
 **Tags**. Tags group and relate media to one another and can server as a mean to navigate among like materials.
 
+## Metadata Display on Manifold
+
+Manifold displays metadata in line with the the scope of the material, as follows:
+
+### Project Metadata
+
+Metadata assigned to a project as a whole is displayed in the About blade at the bottom of the project homepage.
+
+![Project Metadata](/docs/assets/reference/project-metadata.png)
+
+### Text Metadata
+
+Metadata associated to specific texts within a project is displayed on a modal screen accessed by the `Contents` dropdown.
+
+![Contents Dropdown](/docs/assets/reference/contents.png)
+
+![Text Metadata](/docs/assets/reference/text-metadata.png)
+
+### Resource Metadata
+
+Metadata for Resources is displayed in two spaces: on the resource preview modal (accessed by clicking a resource thumbnail in the Manifold reader) and on the resource homepage.
+
+![Resource Modal](/docs/assets/reference/resource-modal.png)
+
+![Resource Homepage](/docs/assets/reference/resource.png)
+
+The `Resources DOI` field, which describes a DOI assigned to a project's entire library of resources displays on a project's Resource Library Page.
+
+![Resources DOI](/docs/assets/reference/project-resources-doi.png)
+
+### Collection Metadata
+
+Resource Collections, beside having a title and description, which display on the collection's homepage, don't hold any metadata.
+
 [1]: /docs/projects/customizing/metadata.html
 [2]: /docs/projects/customizing/texts.html#managing-texts
 [3]: /docs/projects/customizing/resources.html
+[4]: /docs/projects/customizing/collections.html
