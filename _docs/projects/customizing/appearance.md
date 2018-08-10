@@ -60,16 +60,6 @@ The default value for this field is `0.00`.
 
 This is a metadata field that allows you to describe the currency with which the purchase price is associated (e.g., USD for US Dollars or AUD for Australian Dollars). A full list of ISO 4217 currency codes can be [found here](http://www.xe.com/iso4217.php).
 
-## Twitter Username
-
-This field allows you to associate a Twitter account with the project—an author's or one created specifically for the project. Enter the Twitter username (with *or* without the `@` sign) and a link to the Twitter account, in the form a Twitter bird icon, will appear over the lower left of the Hero image, below the project description.
-
-Tweets from this account will not automatically appear in the Recent Activity pane on the project's landing page. But that functionality is possible through the settings in the [Social section](social.html).
-
-## Instagram Username
-
-This field allows you to associate an Instagram account with the project—an author's or one created specifically for the project. Enter the Instagram username (*without* the `@` sign) and a link to the Instagram account, in the form of the Instagram icon, will appear over the lower left of the Hero image, below the project description and beside the Twitter icon, if present.
-
 ## Hide Project Activity
 
 This slider provides an option to remove the `Recent Activity` blade from the project landing page in the front end.
@@ -77,7 +67,3 @@ This slider provides an option to remove the `Recent Activity` blade from the pr
 ![Activity Feed](/docs/assets/projects/activity-feed.png)
 
 This can be used by those publishers whose projects don't warrant an `Recent Activity` section or who don't want to curate what appears in the section. For more about manually adjusting `Recent Activity` blade, see the [Activity section](activity.html).
-
-## Project Thumbnail
-
-For information about changing the project thumbnail (visible in the `Projects Library`), see the [General section](/docs/projects/customizing/general.html).

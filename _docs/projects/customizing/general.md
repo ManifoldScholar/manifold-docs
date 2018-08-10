@@ -9,39 +9,95 @@ The General category provides controls for the most top-level elements for how a
 
 ## Title
 
-***Title***. Use this field to update the project title, which displays on the project library and landing pages, as well as associated navigation menus. This field cannot be left empty.
+### Title
 
-***Subtitle***. Use this field to add or update the project subtitle, which displays alongside the primary title. This field is not required.
+Use this field to update the project title, which displays on the project library and landing pages, as well as associated navigation menus. This field cannot be left empty.
+
+### Subtitle
+
+Use this field to add or update the project subtitle, which displays alongside the primary title. This field is not required.
+
+### Slug
+
+A URL slug describes the exact address of a project on a Manifold instance. In the following example, `the-lab-book` is the slug for a project of the same name on the University of Minnesota Press's instance. The system will automatically create a slug for each new project based on the project title. You can use this field you can adjust the slug as needed.
+
+```html
+https://manifold.umn.edu/project/the-lab-book
+```
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Adjusting the project slug will affect the URLs for resources that are a part of the project. Manifold will automatically resolve these for links within the system, but if you have shared a URL to a resource outside of Manifold it will need to be updated; otherwise, readers clicking the old link will be directed to a 404 Error Page.
+</div>
+
+***Slug***. A URL slug describes the exact address of a project on a Manifold instance. In the following example, `the-lab-book` is the slug for a project of the same name on the University of Minnesota Press's instance. The system will automatically create a slug for each new project based on the project title. You can use this field you can adjust the slug as needed.
+
+ ```html
+ https://manifold.umn.edu/project/the-lab-book
+ ```
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Adjusting the project slug will affect the URLs for resources that are a part of the project. Manifold will automatically resolve these for links within the system, but if you have shared a URL to a resource outside of Manifold it will need to be updated; otherwise, readers clicking the old link will be directed to a 404 Error Page.
+</div>
 
 ## Visibility
 
-***Draft Mode***. For use when wanting to load and edit a project and its materials before publishing it for a broad readership. When toggled on, projects are only visible to users logged in with Administrator, Editor, or Marketeer roles—and to Project Creators on projects where they have `Can Modify Project` permissions. New projects are set to Draft Mode by default, and Draft status is denoted in the project library, as well as on the project landing page.
+### Draft Mode
+
+For use when wanting to load and edit a project and its materials before publishing it for a broad readership. When toggled on, projects are only visible to users logged in with Administrator, Editor, or Marketeer roles—and to Project Creators on projects where they have `Can Modify Project` permissions. New projects are set to Draft Mode by default, and Draft status is denoted in the project library, as well as on the project landing page.
 
 When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on Twitter will only work for those who also have permission to access the project and are logged in. All annotations, comments, and highlights will persist with the project's text when Draft Mode is toggled off.
 
 Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](texts.html#published-texts), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
 
-***Featured***. Featured projects take pride of place on the home page in a section of the library all of their own. Only four projects display in this section at a time. If more than four projects are toggled to be featured, only the four most recent will show. By default, new projects are *not* set to be featured.
+### Featured
+
+Featured projects take pride of place on the home page in a section of the library all of their own. Only four projects display in this section at a time. If more than four projects are toggled to be featured, only the four most recent will show. By default, new projects are *not* set to be featured.
+
+## Social
+
+### Hashtag
+
+This field is a means to suggest a hashtag to those interested in discussing a project in social media. Include the hashmark (`#`) with the tag, and it will appear in the lower left part of the header on the project's landing page. See the [Social](social.html) section for instruction on how to pull Tweets using the hashtag into the project's [activity](activity.html) feed.
+
+### Facebook ID
+
+This field allows you to associate a Facebook account with the project. Enter the Facebook username (*without* the `@` sign) or the numeric ID associated with the account, and a link the Facebook account, in the form of the Facebook `f` icon, will appear over the lower left of the Hero image.
+
+### Twitter ID
+
+This field allows you to associate a Twitter account with the project. Enter the Twitter username (with *or* without the `@` sign) and a link to the Twitter account, in the form a Twitter bird icon, will appear over the lower left of the Hero image.
+
+Tweets from this account will not automatically appear in the Recent Activity pane on the project's landing page. But that functionality is possible through the settings in the [Social section](social.html).
+
+### Instagram ID
+
+This field allows you to associate an Instagram account with the project. Enter the Instagram username (*without* the `@` sign) and a link to the Instagram account, in the form of the Instagram icon, will appear over the lower left of the Hero image.
 
 ## Other
 
-***Publisher***. The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/interface/sharing.html)). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](texts.html).
+### Publisher
+
+The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/interface/sharing.html). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](texts.html).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. This field is also repeated in the <a href="metadata.html">Metadata</a> section: they are linked together, and changes to one will be reflected in the other. This field is surfaced in two places because of its importance.
 </div>
 
-***Publication Date***. A publication date is required by the system to [generate citations](/docs/reading/interface/sharing.html)). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
+### Publication Date
 
-***Hashtag***. This field is a means to suggest a hashtag to those interested in discussing a project in social media. Include the hashmark (#) with the tag, and it will appear in the lower left part of the header on the project's landing page. See the [Social](social.html) section for instruction on how to pull Tweets using the hashtag into the project's [activity](activity.html) feed.
+A publication date is required by the system to [generate citations](/docs/reading/interface/sharing.html)). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
 
-***Subjects***. Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library/index.html)).
+### Subjects
 
-Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To do so, simply begin typing, and the system will populate those subjects in the system that most closely resemble what you are typing.
+Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library/index.html)).
 
-To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/#subjects).
+Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing.
 
-***Project Thumbnail***. This table allows you to modify or customize the avatar representing the project, which displays in the library on the landing page. If no custom avatar has been added to the system, the default icon—made up of eye glasses, a dialog bubble, and a pencil—shows in the left panel.
+To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings.html#subjects).
+
+### Project Thumbnail
+
+This table allows you to modify or customize the avatar representing the project, which displays in the library on the landing page. If no custom avatar has been added to the system, the default icon—made up of eye glasses, a dialog bubble, and a pencil—shows in the left panel.
 
 You can adjust the color of the default icon by selecting from one of the six preset options in the middle panel labelled `Default`.
 

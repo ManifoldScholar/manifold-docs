@@ -47,6 +47,7 @@ The following metadata fields are made available through Manifold. The three col
 
 <sup>a</sup>The Resources DOI applies to project's entire library of resources, not sub-collections created and curated by users.
 
+<a name="descriptions"></a>
 ## Metadata Field Descriptions
 
 This section groups all the metadata fields available in Manifold by general category with descriptions on how to approach them, depending on the kinds of materials they are referring.
@@ -131,7 +132,11 @@ For resources, the `Description` is an opportunity to translate the visual to th
 
 **Copyright Status**. A means to describe where this material falls in the copyright landscape (e.g., Public Domain, Fair Use, In Copyright, Unknown)
 
+**Fingerprint**. A resource fingerprint is a unique ID that allows a user to reimport the same spreadsheet and update the corresponding resources—instead of creating duplicate resources. This guards against changes to titles and filenames. If a user does not define a fingerprint at upload, the system will automatically create one and populate the field.
+
 **Language**. Describes the primary language of which the text is composed in, using the ISO 639-1 abbreviations.
+
+**Slug**. The slug is the last part of the URL that identifies a specific page (or element) on a Manifold instance. For example: `https://{instance-domain}/project/{project-slug}/resource/{resource-slug}`
 
 **Tags**. Tags group and relate media to one another and can server as a mean to navigate among like materials.
 

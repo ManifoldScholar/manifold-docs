@@ -116,14 +116,14 @@ From the Resource page you can search through all resources that have been added
 | N/A                      | N/A                       | created_at<sup>a</sup>            |
 | Caption                  | Caption                   | caption                           |
 | Description              | Description               | description                       |
-| Fingerprint              | N/A                       | fingerprint                       |
+| Fingerprint              | Fingerprint               | fingerprint                       |
 | URL                      | Link URL                  | external_url                      |
 | URL                      | iFrame URL                | external_url                      |
 | Video ID                 | Video ID                  | external_id                       |
 | Host Name                | External Video Type       | external_type                     |
 | Allow Download?          | Allow Download?           | allow_download                    |
 | Sub Kind                 | Externally Linked Video?  | sub_kind                          |
-| N/A                      | N/A                       | slug<sup>b</sup>                  |
+| Slug                     | Slug                      | slug                 |
 | Minimum Width            | Minimum Width             | minimum_width                     |
 | Minimum Height           | Minimum Height            | minimum_height                    |
 | Tags                     | Tags                      | tag_list                          |
@@ -168,5 +168,4 @@ From the Resource page you can search through all resources that have been added
 | Transcript               | —                         | —                                 |
 | Translation              | —                         | —                                 |
 
-<sup>a</sup>This field is automatically populated by the system and cannot be changed manually.  
-<sup>b</sup>This field is not presently exposed in the backend.
+<sup>a</sup>This field is automatically populated by the system and cannot be changed manually.
