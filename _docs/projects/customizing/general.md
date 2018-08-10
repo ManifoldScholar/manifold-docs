@@ -29,6 +29,16 @@ https://manifold.umn.edu/project/the-lab-book
 <strong>Note</strong>. Adjusting the project slug will affect the URLs for resources that are a part of the project. Manifold will automatically resolve these for links within the system, but if you have shared a URL to a resource outside of Manifold it will need to be updated; otherwise, readers clicking the old link will be directed to a 404 Error Page.
 </div>
 
+***Slug***. A URL slug describes the exact address of a project on a Manifold instance. In the following example, `the-lab-book` is the slug for a project of the same name on the University of Minnesota Press's instance. The system will automatically create a slug for each new project based on the project title. You can use this field you can adjust the slug as needed.
+
+ ```html
+ https://manifold.umn.edu/project/the-lab-book
+ ```
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Adjusting the project slug will affect the URLs for resources that are a part of the project. Manifold will automatically resolve these for links within the system, but if you have shared a URL to a resource outside of Manifold it will need to be updated; otherwise, readers clicking the old link will be directed to a 404 Error Page.
+</div>
+
 ## Visibility
 
 ### Draft Mode
@@ -81,9 +91,9 @@ A publication date is required by the system to [generate citations](/docs/readi
 
 Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library/index.html)).
 
-Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To do so, simply begin typing, and the system will populate those subjects in the system that most closely resemble what you are typing.
+Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing.
 
-To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/#subjects).
+To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings.html#subjects).
 
 ### Project Thumbnail
 
