@@ -11,6 +11,7 @@ To create or modify new projects, accounts, global content, and system settings,
 
 The backend is available by default to users with the following roles: `Administrator`, `Editor`, `Project Creator`, and `Marketeer`. The backend is also available to `Readers` who have been granted permissions to do so. For more details, see the [User Accounts](accounts/users.html) and [Permissions](customizing/permissions.html) sections.
 
+<a name="accessing"></a>
 ## Accessing the Backend
 
 To access the backend, first log in with your existing Manifold account credentials. If you are an `Administrator`, `Editor`, `Project Creator`, or `Marketeer` you will see a button labelled `Admin Mode` appear to the left of your user avatar after you are logged in:

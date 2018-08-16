@@ -106,10 +106,14 @@ At this point you have all you need to be able to [load your resource into Manif
 <a name="resource-fields"></a>
 ### Resource Fields and Metadata
 
+For detailed descriptions of these fields, please refer to the [Metadata](/docs/reference/metadata.html#descriptions) section.
+
 | Sidebar   | Field                    | Image | Video             | Audio | File | Link | PDF | Document | Spreadsheet | Presentation | Interactive |
 |-----------|--------------------------|:-----:|:-----------------:|:-----:|:----:|:----:|:---:|:--------:|:-----------:|:------------:|:-----------:|
 | General   | Kind                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Title                    | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
+| General   | Fingerprint              | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
+| General   | Slug                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Tags                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Description              | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Caption                  | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
