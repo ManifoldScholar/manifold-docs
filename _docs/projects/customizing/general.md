@@ -29,16 +29,6 @@ https://manifold.umn.edu/project/the-lab-book
 <strong>Note</strong>. Adjusting the project slug will affect the URLs for resources that are a part of the project. Manifold will automatically resolve these for links within the system, but if you have shared a URL to a resource outside of Manifold it will need to be updated; otherwise, readers clicking the old link will be directed to a 404 Error Page.
 </div>
 
-***Slug***. A URL slug describes the exact address of a project on a Manifold instance. In the following example, `the-lab-book` is the slug for a project of the same name on the University of Minnesota Press's instance. The system will automatically create a slug for each new project based on the project title. You can use this field you can adjust the slug as needed.
-
- ```html
- https://manifold.umn.edu/project/the-lab-book
- ```
-
-<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. Adjusting the project slug will affect the URLs for resources that are a part of the project. Manifold will automatically resolve these for links within the system, but if you have shared a URL to a resource outside of Manifold it will need to be updated; otherwise, readers clicking the old link will be directed to a 404 Error Page.
-</div>
-
 ## Visibility
 
 ### Draft Mode
@@ -74,14 +64,6 @@ Tweets from this account will not automatically appear in the Recent Activity pa
 This field allows you to associate an Instagram account with the project. Enter the Instagram username (*without* the `@` sign) and a link to the Instagram account, in the form of the Instagram icon, will appear over the lower left of the Hero image.
 
 ## Other
-
-### Publisher
-
-The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/interface/sharing.html). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](texts.html).
-
-<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. This field is also repeated in the <a href="metadata.html">Metadata</a> section: they are linked together, and changes to one will be reflected in the other. This field is surfaced in two places because of its importance.
-</div>
 
 ### Publication Date
 

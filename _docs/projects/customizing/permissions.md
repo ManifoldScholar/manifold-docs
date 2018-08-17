@@ -30,7 +30,7 @@ Grants user the ability to make any change within the scope of the backend proje
 
 When this option is selected the title `Project Editor` will be appended next to the user's name.
 
-### Can Modify Metadata
+### Can Modify Resource Metadata
 
 Grants users the ability to update resource metadata. This permission will be most useful to bestow on support staff who can directly flesh out the information that support a project's resources.
 
