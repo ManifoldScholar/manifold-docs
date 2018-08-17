@@ -19,9 +19,13 @@ Marketeers will be able to see and update all items on any project within an ins
 
 ## Navigating the Backend Project Page
 
-The project page is divided between a header, sidebar, and editing panel. You will navigate the project page by clicking on different sidebar menu items, which, in turn, will change the options you are presented in the editing panel.
+The project page is divided between a header, sidebar, and editing panel. You will navigate the project page by clicking on different sidebar menu items, which, in turn, will change the options you are presented in the editing panel. Displayed here is a sample project where the user has selected Text from the sidebar, changing the editing panel to options specific to that category.
 
-The header will remain consistent wherever you navigate on the page and displays the title and subtitle of the project you are currently editing, with options to Preview or Delete it.
+![Project Page Parts](/docs/assets/projects/project-page-parts.png)
+
+The header displays the title and subtitle of the project you are currently editing, with options to Preview or Delete it. When you navigate into a text or resource the header will adjust accordingly, displaying the title of the text or resource as appropriate with the same options to Preview or Delete, as well as providing a backlink to return back to the project page. The example below shows the view if the user from above clicked on the “Contextualizing Sir Arthur Conan Doyle” text.
+
+![Project Nav](/docs/assets/projects/project-nav.png)
 
 ## Previewing a Project
 

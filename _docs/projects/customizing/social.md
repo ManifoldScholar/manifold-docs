@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Social
+title: Social Integrations
 menus:
   projects_customizing:
     weight: 10
@@ -10,9 +10,9 @@ menus:
 Every hour Manifold will fetch up to 60 tweets for each of a project's Twitter Queries.
 
 A Twitter Query is composed of the following characteristics:
-- `Query` A string of parameters as specified in the [Twitter search operators](https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators).
-- `Results Type` The types of tweets to return.  Allowed types are "most recent" and "most popular".
-- `Active` Specifies whether Manifold should fetch tweets for the Query.  Manifold will skip the query if `active` is set to `false`.
+- **Query**. A string of parameters as specified in the [Twitter search operators](https://developer.twitter.com/en/docs/tweets/search/guides/standard-operators).
+- **Results Type**. The types of tweets to return.  Allowed types are "most recent" and "most popular".
+- **Active**. Specifies whether Manifold should fetch tweets for the Query.  Manifold will skip the query if `active` is set to `false`.
 
 ### Managing Queries
 Twitter Query details are accessed from the drawer, which opens when a query is clicked in the Twitter Queries section.

@@ -28,9 +28,9 @@ This section is portioned along the following themes:
 The process detailed here speaks to the mechanics of adding an already prepared text into Manifold. Before proceeding, please read through the <a href="/docs/projects/preparing.html">Preparing Texts</a> section to ensure your materials are in a state acceptable for ingestion.
 </div>
 
-To begin the process of adding a text to a project, click on the `Add a new text` button. When you do, the system will overlay your screen with a modal menu allowing you to drag and drop a file onto the screen or select a file from your device using the file directory.
+To begin the process of adding a text to a project, click on the `Add a new text` button. When you do, a drawer will open from the rights, allowing you to drag and drop a file onto the screen or select a file from your device using the file directory.
 
-![Upload Modal](/docs/assets/projects/upload-modal.png)
+![Upload Drawer](/docs/assets/projects/upload-drawer.png)
 
 Alternatively, if the text you want to ingest is already being hosted remotely, you can designate the URL where Manifold can fetch it. For instance, the following is the URL to the Standard Ebooks Project's copy of Edwin A. Abbott's *Flatland*:
 
@@ -40,7 +40,7 @@ https://standardebooks.org/ebooks/edwin-a-abbott/flatland/dist/edwin-a-abbott_fl
 
 Note that the link is not to the page where you can download the file, but instead a direct link to the file itself.
 
-Once you have selected a file or designated a URL, the `Continue` button will change from gray to green. Click it and a new modal will appear to analyze your file.
+Once you have selected a file or designated a URL, the `Continue` button will change from gray to green when the system is ready to proceed. Click it and the drawer will change to a file analysis state.
 
 ### File Analysis and Ingestion
 
@@ -53,7 +53,7 @@ Text ID: This ingestion will create a new text
 Log: Connecting to Manifold websocket...
 ```
 
-Once the `Connecting to Manifold websocket` appears in the Log section of the modal, the `Ingest` button at the bottom right will turn green and the text can be ingested. When clicked Manifold will process your file. The `Current State` field will read `Processing`, and the log will stream text describing what the system is doing. If everything goes correctly, when the process is finished the `Current State` should say `Finished`, a hexadecimal value should be listed under the `Text ID`, and the last line of the log should read `Ingestion Complete`.
+Once the `Connecting to Manifold websocket` appears in the Log section, the `Ingest` button at the bottom right will turn green and the text can be ingested. When clicked Manifold will process your file. The `Current State` field will read `Processing`, and the log will stream details of what the system is doing. If everything goes correctly, when the process is finished the `Current State` should say `Finished`, a hexadecimal value should be listed under the `Text ID`, and the last line of the log should read `Ingestion Complete`.
 
 If you get anything different from the log, [reach out for support](/docs/index.html).
 
@@ -117,26 +117,28 @@ If the title is for sale, then a link to the online shopping cart and the purcha
 
 After a text has been ingested, you can modify its metadata, which Maker records are associated with it, update how its constituent elements render in the reader, and also re-ingest its source file to accommodate any minor changes that may have been required after the initial ingest.
 
-To edit a text, click on it's name or the `Edit` button, right of the name, in the category listing. From there you will be taken to the text landing page:
+To edit a text, click on it's name or the `Edit` button, right of the name, in the category listing. From there you will be taken to the text landing page with its own unique sidebar:
 
 ![Text Landing](/docs/assets/projects/text-landing.png)
 
-### Modifying a Text's Metadata
+### General
 
 When you access the text landing page in the backend, you'll arrive first on the text's `General` panel where you can adjust it's `Title`, `Publication Date`, `Description`, and the `Section Label` that displays in the reader.
 
 The content entered in the `Title` and `Description` fields are included when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Facebook).
 
-`Section Label` refers to the navigation header that appear at the bottom of a unit of text. By default the header reads `Next Chapter`. Below the header is the name of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
+`Section Label` refers to the navigation header that appears at the bottom of a unit of text. By default the header reads `Next Chapter`. Below that header is the title of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
 
-There is also a separate sidebar menu item `Metadata` that will open a panel specific to metadata associated with a particular text. See the [Reference](/docs/reference/metadata.html) section for a list and description of all the metadata fields available for texts.
-
-### Associating Maker Records with a Text
+### People
 
 Through the `People` sidebar element you can add, remove, and modify Maker records associated with the text just as you could for the project generally. For details on that process, which is the same here, see the [People section](people.html).
 
+### Metadata
+
+In addition to the basic metadata available through `General` sidebar element, there is also a separate menu (`Metadata`) that allows users to modify a robust set of metadata elements associated with a particular text. See the [Reference](/docs/reference/metadata.html) section for a list and description of all the fields available for texts.
+
 <a name="mod-styles"></a>
-### Modifying an Ingested Text's Stylesheet
+### Styles
 
 The `Styles` sidebar menu allows users who are versed in CSS (cascading stylesheets) to modify how certain elements in their text render in the reader by adjusting an existing—or associating a new—CSS file with the text.
 
@@ -156,7 +158,7 @@ To override styles in the source document, create a new stylesheet and move it t
 
 After you save your stylesheet, the `Validated Styles` pane will populate with the translation of your rules specific to the platform. This output is read-only and cannot be modified by a user.
 
-### Reingesting a Text
+### Reingest
 
 If you have modified your source document—the document(s) you originally uploaded into the system—after it has already been ingested, you can use the reingestion process to replace the existing text with the new version.
 

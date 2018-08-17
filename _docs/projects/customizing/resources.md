@@ -59,11 +59,15 @@ Videos can be uploaded directly into Manifold or they can be streamed from YouTu
 
 `Video ID` describes the unique identifier in the URL bar that is associated with the video in question. On YouTube it will appear after `watch?v=` and before any string beginning with an ampersand `&`. In the following, the `Video ID` would be `3yfYetkMLPM`:
 
-`https://www.youtube.com/watch?v=3yfYetkMLPM`
+``` html
+https://www.youtube.com/watch?v=3yfYetkMLPM
+```
 
 On Vimeo the `Video ID` is the number following `vimeo.com/`. In this example, the `Video ID` would be `249096229`:
 
-`https://vimeo.com/249096229`
+``` html
+https://vimeo.com/249096229
+```
 
 The `External Video Type` field is a dropdown used to select which service the video is hosted on: YouTube or Vimeo.
 
@@ -86,7 +90,7 @@ You will also need to save all your resources in a Google Drive folder with perm
 
 Once your sheet is filled out (and saved as a CSV) and your resources saved to Google, click `Bulk Add Resources` to add a collection of resources in one step.
 
-You will be taken to a screen where you can load your CSV file or provide the URL to a shared Google Sheet under the `Step 1: Upload` heading. Under the `Step 2: Describe Data` you should select from the dropdown the row number where your column headings appear (select `2` for the Manifold Resource Log) and then enter ID for the Google Drive folder where your resources are saved. The ID is the last part of the URL for your Google Drive folder after `https://drive.google.com/drive/folders/`.
+You will be taken to a screen where you can load your CSV file or provide the URL to a shared Google Sheet under the `Step 1: Upload` heading. Below the `Step 2: Describe Data` you should select from the dropdown the row number where your column headings appear (select `2` for the Manifold Resource Log) and then enter ID for the Google Drive folder where your resources are saved. The ID is the last part of the URL for your Google Drive folder after `https://drive.google.com/drive/folders/`.
 
 When you click continue you'll be taken to `Step 3: Map Columns to Resource Attributes`. The column on the left side lists the column headers found in your spreadsheet. The column on the right lists the attributes that can be set on Manifold resources. Drag the attributes on the right to the corresponding columns on the left. The [Resource Import Matrix](#resource-import) below serves as a map between those columns.
 

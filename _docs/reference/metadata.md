@@ -127,7 +127,7 @@ If you have a resource that has been assigned an ISSN, it can be included in the
 
 ### Publisher
 
-**Publisher**. The name of the press or unit guiding and disseminating the material.
+**Publisher**. The name of the press or unit guiding and disseminating the material. Publisher information is also used to [generate citations](/docs/reading/interface/sharing.html).
 
 **Publisher Place**. The geographical location of the publisher
 
