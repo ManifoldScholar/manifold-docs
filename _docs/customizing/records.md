@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Contents
+title: Records
 menus:
   customizing:
-    title: Contents
+    title: Records
     weight: 1
 ---
 
