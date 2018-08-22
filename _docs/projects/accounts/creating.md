@@ -15,7 +15,7 @@ User accounts can be created by new visitors to a Manifold instance by clicking 
 
 ### From the Backend
 
-To create a new User account in the backend, navigate to the People menu, select `Users` from the sidebar, and click `Add a New User` below the search bar:
+To create a new User account in the backend, navigate to the Records menu, select `Users` from the submenu, and click `Add a New User` below the search bar:
 
 ![New User](/docs/assets/projects/new-user.png)
 
@@ -29,23 +29,25 @@ When you click `Save User` the new account will be created, and the details, inc
 
 ## Creating a Maker Record
 
-Maker accounts can be associated with a project generally and also with specific texts. For the latter, Maker accounts are created automatically by the system when a text is ingested, populated by author metadata included within those texts. If your text doesn't have the requisite metadata, Maker accounts can be created manually by users with Administrative, Editor, or Project Creator credentials in both the People and Projects menus.
+Maker accounts can be associated with a project generally and also with specific texts. For the latter, Maker accounts are created automatically by the system when a text is ingested, populated by author metadata included within those texts. If your text doesn't have the requisite metadata, Maker accounts can be created manually by users with Administrative, Editor, or Project Creator credentials in both the Records and Projects menus.
 
 Project-level Makers are displayed on a project's landing banner. Text-level Makers aren't displayed on the system but are incorporated into a text's metadata and are required to [create citations](/docs/reading/interface/sharing.html).
 
-<small>
-**Note**. There is only one Maker record database. While you can create a Maker record on either the project or text levels, the record will be available in both places. That is, if you create a record for H. G. Wells on the Project level, you will also be able to call upon that same record on the text level and vice-versa.
-</small>
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. There is only one Maker record database. While you can create a Maker record on either the project or text levels, the record will be available in both places. That is, if you create a record for H. G. Wells on the Project level, you will also be able to call upon that same record on the text level and vice-versa.
+</div>
 
 ### New General Maker Record
 
-To create a new Maker record from the People menu that is unassociated with a project or text, navigate to the People menu, select `Makers` from the sidebar, and click `Add a New Maker` below the search bar.
+To create a new Maker record from the Records menu that is unassociated with a project or text, navigate to the Records menu, select `Makers` from the submenu, and click `Add a New Maker` below the search bar.
 
 If there are no existing Makers in the system, this button will appear alone; otherwise it will always appear as the first entry. A drawer will open up from the right prompting for the Makers's name and avatar.
 
+![New Maker General](/docs/assets/projects/new-maker-records.png)
+
 ### New Project-Level Maker Records
 
-Under the Projects menu, select `People` from the sidebar. If any Maker records are already associated with the Project they will appear here under the `Authors` or `Contributors` headings. (For a rundown on the differences between Authors and Contributors see the [Customizing section](/docs/projects/customizing/people.html))
+Under the Projects menu, choose the project you want to modify, and then select `People` from the sidebar. If any Maker records are already associated with the project they will appear here under the `Authors` or `Contributors` headings. (For a rundown on the differences between Authors and Contributors see the [Customizing section](/docs/projects/customizing/people.html))
 
 ![New Maker](/docs/assets/projects/new-maker.png)
 
@@ -60,3 +62,5 @@ When you do, a drawer will open from the right allowing you to adjust the Maker'
 ### New Text-Level Maker Records
 
 The method to create a text-level Maker record is exactly the same as for the project-level Maker. The difference is simply one of location: to create a Maker on the text level, select `Texts` from the sidebar under Projects, and click on the text to which you wish to add a Maker record. When you click on the text a new, shorter sidebar will appear. Click on `People` and follow the same steps from above.
+
+![New Text-Level Maker](/docs/assets/projects/new-maker-text.png)

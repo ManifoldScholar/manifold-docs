@@ -10,10 +10,12 @@ The Appearance section of the project page controls the bulk of the display elem
 
 ![Landing Appearance](/docs/assets/projects/landing-appearance.png)
 
+<a name="description"></a>
 ## Description
 
 This field holds a brief description of the project as a whole. Recommended length would range from three to five sentences. Text entered here can be formatted with [basic Markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 
+<a name="hero"></a>
 ## Hero Image
 
 The hero image displays as a banner across the top of the project landing page and sits behind all the other elements described in this section.

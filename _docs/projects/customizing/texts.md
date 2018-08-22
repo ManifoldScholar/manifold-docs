@@ -10,7 +10,7 @@ The Texts panel will be one that users will often interact with, as this is the 
 
 For new projects—or projects that haven't yet ingested a text—the panel is composed of two buttons (`Add a new text` and `Create a new category`) and two category sections (`Published` and `Uncategorized`).
 
-![Texts Panel](/docs/assets/projects/texts-panel.png)
+![Texts Panel](/docs/assets/installing/texts.png)
 
 When texts are added to a project they will be oriented in the `Uncategorized` section. New, custom, category sections can be added as required to suit the needs of a project.
 
@@ -25,12 +25,12 @@ This section is portioned along the following themes:
 ## Adding Texts to Projects
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-The process detailed here speaks to the mechanics of adding an already prepared text into Manifold. Before proceeding, please read through the <a href="/docs/projects/preparing.html">Preparing Texts</a> section to ensure your materials are in a state acceptable for ingestion.
+The process detailed here speaks to the mechanics of adding an already prepared text into Manifold. Before proceeding, please read through the <a href="/docs/projects/preparing/index.html">Preparing Texts</a> section to ensure your materials are in a state acceptable for ingestion.
 </div>
 
 To begin the process of adding a text to a project, click on the `Add a new text` button. When you do, a drawer will open from the rights, allowing you to drag and drop a file onto the screen or select a file from your device using the file directory.
 
-![Upload Drawer](/docs/assets/projects/upload-drawer.png)
+![Upload Drawer](/docs/assets/installing/ingestion-one.png)
 
 Alternatively, if the text you want to ingest is already being hosted remotely, you can designate the URL where Manifold can fetch it. For instance, the following is the URL to the Standard Ebooks Project's copy of Edwin A. Abbott's *Flatland*:
 
@@ -44,7 +44,7 @@ Once you have selected a file or designated a URL, the `Continue` button will ch
 
 ### File Analysis and Ingestion
 
-The file analysis modal will review the file you've suggested for ingestion, with the following output:
+Manifold will review the file you've suggested for ingestion, with the following output:
 
 ``` shell
 Current State: Sleeping
@@ -66,7 +66,7 @@ Congratulations! Your text is now in Manifold!
 
 Categories are a means to group and label texts in the system. By default there are two fixed categories: `Published` and `Uncategorized`.
 
-To move a text from one category to another, simply click on the up/down arrows to the right of the category name.
+To move a text from one category to another, simply click on the up/down arrows to the right of the text name.
 
 A text in the `Published` category receives distinct treatment considered in the following section, `Published Texts`.
 
@@ -78,7 +78,7 @@ A text in the `Published` category receives distinct treatment considered in the
 
 If your project requires grouping texts in distinct clusters, or if you simply wish to indicate what state the text being presented is in (e.g., First Draft, Peer-Reviewed, etc.) you can create a custom category that will support those ends.
 
-To create a custom category click on the `Create a new category` button, and a modal will appear asking you to name it. Click `Create Category`, and the new section will appear in both the front- and backend interfaces:
+To create a custom category click on the `Create a new category` button, and a drawer will open from the right asking you to name it. Click `Create Category`, and the new section will appear in both the front- and backend interfaces:
 
 ![Backend Categories](/docs/assets/projects/backend-categories.png)
 
@@ -101,7 +101,7 @@ Moving a text from `Uncategorized` or a custom category to `Published`, indicate
 
 Because of its nature, this category can only accept one text at a time.
 
-When you move a text into this section, the [cover image](/docs/projects/customizing/appearance.html) will automatically show on the banner image, along with a `Start Reading` reading button and, if the document contains internal structuring, a link to view the titles contents.
+When you move a text into this section, the [cover image](/docs/projects/customizing/appearance.html) will automatically show on the banner image, along with a `Start Reading` reading button and, if the document contains internal structuring, a link to view the title's contents.
 
 ![Published Hero](/docs/assets/projects/published-hero.png)
 

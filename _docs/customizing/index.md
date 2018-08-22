@@ -9,7 +9,7 @@ menus:
 
 Once you have installed Manifold, you may want to adjust your instance to represent your organization more specifically. From the backend, you can use the `Contents` and `Settings` menus to access various options for customizing the appearance of and adding information to your instance:
 
-## [Contents](contents.html)
+## [Records](records.html)
 
 * [Pages](contents.html#pages). Used for creating content pages (e.g., About, Privacy Policy).
 * [Features](contents.html#features). Where the featured content banner at the head of the homepage can be adjusted.

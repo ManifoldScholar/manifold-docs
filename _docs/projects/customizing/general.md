@@ -77,6 +77,7 @@ Subjects can only be created by users with Administrator roles. All other roles 
 
 To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings.html#subjects).
 
+<a name="thumbnail"></a>
 ### Project Thumbnail
 
 This table allows you to modify or customize the avatar representing the project, which displays in the library on the landing page. If no custom avatar has been added to the system, the default icon—made up of eye glasses, a dialog bubble, and a pencil—shows in the left panel.
