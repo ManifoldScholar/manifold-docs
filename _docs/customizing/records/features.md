@@ -1,53 +1,34 @@
 ---
 layout: page
-title: Records
+title: Features
 menus:
-  customizing:
-    title: Records
-    weight: 1
+  records:
+    weight: 2
 ---
-
-The `Contents` menu is composed of two sections, `Pages` and `Features`, that allow you to control the look of the header section on the homepage and create custom pages, which you can use to relate the nature, history, or policies that inform your instance.
-
-<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-Only those with Administrator, Editor, or Marketeer credentials are able to access this menu in the backend. For more on the roles available in Manifold, see the <a href="/docs/projects/accounts/index.html">Accounts section</a>.
-</div>
-
-![Pages](/docs/assets/customizing/pages1.png)
-
-<a name="pages"></a>
-## Pages
-
-Pages can be used to offer content related to your Manifold installation. For example, you might create an “About” page in the header. Or, you could setup links to a privacy policy or terms of service in the footer.
-
-From the `Pages` sidebar menu you have only one option: `Add a New Page`. When you choose to create a page, you will have to provide a name for the page in the `Page Title` field. You can also customize the page's slug. If you do not provide a slug, the system will automatically create one on your behalf.
-
-<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-For more on URL slugs, see the <a href="/docs/projects/customizing/general.html">Customizing section</a>.
-</div>
-
-Once you have input this information and clicked `Save Page`, you will land on the page's `General` settings, with options to manage visibility of your page and choose, by way of slider dials, whether you would like a link to the page to appear in the navigation bars in the header, footer, or to hide the link to the page entirely. You can also adjust the page's title, slug, and navigation title. For instance, you might title your page `About`, but the navigation title might read `About Us`.
-
-![Pages](/docs/assets/customizing/page_general.png)
-
-The `Body` sidebar menu opens a field where you can input the content of your page. This field allows content to be formatted in accordance with [GitHub-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
-
-When adding a page, you will see menu options to `Preview` or `Delete` the page in question. If you select `Delete`, the system will be prompt you to confirm before it is deleted.
-
-<a name="features"></a>
-## Features
 
 The `Features` sections provides controls to customize the featured content area at the top of the home page.
 
 ![Featured Content](/docs/assets/customizing/featured-content.png)
 
-From the main Features page you can edit existing features (the Welcome to Manifold default feature is included with all new installs) or add news ones. To edit an existing feature, click on its name or the `Edit` button to the right, and by clicking the `Add Features` button, you can create new featured content elements.
+From the main Features page you can edit existing features (the Welcome to Manifold default feature is included with all new installs) or add news ones. To edit an existing feature, click on its name, or click the `Create a new feature` button to create a new featured content block.
 
-The various fields available to new and existing features are described in detail here. Note that all display text fields are enabled for Markdown formatting.
+![Features Menu](/docs/assets/customizing/features.png)
 
-### Feature Preview
+The various fields available to new and existing features are described in detail here.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. All the display text fields discussed in this section are enabled for Markdown formatting.
+</div>
+
+## Feature Preview
 
 The Feature Preview isn't an editable field. Instead it allows users to get a sense of how the settings they input in the following will render. Elements concerning the Foreground, Background, and Markdown syntax will not appear in the preview until the feature is saved.
+
+## General
+
+### Published
+
+The Published slider determines if a feature is promoted to the home page. Toggling a slider on for one feature will not toggle it off for other features. To ensure the feature you want live is enabled, toggle this field on here and off for all other features.
 
 ### Header
 

@@ -7,12 +7,14 @@ menus:
     weight: 3
 ---
 
-Once you have installed Manifold, you may want to adjust your instance to represent your organization more specifically. From the backend, you can use the `Contents` and `Settings` menus to access various options for customizing the appearance of and adding information to your instance:
+Once you have installed Manifold, you may want to adjust your instance to represent your organization more specifically. From the backend, you can use the `Records` and `Settings` menus to access various options for customizing the appearance of and adding information to your instance:
 
 ## [Records](records.html)
 
-* [Pages](contents.html#pages). Used for creating content pages (e.g., About, Privacy Policy).
-* [Features](contents.html#features). Where the featured content banner at the head of the homepage can be adjusted.
+* [Makers](/docs/projects/accounts/makers.html). Used to create records of those who have created or authored project materials. See the [Accounts and Roles](/docs/projects/accounts/index.html) section for more details.
+* [Users](/docs/projects/accounts/users.html). Used to create accounts for those who will read and actively engage with materials on Manifold. See the [Accounts and Roles](/docs/projects/accounts/index.html) section for more details.
+* [Pages](records.html#pages). Used for creating content pages (e.g., About, Privacy Policy).
+* [Features](records.html#features). Where the featured content banner at the head of the homepage can be adjusted.
 
 ## [Settings](settings.html)
 

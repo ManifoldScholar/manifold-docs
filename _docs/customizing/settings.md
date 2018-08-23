@@ -9,6 +9,14 @@ menus:
 
 The Settings menu allows users to manage the language and look of their instance in the online app, browser tabs, and on forms that users will interact with. This is also the space where users can integrate their instance with Facebook, Twitter, and Google.
 
+The section is divided among four submenus:
+
+- [General](#general)
+- [Theme](#theme)
+- [Integrations](#integrations)
+- [Subjects](#subjects)
+- [Email](#email)
+
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 Only those with Administrator credentials are able to access this menu in the backend. For more on the roles available in Manifold, see the <a href="/docs/projects/accounts/index.html">Accounts section</a>.
 </div>
@@ -16,9 +24,9 @@ Only those with Administrator credentials are able to access this menu in the ba
 ![Settings](/docs/assets/customizing/admin_settings.png)
 
 <a name="general"></a>
-## General
+## General Settings
 
-Selecting the `Settings` tab in admin mode will bring you to the `General` Settings. Here, you will have the option to change how you wish to refer to you Manifold installation. There are various places throughout the application where Manifold refers to itself. If you set a value here, Manifold will use it where appropriate.
+Selecting the `Settings` menu in admin mode will bring you to the `General` settings submenu. Here, you will have the option to change how you wish to refer to you Manifold installation. There are various places throughout the application where Manifold refers to itself. If you set a value here, Manifold will use it where appropriate.
 
 ### How Do You Refer to Your Manifold Installation?
 
@@ -87,7 +95,7 @@ If your institution has a terms and conditions document that you'd like to share
 If your terms exists as a Manifold Page created in the [Contents menu](contents.html#pages) you need only enter here the slug you created for that page. Otherwise, if your terms exist on a page outside of this Manifold instance, you'll need to include the full URL.
 
 <a name="theme"></a>
-## Theme
+## Theme Settings
 
 The fields contained in the `Theme` section allow a publisher to replace the default Manifold icon with their own branded logo.
 
@@ -121,20 +129,21 @@ If you do not have a Typekit account, Manifold will defer to two sets of open-li
 ## Integrations
 
 The `Integrations` menu is where a publisher can set up Facebook, Twitter, and Google integrations.
+
 Configuring OAuth allows new users to create an account using their existing Google, Facebook, or Twitter accounts. By configuring Google Drive and Analytics, a publisher will unlock the ability to import texts from Google Docs into the Manifold reader, import resources in bulk into existing projects, and get detailed analytics about reader use and interaction with the Manifold instance.
 
-For a detailed walkthrough on how to set up these integrations and record the appropriate information in the system, see the [External Services section](/docs/customizing/settings.html).
+For a detailed walkthrough on how to set up these integrations and record the appropriate information in the system, see the [External Services section](/docs/customizing/external_services/index.html).
 
 <a name="subjects"></a>
-## Subjects
+## Project Subjects
 
 The `Subjects` menu enables management of the subjects a publisher wishes to associate with the catalog of their projects. Here you can add new subjects to the system, search through existing subjects, modify subject titles, and delete unwanted subject categories.
 
-To add a new subject to the system, click `Add a Subject` and begin typing. If there are subjects already in the system close to what you are typing, Manifold will populate those automatically for your review. Otherwise you can simply hit return (or enter) on your keyboard or click `Create New` in the field, and your subject will be created for other users to assign to projects as needed. You can create as many subjects as needed.
+To add a new subject to the system, click `Add a Subject`. A drawer will open from the right allowing you to name the new category. If the name you select is already in the system, Manifold will alert you. Otherwise you can simply hit return (or enter) on your keyboard or click `Save and Continue`, and your subject will be created for other users to assign to projects as needed. You can create as many subjects as needed.
 
 ![Subjects](/docs/assets/customizing/subjects.png)
 
-To modify or delete a subject, click its name from the listing. Doing so will open a drawer from the right, making it's name visible and editable. If you want to delete the subject, click `Delete Subject` below the subject's name.
+To modify or delete a subject, click its name from the listing to access its drawer for editing. If you want to delete the subject, click `Delete Subject` below the subject's name.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 See the <a href="/docs/projects/customizing/general.html#subjects">Customizing section</a> for instructions on how to associate subjects with a specific project.
@@ -143,6 +152,6 @@ See the <a href="/docs/projects/customizing/general.html#subjects">Customizing s
 <a name="email"></a>
 ## Email
 
-In the `Email` tab of the `Settings` menu, you can configure how Manifold will send email to users. Manifold supports sending mail via an external SMTP server or via a local Sendmail installation. To test your configuration, press the "Send Test Email" button at the top of screen. Doing so will send a message to the email address on file for you user.
+In the `Email` submenu, you can configure how Manifold will send email to users. Manifold supports sending mail via an external SMTP server or via a local Sendmail installation. To test your configuration, press the "Send Test Email" button at the top of screen. Doing so will send a message to the email address on file for you user.
 
 In addition to setting up the email account, Manifold lets you customize your email closing.
