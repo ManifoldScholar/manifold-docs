@@ -19,3 +19,13 @@ Building upon the open-access model, the publisher, and author load Resources on
 ## Iterative
 
 The most radical of the three options, iterative projects are published as they are written in accordance with the editorial standards of the publisher, building to a final version of record (VOR) whose online version is congruent with any printed works that result from the project. Texts-in-process can be clearly labelled to readers as drafts, with the term to be defined however the publisher thinks best: without peer review, copy editing, proofreading, or some combination of the like. Note that project iterations need not be exclusively text-based: adding new media Resources and expounding upon them with associated Texts or through robust metadata may be as important to a project as an original Text may be.
+
+## Coming Soon
+In conjunction with those listed above, in late 2018/early 2019 we will be adding support for more project types that will allow users to better customize the platform to meet their publishing needs. When ready, projects will able to be differentiated and crafted along the following lines:
+
+- Simple Book
+- Enhanced Book
+- Journal or Collection from single or multiple sources
+- OER or Teaching Resource
+- Report or Handbook
+- Resource Only

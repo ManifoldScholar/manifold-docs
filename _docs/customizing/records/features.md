@@ -28,7 +28,7 @@ The Feature Preview isn't an editable field. Instead it allows users to get a se
 
 ### Published
 
-The Published slider determines if a feature is promoted to the home page. Toggling a slider on for one feature will not toggle it off for other features. To ensure the feature you want live is enabled, toggle this field on here and off for all other features.
+The Published slider determines if a feature is promoted to the home page. Toggling a slider on for one feature will not toggle it off for other features. Instead, Manifold will select a random feature from among the published features and show it on the home page. A new random feature will be selected every time the home page loads. Toggle this field off for those features you don't want to be active.
 
 ### Header
 
