@@ -7,7 +7,8 @@ menu:
     weight: 4
 ---
 
-{% assign release = site.data.releases.debian[site.data.current.version] %}
+{% assign release = site.data.install_instructions.release %}
+{% assign os = site.data.install_instructions.os %}
 
 {% include installation/notice.md %}
 
