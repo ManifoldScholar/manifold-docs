@@ -131,4 +131,9 @@
     border: 1px solid $gray03;
   }
 
+  .copy-technical {
+    @include fontTechnical;
+    font-size: 14px;
+  }
+
 }

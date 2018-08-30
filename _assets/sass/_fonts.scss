@@ -10,6 +10,10 @@
   font-family: 'freight-text-pro', serif;
 }
 
+@mixin fontTechnical {
+  font-family: 'courier', serif;
+}
+
 @mixin fontHead {
   font-family: 'sofia-pro', sans-serif;
 }
