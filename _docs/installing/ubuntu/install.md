@@ -7,15 +7,16 @@ menu:
     weight: 1
 ---
 
-{% assign release = site.data.releases.debian[site.data.current.version] %}
+{% assign release = site.data.install_instructions.release %}
+{% assign os = site.data.install_instructions.os %}
 
 {% include installation/notice.md %}
 
-The following instructions have only been tested on Ubuntu 16 hosts. Your mileage will almost certainly vary if you attempt to install Manifold on a different linux distribution.
+The following instructions have only been tested on {{os}} hosts. Your mileage will almost certainly vary if you attempt to install Manifold on a different linux distribution.
 
 ## Installation Prerequisites
 
-1. Manifold should be installed on a virtual or physical server with at least 1 CPU and 4 GB of RAM<sup>[1](#note-1)</sup>. We've had good luck installing Manifold on [Google Cloud Compute instances](https://cloud.google.com/compute/docs/instances/), [AWS EC2 instances](https://aws.amazon.com/ec2/instance-types/), and [Digital Ocean droplets](https://www.digitalocean.com/).
+1. Manifold should be installed on a virtual or physical server with at least 1 CPU and 4 GB of RAM (6GB preferred).<sup>[1](#note-1)</sup> We've had good luck installing Manifold on [Google Cloud Compute instances](https://cloud.google.com/compute/docs/instances/), [AWS EC2 instances](https://aws.amazon.com/ec2/instance-types/), and [Digital Ocean droplets](https://www.digitalocean.com/).
 
 2. You will need to have root access to the server and the ability to shell into the server.
 
@@ -55,13 +56,12 @@ If everything looks good, [proceed to the next step](/docs/installing/ubuntu/bac
 ### Notes
 
 <small>
-<a name="note-1"></a><sup>1</sup> We advise against attempting to install Manifold in a shared hosting environment for security and stability reasons. We're working on coming up with a distribution of Manifold that requires less RAM. If your environment has less than 4 GB of RAM, it's possible that Elastic Search will  not start correctly.
+<a name="note-1"></a><sup>1</sup> We advise against attempting to install Manifold in a shared hosting environment for security and stability reasons. Manifold consists of a number of distinct services, each of which requires RAM to function correctly. On a small VM with 4GB of RAM or less, you will likely need to enable swap memory or risk consuming all available memory.
 </small>
 
-{% include pagination.html 
-	prev_label="Previous step: Install on Ubuntu" 
-	prev_url="index.html" 
-	next_label="Next step: Access the Backend" 
-	next_url="backend.html" 
+{% include pagination.html
+	prev_label="Previous step: Install on Ubuntu"
+	prev_url="index.html"
+	next_label="Next step: Access the Backend"
+	next_url="backend.html"
 %}
-
