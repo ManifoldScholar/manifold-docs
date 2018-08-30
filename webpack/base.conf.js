@@ -12,7 +12,7 @@ var ManifestPlugin = require('webpack-manifest-plugin');
 // Configuration
 // --------------------
 const projectRoot = path.resolve(__dirname, "../");
-const devServerPort = 8080;
+const devServerPort = 8085;
 const isProduction = process.env.NODE_ENV === "production";
 
 // Filename is always hashed, but can be branched here if need
@@ -50,7 +50,7 @@ if (isProduction) {
 } else {
   assetManifestConfig = {
     writeToFileEmit: true,
-    publicPath: "http://127.0.0.1:8080/docs-assets/"
+    publicPath: "http://127.0.0.1:8085/docs-assets/"
   }
 }
 const assetManifest = new ManifestPlugin(assetManifestConfig);
