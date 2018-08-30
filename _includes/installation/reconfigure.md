@@ -1,0 +1,3 @@
+The package installer creates a file at `/etc/manifold/manifold.rb`. Use this file to configure and manage the various services that Manifold is composed of. After changing this file, you'll need to run `sudo manifold-ctl reconfigure` from the command line so that Manifold picks up the changes and regenerates various configuration files based on the new settings.
+
+For now, let's just make sure Manifold is on the right domain. Open `/etc/manifold/manifold.rb` in your preferred text editor (nano, vi, etc.) and look for the `external_url` setting near the top of the file. Set this to the fully qualified domain name of your Manifold installation, then reconfigure Manifold:

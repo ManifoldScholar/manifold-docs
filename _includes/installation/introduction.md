@@ -2,8 +2,8 @@
 Welcome! We're glad you've decided to try out Manifold. In this quick tutorial, you will:
 
 1. {{ include.step_one }}
-2. [Create an admin user and login to the backend](/docs/installing/ubuntu/backend.html)
-3. [Create your first project and upload a text](/docs/installing/ubuntu/project.html)
+2. [Create an admin user and login to the backend](/docs/installing/post_install/backend.html)
+3. [Create your first project and upload a text](/docs/installing/post_install/project.html)
 
 ### Skills and Experience
 

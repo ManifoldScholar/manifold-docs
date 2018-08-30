@@ -1,18 +1,17 @@
 ---
 layout: page
-title: "Upgrading from Debian Packages"
+title: "Upgrading from CentOS Packages"
 menu:
-  installation_ubuntu:
+  installation_centos:
     title: "Upgrades"
     weight: 4
 ---
 
-{% assign ubuntu_18_release = site.data.releases.ubuntu18[0] %}
-
+{% assign centos_7_release = site.data.releases.centos7[0] %}
 
 {% include installation/notice.md %}
 
-The following instructions assume that you installed Manifold from a .deb file, and are updating that installation.
+The following instructions assume that you installed Manifold from a .rpm file, and are updating that installation.
 
 ### 1. Download the most recent package
 
@@ -20,16 +19,14 @@ Shell into the server as root and download the most recent package.
 
 ``` shell
 cd ~
-curl -O {{ ubuntu_18_release.url }}
+curl -O {{ centos_7_release.url }}
 ```
 
 ### 2. Install the Package
 
 ``` shell
-dpkg -i {{ ubuntu_18_release.basename }}
+rpm -ivh {{ centos_7_release.basename }}
 ```
-
-Because it contains all dependencies, the omnibus package is rather large. Updating with `dpkg` will take a fair amount of time, so be patient and let the installer run.
 
 ### 3. Stop services and reconfigure
 

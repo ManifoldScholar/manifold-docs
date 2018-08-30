@@ -1,4 +1,18 @@
 {
+"centos7": {
+"2.0.0-rc.1": {
+"build_version": "2.0.0-rc.1",
+"build_git_revision": "4e3e5ebc6d25d292e14ee2b8dcbad302e1e1c2b8",
+"basename": "manifold-2.0.0~rc.1-1.el7.x86_64.rpm",
+"sha1": "edbddd117b1421fc2bc9613f2422c58e3c2227e7",
+"sha256": "2baaa0ac318aab824237f13577a44527e5e5dea1ee17376453d89e4f150dbbf4",
+"sha512": "abb468ed02328bd66d8b5224e405a35c495fc371f363487791394883c8110f78c4def89e0231a80a72ccc0b6493477909f2056842df135f530cb80f74aff4632",
+"platform": "el",
+"platform_version": "7",
+"arch": "x86_64",
+"url": "https://storage.googleapis.com/manifold-dist/centos7/manifold-2.0.0~rc.1-1.el7.x86_64.rpm"
+}
+},
 "ubuntu16": {
 "0.3.3": {
 "build_version": "0.3.3",
@@ -122,11 +136,11 @@
 },
 "2.0.0-rc.1": {
 "build_version": "2.0.0-rc.1",
-"build_git_revision": "06b9290f90bcc3c09e8c5b4c0662da4da32f553e",
+"build_git_revision": "4e3e5ebc6d25d292e14ee2b8dcbad302e1e1c2b8",
 "basename": "manifold_2.0.0~rc.1-1_amd64.deb",
-"sha1": "1b39b91bc766f841ca5707c9a5bc9c823fb4fce9",
-"sha256": "167eced530acc2151bb5e07d21533fbab6a5c892303bda2c73bc23a8f944c8aa",
-"sha512": "121c6b51055ed9be3d0d3438933aa8851d0712d9e1cc2da89e50be32578665680560b81eec1037364e9b67c94a1e13245b35800e7752b04daa7e2bf0bd2b0384",
+"sha1": "e735d1a6d231f2e0d86ab2b7a82b1cadf716bdf9",
+"sha256": "4bad2e89be6e10af261e2ec212ee777f65eed7845caa19a95a995e6394ad082c",
+"sha512": "739e6670c3dde742fe949c645e0249d05ebade9b7a6cd8e2b98fe8a65962ba6465d91afa4eeb65b13abae77d2b9d8f01f1d996634d898a84027e747da27de66e",
 "platform": "ubuntu",
 "platform_version": "16.04",
 "arch": "x86_64",
@@ -136,11 +150,11 @@
 "ubuntu18": {
 "2.0.0-rc.1": {
 "build_version": "2.0.0-rc.1",
-"build_git_revision": "06b9290f90bcc3c09e8c5b4c0662da4da32f553e",
+"build_git_revision": "4e3e5ebc6d25d292e14ee2b8dcbad302e1e1c2b8",
 "basename": "manifold_2.0.0~rc.1-1_amd64.deb",
-"sha1": "3d531e85f0e3d9580ae4a22bbd3fa3e756f8c13d",
-"sha256": "fdbd11dff84e4156643de0d8b8508ce2323fc3ed1a78b6bdf56a5ff8b5abf00e",
-"sha512": "f3a0bb28866a734e3214ad58220f7e98ef0721d39e1fd8a92dc6b1ff4db806399ac3dde946628fec16ab82bcf0812ea58f9ff14245fc5ef7faadfb2d89b23334",
+"sha1": "bc71cb51c4f640324520c29360c01cf1ddecb1d5",
+"sha256": "adf173150e11dc8dec6301aa138fd83fed94ed04b264fda320b7547b6859a025",
+"sha512": "57279acb47fa9eb2e7e308524780a6a4de9581ba4ae89782810e0f2d91d007094018733a6e3f0df82ff793475565655e46a03546302625abcf7d15778e1a2259",
 "platform": "ubuntu",
 "platform_version": "18.04",
 "arch": "x86_64",

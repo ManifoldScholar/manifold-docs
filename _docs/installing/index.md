@@ -12,11 +12,10 @@ Unless you are reading or adding a text to an existing Manifold instance, you wi
 
 **The current, stable version of Manifold is v{{site.data.current.version}}**.
 
-Currently, the simplest way to host your own instance of Manifold is to utilize our Debian package installer. 
+Currently, the simplest way to host your own instance of Manifold is to utilize our Ubuntu or CentOS package installers.
 
-In the future, we will be offering package installers for Centos/RHEL, Docker images, and a MacOS installer. The Docker images are currently in-progress, and should be made public in April 2018. The MacOS installer is in testing, and will likely also be released in April 2018. 
+In the future, we will be offering package installers for Centos/RHEL, and Docker. The Docker images are currently in-progress, and should be made public in September 2018.
 
 * [Installing Manifold on Ubuntu](ubuntu)
-* [Installing Manifold on RHEL/Centos (coming soon)](rhel)
+* [Installing Manifold on RHEL/Centos](centos)
 * [Installing Manifold on Docker (coming soon)](docker)
-* [Installing Manifold on OSX (coming soon)](macos)

@@ -3,24 +3,20 @@ layout: page
 title: "Installing Manifold on Ubuntu: Download & Install Package"
 menu:
   installation_ubuntu:
-    title: "Step 1: Installation"
+    title: "Installation"
     weight: 1
 ---
 
-{% assign release = site.data.install_instructions.release %}
-{% assign os = site.data.install_instructions.os %}
+{% assign ubuntu_16_release = site.data.releases.ubuntu16[0] %}
+{% assign ubuntu_18_release = site.data.releases.ubuntu18[0] %}
 
 {% include installation/notice.md %}
 
-The following instructions have only been tested on {{os}} hosts. Your mileage will almost certainly vary if you attempt to install Manifold on a different linux distribution.
+The most recent Manifold Ubuntu release is <strong>{{ubuntu_18_release.build_version}}</strong>. To install previous releases, grab the apprporiate URL from the [downloads page](/docs/reference/downloads.html).
 
-## Installation Prerequisites
+The following instructions have only been tested on Ubuntu 16 and Ubuntu 18 hosts. We recommend installing Manifold on Ubuntu 18. Your mileage will almost certainly vary if you attempt to install Manifold on a different Debian based distribution.
 
-1. Manifold should be installed on a virtual or physical server with at least 1 CPU and 6 GB of RAM (8GB preferred).<sup>[1](#note-1)</sup> We've had good luck installing Manifold on [Google Cloud Compute instances](https://cloud.google.com/compute/docs/instances/), [AWS EC2 instances](https://aws.amazon.com/ec2/instance-types/), and [Digital Ocean droplets](https://www.digitalocean.com/).
-
-2. You will need to have root access to the server and the ability to shell into the server.
-
-3. Your server should have a fully qualified domain name (FQDN). If the hostname is setup correctly, the installer should detect it and configure manifold accordingly. If it's not, you can set the hostname manually in /etc/manifold/manifold.rb and reconfigure the application. Reconfiguration is discussed below.
+{% include installation/requirements.md %}
 
 ## Installation Process
 
@@ -28,22 +24,29 @@ The following instructions have only been tested on {{os}} hosts. Your mileage w
 
 Shell into the server as root and download the most recent package.
 
+On Ubuntu 16:
 ``` shell
 cd ~
-curl -O {{ release.url }}
+curl -O {{ ubuntu_16_release.url }}
+```
+
+On Ubuntu 18:
+``` shell
+cd ~
+curl -O {{ ubuntu_18_release.url }}
 ```
 
 ### 2. Install the Package
 
+On Ubuntu 16 and Ubuntu 18:
 ``` shell
-dpkg -i {{ release.basename }}
+cd ~
+dpkg -i {{ ubuntu_16_release.basename }}
 ```
 
 ### 3. Apply Minimal Configuration
 
-The package installer creates a file at `/etc/manifold/manifold.rb`. Use this file to configure and manage the various services that Manifold is composed of. After changing this file, you'll need to run `sudo manifold-ctl reconfigure` from the command line so that Manifold picks up the changes and regenerates various configuration files based on the new settings.
-
-For now, let's just make sure Manifold is on the right domain. Open `/etc/manifold/manifold.rb` in your preferred text editor (nano, vi, etc.) and look for the `external_url` setting near the top of the file. Set this to the fully qualified domain name of your Manifold installation, then reconfigure Manifold:
+{% include installation/reconfigure.md %}
 
 ``` shell
 /usr/local/bin/manifold-ctl reconfigure
@@ -51,17 +54,15 @@ For now, let's just make sure Manifold is on the right domain. Open `/etc/manifo
 
 Once this process is complete, visit the fully qualified domain name in your browser. You should see an empty Manifold home page.
 
-If everything looks good, [proceed to the next step](/docs/installing/ubuntu/backend.html).
+If everything looks good, [proceed to the next step](/docs/installing/post_install/backend.html).
 
 ### Notes
 
-<small>
-<a name="note-1"></a><sup>1</sup> We advise against attempting to install Manifold in a shared hosting environment for security and stability reasons. Manifold consists of a number of distinct services, each of which requires RAM to function correctly. On a small VM with less than 6GB of RAM, you will likely need to enable swap memory or risk consuming all available memory.
-</small>
+{% include installation/shared_note.md %}
 
 {% include pagination.html
 	prev_label="Previous step: Install on Ubuntu"
 	prev_url="index.html"
 	next_label="Next step: Access the Backend"
-	next_url="backend.html"
+	next_url="/docs/installing/post_install/backend.html"
 %}
