@@ -20,7 +20,7 @@ menu:
   </h2>
   {% for release in releases %}
 <h3>
-  <a href="{{props.url}}">
+  <a href="{{release.url}}">
     Manifold v{{ release.build_version }} for {{release.platform | capitalize}} {{release.platform_version}}
   </a>
 </h3>
