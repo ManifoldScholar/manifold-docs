@@ -21,4 +21,4 @@ Manifold is composed of a handful of services, with two services, the client and
 
 ### If You Get Stuck
 
-Manifold, which is still in beta, is a relatively young piece of software. The more people who install it and experiment with it, the more feedback we'll get, which helps us improve Manifold. If you get stuck, don't hesitate to ask us for help. For more information on how to get in touch with the Manifold team, please consult the [getting support section](/docs/index.html#getting_support).
+Manifold is a relatively young piece of software. The more people who install it and experiment with it, the more feedback we'll get, which helps us improve Manifold. If you get stuck, don't hesitate to ask us for help. For more information on how to get in touch with the Manifold team, please consult the [getting support section](/docs/index.html#getting_support).
