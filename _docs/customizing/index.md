@@ -7,69 +7,23 @@ menus:
     weight: 3
 ---
 
-Once you have installed Manifold, you may want to adjust your instance to represent your press more specifically. Within `ADMIN MODE` you can open `CONTENTS` and `SETTINGS` from the top menu bar to access various options for adjusted appearance and adding information.
+Once you have installed Manifold, you may want to adjust your instance to represent your organization more specifically. From the backend, you can use the `Records` and `Settings` menus to access various options for customizing the appearance of and adding information to your instance:
 
-This page breaks down each of the categories on `CONTENTS` and `SETTINGS` menus:
+## [Records](records.html)
 
-* [PAGES](#pages) for creating additional pages
-* [FEATURES](#features) for adding special content
-* [GENERAL SETTINGS](#general) for setting up defaults and additional navigation
-* [THEME](#theme) for customizing press logo and custom styles
-* [INTEGRATIONS](#integrations) setting up third party integrations
-* [SUBJECTS](#subjects) for organizing projects
-* [EMAIL](#email) setup
+* [Makers](/docs/projects/accounts/makers.html). Used to create records of those who have created or authored project materials. See the [Accounts and Roles](/docs/projects/accounts/index.html) section for more details.
+* [Users](/docs/projects/accounts/users.html). Used to create accounts for those who will read and actively engage with materials on Manifold. See the [Accounts and Roles](/docs/projects/accounts/index.html) section for more details.
+* [Pages](records.html#pages). Used for creating content pages (e.g., About, Privacy Policy).
+* [Features](records.html#features). Where the featured content banner at the head of the homepage can be adjusted.
 
-## CONTENTS
+## [Settings](settings.html)
 
-`CONTENTS` is comprised of `PAGES` and `FEATURES`.
+* [General](settings.html#general). For setting up defaults about institutional and instance identity.
+* [Theme](settings.html#theme). A space for customizing publisher branding and style.
+* [Integrations](settings.html#integrations). Where external services are setup through third party integrations (i.e., Google, Facebook, Twitter).
+* [Subjects](settings.html#subjects). For curating global categories as a means to organize projects.
+* [Email](settings.html#email). Setup for how your instance with interact with users through email.
 
-![PAGES](/docs/assets/customizing/pages1.png)
-
-### <a name="pages">PAGES</a>
-
-Pages can be used to offer content related to your Manifold installation. For example, you might create an "about" page in the header. Or, you could use pages to setup links to a privacy policy or terms of service in the footer.
-
-When you choose to create a page, you will have to fill in the `Page Title` field and you will have the option to create a `URL slug`. Once you have input this information, you will land on the page's `GENERAL` settings with options to manage visibility of your page, and choose whether you would like it in the navigation bars in the header or footer.
-
-![PAGES](/docs/assets/customizing/page_general.png)
-
-In the left side bar, you will find `BODY` which will open a field for the content of your page. While you are adding these pages, you will see menu options to `Preview` or `Delete`. You will be asked to confirm before a page is deleted.
-
-## <a name="features">FEATURES</a>
-
-`Features` populate the featured content area at the top of the home page. By clicking the `Add Features` button, you can create featured content elements.
-
-## <a name="settings">SETTINGS</a>
-
-![SETTINGS](/docs/assets/customizing/admin_settings.png)
-
-### <a name="general">GENERAL</a>
-
-Selecting the `SETTINGS` tab in admin mode will bring you to the `General` Settings. Here, you will have the option to change how you wish to refer to you Manifold installation. There are various places throughout the application where Manifold refers to itself. If you set a value here, Manifold will use it where appropriate. For example, you could call it "Manifold at the University of Minnesota Press" or just "University of Minnesota Digital Books." Or, if you prefer, you can leave this blank, and Manifold will just refer to itself as "Manifold."
-
-You can also set (or leave blank) `Default Publisher`, `Default Place of Publication`, `Copyright Information` to be displayed in the footer, `Social Sharing` message that will appear when a page is shared, and your `Contact` link url.
-
-### <a name="theme">THEME</a>
-
-`THEME` settings allow you to set the `PRESS LOGO`. Logos are constrained at 40px wide with flexible height. For retina displays, upload logos that are 80px wide. You may add Logo Styles by entering a JSON style object, which will be applied to the logo image, For example: {"left": -1}, and set `TYPEKIT ID`.
-
-### <a name="integrations">INTEGRATIONS</a>
-
-`INTEGRATIONS` is where you set up Facebook, Twitter, and Google integrations.
-For help with integrations, see [Global Settings](/docs/customizing/settings/index.html))
-
-### <a name="subjects">SUBJECTS</a>
-
-To add a subject, click `Add a Subject` and begin typing. If there are subjects already in the system, Manifold will provide suggestions to you that you can select; otherwise you can simply hit return (or enter) on your keyboard or click `Create New` in the field, and your subject will be created and assigned to the project. You can create and add as many subjects as needed for each project.
-
-Click the `X` on the right side of a Subject entry to remove it from the project. Note that doing so will only remove the subject from the project.
-
-`SUBJECTS` enables management of the subjects generated by individual projects. Here you can search your subjects, modify subject titles, and delete unwanted subjects.
-
-![SUBJECTS](/docs/assets/customizing/subjects.png)
-
-### <a name="email">EMAIL</a>
-
-In the `EMAIL` tab of the `SETTINGS` menu, you can configure how Manifold will send email to users. Manifold supports sending mail via an external SMTP server or via a local Sendmail installation. To test your configuration, press the "send test email" button. Doing so will send a message to the email address on file for you user.
-
-In addition to setting up the email account, Manifold lets you customize your email closing.
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+For details on how to access the backend, see the <a href="/docs/projects/index.html#accessing">Projects section</a>.
+</div>

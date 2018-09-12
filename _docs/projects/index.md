@@ -11,6 +11,7 @@ To create or modify new projects, accounts, global content, and system settings,
 
 The backend is available by default to users with the following roles: `Administrator`, `Editor`, `Project Creator`, and `Marketeer`. The backend is also available to `Readers` who have been granted permissions to do so. For more details, see the [User Accounts](accounts/users.html) and [Permissions](customizing/permissions.html) sections.
 
+<a name="accessing"></a>
 ## Accessing the Backend
 
 To access the backend, first log in with your existing Manifold account credentials. If you are an `Administrator`, `Editor`, `Project Creator`, or `Marketeer` you will see a button labelled `Admin Mode` appear to the left of your user avatar after you are logged in:
@@ -23,7 +24,7 @@ If you are a reader with permission to access the backend you will see a button 
 
 When you click on that button you will be taken to the Manifold dashboard, which is the default landing space when accessing the backend.
 
-![Backend Dashboard](/docs/assets/projects/backend-dashboard.png)
+![Backend Dashboard](/docs/assets/installing/dashboard.png)
 
 ## Manifold Dashboard
 
@@ -39,7 +40,7 @@ To clear your current search, click on `Reset Search` beneath the search bar.
 
 ### Project List
 
-The project list displays all projects (in groups of five) that have been created on an instance of Manifold that you have access to edit. The project list is displaced by active search results from the search bar above the list. If no projects have yet been created, the list will remain empty or, for those with permissions to do so, the `Add a New Project` button will be present.
+The project list displays all projects (in groups of five) that have been created on an instance of Manifold that you have access to edit. The project list is displaced by active search results from the search bar above the list. If no projects have yet been created, the list will remain empty.
 
 ### Recently Updated
 

@@ -41,9 +41,9 @@ Video files can be uploaded into the native Manifold video player in MP4 and WEB
 
 ### Audio
 
-Audio files can be uploaded into the native Manifold audio player in the MP3 format. Audio files saved in different formats can be uploaded onto Manifold, but they won't be playable onsite; instead readers can download those files for play on their local devices.
+Audio files can be uploaded into the native Manifold audio player in the MP3, FLAC, and WAV formats. Audio files saved in different formats can be uploaded onto Manifold, but they won't be playable onsite; instead readers can download those files for play on their local devices.
 
-*	**Playable Formats**: MP3
+*	**Playable Formats**: MP3, FLAC, WAV
 *	**Upload Formats**: MP3, FLAC, WMA, WAV, MID, OGG
 *	**Size**: Please consult your publisher about any files that exceed 200 MB.
 *   **Variants**: File type 1, File type 2
@@ -106,10 +106,14 @@ At this point you have all you need to be able to [load your resource into Manif
 <a name="resource-fields"></a>
 ### Resource Fields and Metadata
 
+For detailed descriptions of these fields, please refer to the [Metadata](/docs/reference/metadata.html#descriptions) section.
+
 | Sidebar   | Field                    | Image | Video             | Audio | File | Link | PDF | Document | Spreadsheet | Presentation | Interactive |
 |-----------|--------------------------|:-----:|:-----------------:|:-----:|:----:|:----:|:---:|:--------:|:-----------:|:------------:|:-----------:|
 | General   | Kind                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Title                    | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
+| General   | Fingerprint              | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
+| General   | Slug                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Tags                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Description              | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
 | General   | Caption                  | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
