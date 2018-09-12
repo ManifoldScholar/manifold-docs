@@ -5,7 +5,7 @@ menu:
   installation:
     identifier: post_install
     title: Post-Install Steps
-    weight: 5
+    weight: 4
 ---
 
 Once you've installed Manifold, there are few initial steps you should take:

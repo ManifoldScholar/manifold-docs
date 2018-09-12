@@ -25,7 +25,7 @@ curl -O {{ centos_7_release.url }}
 ### 2. Install the Package
 
 ``` shell
-rpm -ivh {{ centos_7_release.basename }}
+rpm -Uvh {{ centos_7_release.basename }}
 ```
 
 ### 3. Stop services and reconfigure
