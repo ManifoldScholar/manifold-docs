@@ -13,9 +13,9 @@ menu:
   {% when "ubuntu16" %}
     Ubuntu 16 Releases (x86_64)
   {% when "ubuntu18" %}
-    Ubuntu 18 Releases
+    Ubuntu 18 Releases (x86_64)
   {% when "centos7" %}
-    Centos 7 Releases
+    Centos 7 Releases (x86_64)
   {% else %}
     {{key | capitalize}} Releases (x86_64)
   {% endcase %}
