@@ -14,6 +14,8 @@ menu:
     Ubuntu 16 Releases (x86_64)
   {% when "ubuntu18" %}
     Ubuntu 18 Releases
+  {% when "centos7" %}
+    Centos 7 Releases
   {% else %}
     {{key | capitalize}} Releases (x86_64)
   {% endcase %}
@@ -21,7 +23,7 @@ menu:
   {% for release in releases %}
 <h3>
   <a href="{{release.url}}">
-    Manifold v{{ release.build_version }} for {{release.platform | capitalize}} {{release.platform_version}}
+    Manifold v{{ release.build_version }} for {{release.platform_readable}} {{release.platform_version}}
   </a>
 </h3>
 <p>
