@@ -24,6 +24,6 @@ An example of how these two differ: if _Jane Eyre_ was loaded into the system, t
 
 ## See Also
 
-While Manifold accounts are primarily managed within the backend's [Records menu](/docs/customizing/records.html); some functionality is also found in a projects sidebar and is detailed in the [Customizing Projects](/docs/projects/customizing/index.html) portion of this documentation, specifically the [Permissions](/docs/projects/customizing/permissions.html) and [People](/docs/projects/customizing/people.html) sections.
+While Manifold accounts are primarily managed within the backend's [Records menu](/docs/projects/accounts/index.html); some functionality is also found in a projects sidebar and is detailed in the [Customizing Projects](/docs/projects/customizing/index.html) portion of this documentation, specifically the [Permissions](/docs/projects/customizing/permissions.html) and [People](/docs/projects/customizing/people.html) sections.
 
 To learn how to associate a contemporary author's user account with their own project, see the the [People](/docs/projects/customizing/people.html) section.

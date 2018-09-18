@@ -7,12 +7,25 @@ menus:
     weight: 7
 ---
 
-Manifold books were made to be read and to fulfill specific functions for academic readers. This section of the documentation explains the [reading interface](interface.html) options and available activities like [annotation](annotating.html), [sharing passages](sharing.html) through social media, and creating [citations](sharing.html#cite) to properly reference Manifold materials in your own work. The placing of [resources](placing.html) are and ways readers can organize their Manifold [project libraries](library.html) are also considered here.
+Manifold was created to fulfill specific functions for academic readers. This section of the documentation explains the [reading interface](interface.html) options and available activities like [annotation](annotating.html), [sharing passages](sharing.html) through social media, and creating [citations](sharing.html#cite) to properly reference Manifold materials in your own work. The placing of [resources](placing.html) and ways readers can organize their Manifold [project libraries](library.html) are also considered here and are oriented thusly:
+
+- [Project Library](library.html)
+- [Exploring Projects](projects.html)
+- [Reading Interface](interface.html)
+- [Sharing](sharing.html)
+- [Exploring and Placing Resources](placing.html)
+- [Annotating and Commenting](annotating.html)
+- [Highlighting](highlighting.html)
+- [Email Notifications](notifications.html)
+
+
+
+To begin taking advantage of all the tools described in this section you must first create an account and sign in from the homepage.
 
 <a name="login"></a>
-## Logging In
+## Signing Up and Logging In
 
-Manifold works in your internet browser or on your mobile device (tablet or phone). To access the full toolbox, you must sign in from the homepage. You'll notice a user icon in the top right corner.
+To create a new account or sign in to an existing one, click the user icon in the top right corner. The system will prompt you for your account's email and password. If you don't have an account, click the `Need to sign up?` link, and you can then enter your name, email, and password. Alternatively you can create an account using your existing Facebook, Twitter, or Google credentials if the publisher has enabled those connections.
 
 ![Login](/docs/assets/reading/login.png)
 

@@ -7,7 +7,7 @@ menus:
     weight: 4
 ---
 
-When you click on an existing project listed on the <a href="/docs/assets/projects/backend-dashboard.png" target="blank">backend dashboard</a>, you will be taken to the backend project page, where you can modify, add, or delete texts, resources, or the metadata associated with them, as well as adjust how the project appears for readers.
+When you click on an existing project listed on the backend dashboard, you will be taken to the backend project page, where you can modify, add, or delete texts, resources, or the metadata associated with them, as well as adjust how the project appears for readers.
 
 If you user account role is that of an Administrator or Editor, you will be able to fully modify everything on the project page for any project in the instance where you have those credentials.
 

@@ -10,7 +10,6 @@ The following metadata fields are made available through Manifold. The three col
 
 `Project`-level metadata describes a project in its entirety, whereas `Text`- and `Resource`-level metadata describes specific materials within a project.
 
-<<<<<<< HEAD
 | Metadata Field           | [Project][1] | [Text][2] | [Resource][3] | [Collection][4]             |
 |--------------------------|:------------:|:---------:|:-------------:|:---------------------------:|
 | Alt Text                 |              |           |       x       |                             |
@@ -47,46 +46,6 @@ The following metadata fields are made available through Manifold. The three col
 | Volume                   |       x      |     x     |       x       |                             |
 
 <sup>a</sup>The Resources DOI applies to project's entire library of resources, not sub-collections created and curated by users.
-=======
-| Metadata Field           | [Project][1] | [Text][2] | [Resource][3] |
-|--------------------------|:------------:|:---------:|:-------------:|
-| Alt Text                 |              |           |       x       |
-| Author (see Creator)     |              |           |               |
-| Caption                  |              |           |       x       |
-| Container Title          |       x      |     x     |       x       |
-| Contributor              |       x      |     x     |               |
-| Copyright Status         |              |           |       x       |
-| Creator                  |       x      |     x     |       x       |
-| Credit                   |              |           |       x       |
-| Description              |       x      |     x     |       x       |
-| DOI                      |       x      |     x     |       x       |
-| Edition                  |       x      |     x     |       x       |
-| Fingerprint              |              |           |       x       |
-| ISBN                     |       x      |     x     |       x       |
-| ISSN                     |       x      |     x     |       x       |
-| Issue                    |       x      |     x     |       x       |
-| Language                 |              |     x     |               |
-| Original Publisher       |       x      |     x     |       x       |
-| Original Publisher Place |       x      |     x     |       x       |
-| Original Title           |       x      |     x     |       x       |
-| Publication Date         |       x      |     x     |               |
-| Publisher                |       x      |     x     |       x       |
-| Publisher Place          |       x      |     x     |       x       |
-| Resources DOI            |       x      |           |               |
-| Restrictions             |       x      |     x     |       x       |
-| Rights                   |       x      |     x     |       x       |
-| Rights Holder            |       x      |     x     |       x       |
-| Rights Territory         |       x      |     x     |       x       |
-| Series Number            |       x      |     x     |       x       |
-| Series Title             |       x      |     x     |       x       |
-| Slug                     |       x      |           |       x       |
-| Subtitle                 |       x      |           |               |
-| Tags                     |              |           |       x       |
-| Title                    |       x      |     x     |       x       |
-| Unique Identifier        |              |     x     |               |
-| Version                  |       x      |     x     |       x       |
-| Volume                   |       x      |     x     |       x       |
->>>>>>> Updates preparing section
 
 <a name="descriptions"></a>
 ## Metadata Field Descriptions
