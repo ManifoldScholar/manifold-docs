@@ -22,11 +22,11 @@ Makers associated as Contributors will have their name show up only on the proje
 
 To associate a Maker record with a project as either an `Author` or `Contributor`, click the `Add an Author` field beneath the appropriate heading and begin typing the name of the user you are looking for. The system will suggest names to you of records already in the system, based of what you have typed. Click on the result that matches the Maker you are searching for, and the record will be associated to the project as either an `Author` or `Contributor` and listed beneath the appropriate heading.
 
-If there are no results for the name you type, you may need to [create a new Maker record](\docs\projects\accounts\creating.html).
+If there are no results for the name you type, you may need to [create a new Maker record](/docs/projects/accounts/creating.html).
 
 ## Editing or Removing Makers
 
-From this screen you can modify the user accounts that are associated with the project or remove them from the project entirely by clicking on the pen or “X” icons, respectively. More details about this process can be found in the [creating Makers section](\docs\projects\accounts\creating.html), under the `New Project-Level Maker Records` heading.
+From this screen you can modify the user accounts that are associated with the project or remove them from the project entirely by clicking on the pen or “X” icons, respectively. More details about this process can be found in the [creating Makers section](/docs/projects/accounts/creating.html), under the `New Project-Level Maker Records` heading.
 
 ## Changing Record Order
 

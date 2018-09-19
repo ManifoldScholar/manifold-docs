@@ -40,7 +40,7 @@ If your instance had a subtitle or if you wanted to extend the context of the we
 
 ### Body
 
-The Body text allows publishers a means to describe their instance and projects in a bit more detail. We recommend limiting this field to a moderately sized paragraph (roughly sixty-five words), though the area will expand vertically to accommodate all of the copy entered here. If more than a brief paragraph is required to orient your readers, consider adding an [About page](#pages) and using the Link Text and Link URL fields below to point readers to it.
+The Body text allows publishers a means to describe their instance and projects in a bit more detail. We recommend limiting this field to a moderately sized paragraph (roughly sixty-five words), though the area will expand vertically to accommodate all of the copy entered here. If more than a brief paragraph is required to orient your readers, consider adding an [About page](/docs/customizing/records/pages.html) and using the Link Text and Link URL fields below to point readers to it.
 
 ### Link Text
 
@@ -52,7 +52,7 @@ Note that the system is only setup to allow for one custom link below the body t
 
 ### Link URL
 
-This field pairs with the `Link Text` above. Here you can enter the complete URL for the page to which you want to direct readers. The page can exist outside of Manifold or be one created on the site through the [Pages menu](#pages).
+This field pairs with the `Link Text` above. Here you can enter the complete URL for the page to which you want to direct readers. The page can exist outside of Manifold or be one created on the site through the [Pages menu](/docs/customizing/records/pages.html).
 
 ### Style
 

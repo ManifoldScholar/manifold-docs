@@ -27,7 +27,7 @@ Below Featured Projects is the Our Projects section, which displays all the publ
 Sorting projects by these categories creates a stable URL that can be shared so others can land on the page with the same results.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-To learn more about how to create and curate subject categories as an Administrator, see the <a href="/docs/customizing/#subjects">Subjects section</a>.
+To learn more about how to create and curate subject categories as an Administrator, see the <a href="/docs/customizing/settings.html#subjects">Subjects section</a>.
 </div>
 
 <a name="following"></a>
