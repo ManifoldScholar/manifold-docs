@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# script/update: Update application to run for its current checkout.
+
+set -e
+if ! brew check-strta-enabled ; then exit 1; fi
+
+bootstrap="$(dirname "$0")/bootstrap"
+$bootstrap
