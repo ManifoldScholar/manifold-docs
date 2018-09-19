@@ -92,7 +92,7 @@ When a reader clicks on the email icon link they will be directed to an editable
 
 If your institution has a terms and conditions document that you'd like to share with your readers, you can include its URL here. The link to this document will appear in the new user signup form. If left blank there will be no mention of any terms or conditions on the signup form.
 
-If your terms exists as a Manifold Page created in the [Contents menu](contents.html#pages) you need only enter here the slug you created for that page. Otherwise, if your terms exist on a page outside of this Manifold instance, you'll need to include the full URL.
+If your terms exists as a Manifold Page created in the [Records menu](records/pages.html#pages) you need only enter here the slug you created for that page. Otherwise, if your terms exist on a page outside of this Manifold instance, you'll need to include the full URL.
 
 <a name="theme"></a>
 ## Theme Settings

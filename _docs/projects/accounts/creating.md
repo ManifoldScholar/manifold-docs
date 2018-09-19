@@ -11,7 +11,7 @@ menus:
 
 ### From the Homepage
 
-User accounts can be created by new visitors to a Manifold instance by clicking on the silhouette avatar in the upper left of the screen and then clicking `Need to sign up?` on the modal screen that pops up. From there the new user can sign up by entering their email, name, and a password. Alternatively one can create an account using their Facebook, Twitter, or Google credentials from the same screen if the Manifold instance you are working on has been so [configured](/docs/customizing/settings/external_services/oauth/index.html) by an Administrator.
+User accounts can be created by new visitors to a Manifold instance by clicking on the silhouette avatar in the upper left of the screen and then clicking `Need to sign up?` on the modal screen that pops up. From there the new user can sign up by entering their email, name, and a password. Alternatively one can create an account using their Facebook, Twitter, or Google credentials from the same screen if the Manifold instance you are working on has been so [configured](/docs/customizing/external_services/oauth/index.html) by an Administrator.
 
 ### From the Backend
 
@@ -31,7 +31,7 @@ When you click `Save User` the new account will be created, and the details, inc
 
 Maker accounts can be associated with a project generally and also with specific texts. For the latter, Maker accounts are created automatically by the system when a text is ingested, populated by author metadata included within those texts. If your text doesn't have the requisite metadata, Maker accounts can be created manually by users with Administrative, Editor, or Project Creator credentials in both the Records and Projects menus.
 
-Project-level Makers are displayed on a project's landing banner. Text-level Makers aren't displayed on the system but are incorporated into a text's metadata and are required to [create citations](/docs/reading/interface/sharing.html).
+Project-level Makers are displayed on a project's landing banner. Text-level Makers aren't displayed on the system but are incorporated into a text's metadata and are required to [create citations](/docs/reading/sharing.html).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. There is only one Maker record database. While you can create a Maker record on either the project or text levels, the record will be available in both places. That is, if you create a record for H. G. Wells on the Project level, you will also be able to call upon that same record on the text level and vice-versa.

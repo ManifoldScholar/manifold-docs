@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Individual Projects
+title: Exploring Projects
 menus:
   reading:
     weight: 2

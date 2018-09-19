@@ -12,7 +12,7 @@ These instructions document the process for acquiring OAuth keys from Google. It
 
 ## Requirements
 
-Before adding OAuth support for Google to Manifold, you will need to [configure Google Services for Manifold](/docs/customizing/settings/external_services/google/index.html).
+Before adding OAuth support for Google to Manifold, you will need to [configure Google Services for Manifold](/docs/customizing/external_services/google/index.html).
 
 ## Callback URL
 

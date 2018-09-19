@@ -13,7 +13,7 @@ Collections appear and take display precedence in the Resources blade of a proje
 
 ![Resources Blade](/docs/assets/projects/resources-blade.png)
 
-For details on how to place a Collection in a Text, see the [Reading Interface](/docs/reading/interface/placing.html) section.
+For details on how to place a Collection in a Text, see the [Reading Interface](/docs/reading/placing.html) section.
 
 ![Collection in a Text](/docs/assets/projects/collection-text.png)
 
