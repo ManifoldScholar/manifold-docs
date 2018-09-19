@@ -5,24 +5,17 @@
 
 set -e
 cd "$(dirname "$0")/.."
-if ! brew check-strta-enabled ; then exit 1; fi
 
-echo "===> Tests started at…"
+
+echo "===> Build started at…"
 date "+%H:%M:%S"
 
-# GC customizations
-export RUBY_GC_MALLOC_LIMIT=79000000
-export RUBY_HEAP_MIN_SLOTS=800000
-export RUBY_HEAP_FREE_MIN=100000
-export RUBY_HEAP_SLOTS_INCREMENT=400000
-export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
-
 # setup environment
-RAILS_ROOT="$(cd "$(dirname "$0")"/.. && pwd)"
-export RAILS_ROOT
-export RAILS_ENV="test"
-export RACK_ROOT="$RAILS_ROOT"
-export RACK_ENV="$RAILS_ENV"
+APP_ROOT="$(cd "$(dirname "$0")"/.. && pwd)"
+export APP_ROOT
+export APP_ENV="test"
+export RACK_ROOT="$APP_ROOT"
+export RACK_ENV="$APP_ENV"
 
 test -d "/usr/share/rbenv/shims" && {
   export PATH=/usr/share/rbenv/shims:$PATH
@@ -31,9 +24,8 @@ export RBENV_VERSION=$(cat .ruby-version)
 
 export PATH="$RACK_ROOT/bin:$PATH"
 
-# run tests
-echo "Running tests…"
+echo "Running jekyll build…"
 date "+%H:%M:%S"
 
-# run tests.
-script/test
+jekyll build
+time bundle exec htmlproofer ./_site/  --assume-extension --url-ignore=/http:/,/https:/

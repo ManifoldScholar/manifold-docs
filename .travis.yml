@@ -1,0 +1,17 @@
+language: ruby
+dist: trusty
+
+rvm:
+  - 2.4.1
+
+before_install:
+  - gem update --system
+  - bundle install
+
+gemfile: Gemfile
+
+cache:
+  bundler: true
+
+script:
+  - ./script/cibuild
