@@ -8,7 +8,7 @@ menus:
 ---
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-This section speaks broadly to preparing different document types for ingestion into Manifold. For best practices on authoring in the various formats with attention paid to individual elements common to scholarly writing, consults the <a href="/docs/writing/writing/html">Writing for the Web section</a>. For a walk-through on ingesting material into Manifold as a text, see the <a href="/docs/projects/customizing/texts.html">Customizing section</a>.
+This section speaks broadly to preparing different document types for ingestion into Manifold. For best practices on authoring in the various formats with attention paid to individual elements common to scholarly writing, consults the <a href="/docs/writing/writing.html">Writing for the Web section</a>. For a walk-through on ingesting material into Manifold as a text, see the <a href="/docs/projects/customizing/texts.html">Customizing section</a>.
 </div>
 
 <a name="formats"></a>
@@ -153,9 +153,9 @@ There can be multiple creators (authors) and contributors for each upload. The s
 
 Following are related themes that link to other pertinent sections concerning how you work with texts in the system:
 
-* [Setting a Project to Draft Mode](customizing/general.html)
-* [Adding a Text to a Project](customizing/texts.html)
-* [Setting Published Texts](customizing/texts.html)
-* [Grouping Texts Within a Project](customizing/texts.html)
-* [Reingesting a Text](customizing/texts.html)
+* [Setting a Project to Draft Mode](/docs/projects/customizing/general.html)
+* [Adding a Text to a Project](/docs/projects/customizing/texts.html)
+* [Setting Published Texts](/docs/projects/customizing/texts.html)
+* [Grouping Texts Within a Project](/docs/projects/customizing/texts.html)
+* [Reingesting a Text](/docs/projects/customizing/texts.html)
 * [Writing for the Web](/docs/writing/writing.html)

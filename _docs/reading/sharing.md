@@ -27,7 +27,7 @@ Selecting Twitter opens a pop-up window where you can compose a new Tweet. If yo
 Included with your Tweet will be a card with a description of the project with a thumbnail based off the project's hero image.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-For the Twitter option to appear, the publisher needs to configure their instance to integrate with Twitter, as described in the <a href="/docs/customizing/settings/external_services/oauth/twitter.html">External Services</a> section.
+For the Twitter option to appear, the publisher needs to configure their instance to integrate with Twitter, as described in the <a href="/docs/customizing/external_services/oauth/twitter.html">External Services</a> section.
 </div>
 
 <a name="facebook"></a>
@@ -36,5 +36,5 @@ For the Twitter option to appear, the publisher needs to configure their instanc
 Selecting Facebook opens a pop-up window where you can compose a new Facebook post. If you are already logged in to your Facebook account, it will automatically populate your post with a card describing the project alongside a thumbnail based off the project's hero image.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-For the Facebook option to appear, the publisher needs to configure their instance to integrate with Facebook, as described in the <a href="/docs/customizing/settings/external_services/oauth/facebook.html">External Services</a> section.
+For the Facebook option to appear, the publisher needs to configure their instance to integrate with Facebook, as described in the <a href="/docs/customizing/external_services/oauth/facebook.html">External Services</a> section.
 </div>

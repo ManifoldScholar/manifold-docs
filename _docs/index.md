@@ -15,15 +15,15 @@ Learn more at [manifoldapp.org](https://manifoldapp.org)
 
 This documentation will serve as a guide to different users aiming to publish materials openly, iteratively, and elsewise on Manifold. Brief by design and written for publishers, authors, readers and developers to be of immediate, practical use, these instructions function as a walk-through of the Manifold format.
 
-If you are interested in hosting your own instance of Manifold, begin with the [step-by-step install instructions](installing/index.html). If you would prefer not to manage your own instance of Manifold, [the University of Minnesota Press](https://www.upress.umn.edu/) offers [digital services](http://manifoldapp.org/services) covering project preparation, hosting, customization and support in partnership with [Cast Iron Coding](http://castironcoding.com). Once Manifold has been installed and configured, documentation is broken into parts that reflect operations of Manifold:
+If you are interested in hosting your own instance of Manifold, begin with the [step-by-step install instructions](/docs/installing/index.html). If you would prefer not to manage your own instance of Manifold, [the University of Minnesota Press](https://www.upress.umn.edu/) offers [digital services](http://manifoldapp.org/services) covering project preparation, hosting, customization and support in partnership with [Cast Iron Coding](http://castironcoding.com). Once Manifold has been installed and configured, documentation is broken into parts that reflect operations of Manifold:
 
-* [Installing Manifold](installing/index.html)
-* [Customizing Manifold](customizing/index.html)
-* [Working with Projects](projects/index.html)
-* [Writing for Manifold](writing/index.html)
-* [Integrating Manifold into Publishing Workflows](publishing/index.html)
-* [Reading Manifold Texts](reading/index.html)
-* [References](reference/index.html)
+* [Installing Manifold](/docs/installing/index.html)
+* [Customizing Manifold](/docs/customizing/index.html)
+* [Working with Projects](/docs/projects/index.html)
+* [Writing for Manifold](/docs/writing/index.html)
+* [Integrating Manifold into Publishing Workflows](/docs/publishing/index.html)
+* [Reading Manifold Texts](/docs/reading/index.html)
+* [References](/docs/reference/index.html)
 
 <a name="getting_support"></a>
 ## Getting Support: Where and How

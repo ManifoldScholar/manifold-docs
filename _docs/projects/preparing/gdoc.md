@@ -7,10 +7,10 @@ menus:
 ---
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-A Manifold instance must first be set up to <a href="/docs/customizing/settings/external_services/google/drive.html">integrate with Google Services</a> before it can ingest Google Docs.
+A Manifold instance must first be set up to <a href="/docs/customizing/external_services/google/drive.html">integrate with Google Services</a> before it can ingest Google Docs.
 </div>
 
-Once a Manifold instance is integrated with [Google Services](/docs/customizing/settings/external_services/google/drive.html), the system can ingest any Google Doc that is publicly available or that has its permissions set so that anyone with the link can view it.
+Once a Manifold instance is integrated with [Google Services](/docs/customizing/external_services/google/drive.html), the system can ingest any Google Doc that is publicly available or that has its permissions set so that anyone with the link can view it.
 
 ![Google Doc Permissions](/docs/assets/projects/link-sharing.png)
 

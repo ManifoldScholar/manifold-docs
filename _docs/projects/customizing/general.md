@@ -67,7 +67,7 @@ This field allows you to associate an Instagram account with the project. Enter 
 
 ### Publisher
 
-The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/interface/sharing.html). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](texts.html).
+The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/sharing.html). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](texts.html).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. This field is also repeated in the <a href="metadata.html">Metadata</a> section: they are linked together, and changes to one will be reflected in the other. This field is surfaced in two places because of its importance.
@@ -75,11 +75,11 @@ The publisher name displays at the bottom of the project landing page in the Abo
 
 ### Publication Date
 
-A publication date is required by the system to [generate citations](/docs/reading/interface/sharing.html)). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
+A publication date is required by the system to [generate citations](/docs/reading/sharing.html)). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
 
 ### Subjects
 
-Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library/index.html)).
+Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library.html)).
 
 Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing.
 

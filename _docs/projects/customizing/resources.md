@@ -29,7 +29,7 @@ In this space, devoted to the `Resource` sidebar of the backend project page, we
 * [Managing Resources](#editing-resources)
 * [Searching through Existing Resources](#searching-resources)
 
-Details on how to place already loaded resources (or collections of resources) in a text is discussed in the [Interface](/docs/reading/interface/placing.html) section.
+Details on how to place already loaded resources (or collections of resources) in a text is discussed in the [Interface](/docs/reading/placing.html) section.
 
 <a name="credentials"></a>
 ## Required User Credentials
@@ -86,7 +86,7 @@ If you are unsure of the minimum width or height, leave those fields blank, and 
 
 To add resources in bulk you'll first need a CSV or Google Sheet describing the files you are uploading. A template for that purpose is [provided here as the Manifold Resource Log](/docs/assets/projects/manifold-resource-log.xlsx). Add or adjust columns to suit your needs. Manifold's upload process can be adapted to map data in different ways.
 
-You will also need to save all your resources in a Google Drive folder with permissions extending viewing access to all those who have possession of the link. At this point only Google Drive is supported as viable means to host resources that are to be imported into the system. Your instance will need to have Google Services configured for this process to be successful. See the [customizing external services section](/docs/customizing/settings/external_services/google/index.html) for more.
+You will also need to save all your resources in a Google Drive folder with permissions extending viewing access to all those who have possession of the link. At this point only Google Drive is supported as viable means to host resources that are to be imported into the system. Your instance will need to have Google Services configured for this process to be successful. See the [customizing external services section](/docs/customizing/external_services/google/index.html) for more.
 
 Once your sheet is filled out (and saved as a CSV) and your resources saved to Google, click `Bulk Add Resources` to add a collection of resources in one step.
 
