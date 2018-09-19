@@ -7,6 +7,9 @@ menu:
     weight: 1
 ---
 
+
+[This is a broken link](/docs/foo/barz)
+
 Manifold Scholarship is an open-source publishing platform that enables authors and publishers a means to showcase and enhance the electronic content they already produce in their existing workflows: texts are displayed in a responsive, elegant reader crafted for all modern browsers and devices—desktop and mobile. Powerful built-in annotation and commenting systems allow readers to annotate, highlight, discuss, cite, and share passages from any Manifold text. Resources that are foundational to a particular discussion but that are often tabled because of physical, technical, logistic, or legal limitations can be layered dynamically and directly onto the digital text. And with Manifold, a new kind of publication is possible, one where authors create projects that grow iteratively and that are published online as they are created and then later in print, when they have been codified as versions of record. In short, Manifold transforms scholarly publications into living digital works.
 
 Learn more at [manifoldapp.org](https://manifoldapp.org)
