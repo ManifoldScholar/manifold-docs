@@ -16,6 +16,6 @@ Currently, the simplest way to host your own instance of Manifold is to utilize 
 
 In the future, we will be offering package installers for Centos/RHEL, and Docker. The Docker images are currently in-progress, and should be made public in September 2018.
 
-* [Installing Manifold on Ubuntu](ubuntu)
-* [Installing Manifold on RHEL/Centos](centos)
-* [Installing Manifold on Docker (coming soon)](docker)
+* [Installing Manifold on Ubuntu](/docs/installing/ubuntu/index.html)
+* [Installing Manifold on RHEL/Centos](/docs/installing/centos/index.html)
+* [Installing Manifold on Docker (coming soon)](/docs/installing/docker/index.html)

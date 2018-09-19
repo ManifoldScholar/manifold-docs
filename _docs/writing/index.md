@@ -11,9 +11,9 @@ Manifold projects begin with authors and their willingness to think beyond the n
 
 This section of documentation is intended to be used by Manifold authors who are looking to better understand
 
-- what kinds of [rights concerns](rights.html) they are likely going to need to negotiate for their publisher,
-- how to [approach a publisher](proposals.html) with a Manifold edition in mind, and
-- best practices for [authoring](writing.html) their material for this and all modern publishing systems.
+- what kinds of [rights concerns](/docs/writing/rights.html) they are likely going to need to negotiate for their publisher,
+- how to [approach a publisher](/docs/writing/proposals.html) with a Manifold edition in mind, and
+- best practices for [authoring](/docs/writing/writing.html) their material for this and all modern publishing systems.
 
 Also of interest will be considerations in other sections for how the platform can serve and showcase supporting [resources](/docs/projects/resources.html) and how best to format materials for the Manifold reader in the following file types:
 

@@ -18,7 +18,7 @@ This slider provides an option to remove the `Recent Activity` blade from the pr
 
 ![Activity Feed](/docs/assets/projects/activity-feed.png)
 
-This can be used by those publishers whose projects don't warrant an `Recent Activity` section or who don't want to curate what appears in the section. For more about manually adjusting `Recent Activity` blade, see the [Activity section](activity.html).
+This can be used by those publishers whose projects don't warrant an `Recent Activity` section or who don't want to curate what appears in the section. For more about manually adjusting `Recent Activity` blade, see the [Activity section](/docs/projects/customizing/activity.html).
 
 <a name="description"></a>
 ### Description

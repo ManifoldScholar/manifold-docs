@@ -11,7 +11,7 @@ HTML is the *lingua franca* of Manifold. The platform can accept all well-formed
 <a name="html-head"></a>
 ## Head
 
-If submitting a single HTML file for ingestion, authors can include within the `<head>` tags all the [Document Metadata](index.html#meta) elements described below, as shown in the first example here. When including an HTML document as part of a manifest ingestion, no document metadata is required within the file, though the title metadata (`<meta name="dc.title" content="title">`) is suggested. The rest can be described in the manifest [YAML file](index.html#yml).
+If submitting a single HTML file for ingestion, authors can include within the `<head>` tags all the [Document Metadata](/docs/projects/preparing/index.html#meta) elements described below, as shown in the first example here. When including an HTML document as part of a manifest ingestion, no document metadata is required within the file, though the title metadata (`<meta name="dc.title" content="title">`) is suggested. The rest can be described in the manifest [YAML file](/docs/projects/preparing/index.html#yml).
 
 <a name="html-sdu"></a>
 ### Single Document Upload

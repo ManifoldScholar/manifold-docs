@@ -37,7 +37,7 @@ For use when wanting to load and edit a project and its materials before publish
 
 When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on Twitter will only work for those who also have permission to access the project and are logged in. All annotations, comments, and highlights will persist with the project's text when Draft Mode is toggled off.
 
-Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](texts.html#published-texts), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
+Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](/docs/projects/customizing/texts.html#published-texts), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
 
 ### Featured
 
@@ -47,7 +47,7 @@ Featured projects take pride of place on the home page in a section of the libra
 
 ### Hashtag
 
-This field is a means to suggest a hashtag to those interested in discussing a project in social media. Include the hashmark (`#`) with the tag, and it will appear in the lower left part of the header on the project's landing page. See the [Social](social.html) section for instruction on how to pull Tweets using the hashtag into the project's [activity](activity.html) feed.
+This field is a means to suggest a hashtag to those interested in discussing a project in social media. Include the hashmark (`#`) with the tag, and it will appear in the lower left part of the header on the project's landing page. See the [Social](/docs/projects/customizing/social.html) section for instruction on how to pull Tweets using the hashtag into the project's [activity](/docs/projects/customizing/activity.html) feed.
 
 ### Facebook ID
 
@@ -57,7 +57,7 @@ This field allows you to associate a Facebook account with the project. Enter th
 
 This field allows you to associate a Twitter account with the project. Enter the Twitter username (with *or* without the `@` sign) and a link to the Twitter account, in the form a Twitter bird icon, will appear over the lower left of the Hero image.
 
-Tweets from this account will not automatically appear in the Recent Activity pane on the project's landing page. But that functionality is possible through the settings in the [Social section](social.html).
+Tweets from this account will not automatically appear in the Recent Activity pane on the project's landing page. But that functionality is possible through the settings in the [Social section](/docs/projects/customizing/social.html).
 
 ### Instagram ID
 
@@ -67,7 +67,7 @@ This field allows you to associate an Instagram account with the project. Enter 
 
 ### Publisher
 
-The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/sharing.html). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](texts.html).
+The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](/docs/projects/customizing/metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/sharing.html). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](/docs/projects/customizing/texts.html).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. This field is also repeated in the <a href="metadata.html">Metadata</a> section: they are linked together, and changes to one will be reflected in the other. This field is surfaced in two places because of its importance.
@@ -94,6 +94,6 @@ You can adjust the color of the default icon by selecting from one of the six pr
 
 You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right panel labeled `Custom`.
 
-When no text has been added to the `Published` category (see the [Text](texts.html) section) the avatar will display as a square, and custom avatars should be prepared accordingly in a 1:1 ratio. If there is a Published Text, you can upload the cover into the `Custom` panel, and it will display according to the dimensions it was prepared.
+When no text has been added to the `Published` category (see the [Text](/docs/projects/customizing/texts.html) section) the avatar will display as a square, and custom avatars should be prepared accordingly in a 1:1 ratio. If there is a Published Text, you can upload the cover into the `Custom` panel, and it will display according to the dimensions it was prepared.
 
 All custom uploads should be no less than 400px along their shortest dimension.

@@ -8,7 +8,7 @@ menus:
 
 Configure this feature to enable analytics reporting to your Google account, and to display analytics data in the Manifold backend.
 
-Before using this feature, you must [configure Google services](index.html).
+Before using this feature, you must [configure Google services](/docs/customizing/external_services/google/index.html).
 
 ### Enable Analytics
 

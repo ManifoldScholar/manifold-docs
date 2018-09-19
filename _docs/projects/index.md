@@ -9,7 +9,7 @@ menus:
 
 To create or modify new projects, accounts, global content, and system settings, users will first need to be able to access the Manifold backend.
 
-The backend is available by default to users with the following roles: `Administrator`, `Editor`, `Project Creator`, and `Marketeer`. The backend is also available to `Readers` who have been granted permissions to do so. For more details, see the [User Accounts](accounts/users.html) and [Permissions](customizing/permissions.html) sections.
+The backend is available by default to users with the following roles: `Administrator`, `Editor`, `Project Creator`, and `Marketeer`. The backend is also available to `Readers` who have been granted permissions to do so. For more details, see the [User Accounts](/docs/projects/accounts/users.html) and [Permissions](/docs/projects/customizing/permissions.html) sections.
 
 <a name="accessing"></a>
 ## Accessing the Backend
@@ -48,9 +48,10 @@ The recently updated pane provides users an easy way to jump back into the two m
 
 ## Working with Projects
 
-The rest of this section is broken into the following four sections and within each are details for add and modify content and settings.
+The rest of this section is broken into the following sections, and within each are details for add and modify content and settings.
 
-* [Creating Projects](creating.html)
-* [Ingesting Texts](customizing/texts.html#adding-texts)
-* [Customizing Projects](customizing/index.html)
-* [Accounts](accounts/index.html)
+* [Creating Projects](/docs/projects/creating.html)
+* [Preparing Texts](/docs/projects/preparing/index.html)
+* [Preparing Resources](/docs/projects/resources.html)
+* [Customizing Projects](/docs/projects/customizing/index.html)
+* [Accounts and Roles](/docs/projects/accounts/index.html)

@@ -10,7 +10,7 @@ Manifold supports both the [basic](https://www.markdownguide.org/basic-syntax) a
 
 Markdown files for Manifold are made up of a header (containing metadata elements), an optional reference to a stylesheet, and the text of the document.
 
-When uploading only a single Markdown document, the header can contain all of the metadata elements noted in the [Document Metadata section](index.html#meta). When part of a manifest upload, the only element that should be present in the document header is the title; the rest can be described in the manifest [YAML file](index.html#yml).
+When uploading only a single Markdown document, the header can contain all of the metadata elements noted in the [Document Metadata section](/docs/projects/preparing/index.html#meta). When part of a manifest upload, the only element that should be present in the document header is the title; the rest can be described in the manifest [YAML file](/docs/projects/preparing/index.html#yml).
 
 <a name="md-header"></a>
 ## Header
@@ -87,4 +87,4 @@ The directory that would be compressed for upload would include the Markdown fil
 <a name="md-av"></a>
 ### Audio and Video
 
-Markdown does not have specific syntax to embed audio or video content, but given it's relationship to HTML, author's can inject HTML code into a Markdown document and get the expected results. As such, by using the same coding as described in the HTML section below, authors can add [audio](html.html#html-audio) and [video](html.html#html-video), respectively.
+Markdown does not have specific syntax to embed audio or video content, but given it's relationship to HTML, author's can inject HTML code into a Markdown document and get the expected results. As such, by using the same coding as described in the HTML section below, authors can add [audio](/docs/projects/preparing/html.html#html-audio) and [video](/docs/projects/preparing/html.html#html-video), respectively.

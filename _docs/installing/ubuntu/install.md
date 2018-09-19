@@ -12,7 +12,7 @@ menu:
 
 {% include installation/notice.md %}
 
-The most recent Manifold Ubuntu release is <strong>{{ubuntu_18_release.build_version}}</strong>. To install previous releases, grab the apprporiate URL from the [downloads page](/docs/reference/downloads.html).
+The most recent Manifold Ubuntu release is <strong>{{ubuntu_18_release.build_version}}</strong>. To install previous releases, grab the appropriate URL from the [downloads page](/docs/reference/downloads.html).
 
 The following instructions have only been tested on Ubuntu 16 and Ubuntu 18 hosts. We recommend installing Manifold on Ubuntu 18. Your mileage will almost certainly vary if you attempt to install Manifold on a different Debian based distribution.
 

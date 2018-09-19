@@ -8,8 +8,8 @@ menus:
 
 Manifold can utilize Google Services to enable additional helpful features.
 
-* [Analytics](analytics.html)
-* [Drive](drive.html)
+* [Analytics](/docs/customizing/external_services/google/analytics.html)
+* [Drive](/docs/customizing/external_services/google/drive.html)
 
 To begin using these features, you must first complete some configuration through the Google Developer Console.
 

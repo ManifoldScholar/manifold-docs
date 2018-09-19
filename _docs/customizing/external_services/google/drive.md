@@ -8,7 +8,7 @@ menus:
 
 Configure this feature to enable Google Doc ingestion and Google Drive resource retrieval.
 
-Before using this feature, you must [configure Google services](index.html).
+Before using this feature, you must [configure Google services](/docs/customizing/external_services/google/index.html).
 
 ## Enable Drive
 
