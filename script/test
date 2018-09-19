@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# script/cibuild: Setup environment for CI to run tests. This is primarily
+#                 designed to run on the continuous integration server.
+
+set -e
+cd "$(dirname "$0")/.."
+
+echo "Running jekyll build…"
+date "+%H:%M:%S"
+
+jekyll build
+time bundle exec htmlproofer ./_site/  --assume-extension --url-ignore=/http:/,/https:/

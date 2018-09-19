@@ -24,8 +24,4 @@ export RBENV_VERSION=$(cat .ruby-version)
 
 export PATH="$RACK_ROOT/bin:$PATH"
 
-echo "Running jekyll build…"
-date "+%H:%M:%S"
-
-jekyll build
-time bundle exec htmlproofer ./_site/  --assume-extension --url-ignore=/http:/,/https:/
+./script/test
