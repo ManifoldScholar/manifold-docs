@@ -9,10 +9,10 @@ menus:
 
 This section of documentation describes how to create and modify user accounts and maker records (see below on how the two are different), what user roles are available and how they differ, and what system functionality is unlocked through the different permission allowances that can be assigned to users on a project-by-project basis.
 
-* [User Roles](users.html)
-* [Maker Records](makers.html)
-* [Creating User Accounts and Maker Records](creating.html)
-* [Managing User Accounts and Maker Records](managing.html)
+* [User Roles](/docs/projects/accounts/users.html)
+* [Maker Records](/docs/projects/accounts/makers.html)
+* [Creating User Accounts and Maker Records](/docs/projects/accounts/creating.html)
+* [Managing User Accounts and Maker Records](/docs/projects/accounts/managing.html)
 
 ## User Accounts vs. Maker Records
 

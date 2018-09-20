@@ -21,7 +21,7 @@ To create a new User account in the backend, navigate to the Records menu, selec
 
 If there are no existing users in the system, this button will appear alone; otherwise it will always appear as the first entry. A drawer will open up from the right prompting for the users's email, role, and name.
 
-**Caution**. Before creating a live account, please consult the [User Accounts](users.html) page to see which permissions are associated with each of the different roles available in the system.
+**Caution**. Before creating a live account, please consult the [User Accounts](/docs/projects/accounts/users.html) page to see which permissions are associated with each of the different roles available in the system.
 
 The system will automatically generate a password for the new user. To view or adjust the password, click on the eye icon beside the password heading.
 

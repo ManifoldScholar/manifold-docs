@@ -63,7 +63,7 @@ A Manifest upload can be composed of a collection of one file type or a mixture 
 
 ![Manifest Strategy](/docs/assets/projects/strategy-manifest.png)
 
-When the various source documents have been prepared [according to the requirements of their format](#formats), users should compress (or zip) all of the documents—**along with the required YAML file described below**—into a single archive, which can then be uploaded into Manifold. The structure of YAML file will be represented on the reader's [contents dropdown](/docs/reading/interface.html#contents), and its content will inform what is displayed on the [title bar](/docs/reading/interface.html#title-bar). See the YAML section following for details.
+When the various source documents have been prepared [according to the requirements of their format](/docs/projects/preparing/index.html#formats), users should compress (or zip) all of the documents—**along with the required YAML file described below**—into a single archive, which can then be uploaded into Manifold. The structure of YAML file will be represented on the reader's [contents dropdown](/docs/reading/interface.html#contents), and its content will inform what is displayed on the [title bar](/docs/reading/interface.html#title-bar). See the YAML section following for details.
 
 <a name="yml"></a>
 ## YAML File

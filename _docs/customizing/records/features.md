@@ -64,17 +64,17 @@ This dropdown is the only way to control the color of the link text, which can e
 
 ### Background Color
 
-Entering a value in this field will change the feature's background color. Doing so will override the predefined color associated with the value selected in the `Style` dropdown. For details on the color values available to this field, see the [Formatting section](#formatting) below.
+Entering a value in this field will change the feature's background color. Doing so will override the predefined color associated with the value selected in the `Style` dropdown. For details on the color values available to this field, see the [Formatting section](/docs/customizing/records/features.html#formatting) below.
 
 If a background image is loaded, the value in this field will be overridden by the image.
 
 ### Foreground Color
 
-This field controls the color of the feature's body text. If a value is entered here, it will override the predefined color associated with the value selected in the `Style` dropdown. For details on the color values available to this field, see the [Formatting section](#formatting) below.
+This field controls the color of the feature's body text. If a value is entered here, it will override the predefined color associated with the value selected in the `Style` dropdown. For details on the color values available to this field, see the [Formatting section](/docs/customizing/records/features.html#formatting) below.
 
 ### Header Color
 
-This field controls the color of the feature's header text. If a value is entered here, it will override the predefined color associated with the value selected in the `Style` dropdown. For details on the color values available to this field, see the [Formatting section](#formatting) below.
+This field controls the color of the feature's header text. If a value is entered here, it will override the predefined color associated with the value selected in the `Style` dropdown. For details on the color values available to this field, see the [Formatting section](/docs/customizing/records/features.html#formatting) below.
 
 <a name="formatting"></a>
 #### Formatting Color Values
@@ -111,13 +111,13 @@ We offer no hard and fast guideline on size, as use and aesthetic will vary from
 
 By default the foreground image is aligned vertically with the top of the header text. A null value entered into the field will move the image so that its top aligns with the top of the background banner, with values increasing from zero moving it further down the page.
 
-See the [Positioning Foreground Image Values](#positioning) section below for the kinds of input this field allows.
+See the [Positioning Foreground Image Values](/docs/customizing/records/features.html#positioning) section below for the kinds of input this field allows.
 
 ### Foreground Image Left Position
 
 By default the foreground image is aligned horizontally just to the right of the body text. Entering positive values into this field will move the image further to the right; negative values will pull it toward (and eventually over) the body text.
 
-See the [Positioning Foreground Image Values](#positioning) section below for the kinds of input this field allows.
+See the [Positioning Foreground Image Values](/docs/customizing/records/features.html#positioning) section below for the kinds of input this field allows.
 
 <a name="positioning"></a>
 #### Positioning Foreground Image Values

@@ -45,7 +45,7 @@ The `General` sidebar allows you to modify the `Title`, `Description`, and `Cove
 
 To add a Resource to a Collection, select the Collection you wish to edit from the list displayed from the `Collections` sidebar, and then select `Resources` from the new sidebar that appears.
 
-Here you will be shown a list of all Resources associated with a project. If no Resources have been added, refer to the [Adding Resources](resources.html#adding-resources-single) section before proceeding.
+Here you will be shown a list of all Resources associated with a project. If no Resources have been added, refer to the [Adding Resources](/docs/projects/customizing/resources.html#adding-resources-single) section before proceeding.
 
 Next to each available Resource there will be a slider. Toggling a Resource's slider to the right (so that green is showing on the slide) adds that Resource to the Collection.
 

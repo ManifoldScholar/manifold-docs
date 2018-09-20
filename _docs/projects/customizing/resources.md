@@ -23,11 +23,11 @@ Each of those are discussed in detail in the [Preparing Resources](/docs/project
 
 In this space, devoted to the `Resource` sidebar of the backend project page, we will consider how to add the resources you have already prepared into the system along the following themes:
 
-* [Required User Credentials](#credentials)
-* [Adding Resources Individually](#adding-resources-single)
-* [Adding Resources in Bulk](#adding-resources-bulk)
-* [Managing Resources](#editing-resources)
-* [Searching through Existing Resources](#searching-resources)
+* [Required User Credentials](/docs/projects/customizing/resources.html#credentials)
+* [Adding Resources Individually](/docs/projects/customizing/resources.html#adding-resources-single)
+* [Adding Resources in Bulk](/docs/projects/customizing/resources.html#adding-resources-bulk)
+* [Managing Resources](/docs/projects/customizing/resources.html#editing-resources)
+* [Searching through Existing Resources](/docs/projects/customizing/resources.html#searching-resources)
 
 Details on how to place already loaded resources (or collections of resources) in a text is discussed in the [Interface](/docs/reading/placing.html) section.
 
@@ -92,7 +92,7 @@ Once your sheet is filled out (and saved as a CSV) and your resources saved to G
 
 You will be taken to a screen where you can load your CSV file or provide the URL to a shared Google Sheet under the `Step 1: Upload` heading. Below the `Step 2: Describe Data` you should select from the dropdown the row number where your column headings appear (select `2` for the Manifold Resource Log) and then enter ID for the Google Drive folder where your resources are saved. The ID is the last part of the URL for your Google Drive folder after `https://drive.google.com/drive/folders/`.
 
-When you click continue you'll be taken to `Step 3: Map Columns to Resource Attributes`. The column on the left side lists the column headers found in your spreadsheet. The column on the right lists the attributes that can be set on Manifold resources. Drag the attributes on the right to the corresponding columns on the left. The [Resource Import Matrix](#resource-import) below serves as a map between those columns.
+When you click continue you'll be taken to `Step 3: Map Columns to Resource Attributes`. The column on the left side lists the column headers found in your spreadsheet. The column on the right lists the attributes that can be set on Manifold resources. Drag the attributes on the right to the corresponding columns on the left. The [Resource Import Matrix](/docs/projects/customizing/resources.html#resource-import) below serves as a map between those columns.
 
 Pressing the `Automatically Map Attributes` button will attempt to automatically match the attributes with the spreadsheet columns. If you are using the Manifold Resource Log you'll need to only map two attributes manually: `external_id` to `Video ID`, and `metadata.rights` to `License`.
 

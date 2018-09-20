@@ -43,16 +43,16 @@ When you click the `Delete` button from the header, the system will prompt you t
 
 All available means to customize a project are contained on this page and broken into the eleven categories denoted in the sidebar, which are described in full in the following sections. By default, when you arrive on the project page you will land in the General sidebar category.
 
-* [General](general.html)
-* [Appearance](appearance.html)
-* [Permissions](permissions.html)
-* [People](people.html)
-* [Texts](texts.html)
-* [Resources](resources.html)
-* [Collections](collections.html)
-* [Activity](activity.html)
-* [Metadata](metadata.html)
-* [Social](social.html)
-* [Log](log.html)
+* [General](/docs/projects/customizing/general.html)
+* [Appearance](/docs/projects/customizing/appearance.html)
+* [Permissions](/docs/projects/customizing/permissions.html)
+* [People](/docs/projects/customizing/people.html)
+* [Texts](/docs/projects/customizing/texts.html)
+* [Resources](/docs/projects/customizing/resources.html)
+* [Collections](/docs/projects/customizing/collections.html)
+* [Activity](/docs/projects/customizing/activity.html)
+* [Metadata](/docs/projects/customizing/metadata.html)
+* [Social](/docs/projects/customizing/social.html)
+* [Log](/docs/projects/customizing/log.html)
 
 When you click on a sidebar item the editing panel will adjust to reveal options particular to that section. You must save any changes, using the `Save Project` button at the bottom of the editing panel, before moving from one section to make adjustments in another. If you make changes without clicking `Save Project` the system will prompt you to do so before proceeding.

@@ -16,10 +16,10 @@ When texts are added to a project they will be oriented in the `Uncategorized` s
 
 This section is portioned along the following themes:
 
-* [Adding Texts to Projects](#adding-texts)
-* [Grouping Texts by Category](#grouping-texts)
-* [Published Texts](#published-texts)
-* [Managing a Text's Details](#managing-texts)
+* [Adding Texts to Projects](/docs/projects/customizing/texts.html#adding-texts)
+* [Grouping Texts by Category](/docs/projects/customizing/texts.html#grouping-texts)
+* [Published Texts](/docs/projects/customizing/texts.html#published-texts)
+* [Managing a Text's Details](/docs/projects/customizing/texts.html#managing-texts)
 
 <a name="adding-texts"></a>
 ## Adding Texts to Projects
@@ -131,7 +131,7 @@ The content entered in the `Title` and `Description` fields are included when a 
 
 ### People
 
-Through the `People` sidebar element you can add, remove, and modify Maker records associated with the text just as you could for the project generally. For details on that process, which is the same here, see the [People section](people.html).
+Through the `People` sidebar element you can add, remove, and modify Maker records associated with the text just as you could for the project generally. For details on that process, which is the same here, see the [People section](/docs/projects/customizing/people.html).
 
 ### Metadata
 
@@ -166,4 +166,4 @@ This process is not versioning control but a means to address the need to make m
 
 When you reingest a text, all the annotations, highlights, and resource placements that have been made will persist, unless such drastic changes were performed that the system can no longer identify their original anchors. In this unlikely case, annotations and highlights will be orphaned and no longer accessible.
 
-To reingest a text, click on `Reingest` from the text landing page sidebar. You will see the same readout as when you initially ingested the text. Follow the same steps from the [`Adding Texts` section](#adding-texts) above and when completed your text will have been replaced by the newer version.
+To reingest a text, click on `Reingest` from the text landing page sidebar. You will see the same readout as when you initially ingested the text. Follow the same steps from the [`Adding Texts` section](/docs/projects/customizing/texts.html#adding-texts) above and when completed your text will have been replaced by the newer version.

@@ -28,7 +28,7 @@ For backend users interested in how to curate this section and set up searches t
 
 ## Texts
 
-The Texts section collects all the various texts the editor of the project has chosen to showcase in the reader. Texts can be grouped along different, custom, themes as determined by a publisher and will always include the date they were added to the platform beside tallies of how many notes and highlights you have added to the text. When clicked a reader will be taken into Manifold's [reading interface](interface.html).
+The Texts section collects all the various texts the editor of the project has chosen to showcase in the reader. Texts can be grouped along different, custom, themes as determined by a publisher and will always include the date they were added to the platform beside tallies of how many notes and highlights you have added to the text. When clicked a reader will be taken into Manifold's [reading interface](/docs/reading/interface.html).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 Discussion on how to add and curate texts is considered in the <a href="/docs/projects/customizing/texts.html">Texts</a> section for users accessing the Manifold backend.

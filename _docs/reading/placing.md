@@ -10,23 +10,23 @@ Manifold expands scholarly works in many ways. Importantly, Manifold makes avail
 
 In this section we will discuss
 
-* how and where resources can be [explored throughout a project](#exploring), and
-* how they can be [placed in texts](#placing).
+* how and where resources can be [explored throughout a project](/docs/reading/placing.html#exploring), and
+* how they can be [placed in texts](/docs/reading/placing.html#placing).
 
 <a name="exploring"></a>
 ## Exploring Resources
 
 When supplemental resources have been added to a project, they can be accessed and engaged with from the following areas within a project:
 
-* [Project Homepage](#project-homepage)
-* [Project Resource Library](#resource-library)
-* [Resource Previewer](#resource-previewer)
-* [Resource Page](#resource-page)
-* [Resource Viewers and Players](#resource-players)
-    * [Image Viewer](#image-viewer)
-    * [Video Player](#video-player)
-    * [Audio Player](#audio-player)
-    * [Interactive Viewer](#interactive-viewer)
+* [Project Homepage](/docs/reading/placing.html#project-homepage)
+* [Project Resource Library](/docs/reading/placing.html#resource-library)
+* [Resource Previewer](/docs/reading/placing.html#resource-previewer)
+* [Resource Page](/docs/reading/placing.html#resource-page)
+* [Resource Viewers and Players](/docs/reading/placing.html#resource-players)
+    * [Image Viewer](/docs/reading/placing.html#image-viewer)
+    * [Video Player](/docs/reading/placing.html#video-player)
+    * [Audio Player](/docs/reading/placing.html#audio-player)
+    * [Interactive Viewer](/docs/reading/placing.html#interactive-viewer)
 
 Each are described in detail in the following sections.
 
@@ -51,7 +51,7 @@ Depending on the resource type, the library allows you to preview, view directly
 <a name="resource-previewer"></a>
 ### Resource Previewer
 
-The resource previewer is a modal that overlays the screen with a preview of a resource along with associated descriptive information. The previewer is opened when a reader clicks on a resource that has been placed onto a text, indicated by a cube marker in the text and a thumbnail in the margins, or when the `Preview` or `View` button is clicked in the Project Resources Library. If the resource in question is a media file that can be run or interacted with in the browser, an appropriate player will be provided to engage with the content. See the [Resource Players section](#resource-players) for more.
+The resource previewer is a modal that overlays the screen with a preview of a resource along with associated descriptive information. The previewer is opened when a reader clicks on a resource that has been placed onto a text, indicated by a cube marker in the text and a thumbnail in the margins, or when the `Preview` or `View` button is clicked in the Project Resources Library. If the resource in question is a media file that can be run or interacted with in the browser, an appropriate player will be provided to engage with the content. See the [Resource Players section](/docs/reading/placing.html#resource-players) for more.
 
 ![Preview Modal](/docs/assets/reading/preview-modal.png)
 

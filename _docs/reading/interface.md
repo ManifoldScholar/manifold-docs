@@ -69,6 +69,6 @@ The `Aa` takes you to a menu of formatting options to adjust how the text shows 
 The spyglass opens a serach bar that allows you to search within the chapter, text, or project for words or passages of interest.
 
 ## Text Menus
-When logged into Manifold, you have a number of note-taking options within a text, each of which are considered in their own respective sections, as follows: When you use your cursor to select the text you wish you to engage with, a menu will appear asking if you wish to [Share](sharing.html), associate a [Resource](placing.html) with, [Annotate](annotating.html), or [Highlight](highlighting.html) the selected passage.
+When logged into Manifold, you have a number of note-taking options within a text, each of which are considered in their own respective sections, as follows: When you use your cursor to select the text you wish you to engage with, a menu will appear asking if you wish to [Share](/docs/reading/sharing.html), associate a [Resource](/docs/reading/placing.html) with, [Annotate](/docs/reading/annotating.html), or [Highlight](/docs/reading/highlighting.html) the selected passage.
 
 ![Text Menu](/docs/assets/reading/text-menu.png)

@@ -4,4 +4,4 @@
 
 2. You will need to have root access to the server and the ability to shell into the server.
 
-3. Your server should have a fully qualified domain name (FQDN). If the hostname is setup correctly, the installer should detect it and configure manifold accordingly. If it's not, you can set the hostname manually in /etc/manifold/manifold.rb and reconfigure the application. Reconfiguration is discussed below.
+3. Your server should have a fully qualified domain name (FQDN). If the hostname is setup correctly, the installer should detect it and configure manifold accordingly. If it's not, you can set the hostname manually in `/etc/manifold/manifold.rb` and reconfigure the application. Reconfiguration is discussed below.
