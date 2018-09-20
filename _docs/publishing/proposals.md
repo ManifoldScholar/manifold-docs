@@ -7,9 +7,9 @@ menus:
     title: Evaluating Proposals
 ---
 
-This section includes considerations for projects utilizing [Manifold's Iterative conception](project_types.html). Projects following the Open-Access or Enhanced paths will, by and large, track with the publisher's standard production process, though likely exceptions will be noted here.
+This section includes considerations for projects utilizing [Manifold's Iterative conception](/docs/publishing/project_types.html). Projects following the Open-Access or Enhanced paths will, by and large, track with the publisher's standard production process, though likely exceptions will be noted here.
 
-Iterative projects will enjoy two distinct workflows in the iterative and dissemination phases, respectively: The iterative phase aligns with a project's development, which normally occurs beyond the view of the reader or publisher, and the dissemination phase aligns with the processes the publisher currently employs in the publication of final print or electronic works—the versions or record. See the [workflow map](workflow.html) for a visual outline. Because the dissemination phase is a known quantity the workflow of the iterative phase will take the focus here:
+Iterative projects will enjoy two distinct workflows in the iterative and dissemination phases, respectively: The iterative phase aligns with a project's development, which normally occurs beyond the view of the reader or publisher, and the dissemination phase aligns with the processes the publisher currently employs in the publication of final print or electronic works—the versions or record. See the [workflow map](/docs/publishing/workflow.html) for a visual outline. Because the dissemination phase is a known quantity the workflow of the iterative phase will take the focus here:
 
 ## Iterative Phase Considerations
 
