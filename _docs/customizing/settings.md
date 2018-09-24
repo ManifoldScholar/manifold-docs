@@ -101,7 +101,7 @@ The fields contained in the `Theme` section allow a publisher to replace the def
 
 ### Press Logo
 
-A publisher's logo can be uploaded here as a GIF, JPEG, JPG, PNG, or SVG file. Publisher logos replace the default Manifold icon and will appear in the upper lefthand corner of the Manifold homepage, as well as on the right of the footer that appears on all instance pages, except those rendering a text in the reader, where the footer is replaced by a text's copyright information.
+A publisher's logo can be uploaded here as a GIF, JPEG, JPG, or PNG file. Publisher logos replace the default Manifold icon and will appear in the upper lefthand corner of the Manifold homepage, as well as on the right of the footer that appears on all instance pages, except those rendering a text in the reader, where the footer is replaced by a text's copyright information.
 
 Logos are constrained at 40 px wide with flexible height. For retina displays, upload logos that are 80 px wide.
 
