@@ -97,29 +97,51 @@ If your terms exists as a Manifold Page created in the [Records menu](/docs/cust
 <a name="theme"></a>
 ## Theme Settings
 
-The fields contained in the `Theme` section allow a publisher to replace the default Manifold icon with their own branded logo.
+The fields contained in the `Theme` section allow a publisher to replace the default Manifold icon with their own branded logo, modify how the header element is aligned, and adjust the default font set of the instance.
 
-### Press Logo
+![Branding](/docs/assets/customizing/branding.png)
 
-A publisher's logo can be uploaded here as a GIF, JPEG, JPG, or PNG file. Publisher logos replace the default Manifold icon and will appear in the upper lefthand corner of the Manifold homepage, as well as on the right of the footer that appears on all instance pages, except those rendering a text in the reader, where the footer is replaced by a text's copyright information.
+### Branding
 
-Logos are constrained at 40 px wide with flexible height. For retina displays, upload logos that are 80 px wide.
-
-### Press Website URL
+#### Press Website URL
 
 This field allows publisher's to direct users to a specific URL they want to associate with their logo (usually the publisher's homepage). If left empty the logo will not be clickable.
 
-### Logo Styles
+#### Header Logo
 
-Publishers can adjust the placement of their logo, as it appears in the header, by entering a JSON style object. Logos are anchored on their the top and left, so our suggestion would be to use those parameters in adjusting it's placement.
+Publisher logos replace the default Manifold icon and will appear in the upper lefthand corner of the Manifold homepage.
+
+Header Logos are constrained to max height of 60 px high with flexible height and can be uploaded as a GIF, JPEG, JPG, or PNG file.
+
+#### Mobile Logo
+
+A logo added to this field will replace the Header Logo on mobile devices.
+
+Mobile Logos are best prepared as graphic-only elements in a 1:1 ratio. They can be uploaded as a GIF, JPEG, JPG, or PNG file.
+
+#### Press Footer Logo
+
+The footer logo will appear on the right of the footer that appears on all instance pages, except those rendering a Text in the Reader, where the footer is replaced by a Text's copyright information.
+
+This logo can mimic that of the header logo or be of its own distinct design. The dimensions of the footer logo are capped at 325 × 200 px and can be uploaded as a GIF, JPEG, JPG, or PNG file.
+
+#### Logo Styles
+
+Publishers can adjust the placement of their header logo by entering a JSON style object. Logos are anchored on their the top and left, so our suggestion would be to use those parameters in adjusting it's placement.
 
 For example, `{"left": 100, "top": 100}` would push the logo 100 pixels to the right (or from the left) and 100 pixels down (or from the top) from its default location in the header.
 
 In terms of syntax, the entire instruction should be surrounded by braces (`{}`), with the parameters enclosed in quote marks and separated by a comma. Units are in pixels.
 
-Presently, it is not possible to style the logo that appears in the Manifold footer.
+#### Header Navigation Offset
 
-### Typekit ID
+This field allows users to adjust the vertical position of header navigation menu elements. For example, enter `5` to move the header elements down five pixels. Enter `-5` to move it up five pixels.
+
+![Header Offset](/docs/assets/customizing/header-offset.png)
+
+### Typography
+
+#### Typekit ID
 
 Manifold was designed to employ two TypeKit fonts throughout the app: `Sofia Pro` and `Freight Text`. If you have a valid Typekit account and enter your ID in this field, those two fonts will load for your readers.
 
