@@ -28,7 +28,7 @@ Users are created by those first signing up for an account with a particular ins
 
 ## Marketeer
 
-**Abilities**. Marketeers can modify *all* existing Projects and Maker records, but they can't create new or delete existing ones. Marketeers can also create, modify, or delete an installation's [Pages](/docs/customizing/records/pages.html). 
+**Abilities**. Marketeers can modify *all* existing Projects and Maker records, but they can't create new or delete existing ones. Marketeers can also create, modify, or delete an installation's [Pages](/docs/customizing/records/pages.html) and [Features](/docs/customizing/records/features.html).
 
 **Use Cases**. For those who are charged with maintaining the identity, voice, and branding of the instance. At a university press this role would granted to staff from the marketing and sales departments.
 
