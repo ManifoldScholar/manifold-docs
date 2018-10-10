@@ -16,7 +16,7 @@ Users are created by those first signing up for an account with a particular ins
 
 ## Editor
 
-**Abilities**. Editors can create, modify, or delete Projects, [Maker records](/docs/projects/accounts/makers.html) and an installation's [Pages](/docs/customizing/records/pages.html), regardless of who originally created them. Editors *do not* have access to an installation's [global settings](/docs/records/settings.html), cannot manage [Features](/docs/customizing/records/features.html), nor can they create, modify, or delete [user accounts](/docs/projects/accounts/users.html).
+**Abilities**. Editors can create, modify, or delete Projects, [Maker records](/docs/projects/accounts/makers.html) and an installation's [Pages](/docs/customizing/records/pages.html), regardless of who originally created them. Editors *do not* have access to an installation's [global settings](/docs/customizing/settings.html), cannot manage [Features](/docs/customizing/records/features.html), nor can they create, modify, or delete [user accounts](/docs/projects/accounts/users.html).
 
 **Use Cases**. Editor permissions would be used for those in DH Centers, publishing units, and libraries where staff with this permission designation need full control over all the projects and Maker records within an instance.
 
