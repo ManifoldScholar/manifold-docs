@@ -46,7 +46,7 @@ The Purpose dropdown allows you to categorize your page as one of the following:
 - Privacy Policy
 - Terms and Conditions
 
-Users cannot designate more than one page as a Privacy Policy or Terms and Conditions. But multiple pages can be registered as Supplemental Content.
+A link to the page designated as the instance's Terms and Conditions will be included in the account creation form, with language indicating that by creating an account on the instance, new users are agreeing to the terms therein laid out. Users cannot designate more than one page as a Privacy Policy or Terms and Conditions. But multiple pages can be registered as Supplemental Content.
 
 #### External Page?
 
