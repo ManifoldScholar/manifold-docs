@@ -6,56 +6,34 @@ menus:
     weight: 1
 ---
 
-Users are created by those first signing up for an account with a particular instance of Manifold—or by an existing user with Administrator credentials on behalf of one who doesn't yet have an account. User accounts carry different CRUD (Create, Read, Update, Delete) permission credentials according to the following roles:
+Users are created by those first signing up for an account with a particular instance of Manifold—or by an existing Administrator on behalf of one who doesn't yet have an account. User accounts carry permission credentials according to the following roles:
 
 ## Administrator
 
-Has full CRUD permissions within a specific instance and Read access to the (forthcoming) Analytics menu item.
+**Abilities**. All menus, settings, and actions available in the backend can be attended by an Administrator. Only those who have installed the instance and can access it through a command line interface (CLI) can exercise more control over an instance.
 
 **Use Cases**. Administrator permissions would be assigned to the person (or team members) overseeing a Manifold installation at an institution or publishing unit. Within a university press, this permission designation would be assigned to one or a subset of the following: a digital editor, someone from either the editorial or production departments, or, in some cases, an IT manager.
 
 ## Editor
 
-Has full CRUD permissions within an instance, except in the Settings and Analytics menus, the latter of which they can see (Read) but nothing else. This role also cannot CRUD user accounts and is limited to Maker records. If a project has been deleted from the system, this user will not be able to delete any Maker records that were unique to that project.
+**Abilities**. Editors can create, modify, or delete Projects, [Maker records](/docs/projects/accounts/makers.html) and an installation's [Pages](/docs/customizing/records/pages.html), regardless of who originally created them. Editors *do not* have access to an installation's [global settings](/docs/customizing/settings.html), cannot manage [Features](/docs/customizing/records/features.html), nor can they create, modify, or delete [user accounts](/docs/projects/accounts/users.html).
 
-**Use Cases**. Editor permissions would be used for those in DH Centers, publishing units, and libraries where staff with this permission designation would have full control over all the projects within an instance but not be able to affect the instance’s global settings.
+**Use Cases**. Editor permissions would be used for those in DH Centers, publishing units, and libraries where staff with this permission designation need full control over all the projects and Maker records within an instance.
 
 ## Project Creator
 
-Has creation permissions (C) for the Projects and People menus—and by default will have the “Can Modify the Project” permission toggled on, allowing those assigned this role the ability to not only create new projects but have the rights to modify them.
+**Abilities**. Can access the backend and see and modify only those projects they've created or those for which they have been scoped `Can Modify Project` [permissions](/docs/projects/customizing/permissions.html). Additionally, Project Creators can create new and modify existing Maker records; however, they cannot delete *any* Maker record, even those they created.
 
-Have CRU permissions for Maker records generally but can only delete Maker records that are associated with projects where the user has Can Modify Project permissions. As such it's possible for this user to permanently delete a Maker record associated with a project they can modify that is also associated with a project they cannot.
-
-For more about how to assign permissions to a user, see the [Permissions section](/docs/projects/customizing/permissions.html).
-
-**Use Cases**. Coordinator permissions could be assigned to (acquisitions) editorial and production staff, within a university press, to manage their specific projects and the people contributing to them. At other publishing centers this allows distinct units to control their own projects without affecting the instance as a whole or the publishing work of other units on the same instance.
+**Use Cases**. The Coordinator role can be granted to (acquisitions) editorial and production staff, within a university press, to manage their specific projects and the people contributing to them. At other publishing centers this role allows members of distinct units to control their own projects without affecting the instance as a whole or the publishing work of other units on the same instance.
 
 ## Marketeer
 
-Has RU (not C or D) permissions for only Projects and Content menus and Read access to the (forthcoming) Analytics menu item. This role also cannot CRUD user accounts and is limited to Maker records. If a project has been deleted from the system, this user will not be able to delete any Maker records that were unique to that project.
+**Abilities**. Marketeers can modify *all* existing Projects and Maker records, but they can't create new or delete existing ones. Marketeers can also create, modify, or delete an installation's [Pages](/docs/customizing/records/pages.html) and [Features](/docs/customizing/records/features.html).
 
-**Use Cases**. For marketing staff at a university press to add and update project copy and imagery across an instance, as well as pages and feature content items in service to promotion, branding, etc.
+**Use Cases**. For those who are charged with maintaining the identity, voice, and branding of the instance. At a university press this role would granted to staff from the marketing and sales departments.
 
 ## Reader
 
-The default user role. When logged in a Reader can highlight, annotate, comment, and use share functionality. This user doesn’t have native access to the backend in any capacity but can access the Author Dashboard on projects where `Is a Project author` permission is toggled on for that user.
+**Abilities**. The default user role. When logged in a Reader can highlight, annotate, comment, make use of sharing functionalities, and customize email notifications, all of which are described in detail in the [Reading section](/docs/reading/index.html). Readers don't have native access to the backend in any capacity, but they can be scoped permissions to perform certain actions in the backend (e.g., adding resources to a project or modifying metadata). Readers can also be classified as project authors, which distinguishes their interactions with their text from other readers. For more about what permissions can be scoped to the Reader role on a project-by-project basis, see the [Permissions section](/docs/projects/customizing/permissions.html).
 
-For more about what permissions can be scoped to the Reader role, see the [Permissions section](/docs/projects/customizing/permissions.html).
-
-## Table 1. Inherent backend permissions for global roles
-
-|                 |Projects          | People              | Content | Settings | Analytics | Author Dashboard<sup>a</sup> |
-|-----------------|------------------|---------------------|---------|----------|-----------|------------------------------|
-| Administrator   | CRUD             | CRUD                | CRUD    | CRUD     | R         | —                            |
-| Editor          | CRUD             | CRUD<sup>bc</sup>   | CRUD    | —        | R         | —                            |
-| Project Creator | CRUD<sup>d</sup> | CRUD<sup>cde</sup>  | —       | —        | —         | —                            |
-| Marketeer       | RU               | CRUD<sup>bc</sup>   | CRUD    | —        | R         | —                            |
-| Reader          | —                | —                   | —       | —        | —         | —                            |
-
-<small>
-<sup>a</sup>Access to the Author Dashboard is not inherent to any role. Only Readers who have the “Is a Project Author” permission toggled on will be able to access the dashboard.  
-<sup>b</sup>If a project has been deleted from the system, this user will not be able to delete any Maker records that were unique to that project.
-<sup>c</sup>Permissions are specific to Maker records and do not include any CRUD permissions for User accounts.  
-<sup>d</sup>Access to RUD functions is not inherent to the role but provided through the “Can Modify the Project” permission, which will be toggled on by default to the role.  
-<sup>e</sup>Permission to delete Maker records is (1) granted by the "Can Modify the Project" toggle and (2) specific to only those records where the user has said permission.
-</small>
+**Use Cases**. All users signing up for the first time to an instance are granted a Reader role. Users who have authored materials on the platform should come into the system as Readers and be granted further permission to access and engage with their project. See the Abilities section below for more details.
