@@ -48,6 +48,19 @@ The [University of Minnesota Press](https://www.upress.umn.edu) in partnership w
 
 Our ultimate goal is to build an open source tool that other university presses will use. To that end, we want to hear from our prospective users throughout the design and development process. To participate in the discussion, join us on our [Building Manifold Development Blog](http://blog.manifoldapp.org).
 
+## Technical Infrastructure
+
+Manifold's technology stack is made up of the following dependencies. To learn more about how these are employed in the architecture of the platform, see “[A Technical Introduction to Manifold](http://blog.manifoldapp.org/2015/12/03/a-technical-introduction-to-manifold/),” authored by the lead developer of Manifold, Zach Davis.
+
+- Node
+- React
+- Ruby
+- Rails
+- Redis
+- ElasticSearch
+- PostgreSQL
+- PanDoc
+
 ## Contribute Documentation
 
 If you have revisions or improvements you'd like to contribute to our documentation, please open an issue or submit a pull request at [our documentation repository](https://github.com/ManifoldScholar/manifold-docs).
