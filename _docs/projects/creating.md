@@ -6,7 +6,7 @@ menus:
     weight: 1
 ---
 
-To create a new project in the system, navigate to the Projects menu in the backend and click the `Add a New Project Button`.
+To create a new project in the system, click the `Add a New Project` button on the backend Dashboard, or, alternatively, navigate to the Projects menu and under the All Projects submenu click the button of the same name.
 
 ![Projects](/docs/assets/installing/projects.png)
 
