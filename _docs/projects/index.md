@@ -38,6 +38,10 @@ The search engine, powered by Elasticsearch, evaluates titles, subtitles, and au
 
 To clear your current search, click on `Reset Search` beneath the search bar.
 
+### Create a New Project
+
+For those accredited with user roles of Administrator, Editor, or Project Creator the `Add a New Project` button will be available as a means to add new projects to the system. See the [Creating Projects](/docs/projects/creating.html) section for details.
+
 ### Project List
 
 The project list displays all projects (in groups of five) that have been created on an instance of Manifold that you have access to edit. The project list is displaced by active search results from the search bar above the list. If no projects have yet been created, the list will remain empty.
