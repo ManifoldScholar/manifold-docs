@@ -66,7 +66,11 @@ The `Aa` takes you to a menu of formatting options to adjust how the text shows 
 <a name="search"></a>
 ### Search
 
-The spyglass opens a serach bar that allows you to search within the chapter, text, or project for words or passages of interest.
+The spyglass opens a search bar that allows you to search within the chapter, text, or project for words or passages of interest.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+Projects in Draft status are not indexed by Manifold's search engine, Elasticsearch. As such any searches performed on a Draft project won't return any results.
+</div>
 
 ## Text Menus
 When logged into Manifold, you have a number of note-taking options within a text, each of which are considered in their own respective sections, as follows: When you use your cursor to select the text you wish you to engage with, a menu will appear asking if you wish to [Share](/docs/reading/sharing.html), associate a [Resource](/docs/reading/placing.html) with, [Annotate](/docs/reading/annotating.html), or [Highlight](/docs/reading/highlighting.html) the selected passage.
