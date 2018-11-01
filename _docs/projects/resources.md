@@ -3,7 +3,7 @@ layout: page
 title: Preparing Resources
 menus:
   projects:
-    weight: 3
+    weight: 5
 ---
 
 Resources are supplementary materials that support and contextualize a project's base text, extending the scope and focus of an author's work with formats not feasible in print. Resources can annotate specific passages of text; function as objects of inquiry, discussion, or exploration unto themselves; or be curated into collections with other resources as best suits the needs of the project.

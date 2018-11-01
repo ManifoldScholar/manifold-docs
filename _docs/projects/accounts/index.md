@@ -4,7 +4,7 @@ title: Accounts and Roles
 menus:
   projects:
     identifier: accounts
-    weight: 5
+    weight: 6
 ---
 
 This section of documentation describes how to create and modify user accounts and maker records (see below on how the two are different), what user roles are available and how they differ, and what system functionality is unlocked through the different permission allowances that can be assigned to users on a project-by-project basis.

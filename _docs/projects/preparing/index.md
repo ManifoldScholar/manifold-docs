@@ -4,7 +4,7 @@ title: Preparing Texts
 menus:
   projects:
     identifier: preparing-texts
-    weight: 2
+    weight: 4
 ---
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
