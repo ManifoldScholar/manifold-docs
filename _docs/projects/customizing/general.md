@@ -9,6 +9,8 @@ The General category provides controls for the most top-level elements for how a
 
 ## Title
 
+![Title Bock](/docs/assets/projects/title-block.png)
+
 ### Title
 
 Use this field to update the project title, which displays on the project library and landing pages, as well as associated navigation menus. This field cannot be left empty.
@@ -31,6 +33,8 @@ https://manifold.umn.edu/project/the-lab-book
 
 ## Visibility
 
+![Visibility Bock](/docs/assets/projects/visibility-block.png)
+
 ### Draft Mode
 
 For use when wanting to load and edit a project and its materials before publishing it for a broad readership. When toggled on, projects are only visible to users logged in with Administrator, Editor, or Marketeer roles—and to Project Creators on projects where they have `Can Modify Project` permissions. New projects are set to Draft Mode by default, and Draft status is denoted in the project library, as well as on the project landing page.
@@ -39,11 +43,18 @@ When a project is in Draft Mode, users who have permissions to view the project 
 
 Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](/docs/projects/customizing/texts.html#published-texts), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
 
+<a name="featured"></a>
 ### Featured
 
 Featured projects take pride of place on the home page in a section of the library all of their own. Only four projects display in this section at a time. If more than four projects are toggled to be featured, only the four most recent will show. By default, new projects are *not* set to be featured.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. If <a href="/docs/projects/collections.html">Project Collections</a> are being employed, the Featured Projects blade will not appear. But projects marked as being Featured can be sorted into a Smart Collection. See the <a href="/docs/projects/collections.html#smart-collections">Collections</a> section for more.
+</div>
+
 ## Social
+
+![Social Bock](/docs/assets/projects/social-block.png)
 
 ### Hashtag
 
@@ -65,25 +76,27 @@ This field allows you to associate an Instagram account with the project. Enter 
 
 ## Other
 
-### Publisher
-
-The publisher name displays at the bottom of the project landing page in the About section, alongside any information input in the [Metadata](/docs/projects/customizing/metadata.html) section. Publisher information is also used to [generate citations](/docs/reading/sharing.html). The name input here is intended to refer to the project as a whole, not specific texts or resources within it; there is a separate field to fit that purpose and is described in the [Texts section](/docs/projects/customizing/texts.html).
-
-<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. This field is also repeated in the <a href="metadata.html">Metadata</a> section: they are linked together, and changes to one will be reflected in the other. This field is surfaced in two places because of its importance.
-</div>
+![Other Bock](/docs/assets/projects/other-block.png)
 
 ### Publication Date
 
 A publication date is required by the system to [generate citations](/docs/reading/sharing.html)). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
 
+<a name="subjects"></a>
 ### Subjects
 
 Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library.html)).
 
-Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing.
+Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing. Once accepted the Subject name will appear beneath the `Add a Subject` field alongside any others that have been associated with the project.
 
-To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings.html#subjects).
+To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings.html#subjects). And to see how Subjects can be used to curate Smart Collections, visit the [Project Collections](/docs/projects/collections.html#smart-collections) page.
+
+<a name="tags"></a>
+### Tags
+
+Unlike Subjects, Tags can be created by any user who has permission to modify a project and can be used to add further richness to the existing subject classification. Like Subjects, the Tag field provides a helper so that as you begin typing any similar tags that have already been created on your instance will be revealed.
+
+To see how Tags can be used to curate Smart Collections, visit the [Project Collections](/docs/projects/collections.html#smart-collections) page.
 
 <a name="thumbnail"></a>
 ### Project Thumbnail

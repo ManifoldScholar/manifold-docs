@@ -6,7 +6,7 @@ menus:
     weight: 1
 ---
 
-The Manifold homepage acts as the library of titles a publisher is offering on the platform. This library is divided into three main categories: [Featured Projects](/docs/reading/library.html#featuredprojects), [Our Projects](/docs/reading/library.html#ourprojects), and [Following](/docs/reading/library.html#following).
+The Manifold homepage acts as the library of titles a publisher is offering on the platform. This library is divided into three main categories by default: [Featured Projects](/docs/reading/library.html#featuredprojects), [Our Projects](/docs/reading/library.html#ourprojects), and [Following](/docs/reading/library.html#following). However, if a publisher is employing Project Collections as means to showcase their materials, those preferences will supersede the default views discussed here in the Featured Projects and Our Projects sections. See the [Project Collections](/docs/projects/collections.html) section for more.
 
 Projects appear in the library with their thumbnail or cover image, title, author, and date of most recent update.
 
