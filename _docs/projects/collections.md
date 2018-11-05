@@ -16,6 +16,16 @@ Only those collections denoted in the backend to `Show on homepage` will appear 
 
 ![Collections Page](/docs/assets/projects/collections-page.png)
 
+This section is broken up along the following themes:
+
+- [Creating a New Project Collection](/docs/projects/collections.html#new-collections)
+    - [Manual Collections](/docs/projects/collections.html#manual-collections)
+    - [Smart Collections](/docs/projects/collections.html#smart-collections)
+- [Modifying Existing Project Collections](/docs/projects/collections.html#modifying-collections)
+    - [Adjusting a Collection's Settings](/docs/projects/collections.html#adjusting-settings)
+    - [Ordering Projects within Collections](/docs/projects/collections.html#ordering)
+    - [Adding and Removing Projects from an Existing Collection](/docs/projects/collections.html#adding-projects)
+
 <a name="new-collections"></a>
 ## Creating a New Project Collection
 
@@ -40,6 +50,7 @@ The collection title appears at the top of the collection blade beside the colle
 
 The description field allows a user to orient the reader to the contents of the collection. This field accepts Markdown input, so limited text formatting is possible with bold, italic, and hyperlinks. The text from this field is rendered below the project title and above the first row of project thumbnails on the frontend.
 
+<a name="visible"></a>
 #### Visible
 
 The visible slider enables the user to create a collection and toggle whether or not readers can access it from the frontend. If toggled off, the collection won't appear on the homepage or on the Project Collections page. If toggled on the collection will appear only on the Project Collections page. See below for how to make a collection appear on the homepage.
@@ -62,6 +73,8 @@ When a new collection is created a user must select one of the available icons t
 
 ![Collection Icons](/docs/assets/projects/collection-icons.png)
 
+Once saved, this new manual collection will be empty. To populate it with titles see the section on [Adding and Removing Projects from an Existing Collection](/docs/projects/collections.html#adding-projects).
+
 <a name="smart-collections"></a>
 ### Smart Collections
 
@@ -71,6 +84,7 @@ Smart collections allow users to set certain filters that, when they are satisfi
 
 The fields required for a Manual Collection—Title, Description, Visible, and Show on Homepage—are likewise required for Smart Collections. However to properly calibrate a smart collection, the following fields are also required:
 
+<a name="projects-visible"></a>
 #### Projects Visible
 
 This field expects numerical input and controls how many projects that meet the collection's filter criteria are displayed in the Smart Collection.
@@ -93,7 +107,7 @@ The Subjects field allows a user to type and then select from the list of establ
 
 More than one subject can be included in the collection criteria, and they can be paired further with the Featured Projects field, and project Tags, also described in this section.
 
-To remove a subject from the criteria, simply click the `x` beside it's name below the `Add a Subject` button.
+To remove a subject from the criteria, simply click the `x` beside its name below the `Add a Subject` button.
 
 #### Tags
 
@@ -101,17 +115,57 @@ The Tags field allows a user to type and then select from the list of [Tags](/do
 
 More than one Tab can be included in the collection criteria, and they can be paired further with the Featured Projects field, and project Subjects, also described in this section.
 
-To remove a tag from the criteria, simply click the `x` beside it's name below the `Add a Tag` button.
+To remove a tag from the criteria, simply click the `x` beside its name below the `Add a Tag` button.
 
+<a name="modifying-collections"></a>
 ## Modifying Existing Project Collections
 
-<a name="ordering"></a>
-### Ordering Collections
-
-
-
-### Project Collection Sidebar
-
-The Project Collections page will display a list of existing collections on the left sidebar. The sidebar displays the collection's title, number of projects in the collection, a toggle to quickly change its homepage visibility status, and a handle to reorder the collections.
+The Project Collections page will display a list of existing collections on the left sidebar. The sidebar displays the collection's title, number of projects in the collection, a toggle to quickly change its homepage [visibility status](/docs/projects/collections.html#visible), and a handle to manually adjust the order of their appearance on both the home and collection pages by dragging and dropping.
 
 ![Collection Sidebar](/docs/assets/projects/collection-sidebar.png)
+
+To adjust the collections further, or to delete a collection outright, click on a collection title. Doing so will display a grid of those projects in the collection with a header to adjust its settings.
+
+![Collection Settings](/docs/assets/projects/collection-settings.png)
+
+<a name="adjusting-settings"></a>
+### Adjusting a Collection's Settings
+
+When you click on a collection's `Settings` button, a drawer will open from the right allowing you to modify all of the fields that were set when the collection was originally created. Additionally there are options to delete the collection or adjust its slug as it appears on the collection page (e.g., `https://{instance-name}/projects/project-collection/read-next`).  
+
+![Collection Settings Drawer](/docs/assets/projects/collection-settings-drawer.png)
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. If you have shared the URL to a collection and then change its slug, the original link to the collection page will no longer work.
+</div>
+
+<a name="ordering"></a>
+### Ordering Projects within Collections
+
+When a collection is selected, a user can adjust how the projects within the collection are sorted and displayed for readers through two means: a dropdown that offers four sorting options (Newest, Recently Updated, as well as forward and backward alphabetization) and the `Order Manually` slider.
+
+![Ordering a Collection](/docs/assets/projects/ordering-collection.png)
+
+The `Order Collection By` dropdown is available for both Manual and Smart Collections. From this dropdown a user can choose to order projects in the collection by four different criteria:
+
+- **Newest**. Newest titles are those that have been most recently added to the instance and not the collection, specifically.
+- **Recently Updated**. This speaks to the date a project has been modified with the addition or a new text, resource, or added/updated metadata.
+- **Title A–Z**. Ordering the projects alphabetically by title.
+- **Title Z–A**. Reverse alphabetical order of the projects by title.
+
+This dropdown works in conjunction with the [`Projects Visible`](/docs/projects/collections.html#projects-visible) field, allowing users to, say, create a collection of eight most recently updated projects in a certain subject area.
+
+For Manual Collections an `Order Manual` slider is available. If activated the `Order Collection By` dropdown will disappear and a user can reorder the projects within the collection manually by dragging and dropping them with their mouse.
+
+<a name="adding-projects"></a>
+### Adding and Removing Projects from an Existing Collection
+
+To add projects to a Manual collection, select the collection from the sidebar and then click the `Manage Projects` button beneath its name. A drawer will slide open from the right, showing a paginated view of all the projects on the instance.
+
+![Adding Projects to a Collection](/docs/assets/projects/collection-adding.png)
+
+From this view projects can be added to the collection by clicking on the green plus sign beside their thumbnail. The green plus sign will then turn to a blue checkmark. Conversely, projects that have been added can be removed by clicking on the blue checkmark.
+
+Users can scroll through this paginated view to review which projects to add or use the search bar to find those of interest more directly.
+
+To add or remove projects from a Smart Collection, a user needs to [adjust the filters](/docs/projects/collections.html#smart-collections) by which the system is evaluating projects for inclusion in the collection.
