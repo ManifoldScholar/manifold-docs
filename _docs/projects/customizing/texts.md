@@ -140,23 +140,25 @@ In addition to the basic metadata available through `General` sidebar element, t
 <a name="mod-styles"></a>
 ### Styles
 
-The `Styles` sidebar menu allows users who are versed in CSS (cascading stylesheets) to modify how certain elements in their text render in the reader by adjusting an existing—or associating a new—CSS file with the text.
+The Styles sidebar menu allows users who are versed in CSS (cascading stylesheets) to modify how certain elements in their text render in the reader by adjusting an existing—or associating a new—CSS file with the text.
 
-Stylesheets are applied to texts in the order listed under the `Stylesheet` heading and are classified as either `Ingested` or `User`:
+Stylesheets are applied to texts in the order listed under the Stylesheet heading and are classified as either “Ingested” or “User”:
 
 ![Styles](/docs/assets/projects/styles.png)
 
-`Ingested` stylesheets are those that were part of the source document imported into Manifold (with some modification) during the text ingestion. We do not recommend you modify `Ingested` stylesheets on the platform: if you happen to reingest the text, any changes you have made will be overridden by the reingest process.
+“Ingested” stylesheets are those that were part of the source document imported into Manifold (with some modification) during the text ingestion. We do not recommend you modify ingested stylesheets on the platform: if you happen to reingest the text, any changes you have made will be overridden by the reingest process.
 
-"User" stylesheets are those that have been created by a user after the initial ingestion and will not be overridden by a text reingestion.
+“User” stylesheets are those that have been created by a user after the initial ingestion and will not be overridden by a text reingestion.
 
 To override styles in the source document, create a new stylesheet and move it to the bottom of the list by clicking the `Add a New Stylesheet` button. You'll be taken to a new screen that is split into three sections: `Name`, `Source Styles`, and `Validated Styles`. As a user you will only be able to modify the first two fields.
 
-`Name`, provides a space for you to name your stylesheet.
+- **Name**. A field to document the name of your stylesheet. We suggest something brief but descriptive of its purpose (e.g., Blockquote Spacing).
+- **Source Styles**. The pane where you can add style rules to the various classes that make up your text. Rules should be in keeping with CSS standards.
+- **Validated Styles**. After you save your stylesheet, this pane will populate with the translation of your rules specific to the platform. This output is read-only and cannot be modified by a user.
 
-`Source Styles` is the pane where you can add style rules to the various classes that make up your text. Rules should be in keeping with CSS standards.
+Also available after your rules have been saved is the Text Sections dropdown. This dropdown allows a user to assign the new stylesheet to either the entire text—by clicking `Add All`—or by selecting individual sections from the dropdown. Selected sections appear below and can be deselected by clicking the `x` beside their names. Only those sections selected will have the new stylesheet applied to them. Thus it is possible assign style adjustments to specific parts of a text that was uploaded using the [Manifest ingestion method](/docs/projects/preparing/index.html#manifest).
 
-After you save your stylesheet, the `Validated Styles` pane will populate with the translation of your rules specific to the platform. This output is read-only and cannot be modified by a user.
+![Added Stylesheet](/docs/assets/projects/added-stylesheet.png)
 
 ### Reingest
 
