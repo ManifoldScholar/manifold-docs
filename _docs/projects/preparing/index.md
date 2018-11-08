@@ -59,7 +59,7 @@ The following table scopes out the source of the text title for each of the avai
 <a name="manifest"></a>
 ### Manifest
 
-A Manifest upload can be composed of a collection of one file type or a mixture of them, excepting EPUBs. Thus, it is possible to create a single Manifold text from one or more Google Docs, Markdown files, and HTML files: three different file types and sources combined to form one whole.
+A Manifest upload can be composed of a collection of one file type or a mixture of them, excepting EPUBs. Thus, it is possible to create a single Manifold text from one or more Google Docs, Word files (saved in the DOCX format), Markdown files, or HTML files: different file types and sources combined to form one whole.
 
 ![Manifest Strategy](/docs/assets/projects/strategy-manifest.png)
 

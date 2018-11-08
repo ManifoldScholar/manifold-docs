@@ -8,6 +8,10 @@ menus:
 
 Word documents saved in the DOCX format can be ingested directly into Manifold and support the following paragraph and character styles.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Simply changing the file extension from <code>.doc</code> to <code>.docx</code> is not a valid way to get a DOCX file. Word files originally saved in the DOC format need to be resaved as DOCX to work on Manifold.
+</div>
+
 <a name="docx-para"></a>
 ## Supported Paragraph Styles
 
