@@ -12,7 +12,7 @@ Your first step toward contributing to Manifold should be to setup a development
 <strong>Note:</strong> The following steps were followed on a fresh VM running MacOS 10.14 (Mojave). Your mileage may vary on other operating systems.
 </div>
 
-## Step 1: Install Dependencies
+## Step 1: Install dependencies
 
 ### Install Homebrew and XCode command line tools
 
@@ -129,7 +129,7 @@ Second, use [Homebrew Services](https://github.com/Homebrew/homebrew-services) t
 brew services start redis
 ```
 
-### Ensure Java is Present
+### Ensure Java is present
 
 Java is needed for ElasticSearch. We'll use [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) to install it. You will likely be prompted for your password.
 
@@ -147,7 +147,7 @@ brew install imagemagick pandoc
 ```
 
 
-## Step 2: Clone Manifold Source
+## Step 2: Clone Manifold source
 
 At [Cast Iron](https://castironcoding.com), we typically store our projects in a ~/src directory. For the purposes of these instructions, we'll assume you're doing the same.
 
