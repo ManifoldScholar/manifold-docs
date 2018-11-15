@@ -7,5 +7,6 @@ menu:
     weight: 8
 ---
 
+Manifold is open source software, and we welcome community contributions. To get started, follow the instructions on [how to set up a Manifold development environment](/docs/development/environment)
 
-1. [Setup a development environment](/docs/development/environment)
+In the near future, we will include contribution guidelines and API documentation on this page.
