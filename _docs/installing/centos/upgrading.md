@@ -11,24 +11,32 @@ menu:
 
 {% include installation/notice.md %}
 
-The following instructions assume that you installed Manifold from a .rpm file, and are updating that installation.
+## Upgrade the package
 
-### 1. Download the most recent package
+### From a YUM installation
 
-Shell into the server as root and download the most recent package.
+If you installed manifold via `yum`, shell into the server as root and execute the following:
+
+```shell
+yum update manifold
+```
+
+### From a manual installation
+
+If you installed manually via an `.rpm` file, shell into the server as root and execute the following:
 
 ``` shell
 cd ~
 curl -O {{ centos_7_release.url }}
-```
 
-### 2. Install the Package
-
-``` shell
+# Upgrade the package
 rpm -Uvh {{ centos_7_release.basename }}
+
+# It is safe to remove the package file
+rm -v {{ centos_7_release.basename }}
 ```
 
-### 3. Stop services and reconfigure
+## Stop services and reconfigure
 
 Stop all Manifold services with `manifold-ctl stop`. Then run `manifold-ctl reconfigure` to ensure that all configuration is current. Once that's complete, you can restart the services with `manifold-ctl start`.
 
