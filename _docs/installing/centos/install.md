@@ -19,7 +19,37 @@ The following instructions have only been tested on CentOS 7, but we expect this
 
 ## Installation Process
 
-### 1. Download the Package
+### via YUM Repository
+
+#### 1. Select and add a repository
+
+Manifold offers two tracks to receive packages from, `release` and `devel`.
+
+For production-ready, official releases, add the following yum repository as root (or via `sudo`). Most people will choose this one.
+
+```shell
+curl -O /etc/yum.repos.d/manifold-release.repo https://storage.cloud.google.com/manifold-yum/el7/x86_64/release/manifold-release.repo
+```
+
+To include official release candidates along with official releases, you can add the following instead:
+
+```shell
+curl -O /etc/yum.repos.d/manifold-devel.repo https://storage.googleapis.com/manifold-yum/el7/x86_64/devel/manifold-devel.repo
+```
+
+**Note**: You should not add both tracks.
+
+#### 2. Install the package
+
+Once the correct repository is in place:
+
+```shell
+yum install manifold
+```
+
+### via Manual RPM
+
+#### 1. Download the Package
 
 Shell into the server as root and download the most recent package.
 
@@ -28,16 +58,16 @@ cd ~
 curl -O {{ centos_7_release.url }}
 ```
 
-### 2. Install the Package
+#### 2. Install the Package
 
-Instal the RPM package.
+Install the RPM package.
 
 ``` shell
 cd ~
 rpm -ivh {{ centos_7_release.basename }}
 ```
 
-### 3. Apply Minimal Configuration
+## Apply Minimal Configuration
 
 {% include installation/reconfigure.md %}
 
