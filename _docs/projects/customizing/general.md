@@ -105,8 +105,6 @@ This table allows you to modify or customize the avatar representing the project
 
 You can adjust the color of the default icon by selecting from one of the six preset options in the middle panel labelled `Default`.
 
-You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right panel labeled `Custom`.
+You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right panel labeled `Custom`. All custom uploads should be no less than 400px along their shortest dimension.
 
-When no text has been added to the `Published` category (see the [Text](/docs/projects/customizing/texts.html) section) the avatar will display as a square, and custom avatars should be prepared accordingly in a 1:1 ratio. If there is a Published Text, you can upload the cover into the `Custom` panel, and it will display according to the dimensions it was prepared.
-
-All custom uploads should be no less than 400px along their shortest dimension.
+Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/appearance.html), you will also need to add it here as a custom image for the cover to show in library views. 

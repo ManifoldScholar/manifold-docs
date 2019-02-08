@@ -20,7 +20,7 @@ The [title bar](/docs/reading/interface.html#title-bar) in the Manifold reader s
 
 ![View Contents Button](/docs/assets/projects/view-contents.png)
 
-The View Contents button will only appear if the EPUB that has been loaded into the system is marked as a [published text](/docs/projects/customizing/texts.html#published-texts) and has a file with a section that includes `epub:type="toc"` as one of its attributes. That attribute tells the system that this is the manually crafted table of contents (akin to a contents page in a printed work). In most cases the Contents dropdown and the View Contents button should showcase the same information. However, if your work requires a more tailored navigational approach, it is possible to achieve that by adjusting the respective source files.
+The View Contents button will only appear if the EPUB that has been loaded into the system is marked as a published text and has a file with a section that includes `epub:type="toc"` as one of its attributes. That attribute tells the system that this is the manually crafted table of contents (akin to a contents page in a printed work). In most cases the Contents dropdown and the View Contents button should showcase the same information. However, if your work requires a more tailored navigational approach, it is possible to achieve that by adjusting the respective source files.
 
 For more about the EPUB spec, please refer to the standard as defined on the [IDPF website](http://idpf.org/epub/31).
 
