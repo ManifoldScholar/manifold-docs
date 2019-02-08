@@ -41,7 +41,7 @@ For use when wanting to load and edit a project and its materials before publish
 
 When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on Twitter will only work for those who also have permission to access the project and are logged in. All annotations, comments, and highlights will persist with the project's text when Draft Mode is toggled off.
 
-Determining when drafts are made public falls to the discretion of publishers. You can learn about published texts [in this section](/docs/projects/customizing/texts.html#published-texts), or for an overview check the recommendations for [publishing workflow](/docs/publishing/workflow.html).
+Determining when drafts are made public falls to the discretion of publishers.
 
 <a name="featured"></a>
 ### Featured
@@ -107,4 +107,4 @@ You can adjust the color of the default icon by selecting from one of the six pr
 
 You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right panel labeled `Custom`. All custom uploads should be no less than 400px along their shortest dimension.
 
-Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/appearance.html), you will also need to add it here as a custom image for the cover to show in library views. 
+Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/appearance.html), you will also need to add it here as a custom image for the cover to show in library views.
