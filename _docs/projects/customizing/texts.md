@@ -18,7 +18,6 @@ This section is portioned along the following themes:
 
 * [Adding Texts to Projects](/docs/projects/customizing/texts.html#adding-texts)
 * [Grouping Texts by Category](/docs/projects/customizing/texts.html#grouping-texts)
-* [Published Texts](/docs/projects/customizing/texts.html#published-texts)
 * [Managing a Text's Details](/docs/projects/customizing/texts.html#managing-texts)
 
 <a name="adding-texts"></a>
@@ -64,27 +63,25 @@ Congratulations! Your text is now in Manifold!
 <a name="grouping-texts"></a>
 ## Grouping Texts by Category
 
-Categories are a means to group and label texts in the system. By default there are two fixed categories: `Published` and `Uncategorized`.
+Categories are a means to group and label texts in the system. By default there is one fixed category—`Uncategorized`—into which all texts will initially flow until a user moves them to a created category.
 
-To move a text from one category to another, simply click on the up/down arrows to the right of the text name.
-
-A text in the `Published` category receives distinct treatment considered in the following section, `Published Texts`.
+To move a text from one category to another, simply click on the horizontal “grab” bars on the far right side of the category container, beside the trash can and edit pencil icons.
 
 ### Uncategorized
 
-`Uncategorized` serves as the staging ground for all texts that are initially ingested. This category does not have a limit on the number of texts it can hold, nor are texts in this collection overlaid with a title ribbon.
+`Uncategorized` serves as the staging ground for all texts that are initially ingested. This category does not have a limit on the number of texts it can hold, nor are texts in this collection overlaid with a title ribbon to which custom categorized texts are subject.
 
 ### Custom Categories
 
 If your project requires grouping texts in distinct clusters, or if you simply wish to indicate what state the text being presented is in (e.g., First Draft, Peer-Reviewed, etc.) you can create a custom category that will support those ends.
 
-To create a custom category click on the `Create a new category` button, and a drawer will open from the right asking you to name it. Click `Create Category`, and the new section will appear in both the front- and backend interfaces:
+To create a custom category, click on the `Create a new category` button, and a drawer will open from the right asking you to name it. Click `Create Category`, and the new section will appear in both the front- and backend interfaces:
 
 ![Backend Categories](/docs/assets/projects/backend-categories.png)
 
 ![Frontend Categories](/docs/assets/projects/frontend-categories.png)
 
-By default new categories are empty. When you move a project into a custom category the reader will overlay the bottom of the text with a yellow ribbon the category name. Here we have *War of the Worlds*, which we can see from the shots above is in the `Markdown Sample` category and displays a ribbon to the same effect:
+By default new categories are empty. When you move a project into a custom category the reader will overlay the bottom of the text with a yellow ribbon the category name. Here we have an extract from the text titled *For Thought in the Act*, which we can see from the shots above is in the `Supporting Texts` category and displays a ribbon to the same effect:
 
 ![Title Ribbon](/docs/assets/projects/title-ribbon.png)
 
@@ -92,25 +89,7 @@ You can rename a category by clicking on the `Edit` button to the right of it's 
 
 Texts that are in a custom category that is being deleted will return to `Uncategorized` after the deletion has been confirmed.
 
-To change the order in which the custom categories appear, click on the up/down arrows to the right of the category name.
-
-<a name="published-texts"></a>
-## Published Texts
-
-Moving a text from `Uncategorized` or a custom category to `Published`, indicates the text in question represent the project's version or record: the definitive published text.
-
-Because of its nature, this category can only accept one text at a time.
-
-When you move a text into this section, the [cover image](/docs/projects/customizing/appearance.html) will automatically show on the banner image, along with a `Start Reading` reading button and, if the document contains internal structuring, a link to view the title's contents.
-
-![Published Hero](/docs/assets/projects/published-hero.png)
-
-If the title is for sale, then a link to the online shopping cart and the purchase price will also appear beneath the cover if set in the [Appearance section](/docs/projects/customizing/appearance.html).
-
-<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. For <a href="/docs/publishing/project_types.html">open-access or enhanced projects</a>, there is no question which document is considered the version of record. But for iterative projects there may be more of a discussion. See the <a href="/docs/publishing/workflow.html">Workflow section</a> for some thoughts that may better orient those internal discussions.
-</div>
-
+To change the order in which the custom categories appear, click on the horizontal grab bars to the right of the category name, which you can use to drag and drop the category to the desired placement.
 
 <a name="managing-texts"></a>
 ## Managing a Text's Details
@@ -123,9 +102,11 @@ To edit a text, click on it's name or the `Edit` button, right of the name, in t
 
 ### General
 
-When you access the text landing page in the backend, you'll arrive first on the text's `General` panel where you can adjust it's `Title`, `Publication Date`, `Description`, and the `Section Label` that displays in the reader.
+When you access the text landing page in the backend, you'll arrive first on the text's `General` panel where you can adjust its `Title`, `Subtitle` its status as `Published` or not, the `Publication Date`, `Description`, and the `Section Label` that displays in the reader.
 
 The content entered in the `Title` and `Description` fields are included when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Facebook).
+
+Likewise, the text's title and subtile, its makers (authors, contributors), and description can be toggled to be shown on the project landing page in a text content block. To learn more about all the customizations possible for display elements in a text block, see the [Appearance](/docs/projects/customizing/appearance.html) section.
 
 `Section Label` refers to the navigation header that appears at the bottom of a unit of text. By default the header reads `Next Chapter`. Below that header is the title of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
 
@@ -146,17 +127,19 @@ Stylesheets are applied to texts in the order listed under the Stylesheet headin
 
 ![Styles](/docs/assets/projects/styles.png)
 
-“Ingested” stylesheets are those that were part of the source document imported into Manifold (with some modification) during the text ingestion. We do not recommend you modify ingested stylesheets on the platform: if you happen to reingest the text, any changes you have made will be overridden by the reingest process.
+“Ingested” stylesheets are those that were part of the source document imported into Manifold. “User” stylesheets are those that have been created by a user after the initial ingestion.
 
-“User” stylesheets are those that have been created by a user after the initial ingestion and will not be overridden by a text reingestion.
+If you need to adjust the styling of certain elements in a text, we suggest you add a new stylesheet to the project instead of modifying one that the system brought in with the text: if you ever need to reingest the text in question, any changes you have made to those stylesheets that were brought in with the text will be overridden by the reingest process, while added stylesheets will persist unaffected by that process.
 
-To override styles in the source document, create a new stylesheet and move it to the bottom of the list by clicking the `Add a New Stylesheet` button. You'll be taken to a new screen that is split into three sections: `Name`, `Source Styles`, and `Validated Styles`. As a user you will only be able to modify the first two fields.
+To override styles in the source document, create a new stylesheet and move it to the bottom of the list by clicking the two horizontal grab bars. You can use those to drag and drop your new sheet or reorder existing ones.
+
+When you create a new stylesheet, you'll be taken to a screen that is split into three sections: `Name`, `Source Styles`, and `Validated Styles`. As a user you will only be able to modify the first two fields.
 
 - **Name**. A field to document the name of your stylesheet. We suggest something brief but descriptive of its purpose (e.g., Blockquote Spacing).
 - **Source Styles**. The pane where you can add style rules to the various classes that make up your text. Rules should be in keeping with CSS standards.
 - **Validated Styles**. After you save your stylesheet, this pane will populate with the translation of your rules specific to the platform. This output is read-only and cannot be modified by a user.
 
-Also available after your rules have been saved is the Text Sections dropdown. This dropdown allows a user to assign the new stylesheet to either the entire text—by clicking `Add All`—or by selecting individual sections from the dropdown. Selected sections appear below and can be deselected by clicking the `x` beside their names. Only those sections selected will have the new stylesheet applied to them. Thus it is possible assign style adjustments to specific parts of a text that was uploaded using the [Manifest ingestion method](/docs/projects/preparing/index.html#manifest).
+After your style rules have been saved the Text Sections dropdown will become available. This dropdown allows a user to assign the new stylesheet to either the entire text—by clicking `Add All`—or by selecting individual sections from the dropdown. Selected sections appear below and can be deselected by clicking the `x` beside their names. Only those sections selected will have the new stylesheet applied to them. Thus it is possible assign style adjustments to specific parts of a text that was uploaded using the [Manifest ingestion method](/docs/projects/preparing/index.html#manifest).
 
 ![Added Stylesheet](/docs/assets/projects/added-stylesheet.png)
 
