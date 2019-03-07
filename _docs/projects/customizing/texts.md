@@ -6,9 +6,9 @@ menus:
     weight: 5
 ---
 
-The Texts panel will be one that users will often interact with, as this is the spot where texts are added, categorized, updated, and set as the published version of record.
+The Texts panel will be one that users will often interact with, as this is the spot where texts are added, categorized, and updated.
 
-For new projects—or projects that haven't yet ingested a text—the panel is composed of two buttons (`Add a new text` and `Create a new category`) and two category sections (`Published` and `Uncategorized`).
+For new projects—or projects that haven't yet ingested a text—the panel is composed of two buttons (`Add a new text` and `Create a new category`) and a default text section (`Uncategorized`).
 
 ![Texts Panel](/docs/assets/installing/texts.png)
 
@@ -100,9 +100,10 @@ To edit a text, click on it's name or the `Edit` button, right of the name, in t
 
 ![Text Landing](/docs/assets/projects/text-landing.png)
 
+<a name="managing-texts-general"></a>
 ### General
 
-When you access the text landing page in the backend, you'll arrive first on the text's `General` panel where you can adjust its `Title`, `Subtitle` its status as `Published` or not, the `Publication Date`, `Description`, and the `Section Label` that displays in the reader.
+When you access the text landing page in the backend, you'll arrive first on the text's `General` panel where you can adjust its `Title`, `Subtitle`, its status as `Published` or not, the `Publication Date`, `Description`, and the `Section Label` that displays in the reader.
 
 The content entered in the `Title` and `Description` fields are included when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Facebook).
 
