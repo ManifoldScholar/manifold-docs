@@ -20,4 +20,4 @@ When you click `Save and Continue`, your new project will be created, and the sy
 <strong>Note</strong>. To create a new project you must have an Administrator, Editor, or Project Creator role. For more information, see the <a href="accounts/users.html">User Accounts</a> section.
 </div>
 
-Before you begin, it will be handy to have the following at the ready: [a project description](/docs/projects/customizing/appearance.html#description), a [hero image](/docs/projects/customizing/appearance.html#hero), and a [project thumbnail](/docs/projects/customizing/general.html#thumbnail).
+Before you begin, it will be handy to have the following at the ready: [a project description](/docs/projects/customizing/layout.html#description), a [hero image](/docs/projects/customizing/layout.html#backImage), and a [project thumbnail](/docs/projects/customizing/general.html#thumbnail).
