@@ -15,7 +15,7 @@ Each project has its own homepage, made up of a banner section, recent activity,
 The banner section is meant to orient the reader to what the project is about and how to engage with it. The section is a collection of descriptive elements that can include its title, author names and photos, description, book cover, and social media links.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-If you are a backend user, instructions on how to manage this section are detailed in the <a href="/docs/projects/customizing/general.html">General</a> and <a href="/docs/projects/customizing/appearance.html">Appearance</a> sections.
+If you are a backend user, instructions on how to manage this section are detailed in the <a href="/docs/projects/customizing/general.html">General</a> and <a href="/docs/projects/customizing/layout.html">Layout</a> sections.
 </div>
 
 ## Activity Feed

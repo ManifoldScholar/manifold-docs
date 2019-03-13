@@ -8,29 +8,57 @@ menus:
 
 A project's landing page is highly customizable and modular. Within the Layout submenu, publishers control the visual appearance and the components—or “blocks”—that constitute a project.
 
-<!-- Insert a graphic to show the blocks generally -->
+![Layout Map](/docs/assets/projects/layout-map.jpg)
 
-The “Hero Block” is required of every project. All other "Content Blocks" are optional. The Layout menu is oriented along those lines as is the following documentation.
+The “Hero Block” is required of every project and is anchored immediately below the menu bar. All other "Content Blocks" are optional. In the example above, the publisher has set up the project so that the project landing page is displaying Markdown, Resources, and Metadata blocks.
+
+This section will first consider all the options available within the Hero Block before moving onto options for each of the Content Blocks.
 
 ## Hero Block
 
-The hero block can be as basic or as involved as a project requires. For iterative projects, the scope and complexity of this block will likely change as content is added to the project.
+The hero block can be as basic or as involved as a project requires. Some projects may only require a title, description, and cover image. Others may want to use buttons and/or links to reference related material. For iterative projects, the scope and complexity of this block will likely change as content is added to the project.
 
-### Description and  . . . ?
+Controls to adjust the appearance of the Hero block are contained within the Description + Images, Calls-to-Action, and Social Links. To adjust settings within those sections, click the pencil outline/edit button on the right.
+
+![Hero Block Controls](/docs/assets/projects/layout-hero.png)
+
+<a name="descriptionImages"></a>
+### Description + Images
+
+When opting to edit this section, a drawer from the right will open in which you can adjust the following settings: Dark Mode, Background Image, Cover Image, and Image Credits.
+
+![Hero Description and Images configutation](/docs/assets/projects/hero-di.png)
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. You must click the Save button at the bottom of the drawer for your changes to take effect.
+</div>
+
+<a name="descriptionDark"></a>
+#### Dark Mode
+
+This toggle adjusts the background color of the blade. The default is light gray. When Dark Mode is toggled the color changes to slate gray.
+
+If a [Background Image](/docs/projects/customizing/layout.html#backImage) is added to this blade, the image will supersede this setting.
 
 <a name="description"></a>
 #### Description
 
-This field holds a brief description of the project as a whole. Recommended length would range from three to five sentences. Text entered here can be formatted with [basic Markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+This field allows users to add or edit a project description that will render in the hero block. If any descriptive text was included when the project was first created, it will appear here.
 
-<a name="hero"></a>
-#### Hero Image
+Recommended length is three to five sentences. If your project require further description, we suggest adding a [Markdown block](/docs/projects/customizing/layout.html#md-block) to the project.
 
-The hero image displays as a banner across the top of the project landing page and sits behind all the other elements described in this section.
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Text entered in this field can be formatted using <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">basic Markdown syntax</a>.
+</div>
 
-Your image should be sized to 1280 × 800 pixels. Images not submitted at those dimensions will be scaled by the system to best approximate them and cropped along the bottom edge accordingly to fit the space.
+<a name="backImage"></a>
+#### Background Image
 
-Acceptable formats for upload are GIF, JPG, JPEG, PNG, and SVG.
+The Background Image displays behind the content of the Hero blade as a means to enhance the visual identity of a project. If a Background Image is loaded, the image will supersede the setting of the [Dark Mode toggle](/docs/projects/customizing/layout.html#descriptionDark).
+
+Your image should be sized to 1280 × 800 pixels. Images not submitted at those dimensions will be resized to 1280 × 800 and cropped along the bottom edge.
+
+Acceptable formats for upload are GIF, JPEG, JPG, and PNG.
 
 When a project is shared socially the hero image is included as part of that transaction so that other platforms can render the look and feel of the source material from Manifold.
 
@@ -46,9 +74,11 @@ The system will automatically resize your image to fit the available space, but 
 
 Acceptable formats for upload are GIF, JPG, JPEG, PNG, and SVG.
 
-### Calls to Action
 
-### Social . . . ?
+
+### Calls-to-Action
+
+### Social Links
 
 ## Content Blocks
 

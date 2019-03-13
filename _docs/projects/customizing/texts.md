@@ -107,7 +107,7 @@ When you access the text landing page in the backend, you'll arrive first on the
 
 The content entered in the `Title` and `Description` fields are included when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Facebook).
 
-Likewise, the text's title and subtile, its makers (authors, contributors), and description can be toggled to be shown on the project landing page in a text content block. To learn more about all the customizations possible for display elements in a text block, see the [Appearance](/docs/projects/customizing/appearance.html) section.
+Likewise, the text's title and subtile, its makers (authors, contributors), and description can be toggled to be shown on the project landing page in a text content block. To learn more about all the customizations possible for display elements in a text block, see the [Layout](/docs/projects/customizing/layout.html) section.
 
 `Section Label` refers to the navigation header that appears at the bottom of a unit of text. By default the header reads `Next Chapter`. Below that header is the title of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
 

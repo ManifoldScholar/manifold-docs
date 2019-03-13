@@ -107,4 +107,4 @@ You can adjust the color of the default icon by selecting from one of the six pr
 
 You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right panel labeled `Custom`. All custom uploads should be no less than 400px along their shortest dimension.
 
-Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/appearance.html), you will also need to add it here as a custom image for the cover to show in library views.
+Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/layout.html), you will also need to add it here as a custom image for the cover to show in library views.
