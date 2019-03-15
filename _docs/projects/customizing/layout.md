@@ -13,7 +13,7 @@ Project landing pages are highly customizable and modular to allow publishers th
 There are seven different kinds of blocks available in the system:
 
 - [Hero](/docs/projects/customizing/layout.html#heroBlock)
-- [Markdown](/docs/projects/customizing/layout.html#)
+- [Markdown](/docs/projects/customizing/layout.html#mdBlock)
 - [Metadata](/docs/projects/customizing/layout.html#)
 - [Recent Activity](/docs/projects/customizing/layout.html#)
 - [Resources](/docs/projects/customizing/layout.html#)
@@ -105,6 +105,7 @@ To add a manual line break, leave two spaces at the end of the line you are brea
 If you need to add a blank space, use two consecutive <a href="https://www.w3schools.com/tags/tag_br.asp">break tags</a> between the lines you are separating.
 </div>
 
+<a name="callActions"></a>
 ### Calls-to-Action
 
 Here users can add buttons or links to the hero block that act as shortcuts to project materials on Manifold or related content hosted remotely.
@@ -119,12 +120,14 @@ To create a new button or link, click one of the four respective buttons labeled
 
 The interface is very plastic, so you can drag/drop elements from one quadrant (e.g., left-side link) to another (right-side button), and the system will change the link/button behavior accordingly.
 
-When creating a new button or link a drawer will slide open from the right and prompt users for a title, a type, and then what the button/link should relate to. Because button and links are oriented around their type, we will consider them along those lines:
+When creating a new button or link a drawer will slide open from the right and prompt users for a title, a type, and then what the button/link should relate to. Because button and links are oriented around their type or action, we will consider them along those lines:
 
+<a name="actionsLink"></a>
 #### Link
 
 Links point to any content, either hosted on Manifold or remotely, that can be described with a URL. Two examples: a link can be used to create a button that reads "Buy Now" and links to the publisher's shopping cart. Or a link could be used to show a link to related content on the author's personal website.
 
+<a name="actionsRead"></a>
 #### Start Reading
 
 The Start Reading action allows a publisher to create a button/link that will direct readers to the opening page of a specific text loaded to the project.
@@ -156,6 +159,7 @@ Manifold will use the metadata within the selected text to determine the opening
 <strong>Note</strong>. You can create more than one Start Reading link/button if you have multiple texts in your project.
 </div>
 
+<a name="actionsTOC"></a>
 #### Table of Contents
 
 A Table of Contents link/button opens a specific text to the section that the file's internal metadata describes as being its table of contents.
@@ -174,22 +178,46 @@ A Table of Contents link/button opens a specific text to the section that the fi
 <reference type="toc" title="Table of Contents"  href="fileName.xhtml"/>
 ```
 
-- The Table of Contents action for [Manifest ingests](/docs/projects/preparing/index.html#manifest) and texts loaded as standalone documents will be the same as for the Start Reading action. This is because these formats do not inherently contain a text section (not to be confused with navigation intended for a reading system) made specifically as a table of contents that you would expect in a print book.
+- Selecting the Table of Contents action for [Manifest ingests](/docs/projects/preparing/index.html#manifest) and texts loaded as standalone documents will be no different than selecting the Start Reading action. This is because these formats do not inherently contain a text section (not to be confused with navigation intended for a reading system) made specifically as a table of contents that you would expect in a print book.
 
-
+<a name="actionsDown"></a>
 #### Download
 
-or to download to a file loaded specifically for that purpose (download type).
+The Download action allows publishers the means to load a file into the system that readers can download to their device. This can be useful if, say, the publisher wants to provide their readers with an ebook associated with the project or an archive of all the source files that were ingested into the Manifold reader. It could also be used to share collections of data or specific materials that require pride of place on the project page.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. There are no restrictions on the kind of file uploaded into this field.
+</div>
 
-
+<a name="actionsSocial"></a>
 ### Social Links
 
+The Social Links submenu allows a publisher to associate a Twitter hashtag and social account handles for Twitter, Facebook, and Instagram with a project. These will appear as active, clickable links below the project description.
+
+![Social Links](/docs/assets/projects/socialLinks.png)
+
+The social icons will open a new tab and take readers to the associated accounts. The hashtag will redirect to the Twitter page for that hashtag.
+
+When inputing values into the system, users do not need to type the hash sign (`#`) in the Hashtag field; the system will automatically include that when text is added to the field.
+
+The different social networks require their handles to be formatted as follows:
+
+- Twitter is not case sensitive and agnostic about whether there's an ampersand or not. All of the following will work as expected: `@uminnpress`, `uminnpress`, `@UMinnPress`, and `UMinnPress`.
+- Facebook usernames should be listed without an ampersand and match the case of the username as it appears on Facebook. Because the username on Facebook is denoted as `UMinnPress` that is the only acceptable means to input the handle into Manifold.
+- Instagram usernames are not case sensitive but should *not* include an ampersand. Thus `uminnpress` and `UMinnPress` will work but `@uminnpress` and `@UMinnPress` will not.
+
+<a name="contentBlocks"></a>
 ## Content Blocks
 
+Content blocks are situated below the Hero block. None of them are required, and they can be arranged as best suits the project. There can be multiple Markdown, Table of Contents, and Texts blocks within a project. The Metadata, Recent Activity, and Resources blocks can only appear once.
+
+<a name="mdBlock"></a>
 ### Markdown
 
 The Markdown Block allows editors to create sections of markdown content on a project page. The block can be assigned a gray background to help it stand out from other content on the page. Possible uses of this block include adding descriptive text about the project or supplemental textual content.
+
+![Markdown Block Configuration in the Backend](/docs/assets/projects/mdBack.png)
+![Markdown Block Rendered in Frontend](/docs/assets/projects/mdFront.png)
 
 ### Metadata
 
