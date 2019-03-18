@@ -58,7 +58,7 @@ If a [Background Image](/docs/projects/customizing/layout.html#backImage) is add
 
 This field allows users to add or edit a project description that will render in the hero block. If any descriptive text was included when the project was first created, it will appear here.
 
-Recommended length is three to five sentences. If your project requires further description, we suggest adding a [Markdown block](/docs/projects/customizing/layout.html#md-block) to the project.
+Recommended length is three to five sentences. If your project requires further description, we suggest adding a [Markdown block](/docs/projects/customizing/layout.html#mdBlock) to the project.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. Text entered in this field can be formatted using <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">basic Markdown syntax</a>.
