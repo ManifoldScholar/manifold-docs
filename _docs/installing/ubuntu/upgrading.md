@@ -14,7 +14,7 @@ menu:
 
 The following instructions assume that you installed Manifold from a .deb file, and are updating that installation.
 
-### 1. Download the Package
+### 1. Download the most recent package
 
 Shell into the server as root and download the most recent package.
 
