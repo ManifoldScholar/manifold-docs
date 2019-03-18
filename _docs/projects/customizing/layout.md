@@ -14,11 +14,11 @@ There are seven different kinds of blocks available in the system:
 
 - [Hero](/docs/projects/customizing/layout.html#heroBlock)
 - [Markdown](/docs/projects/customizing/layout.html#mdBlock)
-- [Metadata](/docs/projects/customizing/layout.html#)
-- [Recent Activity](/docs/projects/customizing/layout.html#)
-- [Resources](/docs/projects/customizing/layout.html#)
-- [Table of Contents](/docs/projects/customizing/layout.html#)
-- [Texts](/docs/projects/customizing/layout.html#)
+- [Metadata](/docs/projects/customizing/layout.html#metaBlock)
+- [Recent Activity](/docs/projects/customizing/layout.html#activityBlock)
+- [Resources](/docs/projects/customizing/layout.html#resourceBlock)
+- [Table of Contents](/docs/projects/customizing/layout.html#tocBlock)
+- [Texts](/docs/projects/customizing/layout.html#textsBlock)
 
 ![Layout Map](/docs/assets/projects/layout-map.jpg)
 
@@ -206,35 +206,211 @@ The different social networks require their handles to be formatted as follows:
 - Facebook usernames should be listed without an ampersand and match the case of the username as it appears on Facebook. Because the username on Facebook is denoted as `UMinnPress` that is the only acceptable means to input the handle into Manifold.
 - Instagram usernames are not case sensitive but should *not* include an ampersand. Thus `uminnpress` and `UMinnPress` will work but `@uminnpress` and `@UMinnPress` will not.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Adding a hashtag to this section is only a suggestion to your readers to include it in their Tweets about the project; it will not automatically begin pulling Tweets into the project's [Recent Activity block](/docs/projects/customizing/activity.html). Those configurations live in the <a href="/docs/projects/customizing/social.html">Social Integrations menu.</a>
+</div>
+
 <a name="contentBlocks"></a>
 ## Content Blocks
 
-Content blocks are situated below the Hero block. None of them are required, and they can be arranged as best suits the project. There can be multiple Markdown, Table of Contents, and Texts blocks within a project. The Metadata, Recent Activity, and Resources blocks can only appear once.
+Content blocks are situated below the Hero block. None of them are required, and they can be arranged and rearranged using the drag-and-drop interface in the Manifold backend to meet the needs of the project.
+
+For those projects that evolve, new blocks can be added and existing ones can be hidden or deleted.
+
+Projects can contain multiple Markdown, Table of Contents, and Texts blocks, while the Metadata, Recent Activity, and Resources blocks can only appear once.
+
+To add a block to your project's layout, either drag and drop the block's tile from the Blocks section to the Layout section or click on the Add Block Button on the right of the tile, in the shape of an encircled plus sign.
+
+![Adding Blocks to the Backend](/docs/assets/projects/addingBlocks.png)
+
+If a block is no longer necessary, they can be hidden or deleted. Hiding a block retains the block and its content but no longer surfaces it on the frontend for readers to see. Deleting a block permanently removes the block and its content from your project.
+
+The hide and delete buttons appear in two spaces, on the Layout page and in a block's edit drawer. The hide button appears as an open eye icon, and the delete button as a trashcan. When hidden a block eye icon will appear with a slash through it.
+
+![Backend Block Interface](/docs/assets/projects/blockBack.png)
+
+![Edit Block Interface](/docs/assets/projects/blockEdit.png)
+
+To unhind a block, click on the crossed-out eye icon. If you delete a block and later want it back, it will need to be recreated from scratch.
+
+Edit an existing block by clicking on the pencil icon to the right of the block's name. Doing so will open a drawer from the right of the screen giving you access to the editable block content.
 
 <a name="mdBlock"></a>
 ### Markdown
 
-The Markdown Block allows editors to create sections of markdown content on a project page. The block can be assigned a gray background to help it stand out from other content on the page. Possible uses of this block include adding descriptive text about the project or supplemental textual content.
+The Markdown Block allows users to create sections of markdown content on a project page. The block can be assigned a gray background to help it stand out from other content on the page. Possible uses of this block include adding descriptive text about the project, supplemental textual content, or speaking to a project's grant funding or relation to upcoming events, like conferences or author appearances.
 
-![Markdown Block Configuration in the Backend](/docs/assets/projects/mdBack.png)
 ![Markdown Block Rendered in Frontend](/docs/assets/projects/mdFront.png)
 
+There are two sections to consider when editing a Markdown block: Body and Style.
+
+#### Body
+
+The body section is where the content of the block is input. The field accepts plain text encoded with [basic Markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+
+Presently there are no means to add images to this block in the backend by selecting a file from your system. But if an image is remotely hosted, it can be referenced and displayed in this block by using the following coding:
+
+```html
+<img src="https://imageName.jpg" width="100%" height="auto">
+```
+
+The width and height components allow the image to scale responsively, so it renders appropriately to the size of the reader's screen.
+
+#### Style
+
+In the Style section, users can select how the block should appear, with a white or gray background. The Normal and Shaded radio buttons correspond to white and gray, respectively.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. A project can have multiple Markdown blocks if the material warrants.
+</div>
+
+<a name="metaBlock"></a>
 ### Metadata
 
-The Metadata Block will render metadata about the project in three columns. Project metadata is managed on the “metadata” tab of the project record. This block will not render if no metadata has been added to a project.
+The Metadata Block will render metadata about the project in three columns. Project metadata is managed in the [Metadata menu](/docs/projects/customizing/metadata.html) of the project record and cannot be directly modified in this view. Instead here users can choose to reveal a project's metadata on the landing page and where it is situated among any other content blocks.
 
+![Metadata Block](/docs/assets/projects/metaBlock.png)
+
+This block will not appear if no metadata has been added to a project.
+
+<a name="activityBlock"></a>
+### Recent Activity
+
+The Recent Activity block lists the last six activity records for the project. Activities show as tiles indicating when Tweets, Texts, or Resources are added to a project.
+
+![Recent Activity Block](/docs/assets/projects/recentActivity.png)
+
+Activity records can be managed in the project’s [Activity menu](/docs/projects/customizing/activity.html). If a project contains more than six activity records, users will be shown a button that links to the full, paginated list of activity on a separate screen.
+
+<a name="resourceBlock"></a>
+### Resources
+
+The Resources Block renders a teaser of the ten most recently updated resources on a project, accompanied by a link to the resource library for the project. Individual resources are managed in the [Resource menu](/docs/projects/customizing/resources.html).
+
+![Resource Block](/docs/assets/projects/resourceBlock.png)
+
+Users have the option to customize the title of the block. By default it will read as "Resources" on the project page.
+
+![Resource Block Backend Interface](/docs/assets/projects/resourceBack.png)
+
+If the “Show All Collections” switch is enabled, this block will also list each of the project’s resource collections. When toggled off, users can use the Select Collection dropdown to show only specific collections. If the project has collections, the block will also render a link to the “all collections” view for the project. Resource collections are managed in the [Resource Collection menu](/docs/projects/customizing/collections.html).
+
+<a name="tocBlock"></a>
+### Table of Contents
+
+The Table of Contents Block renders the table of contents for a specific text in the project. This block is especially useful for projects that only have one text, in which case it’s generally more appropriate to render a TOC than to render a list of project texts in a [Texts Block](/docs/projects/customizing/layout.html#textsBlock).
+
+![TOC Block](/docs/assets/projects/tocBlock.png)
+
+Manifold populates this block using the source document's navigational table of contents or header structure, as described here:
+
+| Upload Format   | Navigational File |
+|:---------------:|:-----------------:|
+| EPUB3           | `tox.xhtml`       |
+| EPUB2           | `tox.ncx`         |
+| Manifest Ingest | `contents.yml`    |
+| DOCX            | Header structure  |
+| Google Doc      | Header structure  |
+| Markdown        | Header structure  |
+| HTML            | Header structure  |
+
+In other words, the Contents dropdown in the Manifold reader for the selected text will mirror the readout for a Table of Contents block pointing to that same text.
+
+When editing this block in the backend, an editor will be confronted with the following options:
+
+#### Title
+
+The Title field allows users to customize the name of the block. By default it will render as “Table of Contents.”
+
+#### Text
+
+This dropdown lists all the texts loaded to the project. The TOC of the selected text will render in the block. Even if there is only one text loaded to the project, the editor still needs to actively select it from the dropdown.
+
+#### Depth
+
+For tables of content that have nested entries, editors can decide to which depth of nesting the system should render in the block. The default is six.
+
+#### Show Text Title?
+
+Toggling this field on will add the title of the selected text beneath the title of the block.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. A project can have multiple Table of Contents blocks, each pointing to different texts loaded to the project.
+</div>
+
+<a name="textsBlock"></a>
 ### Texts
 
 The Text Block lists some or all texts associated with the project. The texts that are included in the list can be filtered to only include texts from one or more categories. The block can be configured to include or exclude author names, subtitles, dates, descriptions, and cover images in the output. The list can also be configured to group texts by category.
 
-### Recent Activity
+![Text Block Frontend](/docs/assets/projects/textsBlock.png)
 
-The Recent Activity block lists the last six activity records for the project. Activity records can be managed on the project’s “activity” tab. If a project contains more than six activity records, users will be shown a button that links to the full, paginated list of activity on a separate screen.
+An editor can modify the following settings for a Text block in the backend. Depending on which settings are toggled on/off, different elements within the block may move to better serve visual comprehension of the page.
 
-### Resources
+#### Title
 
-The Resources Block renders a teaser of the ten most recently updated resources on a project, accompanied by a link to the resource library for that project as well as the total number of resources on the project. If the “Show All Collections” switch is enabled, this block will also list each of the project’s resource collections. The block can be configured to only show specific collections if desired. If the project has collections, the block will also render a link to the “all collections” view for the project.
+The title of the block as a whole can be customized by an editor. If left blank the text block will default to having “Texts” as its title.
 
-### Table of Contents
+#### Description
 
-The Table of Contents Block renders the table of contents for a specific text in the project. This block is especially useful for projects that only have one text, in which cases it’s generally more useful to render a TOC than to render a list of project texts. The editor must specify which text the Table of Contents should draw from, and the depth field can be used to limit the depth of the table of contents (the default limit is six).
+The text-block description provides a space to contextual the texts being viewed in the block and will be of particular use when more than one text block is being employed, helping distinguish their contents from one another.
+
+#### Show Author Names?
+
+When it's important to surface a text's author, especially for journals, contributed volumes or OER and course packets, toggle this slide to its active state. The names here will mirror those shown on the text's [People menu](/docs/projects/customizing/texts.html#textsPeople).
+
+#### Show Subtitles?
+
+If this slider is toggled on, any subtitle associated with a text, as shown in the text's [General menu](/docs/projects/customizing/texts.html#managing-texts-general) will appear to the right of the main title.
+
+#### Show Dates?
+
+A text block can display the date when a particular text was added to the project or last updated on the system. This will be useful in the classroom setting and when working on projects collaboratively. The load/update date is not an editable field and is not to be confused with a [text's publication date](/docs/projects/customizing/texts.html#textsMeta).
+
+#### Show Uncategorized Texts?
+
+This field leans on how the [texts are grouped](/docs/projects/customizing/texts.html#grouping-texts). In the text block, uncategorized texts are treated differently from those that are categorized. When this slider is toggled active, uncategorized texts will appear beneath a header reading “Uncategorized,” regardless of whether you have the “Show Category Labels” toggle active.
+
+It is worth stressing that regardless of how many uncategorized texts you have—or if you only have uncategorized texts in your project—if this slider is toggled off, your text block will show as empty. Likewise, regardless of the settings that affect other categories, they will not affect this toggle. Thus if this is toggled on, and no text categories are selected from the “Add a Category” dropdown to show, uncategorized texts will still render in the block.
+
+#### Show Descriptions?
+
+When toggled on, the Show Descriptions slider will pull the text's description as entered in the text's [General menu](/docs/projects/customizing/texts.html#managing-texts-general) and include it beneath its title listing in the block. These will be especially useful for journals or edited collections.
+
+#### Show Cover Images?
+
+For texts loaded in the EPUB format, this toggle allows an editor to control whether the icon for the text in this block list view is the default Manifold icon for texts (a stack of papers) or if the EPUB cover renders. When toggled active, Manifold will show the cover as defined in the EPUB.
+
+The cover will only be shown if the cover is accurately described as such in EPUB files:
+
+- For EPUB3, the cover is set by the `toc.xhtml` file, within the Guide section. The file associated with the "cover" attribute will be where Manifold secures the cover for this view.
+
+```html
+<li>
+  <a epub:type="cover" href="fileName.xhtml">Cover</a>
+</li>
+```
+
+- For EPUB2, the cover is described in the `content.opf` file enclosed in `<guide>` tags. The file associated with the entry containing the "cover" attribute is where Manifold will look for the cover.
+
+```html
+<reference type="cover" title="Cover"  href="fileName.xhtml"/>
+```
+
+#### Show Category Labels?
+
+This field depends on how a project's [texts are grouped](/docs/projects/customizing/texts.html#grouping-texts). When toggled active, texts that are grouped within a category (not counting those grouped as “Uncategorized”) will appear in the text block along with their category name.
+
+This field can be further modified by the Categories dropdown.
+
+#### Categories
+
+This field works in tandem with how a project's [texts are grouped](/docs/projects/customizing/texts.html#grouping-texts). Using the “Add a Category” dropdown, an editor can choose which custom text categories render in the block. Thus an editor can employ more than one text block, each showing only certain categories.
+
+If not categories are selected and “Show Uncategorized Texts” is toggled on, any uncategorized texts will still appear as Manifold treat uncategorized texts differently from those with custom groupings.
+
+![Text Block Backend Interface](/docs/assets/projects/textBlockBack.png)
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. A project can have multiple Texts blocks, allowing a publisher the means to showcase a project's textual materials in contextually appropriate ways.
+</div>

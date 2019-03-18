@@ -81,7 +81,7 @@ To create a custom category, click on the `Create a new category` button, and a 
 
 ![Frontend Categories](/docs/assets/projects/frontend-categories.png)
 
-By default new categories are empty. When you move a project into a custom category the reader will overlay the bottom of the text with a yellow ribbon the category name. Here we have an extract from the text titled *For Thought in the Act*, which we can see from the shots above is in the `Supporting Texts` category and displays a ribbon to the same effect:
+By default new categories are empty. When you move a project into a custom category the reader will overlay the bottom of the text with a yellow ribbon the category name (unless the Text is denoted as having been [Published](/docs/projects/customizing/texts.html#managing-texts-general)). Here we have an extract from the text titled *For Thought in the Act*, which we can see from the shots above is in the `Supporting Texts` category and displays a ribbon to the same effect:
 
 ![Title Ribbon](/docs/assets/projects/title-ribbon.png)
 
@@ -111,10 +111,12 @@ Likewise, the text's title and subtile, its makers (authors, contributors), and 
 
 `Section Label` refers to the navigation header that appears at the bottom of a unit of text. By default the header reads `Next Chapter`. Below that header is the title of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
 
+<a name="textsPeople"></a>
 ### People
 
 Through the `People` sidebar element you can add, remove, and modify Maker records associated with the text just as you could for the project generally. For details on that process, which is the same here, see the [People section](/docs/projects/customizing/people.html).
 
+<a name="textsMeta"></a>
 ### Metadata
 
 In addition to the basic metadata available through `General` sidebar element, there is also a separate menu (`Metadata`) that allows users to modify a robust set of metadata elements associated with a particular text. See the [Reference](/docs/reference/metadata.html) section for a list and description of all the fields available for texts.
