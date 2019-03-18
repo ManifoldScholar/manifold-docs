@@ -16,5 +16,5 @@ To remove an event from appearing in the frontend, simply click on the red trash
 ![Activity Pane](/docs/assets/projects/activity.png)
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-See the <a href="social.html">Social</a> section for notes on how to have Manifold fetch Tweets for display in the Activity blade.
+See the <a href="social.html">Social Integrations</a> section for notes on how to have Manifold fetch Tweets for display in the Activity blade.
 </div>
