@@ -12,6 +12,10 @@ The most common scenario will be in granting those in the Reader role one or mor
 
 By default this menu will be empty for new projects, except for those created by users with the `Project Creator` role, who will automatically have `Can Modify Project` permissions for those projects they create.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Users who are granted these project-specific permissions cannot themselves extend such permissions forward to other users.
+</div>
+
 ## Granting Permissions
 
 To assign a user project-specific permissions, click `Add New Permissions`, which will open a drawer from the right side of the screen.
