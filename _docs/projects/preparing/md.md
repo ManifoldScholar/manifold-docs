@@ -84,6 +84,10 @@ The directory that would be compressed for upload would include the Markdown fil
 
 ![Markdown Image Asset](/docs/assets/projects/md-image.png)
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. When creating a zip archive to upload into Manifold, it is better to individually select all of the files and then compress them than to simply select an entire folder on which to run the compression. The latter method can result in corrupted pathways that may cause ingestion errors.
+</div>
+
 <a name="md-av"></a>
 ### Audio and Video
 

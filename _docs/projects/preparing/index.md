@@ -12,7 +12,6 @@ This section speaks broadly to preparing different document types for ingestion 
 </div>
 
 <a name="formats"></a>
-## Formats
 
 Once you have [created a project](/docs/projects/creating.html), you may add any number of prepared texts into it. Manifold supports all of the following file types for text ingestion. Click on a type below for preparation suggestions specific to that format.
 
@@ -26,22 +25,23 @@ Once you have [created a project](/docs/projects/creating.html), you may add any
 | [LaTeX](tex.html)       | .tex or .latex |
 
 <a name="strategies"></a>
-## Strategies
 
 There are two means to add a new text into Manifold: where a text is created from a single document and where a single text is created from a collection of different documents. These are, respectively, the Document and Manifest ingestion strategies.
 
 <a name="document"></a>
-### Document
+## Document
 
 The document ingestion strategy allows a user to create a new text in Manifold from a single document source.
 
 ![Document Strategy](/docs/assets/projects/strategy-doc.png)
 
-When using this method, the resulting Manifold text will have an empty Contents dropdown (excepting EPUB ingestions). It is not presently possibly to create a table of contents that references specific sections of a single document.
+If the source document's headers are well defined, Manifold will recognize them and include them in the Contents dropdown. If there are no headers or if the headers that are present do not include any semantic markup, the Contents dropdown will show as empty.
+
+See the sections specific to the individual formats for detailed instructions on how to format headers to render as expected in the Contents dropdown.
 
 ![Unstructured Document](/docs/assets/projects/unstructured.png)
 
-The title of the document will automatically populate the [`Title` field](/docs/projects/customizing/texts.html#managing-texts) in the backend and display in the reader's [title bar](/docs/reading/interface.html#title-bar). The title bar alternates between the title of the text and the title of the active section (e.g., book title versus chapter title) for structured documents. For unstructured documents, the system will assume the title supplied during ingest to be both the title of the text and the title of the active section. If a backend user adjusts the [`Title`](/docs/projects/customizing/texts.html#managing-texts) field after ingest, the title that was initially supplied will remain as the text section title, and the newly input title will serve as the text title.
+The title of the document will automatically populate the [`Title` field](/docs/projects/customizing/texts.html#managing-texts) in the backend and display in the reader's [title bar](/docs/reading/interface.html#title-bar). The title bar alternates between the title of the text and the title of the active text section (e.g., book title versus chapter title) for structured documents. For unstructured documents, the system will assume the title supplied during ingest to be both the title of the text and the title of the active text section. If a backend user adjusts the [`Title`](/docs/projects/customizing/texts.html#managing-texts) field after ingest, the title that was initially supplied will remain as the text section title, and the newly input title will serve as the text title.
 
 The following table scopes out the source of the text title for each of the available ingestible file types when uploaded as a single document:
 
@@ -57,13 +57,17 @@ The following table scopes out the source of the text title for each of the avai
 <sup>a</sup>EPUBs can only be ingested using the Document strategy but are themselves self-contained structured documents. As such the system will be able to ascertain the title of the individual text sections based off the metadata provided within the EPUB.
 
 <a name="manifest"></a>
-### Manifest
+## Manifest
 
 A Manifest upload can be composed of a collection of one file type or a mixture of them, excepting EPUBs. Thus, it is possible to create a single Manifold text from one or more Google Docs, Word files (saved in the DOCX format), Markdown files, or HTML files: different file types and sources combined to form one whole.
 
 ![Manifest Strategy](/docs/assets/projects/strategy-manifest.png)
 
 When the various source documents have been prepared [according to the requirements of their format](/docs/projects/preparing/index.html#formats), users should compress (or zip) all of the documents—**along with the required YAML file described below**—into a single archive, which can then be uploaded into Manifold. The structure of YAML file will be represented on the reader's [contents dropdown](/docs/reading/interface.html#contents), and its content will inform what is displayed on the [title bar](/docs/reading/interface.html#title-bar). See the YAML section following for details.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. When creating a zip archive to upload into Manifold, it is better to individually select all of the files and then compress them than to simply select an entire folder on which to run the compression. The latter method can result in corrupted pathways that may cause ingestion errors.
+</div>
 
 <a name="yml"></a>
 ## YAML File
