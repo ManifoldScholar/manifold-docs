@@ -59,7 +59,7 @@ The following table scopes out the source of the text title for each of the avai
 <a name="manifest"></a>
 ## Manifest
 
-A Manifest upload can be composed of a collection of one file type or a mixture of them, excepting EPUBs. Thus, it is possible to create a single Manifold text from one or more Google Docs, Word files (saved in the DOCX format), Markdown files, or HTML files: different file types and sources combined to form one whole.
+A Manifest upload can be composed of a collection of one file type or a mixture of them—excepting EPUBs. Thus, it is possible to create a single Manifold text from one or more Google Docs, Word files (saved in the DOCX format), Markdown files, or HTML files: different file types and sources combined to form one whole.
 
 ![Manifest Strategy](/docs/assets/projects/strategy-manifest.png)
 
@@ -72,10 +72,12 @@ When the various source documents have been prepared [according to the requireme
 <a name="yml"></a>
 ## YAML File
 
-In order for Manifold to properly ingest multiple source documents at once, the system requires a YAML file to be included along with them in the compressed archive that will be loaded into the system.
+In order for Manifold to properly ingest multiple source documents at once, the system requires a YAML file (extension `.yml`) to be included along with them in the compressed archive that will be loaded into the system.
+
+In cases where there are no source documents to upload (e.g., if you are creating a text from multiple Google Docs) then only the YAML file needs to be loaded. When uploaded alone, the YAML file does not need to be compressed or zipped.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-In cases where there are no source documents to upload (e.g., if you are creating a text from multiple Google Docs) then only the YAML file needs to be loaded. When uploaded alone, the YAML file does not need to be compressed or zipped.
+The YAML file can be named in accordance with the user's preference, so long as the extension remains <code>.yml</code>. Thus <code>manifest.yml</code> and <code>contents.yml</code> will both work in the system.
 </div>
 
 The YAML file is a means for users to tell the system how to organize the materials that are being ingested into the system and how they relate to one another.
@@ -131,10 +133,15 @@ include all authors and contributors in the meta block.
 - The input for the `label` serves as the title of the text section and will appear in both the [contents dropdown](/docs/reading/interface.html#contents) in the reader as well as on the [title bar](/docs/reading/interface.html#title-bar).
 - The `source_path` tells Manifold where to find the file: it's location in the compressed archive or from a remote host. If there are no folders within the archive being compressed then the location is simply the name of the file. If the file is nested in a folder, it would be `{folder-name}\{filename.extension}` or, for example `part1\chap_1.md`.
 - The `start_section` describes what part of the text the Manifold reader will open to. The field can only be used once and can be associated with any section. Thus a user can have the reader open to chapter 1 instead of, say, a preface.
-- The `children` tag allows users to nest content. This nesting will also be rendered as expected on the Contents dropdown. It is important that nested content be spaced as is shown in the sample above, with each level of nesting described by an indent of two spaces). Manifold can render nesting up to three levels in the contents dropdown.
+- The `children` tag allows users to nest content. This nesting will also be rendered as expected on the Contents dropdown. It is important that nested content be spaced as is shown in the sample above, with each level of nesting described by an indent of two spaces). Manifold can render nesting up to three levels in the contents dropdown. See the Nested Text Sections following to learn how advanced users can make text headings navigable in the Contents dropdown.
+
+<a name="yml-nesting"></a>
+### Nested Text Sections
+
+Advanced users who want to include headings as navigable items in the Contents dropdown can do so for any HTML or Markdown texts in the Manifest. This will require that each heading designated to appear in the Contents dropdown include an `id` attribute that matches a hashed source pathway in the YAML file. See the [preparing HTML section](/docs/projects/preparing/html.html#html-headings) for details. The instructions and coding in that section are appropriate for both HTML and Markdown texts.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-In order to be properly processed by the system, the YAML file has to be titled <code>manifest.yml</code>.
+<strong>Note</strong>. It is not presently possible to map specific headings from individual Word or Google docs into the reader's Contents dropdown.
 </div>
 
 <a name="meta"></a>
