@@ -23,7 +23,7 @@ Four of these resource kinds—Image, Video, Audio, and Interactive—have assoc
 
 Images are any static visual elements that are not tables. Photographs, paintings, drawings, diagrams, maps, graphs, charts, musical examples are all considered images.
 
-*	**Formats**: GIF, JPEG, JPG, PNG, SVG
+*	**Formats**: GIF, JPEG, JPG, PNG
 *	**Size**: Please consult your publisher about any files that exceed 200 MB.
 *   **Variants**: High Resolution Image, Thumbnail
 *	**Suggested Metadata**: Title, Caption, Description, Alt-text, Copyright, Rights Holder, Rights Territory, Restrictions
@@ -34,7 +34,7 @@ Video files can be uploaded into the native Manifold video player in MP4 and WEB
 
 *	**Playable Formats**: MP4, WEBM
 *	**Streaming Formats**: YouTube, Vimeo
-*	**Upload Formats**: MP4, WEBM, FLV, WMV, MOV, AVI
+*	**Upload Formats**: MP4, WEBM, FLV, MOV, AVI
 *	**Size**: Please consult your publisher about any files that exceed 200 MB.
 *   **Variants**: File type 1, File type 2, thumbnail
 *	**Suggested Metadata**: Title, Caption, Description, Alt-text, Copyright, Rights Holder, Rights Territory, Restrictions
@@ -44,7 +44,7 @@ Video files can be uploaded into the native Manifold video player in MP4 and WEB
 Audio files can be uploaded into the native Manifold audio player in the MP3, FLAC, and WAV formats. Audio files saved in different formats can be uploaded onto Manifold, but they won't be playable onsite; instead readers can download those files for play on their local devices.
 
 *	**Playable Formats**: MP3, FLAC, WAV
-*	**Upload Formats**: MP3, FLAC, WMA, WAV, MID, OGG
+*	**Upload Formats**: MP3, FLAC, WAV, OGG, OGA
 *	**Size**: Please consult your publisher about any files that exceed 200 MB.
 *   **Variants**: File type 1, File type 2
 *	**Suggested Metadata**: Title, Caption, Description, Alt-text, Copyright, Rights Holder, Rights Territory, Restrictions
@@ -75,20 +75,20 @@ The PDF resource is an instance of the File Resource specific to PDFs. Files loa
 
 The Document resource is an instance of the File Resource specific to Microsoft Word and text documents. Files loaded as a Document will appear with the appropriate thumbnail in a project's Resource library and when annotating text.
 
-*	**Formats**: DOC, DOCX, TXT
+*	**Formats**: DOC, DOCX, TXT, ODT
 *	**Suggested Metadata**: Title, Caption, Description, Alt-text, Copyright, Rights Holder, Rights Territory, Restrictions
 
 ### Spreadsheet
 The Spreadsheet resource is an instance of the File Resource specific to Microsoft Excel. Files loaded as a Spreadsheet will appear with the appropriate thumbnail in a project's Resource library and when annotating text.
 
-*	**Formats**: XLS, XLSX
+*	**Formats**: XLS, XLSX, ODS
 *	**Suggested Metadata**: Title, Caption, Description, Alt-text, Copyright, Rights Holder, Rights Territory, Restrictions
 
 ### Presentation
 
 The Presentation resource is an instance of the File Resource specific to Microsoft PowerPoint. Files loaded as a Presentation will appear with the appropriate thumbnail in a project's Resource library and when annotating text.
 
-*	**Formats**: PPT, PPTX
+*	**Formats**: PPT, PPTX, ODP
 *	**Suggested Metadata**: Title, Caption, Description, Alt-text, Copyright, Rights Holder, Rights Territory, Restrictions
 
 ### Interactive
