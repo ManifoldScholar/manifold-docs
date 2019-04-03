@@ -119,6 +119,14 @@ The footer logo will appear on the right of the footer that appears on all insta
 
 This logo can mimic that of the header logo or be of its own distinct design. The dimensions of the footer logo are capped at 325 × 200 px and can be uploaded as a GIF, JPEG, JPG, or PNG file.
 
+#### Favicon
+
+The favicon is the icon that appears in the browser tab associated with an instance.
+
+![Favicon](/docs/assets/customizing/favicon.png)
+
+This logo can mimic that of the header logo or be of its own distinct design. There are many ways to approach the dimensions of a favicon—they are more nuanced than one might think—but a solid starting point would be to create an image files at either 16 × 16 or 32 × 32 px. Favicons can be uploaded as a GIF, JPEG, JPG, or PNG file.
+
 #### Logo Styles
 
 Publishers can adjust the placement of their header logo by entering a JSON style object. Logos are anchored on their the top and left, so our suggestion would be to use those parameters in adjusting it's placement.
