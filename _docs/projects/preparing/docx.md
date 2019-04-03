@@ -83,3 +83,12 @@ Apply the following character styles by selecting text and clicking on the corre
     - All first-line indentations applied with the ruler or in the Paragraph Settings will normalize to the default 0.5” indent.
 - Inline images
 - Linked data relying on field codes
+
+<a name="docx-embed"></a>
+## Embedding Images
+
+Manifold will accept into its reader static images that are included in source Word files. While Word supports many different arrangement options for the placement of art, we suggest the most minimal of styling, setting your image on its own line with text flowing above and below it.
+
+If you have multiple images that you want to appear side-by-side, it is better to first make a single image out of them using Photoshop or Pixlr.
+
+For detailed instructions on how to add an image into Word, see the [Microsoft Support site](https://www.microsoft.com/en-gb/videoplayer/embed/RE1T9z8?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-gb).

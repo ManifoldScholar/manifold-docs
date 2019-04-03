@@ -8,6 +8,12 @@ menus:
 
 HTML is the *lingua franca* of Manifold. The platform can accept all well-formed HTML that doesn't invoke scripts. Both run-in and external stylesheets are accepted, but note that the platform will reject any element within a stylesheet that conflicts with the system's ability to render content responsively.
 
+This section is broken down into the following sections:
+
+- **[Head](/docs/projects/preparing/html.html#html-head)**. Concerning items within an HTML file's `<head>` section, including the proper formating of this section for both [Document](/docs/projects/preparing/index.html#document) and [Manifest](/docs/projects/preparing/index.html#document) uploads.
+- **[Text Headings](/docs/projects/preparing/html.html#html-headings)**. Speaks to how to format headings to properly renders in the Contents dropdown.
+- **[External Resources](/docs/projects/preparing/html.html#html-ext)**. Describes how to embed images, audio, video, and iFrames into HTML files.
+
 <a name="html-head"></a>
 ## Head
 
@@ -164,7 +170,7 @@ When uploaded into Manifold, any sections that have IDs that are referenced in t
 <a name="html-ext"></a>
 ## External Resources
 
-Authors can embed media assets, such as images, audio, and video into their content, referencing them in keeping with standard practice:
+Authors can embed media assets, such as images, audio, video, and iFrames into their content, referencing them in keeping with standard practice:
 
 <a name="html-img"></a>
 ### Images
@@ -226,3 +232,29 @@ this video element.
 The text between the `<video>` tags only renders if the reader's browser is unable to play the file. In this example the author has submitted two identical video files to help protect against that possibility, as the browser automatically will play the first file it can. For more, see the [w3schools.com website](https://www.w3schools.com/html/html5_video.asp).
 
 ![HTML Video Asset](/docs/assets/projects/html-video.png)
+
+<a name="html-iframe"></a>
+### Inline Frames (iFrames)
+
+Presently Manifold only supports embedded iFrames from H5P. To embed an iFrame in your HTML file, include the embed code in either of the following formats, changing out the `src`, `width`, and `height` attributes in accordance with your materials.
+
+```html
+<p>Some text.</p>
+<iframe
+  data-manifold-iframe="h5p"
+  src="h5p.com/foo"
+  width="1200"
+  height="3000">
+</iframe>
+<p>Some more text.</p>
+<iframe
+  data-manifold-iframe="h5p"
+  src="h5p.com/foo"
+  style="width: 400px; height: 300px">
+</iframe>
+<p>Even more text.</p>
+```
+
+H5P iFrames require a script from the H5P content delivery network to handle dynamic resizing based on their contents. Manifold does not, however, allow ingested texts to include script tags. Adding the `data-manifold-iframe` attribute with a value of "h5p" to the iframe tells Manifold to include the H5P resizing code from the external location.
+
+When the frame is rendered in the reader, Manifold will calculate the aspect ratio based on the specified dimensions, and will render the frame in a responsive wrapper that will adjust to the full width of the reader.
