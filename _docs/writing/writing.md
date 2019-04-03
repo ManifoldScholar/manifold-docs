@@ -30,6 +30,7 @@ Paragraphs are all the characters between the start of a line and the hard retur
 
 Word processing apps, by default, wrap paragraphs for reading convenience and to evoke a designed page. Instead of having characters continue marching off the screen on one line, they flow beneath one another forming more and more lines as you type: they wrap.
 
+<a name="structureVrendering"></a>
 ### Structure and Rendering
 
 Structure and rendering are concepts that apply equally to both characters and paragraphs.
@@ -42,10 +43,12 @@ When you structure a paragraph or characters in a word processing app—usually 
 
 As you are preparing your text documents for your publisher you only need to concern yourself with the structure of your document. How the document looks—how it’s rendered—at this stage is only of use in discerning one element from another and does not reflect how the material will be rendered in later formats.
 
+<a name="word"></a>
 #### Microsoft Word
 
 For a description of how to apply styles (that impart structure) in Microsoft Word click [here](https://support.office.com/en-us/article/Apply-a-style-to-text-in-Word-F8B96097-4D25-4FAC-8200-6139C8093109).
 
+<a name="gdocs"></a>
 #### Google Docs
 
 The process for applying structure to paragraphs in Google Documents is described here:
@@ -60,6 +63,7 @@ The process for applying structure to paragraphs in Google Documents is describe
 
 *Note*. It is not possible to apply structure styles to characters in Google docs.
 
+<a name="structuring"></a>
 ## Structuring in Practice
 
 ### Paragraph Level
@@ -333,6 +337,7 @@ If your text requires combining diacritic marks or a specific font not native to
 
 If your material requires right-to-left text to appear inline with left-to-right text or as whole paragraphs, please consult your publisher on how best to proceed. Solutions are specific to each publisher.
 
+<a name="success"></a>
 ## Paths to Success
 
 *	**Simple**. Word processors like Microsoft Word and Google Docs are powerful apps that grant the user a host of tools to create rich documents. Often those tools are not interoperable with the transformations your publisher will need to perform on your files. Where possible, limit yourself to the following:
@@ -344,6 +349,7 @@ If your material requires right-to-left text to appear inline with left-to-right
 *	**Consistent**. Be mindful of making sure all like elements are treated the same way throughout. This applies to choices of structure (e.g., heading titles or spaced paragraphs, having epigraphs after no headings or all of them), language (length of heading titles, whether headings are numbered, capitalization decisions, if certain terms are italicized or placed in quotations), annotation style, everything.
 *	**Predictable**. Review the structure of your material at large, making sure material is grouped similarly throughout and that headings appear on expected levels and are properly nested.
 
+<a name="avoid"></a>
 ## Things to Avoid
 
 *	Text boxes
