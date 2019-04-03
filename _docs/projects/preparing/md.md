@@ -113,6 +113,6 @@ The directory that would be compressed for upload would include the Markdown fil
 </div>
 
 <a name="md-av"></a>
-### Audio and Video
+### Audio, Video, and iFrames
 
-Markdown does not have specific syntax to embed audio or video content, but given it's relationship to HTML, author's can inject HTML code into a Markdown document and get the expected results. As such, by using the same coding as described in the HTML section below, authors can add [audio](/docs/projects/preparing/html.html#html-audio) and [video](/docs/projects/preparing/html.html#html-video), respectively.
+Markdown does not have specific syntax to embed audio, video, or iFrame content, but given it's relationship to HTML, author's can inject HTML code into a Markdown document and get the expected results. As such, by using the same coding as described in the HTML section below, authors can include in their Markdown files [audio](/docs/projects/preparing/html.html#html-audio), [video](/docs/projects/preparing/html.html#html-video), and [iFrames](/docs/projects/preparing/html.html#html-iframe), respectively.

@@ -15,18 +15,51 @@ This section speaks broadly to preparing different document types for ingestion 
 
 Once you have [created a project](/docs/projects/creating.html), you may add any number of prepared texts into it. Manifold supports all of the following file types for text ingestion. Click on a type below for preparation suggestions specific to that format.
 
-| Type                    | Extension      |
-|-------------------------|----------------|
-| [EPUB](epub.html)       | .epub          |
-| [Markdown](md.html)     | .md            |
-| [HTML](html.html)       | .htm or .html  |
-| [Google Doc](gdoc.html) | url            |
-| [Word](docx.html)       | .docx          |
-| [LaTeX](tex.html)       | .tex or .latex |
+<table>
+    <tbody>
+        <tr>
+            <th>Type</th>
+            <th>Extension</th>
+            <th>Available Embeds</th>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/epub.html">EPUB</a></td>
+            <td>.epub</td>
+            <td><ul><li>Images</li><li>Audio</li><li>Video</li><li>iFrames</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/md.html">Markdown</a></td>
+            <td>.md</td>
+            <td><ul><li>Images</li><li>Audio</li><li>Video</li><li>iFrames</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/html.html">HTML</a></td>
+            <td>.htm or .html</td>
+            <td><ul><li>Images</li><li>Audio</li><li>Video</li><li>iFrames</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/gdoc.html">Google Docs</a></td>
+            <td>url</td>
+            <td><ul><li>Images</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/docx.html">Word</a></td>
+            <td>.docx</td>
+            <td><ul><li>Images</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/tex.html">LaTeX</a></td>
+            <td>.tex or .latex</td>
+            <td>Untested</td>
+        </tr>
+    </tbody>
+</table>
+
+Some of these formats allow for different media to be embedded with in them as components of the source text instead of as ancillary resources. Instructions on how to encode embeds available to EPUBs as well as Markdown and HTML files will be described in the [HTML section](/docs/projects/preparing/html.html). Instructions on how to include embedded media in [Google](/docs/projects/preparing/gdoc.html) and [Word](/docs/projects/preparing/docx.html) docs will be treated in their respective sections.
 
 <a name="strategies"></a>
 
-There are two means to add a new text into Manifold: where a text is created from a single document and where a single text is created from a collection of different documents. These are, respectively, the Document and Manifest ingestion strategies.
+There are two means to add a new text into Manifold: where a text is created from a single document and where a single text is created from a collection of different documents. These are, respectively, the [Document](/docs/projects/preparing/index.html#document) and [Manifest](/docs/projects/preparing/index.html#manifest) ingestion strategies described in this section.
 
 <a name="document"></a>
 ## Document

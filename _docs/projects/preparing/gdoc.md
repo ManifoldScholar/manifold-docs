@@ -26,6 +26,8 @@ Heading structure, character rendering (including indentation), tables, and figu
 - Bullet points. Text formatted as bullet points will come in as list elements, but they will appear without bullet characters.
 - Footnotes. Any footnote in the document will be transformed into an endnote, appearing at the end of the text section.
 
+To learn more about how to add supported elements into a Google Doc, consult the [G Suite Learning Center](https://gsuite.google.com/learning-center/products/docs/get-started/#!/section-2-3).
+
 ## Headings
 
 When individual Google Docs are ingested into the Manifold Reader, the system will look for text that a user has applied heading formatting to and include those elements as navigable items on the Contents dropdown.
