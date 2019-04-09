@@ -7,8 +7,8 @@ menu:
     weight: 4
 ---
 
+{% assign ubuntu_16_release = site.data.releases.ubuntu16[0] %}
 {% assign ubuntu_18_release = site.data.releases.ubuntu18[0] %}
-
 
 {% include installation/notice.md %}
 
@@ -18,6 +18,13 @@ The following instructions assume that you installed Manifold from a .deb file, 
 
 Shell into the server as root and download the most recent package.
 
+On Ubuntu 16:
+``` shell
+cd ~
+curl -O {{ ubuntu_16_release.url }}
+```
+
+On Ubuntu 18:
 ``` shell
 cd ~
 curl -O {{ ubuntu_18_release.url }}

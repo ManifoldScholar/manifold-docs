@@ -12,36 +12,69 @@ This section speaks broadly to preparing different document types for ingestion 
 </div>
 
 <a name="formats"></a>
-## Formats
 
 Once you have [created a project](/docs/projects/creating.html), you may add any number of prepared texts into it. Manifold supports all of the following file types for text ingestion. Click on a type below for preparation suggestions specific to that format.
 
-| Type                    | Extension      |
-|-------------------------|----------------|
-| [EPUB](epub.html)       | .epub          |
-| [Markdown](md.html)     | .md            |
-| [HTML](html.html)       | .htm or .html  |
-| [Google Doc](gdoc.html) | url            |
-| [Word](docx.html)       | .docx          |
-| [LaTeX](tex.html)       | .tex or .latex |
+<table>
+    <tbody>
+        <tr>
+            <th>Type</th>
+            <th>Extension</th>
+            <th>Available Embeds</th>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/epub.html">EPUB</a></td>
+            <td>.epub</td>
+            <td><ul><li>Images</li><li>Audio</li><li>Video</li><li>iFrames</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/md.html">Markdown</a></td>
+            <td>.md</td>
+            <td><ul><li>Images</li><li>Audio</li><li>Video</li><li>iFrames</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/html.html">HTML</a></td>
+            <td>.htm or .html</td>
+            <td><ul><li>Images</li><li>Audio</li><li>Video</li><li>iFrames</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/gdoc.html">Google Docs</a></td>
+            <td>url</td>
+            <td><ul><li>Images</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/docx.html">Word</a></td>
+            <td>.docx</td>
+            <td><ul><li>Images</li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="/docs/projects/preparing/tex.html">LaTeX</a></td>
+            <td>.tex or .latex</td>
+            <td>Untested</td>
+        </tr>
+    </tbody>
+</table>
+
+Some of these formats allow for different media to be embedded with in them as components of the source text instead of as ancillary resources. Instructions on how to encode embeds available to EPUBs as well as Markdown and HTML files will be described in the [HTML section](/docs/projects/preparing/html.html). Instructions on how to include embedded media in [Google](/docs/projects/preparing/gdoc.html) and [Word](/docs/projects/preparing/docx.html) docs will be treated in their respective sections.
 
 <a name="strategies"></a>
-## Strategies
 
-There are two means to add a new text into Manifold: where a text is created from a single document and where a single text is created from a collection of different documents. These are, respectively, the Document and Manifest ingestion strategies.
+There are two means to add a new text into Manifold: where a text is created from a single document and where a single text is created from a collection of different documents. These are, respectively, the [Document](/docs/projects/preparing/index.html#document) and [Manifest](/docs/projects/preparing/index.html#manifest) ingestion strategies described in this section.
 
 <a name="document"></a>
-### Document
+## Document
 
 The document ingestion strategy allows a user to create a new text in Manifold from a single document source.
 
 ![Document Strategy](/docs/assets/projects/strategy-doc.png)
 
-When using this method, the resulting Manifold text will have an empty Contents dropdown (excepting EPUB ingestions). It is not presently possibly to create a table of contents that references specific sections of a single document.
+If the source document's headers are well defined, Manifold will recognize them and include them in the Contents dropdown. If there are no headers or if the headers that are present do not include any semantic markup, the Contents dropdown will show as empty.
+
+See the sections specific to the individual formats for detailed instructions on how to format headers to render as expected in the Contents dropdown.
 
 ![Unstructured Document](/docs/assets/projects/unstructured.png)
 
-The title of the document will automatically populate the [`Title` field](/docs/projects/customizing/texts.html#managing-texts) in the backend and display in the reader's [title bar](/docs/reading/interface.html#title-bar). The title bar alternates between the title of the text and the title of the active section (e.g., book title versus chapter title) for structured documents. For unstructured documents, the system will assume the title supplied during ingest to be both the title of the text and the title of the active section. If a backend user adjusts the [`Title`](/docs/projects/customizing/texts.html#managing-texts) field after ingest, the title that was initially supplied will remain as the text section title, and the newly input title will serve as the text title.
+The title of the document will automatically populate the [`Title` field](/docs/projects/customizing/texts.html#managing-texts) in the backend and display in the reader's [title bar](/docs/reading/interface.html#title-bar). The title bar alternates between the title of the text and the title of the active text section (e.g., book title versus chapter title) for structured documents. For unstructured documents, the system will assume the title supplied during ingest to be both the title of the text and the title of the active text section. If a backend user adjusts the [`Title`](/docs/projects/customizing/texts.html#managing-texts) field after ingest, the title that was initially supplied will remain as the text section title, and the newly input title will serve as the text title.
 
 The following table scopes out the source of the text title for each of the available ingestible file types when uploaded as a single document:
 
@@ -57,21 +90,27 @@ The following table scopes out the source of the text title for each of the avai
 <sup>a</sup>EPUBs can only be ingested using the Document strategy but are themselves self-contained structured documents. As such the system will be able to ascertain the title of the individual text sections based off the metadata provided within the EPUB.
 
 <a name="manifest"></a>
-### Manifest
+## Manifest
 
-A Manifest upload can be composed of a collection of one file type or a mixture of them, excepting EPUBs. Thus, it is possible to create a single Manifold text from one or more Google Docs, Word files (saved in the DOCX format), Markdown files, or HTML files: different file types and sources combined to form one whole.
+A Manifest upload can be composed of a collection of one file type or a mixture of them—excepting EPUBs. Thus, it is possible to create a single Manifold text from one or more Google Docs, Word files (saved in the DOCX format), Markdown files, or HTML files: different file types and sources combined to form one whole.
 
 ![Manifest Strategy](/docs/assets/projects/strategy-manifest.png)
 
 When the various source documents have been prepared [according to the requirements of their format](/docs/projects/preparing/index.html#formats), users should compress (or zip) all of the documents—**along with the required YAML file described below**—into a single archive, which can then be uploaded into Manifold. The structure of YAML file will be represented on the reader's [contents dropdown](/docs/reading/interface.html#contents), and its content will inform what is displayed on the [title bar](/docs/reading/interface.html#title-bar). See the YAML section following for details.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. When creating a zip archive to upload into Manifold, it is better to individually select all of the files and then compress them than to simply select an entire folder on which to run the compression. The latter method can result in corrupted pathways that may cause ingestion errors.
+</div>
+
 <a name="yml"></a>
 ## YAML File
 
-In order for Manifold to properly ingest multiple source documents at once, the system requires a YAML file to be included along with them in the compressed archive that will be loaded into the system.
+In order for Manifold to properly ingest multiple source documents at once, the system requires a YAML file (extension `.yml`) to be included along with them in the compressed archive that will be loaded into the system.
+
+In cases where there are no source documents to upload (e.g., if you are creating a text from multiple Google Docs) then only the YAML file needs to be loaded. When uploaded alone, the YAML file does not need to be compressed or zipped.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-In cases where there are no source documents to upload (e.g., if you are creating a text from multiple Google Docs) then only the YAML file needs to be loaded. When uploaded alone, the YAML file does not need to be compressed or zipped.
+The YAML file can be named in accordance with the user's preference, so long as the extension remains <code>.yml</code>. Thus <code>manifest.yml</code> and <code>contents.yml</code> will both work in the system.
 </div>
 
 The YAML file is a means for users to tell the system how to organize the materials that are being ingested into the system and how they relate to one another.
@@ -127,10 +166,15 @@ include all authors and contributors in the meta block.
 - The input for the `label` serves as the title of the text section and will appear in both the [contents dropdown](/docs/reading/interface.html#contents) in the reader as well as on the [title bar](/docs/reading/interface.html#title-bar).
 - The `source_path` tells Manifold where to find the file: it's location in the compressed archive or from a remote host. If there are no folders within the archive being compressed then the location is simply the name of the file. If the file is nested in a folder, it would be `{folder-name}\{filename.extension}` or, for example `part1\chap_1.md`.
 - The `start_section` describes what part of the text the Manifold reader will open to. The field can only be used once and can be associated with any section. Thus a user can have the reader open to chapter 1 instead of, say, a preface.
-- The `children` tag allows users to nest content. This nesting will also be rendered as expected on the Contents dropdown. It is important that nested content be spaced as is shown in the sample above, with each level of nesting described by an indent of two spaces). Manifold can render nesting up to three levels in the contents dropdown.
+- The `children` tag allows users to nest content. This nesting will also be rendered as expected on the Contents dropdown. It is important that nested content be spaced as is shown in the sample above, with each level of nesting described by an indent of two spaces). Manifold can render nesting up to three levels in the contents dropdown. See the Nested Text Sections following to learn how advanced users can make text headings navigable in the Contents dropdown.
+
+<a name="yml-nesting"></a>
+### Nested Text Sections
+
+Advanced users who want to include headings as navigable items in the Contents dropdown can do so for any HTML or Markdown texts in the Manifest. This will require that each heading designated to appear in the Contents dropdown include an `id` attribute that matches a hashed source pathway in the YAML file. See the [preparing HTML section](/docs/projects/preparing/html.html#html-headings) for details. The instructions and coding in that section are appropriate for both HTML and Markdown texts.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-In order to be properly processed by the system, the YAML file has to be titled <code>manifest.yml</code>.
+<strong>Note</strong>. It is not presently possible to map specific headings from individual Word or Google docs into the reader's Contents dropdown.
 </div>
 
 <a name="meta"></a>

@@ -15,7 +15,7 @@ Word documents saved in the DOCX format can be ingested directly into Manifold a
 <a name="docx-para"></a>
 ## Supported Paragraph Styles
 
-Apply paragraph styles in Word by using the Style pane in the Ribbon or shortcuts on the Ribbon itself. The following links redirect to the appropriate instruction page on Microsoft's Word support site.
+Apply paragraph styles in Word by using the [Style pane in the Ribbon](https://support.office.com/en-us/article/Apply-a-style-to-text-in-Word-F8B96097-4D25-4FAC-8200-6139C8093109) or shortcuts on the Ribbon itself. The following links redirect to the appropriate instruction page on Microsoft's Word support site.
 
 - [Title](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
     - Only one per document. The content of the paragraph applied with this style will appear in the reader's [title bar](/docs/reading/interface.html#title-bar).
@@ -24,6 +24,7 @@ Apply paragraph styles in Word by using the Style pane in the Ribbon or shortcut
 - [Author](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
 - [Date](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
 - [Headings 1–6](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
+    - When individual Word files are ingested into the Manifold Reader, the system will look for text that a user has applied heading formatting to and include those elements as navigable items on the Contents dropdown. It is not presently possible to map specific headings from individual Word files into the reader's Contents dropdown when loading them as part of a [Manifest](/docs/projects/preparing/index.html#manifest).
 - Body Text Paragraphs  
   *The following styles will be transformed into standard body paragraphs:*
     - [Normal](https://support.office.com/en-us/article/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109?wt.mc_id=fsn_word_format_text)
@@ -82,3 +83,12 @@ Apply the following character styles by selecting text and clicking on the corre
     - All first-line indentations applied with the ruler or in the Paragraph Settings will normalize to the default 0.5” indent.
 - Inline images
 - Linked data relying on field codes
+
+<a name="docx-embed"></a>
+## Embedding Images
+
+Manifold will accept into its reader static images that are included in source Word files. While Word supports many different arrangement options for the placement of art, we suggest the most minimal of styling, setting your image on its own line with text flowing above and below it.
+
+If you have multiple images that you want to appear side-by-side, it is better to first make a single image out of them using Photoshop or Pixlr.
+
+For detailed instructions on how to add an image into Word, see the [Microsoft Support site](https://www.microsoft.com/en-gb/videoplayer/embed/RE1T9z8?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-gb).

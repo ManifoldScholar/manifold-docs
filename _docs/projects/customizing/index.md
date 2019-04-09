@@ -44,7 +44,7 @@ When you click the `Delete` button from the header, the system will prompt you t
 All available means to customize a project are contained on this page and broken into the eleven categories denoted in the sidebar, which are described in full in the following sections. By default, when you arrive on the project page you will land in the General sidebar category.
 
 * [General](/docs/projects/customizing/general.html)
-* [Appearance](/docs/projects/customizing/appearance.html)
+* [Layout](/docs/projects/customizing/layout.html)
 * [Permissions](/docs/projects/customizing/permissions.html)
 * [People](/docs/projects/customizing/people.html)
 * [Texts](/docs/projects/customizing/texts.html)
