@@ -5,11 +5,11 @@ menus:
   projects_customizing:
     weight: 1
 ---
-The General category provides controls for the most top-level elements for how a project is registered and displayed across the system.
+The General sidebar provides controls for the most top-level elements for how a project is registered and displayed across the system.
 
-## Title
+## General Attributes
 
-![Title Bock](/docs/assets/projects/title-block.png)
+![General Attributes](/docs/assets/projects/general-attributes.png)
 
 ### Title
 
@@ -18,6 +18,10 @@ Use this field to update the project title, which displays on the project librar
 ### Subtitle
 
 Use this field to add or update the project subtitle, which displays alongside the primary title. This field is not required.
+
+### Publication Date
+
+A publication date is required by the system to [generate citations](/docs/reading/sharing.html). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
 
 ### Slug
 
@@ -31,15 +35,27 @@ https://manifold.umn.edu/project/the-lab-book
 <strong>Note</strong>. Adjusting the project slug will affect the URLs for resources that are a part of the project. Manifold will automatically resolve these for links within the system, but if you have shared a URL to a resource outside of Manifold it will need to be updated; otherwise, readers clicking the old link will be directed to a 404 Error Page.
 </div>
 
+<a name="thumbnail"></a>
+### Project Thumbnail
+
+This table allows you to modify or customize the avatar representing the project, which displays in the library on the landing page. If no custom avatar has been added to the system, the default icon—made up of eye glasses, a dialog bubble, and a pencil—shows in the left panel.
+
+You can adjust the color of the default icon by selecting from one of the six preset options in the middle panel labelled `Default`.
+
+You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right panel labeled `Custom`. All custom uploads should be no less than 400px along their shortest dimension.
+
+Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/layout.html), you will also need to add it here as a custom image for the cover to show in library views.
+
 ## Visibility
 
-![Visibility Bock](/docs/assets/projects/visibility-block.png)
+![Visibility](/docs/assets/projects/visibility.png)
 
+<a name="draft-mode"></a>
 ### Draft Mode
 
 For use when wanting to load and edit a project and its materials before publishing it for a broad readership. When toggled on, projects are only visible to users logged in with Administrator, Editor, or Marketeer roles—and to Project Creators on projects where they have `Can Modify Project` permissions. New projects are set to Draft Mode by default, and Draft status is denoted in the project library, as well as on the project landing page.
 
-When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on Twitter will only work for those who also have permission to access the project and are logged in. All annotations, comments, and highlights will persist with the project's text when Draft Mode is toggled off.
+When a project is in Draft Mode, users who have permissions to view the project may annotate, highlight, and even share texts that are part of the project. Links shared on social media will only work for those who also have permission to access the project and are logged in. All annotations, comments, and highlights will persist with the project's text when Draft Mode is toggled off.
 
 Determining when drafts are made public falls to the discretion of publishers.
 
@@ -52,35 +68,59 @@ Featured projects take pride of place on the home page in a section of the libra
 <strong>Note</strong>. If <a href="/docs/projects/collections.html">Project Collections</a> are being employed, the Featured Projects blade will not appear. But projects marked as being Featured can be sorted into a Smart Collection. See the <a href="/docs/projects/collections.html#smart-collections">Collections</a> section for more.
 </div>
 
-## Social
+<a name="standalone"></a>
+### Standalone Mode
 
-![Social Bock](/docs/assets/projects/social-block.png)
+The standard Manifold landing page that showcases [collections of projects](/docs/projects/collections.html) or a publisher's entire library of project offerings is not always appropriate or useful. In situations where an instance only has a handful of projects or when a publisher wants to incorporate Manifold projects as individual microsites into their existing web presence, Standalone Mode can be employed as a solution.
 
-### Hashtag
+Any Manifold project can be rendered in standalone mode or in library mode. Using the dropdown, users can configure the most appropriate rendering for a project:
 
-This field is a means to suggest a hashtag to those interested in discussing a project in social media. Include the hashmark (`#`) with the tag, and it will appear in the lower left part of the header on the project's landing page. See the [Social](/docs/projects/customizing/social.html) section for instruction on how to pull Tweets using the hashtag into the project's [activity](/docs/projects/customizing/activity.html) feed.
+- **Disabled**. If standalone mode is disabled, the project can never be viewed in standalone mode. This is the default setting for new projects. 
+- **Enabled**. If standalone mode is enabled, the user must come to that project with `?mode=standalone` appended to the URL for standalone presentation; otherwise users will encounter the default library view of the project. This is useful for publishers who want to present a project as standalone when directed from a specific location (e.g., a publisher's or author's website), while allowing the same project to be viewed in library mode for those arriving to it from other locations.
+- **Enforced**. If standalone mode is enforced, that project can only be viewed in standalone mode regardless of from where a user is coming to the project.
 
-### Facebook ID
+When a project is offered in standalone mode,
 
-This field allows you to associate a Facebook account with the project. Enter the Facebook username (*without* the `@` sign) or the numeric ID associated with the account, and a link the Facebook account, in the form of the Facebook `f` icon, will appear over the lower left of the Hero image.
+- the library header is replaced with a more minimal standalone header (see the Header Bar options on the [Theme Settings page](/docs/customizing/settings.html#theme) to enable the header and customize its color),
 
-### Twitter ID
+<figure>
+  <img src="/docs/assets/projects/library.png" alt="Library Bar" style="margin-bottom: 1em;">
+  <img src="/docs/assets/projects/standalone.png" alt="Standalone Bar">
+  <figcaption><em>Above</em>, the standard Manifold library header; <em>below</em>, the new standalone bar, which persists the project's title and subtitle on scroll—and serves as a clickable link to provide readers a means to return to the project landing page.</figcaption>
+</figure>
 
-This field allows you to associate a Twitter account with the project. Enter the Twitter username (with *or* without the `@` sign) and a link to the Twitter account, in the form a Twitter bird icon, will appear over the lower left of the Hero image.
+- on the project home page, the standalone header appears on scroll,
 
-Tweets from this account will not automatically appear in the Recent Activity pane on the project's landing page. But that functionality is possible through the settings in the [Social section](/docs/projects/customizing/social.html).
+<figure>
+  <img src="/docs/assets/projects/standalone-scroll.png" alt="">
+  <figcaption>Here the user has scrolled down past the hero block with the project description to a text block, and the header, including the project title and subtitle has followed down the page. In this example, the header color setting was configured for dark mode.</figcaption>
+</figure>
 
-### Instagram ID
+- the standalone header will respect whether the project hero is set to light or dark mode,
+- search in the project is scoped to the project,
+- the reader menu only includes a link to the project, and
 
-This field allows you to associate an Instagram account with the project. Enter the Instagram username (*without* the `@` sign) and a link to the Instagram account, in the form of the Instagram icon, will appear over the lower left of the Hero image.
+<figure>
+  <img src="/docs/assets/projects/reader-menu.png" alt="Default Reader Menu" style="max-height:20vw;">
+  <img src="/docs/assets/projects/standalone-menu.png" alt="Standalone Reader Menu" style="max-height:10vw;">
+  <figcaption><em>Left</em>, the standard Manifold library navigation; <em>right</em>, the navigation in standalone mode, which is scoped down to only include project-level navigation.</figcaption>
+</figure>
 
-## Other
+- project subpages for individual resources or resource collections show the standalone header with no breadcrumbs.
 
-![Other Bock](/docs/assets/projects/other-block.png)
+These settings work in conjunction with the header bar configurations, which can be adjusted on a project-by-project basis or generally across an entire instance.
 
-### Publication Date
+See the [Header Bar section](/docs/projects/customizing/general.html#header-bar) below to adjust an individual project's header bar text and link URL. To modify the header bar across the instance as a whole generally—text, link URL, color, and behavior, see the [Theme Settings page](/docs/customizing/settings.html#theme).
 
-A publication date is required by the system to [generate citations](/docs/reading/sharing.html)). The date input here refers to the project as a whole (versus individual texts contained within the project) and will be superseded by a publication date associated with specific texts).
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<ul><li>Regardless of how many projects are set for Standalone Mode, the standard Manifold landing page will still exist. Further, if a reader navigates to an instances's landing page (by happenstance or by entering it into the URL bar) they will be able to see all the projects on the instance—even those that are set for Standalone Mode—excepting those in Draft Mode.</li>
+<li>If you enable or enforce standalone mode on a project but don't see a header bar on your project, check the <a href="/docs/customizing/settings.html#theme">Theme Settings page</a> to see that Header Bar Display Mode is not set to <code>Disabled</code>.</li>
+</ul>
+</div>
+
+## Taxonomy
+
+![Taxonomy](/docs/assets/projects/taxonomy.png)
 
 <a name="subjects"></a>
 ### Subjects
@@ -98,13 +138,10 @@ Unlike Subjects, Tags can be created by any user who has permission to modify a 
 
 To see how Tags can be used to curate Smart Collections, visit the [Project Collections](/docs/projects/collections.html#smart-collections) page.
 
-<a name="thumbnail"></a>
-### Project Thumbnail
+<a name="header-bar"></a>
+## Header Bar
 
-This table allows you to modify or customize the avatar representing the project, which displays in the library on the landing page. If no custom avatar has been added to the system, the default icon—made up of eye glasses, a dialog bubble, and a pencil—shows in the left panel.
+![Header Bar](/docs/assets/projects/header-bar.png)
 
-You can adjust the color of the default icon by selecting from one of the six preset options in the middle panel labelled `Default`.
-
-You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right panel labeled `Custom`. All custom uploads should be no less than 400px along their shortest dimension.
-
-Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/layout.html), you will also need to add it here as a custom image for the cover to show in library views.
+- Header Bar Text
+- Header Bar URL
