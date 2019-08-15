@@ -96,7 +96,7 @@ When a project is offered in standalone mode,
 - on the project home page the standalone header appears on scroll and persists the project's title and subtitle—and, like the header bar, serves as a clickable link to provide readers a means to return to the project landing page as they explore subpages within the project.
 
 <figure>
-  <img src="/docs/assets/projects/standalone-scroll.png" alt="">
+  <img src="/docs/assets/projects/standalone-scroll.png" alt="Standalone Scroll">
   <figcaption>Here the user has scrolled down past the hero block (containing the project description) to a text block, and the header, including the project title and subtitle has followed down the page. In this example, the header color setting was configured for dark mode.
   </figcaption>
 </figure>
