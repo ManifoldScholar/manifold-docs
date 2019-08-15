@@ -85,7 +85,7 @@ Smart collections allow users to set certain filters that, when they are satisfi
 </div>
 
 <p>
-  <img src="/docs/assets/projects/smart-collection.png" alt="" style="float:right; margin-left: .5em; margin-right: 0; max-height:35vmax;">
+  <img src="/docs/assets/projects/smart-collection.png" alt="Smart Collection" style="float:right; margin-left: .5em; margin-right: 0; max-height:35vmax;">
 </p>
 
 The fields required for a Manual Collection—Title, Description, Visible, Show on Homepage, and Collection Icon—are likewise required for Smart Collections. However to properly calibrate a smart collection, the following fields are also required:
