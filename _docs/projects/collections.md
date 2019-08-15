@@ -80,9 +80,15 @@ Once saved, this new manual collection will be empty. To populate it with titles
 
 Smart collections allow users to set certain filters that, when they are satisfied by a project, allow Manifold to automatically include them in a collection. Presently the available filters are a project's status as being [Featured](/docs/projects/customizing/general.html#featured), as well as what [Subjects](/docs/projects/customizing/general.html#subjects) and [Tags](/docs/projects/customizing/general.html#tags) are associated with it.
 
-![Smart Collections](/docs/assets/projects/smart-collection.png)
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Manifold will update the list of projects in smart collections every fifteen minutes. Saving a smart project collection will also refresh the cache of projects in that collection.
+</div>
 
-The fields required for a Manual Collection—Title, Description, Visible, and Show on Homepage—are likewise required for Smart Collections. However to properly calibrate a smart collection, the following fields are also required:
+<p>
+  <img src="/docs/assets/projects/smart-collection.png" style="float:right; margin-left: .5em; margin-right: 0; max-height:35vmax;">
+</p>
+
+The fields required for a Manual Collection—Title, Description, Visible, Show on Homepage, and Collection Icon—are likewise required for Smart Collections. However to properly calibrate a smart collection, the following fields are also required:
 
 <a name="projects-visible"></a>
 #### Projects Visible
