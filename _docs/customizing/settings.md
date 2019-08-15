@@ -107,7 +107,7 @@ Publisher logos replace the default Manifold icon and will appear in the upper l
 
 Header Logos are constrained to max height of 60 px high with flexible height and can be uploaded as a GIF, JPEG, JPG, or PNG file.
 
-#### Mobile Logo
+#### Mobile Header Logo
 
 A logo added to this field will replace the Header Logo on mobile devices.
 
@@ -148,6 +148,50 @@ This field allows users to adjust the vertical position of header navigation men
 Manifold was designed to employ two TypeKit fonts throughout the app: `Sofia Pro` and `Freight Text`. If you have a valid Typekit account and enter your ID in this field, those two fonts will load for your readers.
 
 If you do not have a Typekit account, Manifold will defer to two sets of open-license alternatives that are included at installation: `Trueno` and `Aleo`.
+
+<a name="instance-header"></a>
+
+### Instance Header Bar
+
+![Instance Header](/docs/assets/customizing/instance-header.png)
+
+The instance header bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. It can be configured to appear atop all Manifold pages outside of the reader, or it can be set to specifically target only those projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone).
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. The instance header bar can be deployed alongside the standard library header; it does not <em>only</em> need to be used in conjunction with projects in standalone mode.
+</div>
+
+#### Text
+
+Text entered here appears in the header bar globally across the instance, but it can be superseded on individual projects if so configured in a project's [General settings](/docs/projects/customizing/general.html#header-bar).
+
+![Header Bar Text](/docs/assets/projects/header-bar-text.png)
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. This field is <em>not</em> Markdown enabled and only accepts one line of text.
+</div>
+
+#### URL
+
+The header bar functions as a clickable link. The URL entered here will serve as the target link to any user who clicks on the header bar. Like the Header Bar Text, input here can be overriden on a project's [General settings](/docs/projects/customizing/general.html#header-bar) page.
+
+#### Color
+
+The color of the header bar is customizable. To define the color of the header bar for your Manifold instance, enter an HTML color hex value—including the hash symbol (#)—in this field (e.g., `#2980B9`).
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. The color of the header bar is a global setting and cannot be adjusted for individual projects.
+</div>
+
+#### Press Bar Display Mode
+
+- **Disabled**. When set to `Disabled` the header bar will not display—*even if* a user fills in the [header bar fields](/docs/projects/customizing/general.html#header-bar) for an individual project or sets one up to appear in [standalone mode](/docs/projects/customizing/general.html#standalone).
+- **Always Visible**. If toggled to `Always Visible`, so long as the text and URL have been provided, the header bar will display on all Manifold pages (excepting those within the reader), regardless of whether or not those pages are associated with a standalone project. If users have enabled [standalone mode](/docs/projects/customizing/general.html#standalone) and the [header bar](/docs/projects/customizing/general.html#header-bar) for individual projects, those settings will override the text and URL entered here in the Theme settings.
+- **Only Visible in Standalone Mode**. To set the header bar to only appear on those pages associated with projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone), select `Only Visible in Standalone Mode`.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+The header won't display unless text and a URL are provided. However, if the header bar is enabled to be visible in standalone mode and a user has input text and a URL for those projects individually in their <a href="/docs/projects/customizing/general.html">General settings</a>, the header bar will appear, even if that information has not been filled in here in the Theme settings.
+</div>
 
 <a name="integrations"></a>
 ## Integrations
