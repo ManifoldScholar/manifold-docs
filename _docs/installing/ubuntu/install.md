@@ -49,7 +49,7 @@ dpkg -i {{ ubuntu_16_release.basename }}
 {% include installation/reconfigure.md %}
 
 ``` shell
-/usr/local/bin/manifold-ctl reconfigure
+manifold-ctl reconfigure
 ```
 
 {% include installation/next_steps.md %}
