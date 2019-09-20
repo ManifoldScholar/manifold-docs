@@ -56,12 +56,30 @@ Groups have three privacy options—public, private, and anonymous—that functi
 
 <figure>
 <img src="/docs/assets/reading/public-annotation.png" alt="Public Annotation">
-<figcaption>When a reader annotates in a group, the group name—here “Jojo's Book Club”—is included as a tag beside the annotation.</figcaption>
+<figcaption>When a reader annotates in a group, the group name—here “Jojo’s Book Club”—is included as a tag beside the annotation.</figcaption>
 </figure>
 
-Annotations made in public groups can be used by instructors to guide classroom conversation across sections or as a means to cultivate a scholarly edition of specific texts.
-- **Private**. 
-- **Anonymous**. 
+Annotations made in public groups can be used by instructors to guide classroom conversation across sections, as a means to enhance/transform texts into scholarly editions, to organize engagement around public happenings occurring on campus or at a particular institution (e.g., Frankenreads).
+
+- **Private**. Annotations and highlights made in private groups are only visible to other members of the group. Private groups can be employed in the classroom setting as a means to facilitate discussion among specific students in a safe environment, without concern of unaffiliated members interrupting the flow and dynamic of that space.
+
+<figure>
+<img src="/docs/assets/reading/private-group.png" alt="Private Group">
+<figcaption>Private groups (which also encompass Anonymous groups) are designated with a lock beside their name in the group selection modal.</figcaption>
+</figure>
+
+- **Anonymous**. Like Private groups, only fellow group members can see those annotations and highlights that have been committed to the group. Additionally the identities of group members are masked from one another—save the group moderator—allowing for texts to be peer-reviewed in the system. 
+
+<figure>
+<img src="/docs/assets/reading/anon-anno.png" alt="Anonymous Annotation">
+<figcaption>Here one member of the group reviews another member's annotation without being able to see their identity.</figcaption>
+</figure>
+
+#### Invitation Code
+
+#### Invitation URL
+
+#### Notifications
 
 ### Join a Reading Group
 
