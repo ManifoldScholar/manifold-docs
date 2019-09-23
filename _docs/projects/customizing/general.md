@@ -81,7 +81,7 @@ Any Manifold project can be rendered in standalone mode or in library mode. Usin
 
 - **Disabled**. If standalone mode is `Disabled`, the project can never be viewed in standalone mode. This is the default setting for new projects. 
 - **Enabled**. If standalone mode is `Enabled`, the user must come to that project with the following suffix appended to the URL for standalone presentation; otherwise users will encounter the default library view of the project: `?mode=standalone`. This is useful for publishers who want to present a project as standalone when directed from a specific location (e.g., a publisher's or author's website), while allowing the same project to be viewed in library mode for those arriving to it from other locations.
-- **Enforced**. If standalone mode is `Enforced`, that project can only be viewed in standalone mode regardless of from where a user is coming to the project.
+- **Enforced**. If standalone mode is `Enforced`, that project can only be viewed in standalone mode regardless of from where a user is coming to the project. Additionally, projects that are enforcing standalone mode are removed from the projects page library and the landing page, in cases where the instance isn't displaying project collections.
 
 When a project is offered in standalone mode,
 
@@ -118,7 +118,7 @@ These settings work in conjunction with the header bar configurations, which can
 See the [Header Bar section](/docs/projects/customizing/general.html#header-bar) below to adjust an individual project's header bar text and link URL. Those with [Administrator credentials](/docs/projects/accounts/users.html) can modify the header bar globally across the instance—its text, link URL, color, and behavior—on the [Theme Settings page](/docs/customizing/settings.html#instance-header).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<ul><li>Regardless of how many projects are set for Standalone Mode, the standard Manifold landing page will still exist. Further, if a reader navigates to an instances's landing page (by happenstance or by entering it into the URL bar) they will be able to see all the projects on the instance—even those that are set for Standalone Mode—excepting those in <a href="/docs/projects/customizing/general.html#draft-mode">Draft Mode</a>.</li>
+<ul><li>Regardless of how many projects are set for Standalone Mode, the standard Manifold landing page will still exist. Further, if a reader navigates to an instance's landing page (by happenstance or by entering it into the URL bar) they will be able to see all the projects on the instance—excepting those in <a href="/docs/projects/customizing/general.html#draft-mode">Draft Mode</a> or those where Standalone Mode is enforced (so long as they aren't also part of a project collection).</li>
 <li>If you enable or enforce standalone mode on a project but don't see a header bar on your project, check the <a href="/docs/customizing/settings.html#instance-header">Theme Settings page</a> to see that Header Bar Display Mode is not set to <code>Disabled</code>. N.B., only users with <a href="/docs/projects/accounts/users.html">Administrator credentials</a> can access the Theme Settings page.</li>
 </ul>
 </div>
