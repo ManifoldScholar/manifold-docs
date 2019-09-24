@@ -71,6 +71,19 @@ Featured projects take pride of place on the home page in a section of the libra
 <strong>Note</strong>. If <a href="/docs/projects/collections.html">Project Collections</a> are being employed, the Featured Projects blade will not appear. But projects marked as being Featured can be sorted into a Smart Collection. See the <a href="/docs/projects/collections.html#smart-collections">Collections</a> section for more.
 </div>
 
+<a name="finished"></a>
+
+### Finished
+
+The Finished toggle is a means to indicate that a project is no longer actively iterating. When toggled on, Manifold will show the project's published date rather than its last updated date in lists. When the switch is off, Manifold will show when the project was last updated.
+
+![Finished](/docs/assets/projects/finished.png)
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. If a project is toggled to Finished and no publication date is set, in list views no date of any kind will appear.<br/><br/>
+<img src="/docs/assets/projects/nopub.png" alt="nopub">
+</div>
+
 <a name="standalone"></a>
 
 ### Standalone Mode
