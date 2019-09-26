@@ -140,7 +140,7 @@ Loading production environment (Rails 5.0.6)
 [1] pry(main)> Project.pluck(:title)
 => ["Test Project"]
 ```
-
+<a name="rake-interface"></a>
 A number of rake tasks are also exposed through this interface:
 
 ```sh
