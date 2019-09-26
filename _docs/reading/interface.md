@@ -49,14 +49,22 @@ You can also navigate and adjust the look of the reading interface itself. Besid
 <a name="notepad"></a>
 ### Notepad
 
-The notepad displays a list of all the highlights and annotations you've made to a text in one place, allowing you to select them and be taken directly to the section of text in question. You have the option to view only annotations or highlights by checking the appropriate box.
+The notepad displays a list of all the highlights and annotations you've made to a text—along with the reading group which they are associated—in one place, allowing you to select them and be taken directly to the section of text in question. You have the option to view only annotations or highlights by checking the appropriate box.
 
 If you click `See All` a new modal display will overlay your screen showing the entirety of your annotations and highlights, instead of the brief snippets provided in the dropdown.
+
+![Notepad](/docs/assets/reading/notepad.png)
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Reader comments are not collected in this dropdown, whether they are responses to another reader's annotation or to a comment thread grown around a resource.
+</div>
 
 <a name="visibility"></a>
 ### Visibility Menu
 
-The eye icon opens the visibility menu and allows you to selectively reveal or hide highlights, annotations, or resources.
+The eye icon opens the visibility menu and allows you to selectively reveal or hide highlights, annotations, resources, and reading group engagements. 
+
+![Visibility](/docs/assets/reading/visibility.png)
 
 <a name="appearance"></a>
 ### Appearance
