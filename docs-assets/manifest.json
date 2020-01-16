@@ -1,8 +1,8 @@
 {
-  "manifold-docs.css": "/docs-assets/manifold-docs-9652d622b2c683599909.css",
-  "manifold-docs.js": "/docs-assets/manifold-docs-9652d622b2c683599909.js",
-  "manifold-icons.eot": "/docs-assets/eeec586f4d8d9867d71d3131b6f1d070.eot",
-  "manifold-icons.svg": "/docs-assets/39e4311dcf3af51a9ecd424af73d53c8.svg",
-  "manifold-icons.ttf": "/docs-assets/6b6f386511a3a681f73402cb21115207.ttf",
-  "manifold-icons.woff": "/docs-assets/d679d2a35bda43ee4d1dc52d64c8ed95.woff"
+  "manifold-docs.css": "http://127.0.0.1:8085/docs-assets/manifold-docs-c8b2fc7b7b0ba371026a.css",
+  "manifold-docs.js": "http://127.0.0.1:8085/docs-assets/manifold-docs-c8b2fc7b7b0ba371026a.js",
+  "manifold-icons.eot": "http://127.0.0.1:8085/docs-assets/eeec586f4d8d9867d71d3131b6f1d070.eot",
+  "manifold-icons.svg": "http://127.0.0.1:8085/docs-assets/39e4311dcf3af51a9ecd424af73d53c8.svg",
+  "manifold-icons.ttf": "http://127.0.0.1:8085/docs-assets/6b6f386511a3a681f73402cb21115207.ttf",
+  "manifold-icons.woff": "http://127.0.0.1:8085/docs-assets/d679d2a35bda43ee4d1dc52d64c8ed95.woff"
 }
