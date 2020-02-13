@@ -35,7 +35,7 @@ CLIENT_BROWSER_API_CABLE_URL=http://127.0.0.1:4000/cable
 
 From within that git repository, create and start Manifold containers:
 ```
-MANIFOLD_TAG=v{{site.data.current.version}} docker-compose up -d
+MANIFOLD_TAG={{site.data.current.version}} docker-compose up -d
 ```
 
 Access the site in your browser. Be patient, as it might take a minute for
