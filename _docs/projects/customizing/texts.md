@@ -18,7 +18,7 @@ This section is portioned along the following themes:
 
 * [Adding Texts to Projects](/docs/projects/customizing/texts.html#adding-texts)
 * [Grouping Texts by Category](/docs/projects/customizing/texts.html#grouping-texts)
-* [Managing a Text's Details](/docs/projects/customizing/texts.html#managing-texts)
+* [Modifying Text Records](/docs/projects/customizing/texts.html#managing-texts)
 
 <a name="adding-texts"></a>
 ## Adding Texts to Projects
@@ -92,13 +92,66 @@ Texts that are in a custom category that is being deleted will return to `Uncate
 To change the order in which the custom categories appear, click on the horizontal grab bars to the right of the category name, which you can use to drag and drop the category to the desired placement.
 
 <a name="managing-texts"></a>
-## Managing a Text's Details
+## Modifying Text Records
 
-After a text has been ingested, you can modify its metadata, which Maker records are associated with it, update how its constituent elements render in the reader, and also re-ingest its source file to accommodate any minor changes that may have been required after the initial ingest.
+After a text has been ingested, you can modify its metadata, adjust associated Maker records, update how its constituent elements render in the reader, and also re-ingest its source file to accommodate any minor changes that may have been required after the initial ingest.
 
-To edit a text, click on it's name or the `Edit` button, right of the name, in the category listing. From there you will be taken to the text landing page with its own unique sidebar:
+To edit a text, click on it's name or edit button from the project's text directory.
+
+![Text Landing](/docs/assets/projects/editText.png)
+
+From there you will be taken to the text landing page with its own unique sidebar:
 
 ![Text Landing](/docs/assets/projects/text-landing.png)
+
+<a name="menuBar"></a>
+### Text Menu Bar Options
+
+The menu bar on the text landing page mirrors the functionality of the menu bar at the project level, along with contextual and added functionality.
+
+![Text Menu Bar](/docs/assets/projects/menubar.png)
+
+
+#### Preview
+
+When activated here, the Preview button opens a new tab with the text showing in the Manifold reader. This contrasts with this button's behavior at the project level, where it opens a new tab to the project landing page instead of a specific text.
+
+#### Delete
+
+This button allows editors the means to delete the specific text that is presently being edited—versus deleting the entire project.
+
+<a name="enableEPUB"></a>
+#### Enable/Disable EPUB
+
+This option provides a means for a publisher to export from Manifold an EPUB of a specific text, regardless of the format it was ingested. If a publisher is creating texts using Word files or Google Docs, this provides the means to secure that same content in the EPUB format.
+
+Every five minutes Manifold looks for texts that have this setting enabled. If a text is newly enabled, Manifold will generate an EPUB of the text. If the text has been updated since the last scan, Manifold will re-create the EPUB so that accurately reflects any changes that have been made.
+
+Once generated, Manifold makes the EPUB available for download through the backend (see the next section). Looking ahead, we anticipate tying this to content blocks, so that publishers can provide readers the option to download specific texts as EPUBs to their own devices.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Presently there is no warning if the system cannot generate an EPUB from the text. The only indication that something has gone amiss is that the <code>Download EPUB</code> button does not appear on the menu after having been toggled on for at least five minutes.
+</div>
+
+#### Download EPUB *(Conditional)*
+
+For texts that have `Enable EPUB` toggled on, this button provides the means for the publisher to secure the Manifold-generated EPUB.
+
+Presently this is the only means to secure the generated EPUB, but in the future we expect to make it possible to provide a way for readers to access the file through content blocks on the project landing page.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. The EPUB offered here is one that Manifold has generated. If a publisher loads an EPUB to initially create the text and then toggles <code>Enable EPUB</code> on, Manifold will create its own EPUB. Those two files would be very similar but potentially not exact matches. The original source EPUB is still retained, however, and would be available through the <code>Download Source</code> button (see below).
+</div>
+
+#### Download Source *(Conditional)*
+
+Manifold retains the source files that were uploaded to create each text. This button allows a publisher to secure that file directly from the system.
+
+In situations where multiple backend users are uploading and editing files, this provides the means to access source materials directly without having to go through an intermediary. Likewise, in situations where source files have been misplaced, this serves as a handy fallback.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Manifold does <em>not</em> provide source files for texts that have been ingested via URL (e.g., Google Docs). In such situations this button would not appear.
+</div>
 
 <a name="managing-texts-general"></a>
 ### General
