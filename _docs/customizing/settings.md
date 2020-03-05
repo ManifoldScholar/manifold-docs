@@ -141,6 +141,18 @@ This field allows users to adjust the vertical position of header navigation men
 
 ![Header Offset](/docs/assets/customizing/header-offset.png)
 
+#### Accent Color
+
+By default the primary accent color throughout the application—affecting links, icons, and buttons—is Manifold green: `#52E3AC`. This field allows a publisher to adjust the accent color to better match their own branding requirements.
+
+Color values can be supplied in one of the following formats: CSS color keyword, hexadecimal, RGB, RGBA, HSL, HSLA, or HWB.
+
+If left blank, Manifold will reset to its default accent color.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Manifold will still calculate values for secondary system colors in line with accessibility standards even if a custom value has been input.
+</div>
+
 ### Typography
 
 #### Typekit ID
