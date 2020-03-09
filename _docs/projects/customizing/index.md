@@ -53,6 +53,7 @@ All available means to customize a project are contained on this page and broken
 * [Activity](/docs/projects/customizing/activity.html)
 * [Metadata](/docs/projects/customizing/metadata.html)
 * [Social](/docs/projects/customizing/social.html)
+* [Exports](/docs/projects/customizing/exports.html)
 * [Log](/docs/projects/customizing/log.html)
 
 When you click on a sidebar item the editing panel will adjust to reveal options particular to that section. You must save any changes, using the `Save Project` button at the bottom of the editing panel, before moving from one section to make adjustments in another. If you make changes without clicking `Save Project` the system will prompt you to do so before proceeding.
