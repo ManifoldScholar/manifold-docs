@@ -12,7 +12,7 @@ From this view, publishers can export an individual Manifold project to a preser
 
 ![Export View](/docs/assets/projects/export-view.png)
 
-Before a project can be exported, the pathway between Manifold and the target archive first needs to be configured. Instructions on how to establish this connection are described in the [Records section](/docs/records/export.html).
+Before a project can be exported, the pathway between Manifold and the target archive first needs to be configured. Instructions on how to establish this connection are described in the [Records section](/docs/customizing/records/export.html).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. Only users with Administrator or Editor credentials are able to export projects. When Project Creators or Marketeers access the backend, the <code>Export</code> menu will not be visible to them.
