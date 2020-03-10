@@ -111,7 +111,6 @@ The menu bar on the text landing page mirrors the functionality of the menu bar 
 
 ![Text Menu Bar](/docs/assets/projects/menubar.png)
 
-
 #### Preview
 
 When activated here, the Preview button opens a new tab with the text showing in the Manifold reader. This contrasts with this button's behavior at the project level, where it opens a new tab to the project landing page instead of a specific text.
@@ -156,11 +155,80 @@ In situations where multiple backend users are uploading and editing files, this
 <a name="managing-texts-general"></a>
 ### General
 
-When you access the text landing page in the backend, you'll arrive first on the text's `General` panel where you can adjust its `Title`, `Subtitle`, its status as `Published` or not, the `Publication Date`, `Description`, and the `Section Label` that displays in the reader.
+When you access a text record in the backend, you'll arrive first in the `General` menu where you can adjust the following aspects of the text.
 
-The content entered in the `Title` and `Description` fields are included when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Facebook).
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. Of the following fields, <code>Title</code>, <code>Subtitle</code>, and <code>Description</code> have display options available in the text content block. To learn more about those options, see the <a href="/docs/projects/customizing/layout.html">Layout</a> section.
+</div>
 
-Likewise, the text's title and subtitle, its makers (authors, contributors), and description can be toggled to be shown on the project landing page in a text content block. To learn more about all the customizations possible for display elements in a text block, see the [Layout](/docs/projects/customizing/layout.html) section.
+#### Title
+
+Manifold will automatically populate this field if the source file that is ingested describes a title in its structure. The following table considers this for each of the available ingestion strategies:
+
+| Source File      | Location Notes                                                                                                                                                                                                                                                                              |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EPUB             | The `content.opf` file in the EPUB package will describe the title with metadata formatted like this: `<dc:title id="title">Furious Feminisms</dc:title>`                                                                                                                                   |
+| HTML             | For individual HTML text ingests, title metadata will apear Within the `<head>` tags, formatted as follows: `<meta name="dc.title" content="Scoial Theory for Nonhumans">`. See the [HTML section](/docs/projects/preparing/html.html) for examples.                                        |
+| Markdown         | When loading individual Markdown files, the title will be formatted like this: `title: Metagaming`. This should appear at the top of the document, with lines of three dashes (`---`) appearing above and below. See the [Markdown section](/docs/projects/preparing/md.html) for examples. |
+| Google Doc       | While there is a paragraph style called `Title` in the formatting options for Google Docs, what populates the title field in Manifold is the saved title of the document that appears in the upper left of the Google Doc screen, just above the file menu system.                          |
+| MS Word (DOCX)   | The text of the paragraph that has the Word Style `Title` applied to it will be captured as the text title in Manifold.                                                                                                                                                                     |
+| Manifest Ingests | In the YAML file, nested in the `meta` section the title metadata will be described like this: `title: The End of Man`.                                                                                                                                                                     |
+
+If you are unable to modify the source file accordingly, you can manually adjust the text title in this field. The value entered here, whether coming from a source file's metadata or from manual entry, will be properly encoded as the title in any EPUB that Manifold may make of the text for export or download.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. The content of this field will be included when when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Twitter, Facebook).
+</div>
+
+#### Subtitle
+
+Presently Manifold does not capture subtitle metadata from any of the ingestion formats.
+
+#### Slug
+
+A text slug describes the part of the URL for a specific text that appears between the `read` and `section` components. In the following example, `furious-feminisms` is the slug for a text on the University of Minnesota Press's instance. The system will automatically create a slug for each new text based on the text title, unless your manually adjust this field.
+
+```html
+https://manifold.umn.edu/read/furious-feminisms/section/412115a1-5dce-4436-b550-524eb757f065
+```
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. It is best to adjust a text slug in the initial setup. If adjusted after the original URL, with an auto-genenerated slug, has been shared, readers may encounter broken links.
+</div>
+
+#### Published?
+
+In the Manifold reader, texts normally include the [category name](/docs/projects/customizing/texts.html#grouping-texts-by-category) with which they are associated as a ribbon at the bottom of the screen.
+
+![Text Ribbon](/docs/assets/projects/textRibbon.png)
+
+When this field is toggled on, that ribbon is removed. Further, a published tag will also be associated with the text in a text content block:
+
+![Published Tag](/docs/assets/projects/published.png)
+
+#### Publication Date
+
+The date stored in this field does not presently render on the site or function for any sorting purposes. We store it for likely future use and encourage publishers to maintain complete text records that are consistent with the publishing scheme. That is to say, any publication date is somewhat arbitrary. This field could reflect the date of original publication in print or the date of publication onto Manifold.
+
+#### Description
+
+This is a Markdown-enabled field where publishers can describe individual texts. The copy entered here can also appear in a text content block. See the [Layout section](/docs/projects/customizing/layout.html) for more details on how and where the content of this field can be displayed for readers.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. The content of this field will be included when when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Twitter, Facebook).
+</div>
+
+#### Cover Image
+
+This field allows publishers to associate a cover image with a text, which can then be made to render in the text content block beside the text title (as in [this example](/docs/assets/projects/textsBlock.png)). See the [Layout section](/docs/projects/customizing/layout.html) for details on how to configure your project for that setup.
+
+Previously, only texts loaded in the EPUB format would render a cover in this space. With this field, customizable text covers are available for all texts, regardless of their ingestion file type.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. In situations where Manifold is creating an EPUB of a text, for download or export, it will use the cover file stored in this field as the cover for the Manifold-generated EPUB.
+</div>
+
+#### Section Label
 
 `Section Label` refers to the navigation header that appears at the bottom of a unit of text. By default the header reads `Next Chapter`. Below that header is the title of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
 
