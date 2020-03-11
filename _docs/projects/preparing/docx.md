@@ -81,13 +81,13 @@ Apply the following character styles by selecting text and clicking on the corre
     - Tabs will be scrubbed from the file during ingestion and any intended indent will be lost.
 - Specialized ruler indentation
     - All first-line indentations applied with the ruler or in the Paragraph Settings will normalize to the default 0.5” indent.
-- Inline images
+- Inline images (which appear within the flow of a sentence)
 - Linked data relying on field codes
 
 <a name="docx-embed"></a>
-## Embedding Images
+## Embedding Images (Pictures)
 
-Manifold will accept into its reader static images that are included in source Word files. While Word supports many different arrangement options for the placement of art, we suggest the most minimal of styling, setting your image on its own line with text flowing above and below it.
+Manifold will accept into its reader what Word refers to as “Pictures.” These can be static images or animated GIFs that are included in source Word files. While Word supports many different arrangement options for the placement of such art, we suggest the most minimal of styling, setting your image on its own line with text flowing above and below it.
 
 If you have multiple images that you want to appear side-by-side, it is better to first make a single image out of them using Photoshop or Pixlr.
 

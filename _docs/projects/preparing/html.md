@@ -3,7 +3,7 @@ layout: page
 title: HTML
 menus:
   preparing-texts:
-    weight: 4
+    weight: 3
 ---
 
 HTML is the *lingua franca* of Manifold. The platform can accept all well-formed HTML that doesn't invoke scripts. Both run-in and external stylesheets are accepted, but note that the platform will reject any element within a stylesheet that conflicts with the system's ability to render content responsively.
@@ -175,13 +175,15 @@ Authors can embed media assets, such as images, audio, video, and iFrames into t
 <a name="html-img"></a>
 ### Images
 
-Call-outs to images in the code can be formatted like this:
+Call-outs to images in the code can be formatted as in the example below. This example suggests a local file is being included. However, it is also possible to reference remotely hosted content, so long as it is generally accessible and doesn't require special credentials to access.
 
 ``` html
 <p>Some text.</p>
 <img src="godzilla.jpg" alt="Alt-text for screen readers">
 <p>Some more text.</p>
 ```
+
+Images can be embedded as any of the following file types: GIF (static or animated), JPEG, JPG, PNG.
 
 The directory that would be compressed for upload would include the HTML, image file, and any associated stylesheet.
 

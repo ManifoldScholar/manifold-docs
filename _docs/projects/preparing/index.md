@@ -47,15 +47,18 @@ Once you have [created a project](/docs/projects/creating.html), you may add any
             <td>.docx</td>
             <td><ul><li>Images</li></ul></td>
         </tr>
-        <tr>
-            <td><a href="/docs/projects/preparing/tex.html">LaTeX</a></td>
-            <td>.tex or .latex</td>
-            <td>Untested</td>
-        </tr>
     </tbody>
 </table>
 
-Some of these formats allow for different media to be embedded with in them as components of the source text instead of as ancillary resources. Instructions on how to encode embeds available to EPUBs as well as Markdown and HTML files will be described in the [HTML section](/docs/projects/preparing/html.html). Instructions on how to include embedded media in [Google](/docs/projects/preparing/gdoc.html) and [Word](/docs/projects/preparing/docx.html) docs will be treated in their respective sections.
+Some of these formats allow for different media to be embedded with in them as components of the source text instead of as ancillary resources.
+
+Instructions on how to encode embeds available to EPUBs as well as Markdown and HTML files will be described in the [HTML section](/docs/projects/preparing/html.html).
+
+Thoughts on how embedded media in [Google](/docs/projects/preparing/gdoc.html) and [Word](/docs/projects/preparing/docx.html) docs will be treated in their respective sections.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. In the table above, <code>Images</code> refers to static renderings as well as animated GIFs.
+</div>
 
 <a name="strategies"></a>
 
@@ -78,14 +81,14 @@ The title of the document will automatically populate the [`Title` field](/docs/
 
 The following table scopes out the source of the text title for each of the available ingestible file types when uploaded as a single document:
 
-| Source File             | Text Title Source                                |
-|-------------------------|--------------------------------------------------|
-| EPUB<sup>a</sup>        | The `dc:title` element in the `content.opf` file |
-| Markdown                | [Metadata Header](md.html#md-sdu)                |
-| HTML                    | [Metadata Header](html.html#html-sdu)            |
-| Google Doc              | Title of the document                            |
-| Word                    | Paragraph styled as `Title`                      |
-| LaTeX                   | Not yet defined                                  |
+| Source File      | Text Title Source                                |
+| ---------------- | ------------------------------------------------ |
+| EPUB<sup>a</sup> | The `dc:title` element in the `content.opf` file |
+| Markdown         | [Metadata Header](md.html#md-sdu)                |
+| HTML             | [Metadata Header](html.html#html-sdu)            |
+| Google Doc       | Title of the document                            |
+| Word             | Paragraph styled as `Title`                      |
+| LaTeX            | Not yet defined                                  |
 
 <sup>a</sup>EPUBs can only be ingested using the Document strategy but are themselves self-contained structured documents. As such the system will be able to ascertain the title of the individual text sections based off the metadata provided within the EPUB.
 

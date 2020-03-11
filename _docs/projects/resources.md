@@ -21,9 +21,9 @@ Four of these resource kinds—Image, Video, Audio, and Interactive—have assoc
 
 ### Image
 
-Images are any static visual elements that are not tables. Photographs, paintings, drawings, diagrams, maps, graphs, charts, musical examples are all considered images.
+Images are any static visual elements that are not tables, with the notable exception of animated GIFs. Photographs, paintings, drawings, diagrams, maps, graphs, charts, musical examples are all considered images.
 
-*	**Formats**: GIF, JPEG, JPG, PNG
+*	**Formats**: GIF (static and animated), JPEG, JPG, PNG
 *	**Size**: Please consult your publisher about any files that exceed 200 MB.
 *   **Variants**: High Resolution Image, Thumbnail
 *	**Suggested Metadata**: Title, Caption, Description, Alt-text, Copyright, Rights Holder, Rights Territory, Restrictions
@@ -108,58 +108,58 @@ At this point you have all you need to be able to [load your resource into Manif
 
 For detailed descriptions of these fields, please refer to the [Metadata](/docs/reference/metadata.html#descriptions) section.
 
-| Sidebar   | Field                    | Image | Video             | Audio | File | Link | PDF | Document | Spreadsheet | Presentation | Interactive |
-|-----------|--------------------------|:-----:|:-----------------:|:-----:|:----:|:----:|:---:|:--------:|:-----------:|:------------:|:-----------:|
-| General   | Kind                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| General   | Title                    | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| General   | Fingerprint              | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| General   | Slug                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| General   | Tags                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| General   | Description              | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| General   | Caption                  | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| General   | Allow Download?          | x     | x<sup>a</sup>     | x     | x    | —    | x   | x        | x           | x            | —           |
-| General   | Externally Linked Video? | —     | x                 | —     | —    | —    | —   | —        | —           | —            | —           |
-| General   | Minimum Width            | —     | —                 | —     | —    | —    | —   | —        | —           | —            | x           |
-| General   | Minimum Height           | —     | —                 | —     | —    | —    | —   | —        | —           | —            | x           |
-| General   | Video ID                 | —     | x                 | —     | —    | —    | —   | —        | —           | —            | —           |
-| General   | Link URL                 | —     | —                 | —     | —    | x    | —   | —        | —           | —            | —           |
-| General   | iFrame URL               | —     | —                 | —     | —    | —    | —   | —        | —           | —            | x           |
-| General   | External Video Type      | —     | x                 | —     | —    | —    | —   | —        | —           | —            | —           |
-| General   | Image File               | x     | —                 | —     | —    | —    | —   | —        | —           | —            | —           |
-| General   | Video File               | —     | x                 | —     | —    | —    | —   | —        | —           | —            | —           |
-| General   | Audio File               | —     | —                 | x     | —    | —    | —   | —        | —           | —            | —           |
-| General   | File                     | —     | —                 | —     | x    | —    | —   | —        | —           | —            | —           |
-| General   | PDF File                 | —     | —                 | —     | —    | —    | x   | —        | —           | —            | —           |
-| General   | Document File            | —     | —                 | —     | —    | —    | —   | x        | —           | —            | —           |
-| General   | Spreadsheet File         | —     | —                 | —     | —    | —    | —   | —        | x           | —            | —           |
-| General   | Presentation File        | —     | —                 | —     | —    | —    | —   | —        | —           | x            | —           |
-| Variants  | High Resolution Image    | x     | —                 | —     | —    | —    | —   | —        | —           | —            | —           |
-| Variants  | Variant                  | —     | x                 | x     | —    | —    | —   | —        | —           | —            | —           |
-| Variants  | Variant                  | —     | x                 | x     | —    | —    | —   | —        | —           | —            | —           |
-| Variants  | Poster Image             | —     | —                 | —     | —    | —    | —   | —        | —           | —            | x           |
-| Variants  | Thumbnail Image          | x     | x                 | —     | —    | —    | x   | —        | —           | —            | x           |
-| Metadata  | Creator                  | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Rights                   | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Rights Holder            | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Rights Territory         | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Restrictions             | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Credit                   | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | ISBN                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | ISSN                     | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | DOI                      | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Publisher                | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Publisher Place          | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Original Publisher       | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Original Publisher Place | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Container Title          | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Version                  | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Series Title             | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Series Number            | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Edition                  | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Issue                    | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Volume                   | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Original Title           | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Alt Text                 | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
-| Metadata  | Copyright Status         | x     | x                 | x     | x    | x    | x   | x        | x           | x            | x           |
+| Sidebar  | Field                    | Image |     Video     | Audio | File  | Link  |  PDF  | Document | Spreadsheet | Presentation | Interactive |
+| -------- | ------------------------ | :---: | :-----------: | :---: | :---: | :---: | :---: | :------: | :---------: | :----------: | :---------: |
+| General  | Kind                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Title                    |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Fingerprint              |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Slug                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Tags                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Description              |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Caption                  |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Allow Download?          |   x   | x<sup>a</sup> |   x   |   x   |   —   |   x   |    x     |      x      |      x       |      —      |
+| General  | Externally Linked Video? |   —   |       x       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| General  | Minimum Width            |   —   |       —       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      x      |
+| General  | Minimum Height           |   —   |       —       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      x      |
+| General  | Video ID                 |   —   |       x       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| General  | Link URL                 |   —   |       —       |   —   |   —   |   x   |   —   |    —     |      —      |      —       |      —      |
+| General  | iFrame URL               |   —   |       —       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      x      |
+| General  | External Video Type      |   —   |       x       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| General  | Image File               |   x   |       —       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| General  | Video File               |   —   |       x       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| General  | Audio File               |   —   |       —       |   x   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| General  | File                     |   —   |       —       |   —   |   x   |   —   |   —   |    —     |      —      |      —       |      —      |
+| General  | PDF File                 |   —   |       —       |   —   |   —   |   —   |   x   |    —     |      —      |      —       |      —      |
+| General  | Document File            |   —   |       —       |   —   |   —   |   —   |   —   |    x     |      —      |      —       |      —      |
+| General  | Spreadsheet File         |   —   |       —       |   —   |   —   |   —   |   —   |    —     |      x      |      —       |      —      |
+| General  | Presentation File        |   —   |       —       |   —   |   —   |   —   |   —   |    —     |      —      |      x       |      —      |
+| Variants | High Resolution Image    |   x   |       —       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| Variants | Variant                  |   —   |       x       |   x   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| Variants | Variant                  |   —   |       x       |   x   |   —   |   —   |   —   |    —     |      —      |      —       |      —      |
+| Variants | Poster Image             |   —   |       —       |   —   |   —   |   —   |   —   |    —     |      —      |      —       |      x      |
+| Variants | Thumbnail Image          |   x   |       x       |   —   |   —   |   —   |   x   |    —     |      —      |      —       |      x      |
+| Metadata | Creator                  |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Rights                   |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Rights Holder            |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Rights Territory         |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Restrictions             |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Credit                   |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | ISBN                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | ISSN                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | DOI                      |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Publisher                |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Publisher Place          |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Original Publisher       |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Original Publisher Place |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Container Title          |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Version                  |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Series Title             |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Series Number            |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Edition                  |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Issue                    |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Volume                   |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Original Title           |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Alt Text                 |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| Metadata | Copyright Status         |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
 
 <sup>a</sup>Video downloads are possible only when the source file has been uploaded to Manifold. It is not possible to download media that is being streamed from a third-party host (e.g., YouTube).

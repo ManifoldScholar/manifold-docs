@@ -39,3 +39,9 @@ When individual Google Docs are ingested into the Manifold Reader, the system wi
 </div>
 
 See the [Writing for the Web section](/docs/writing/writing.html#gdocs) for instructions on how to appropriately designate headings as elements Manifold can recognize.
+
+## Media Inserts
+
+Google Docs allows authors the ability to insert a number of different media types directly into the document, inline with the flow of text. All of those media inserts—images, tables, drawings, and charts—will transfer as expected from Google to Manifold, including animated GIFs. Equations, however, are an exception. Equations built in Google don't render in Manifold.
+
+There is an issue on the Manifold GitHub repository that concerns itself with mathematical expressions. If being able to better render such content is important to your workflow, please add your thoughts to that issue, which you can access from [this link](https://github.com/ManifoldScholar/manifold/issues/1354).
