@@ -3,7 +3,7 @@ layout: page
 title: Markdown
 menus:
   preparing-texts:
-    weight: 3
+    weight: 4
 ---
 
 Manifold supports both the [basic](https://www.markdownguide.org/basic-syntax) and [extended](https://www.markdownguide.org/extended-syntax) Markdown syntax as described on Matt Cone's [*Markdown Guide*](https://www.markdownguide.org/).
