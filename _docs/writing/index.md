@@ -22,4 +22,3 @@ Also of interest will be considerations in other sections for how the platform c
 - [Markdown](/docs/projects/preparing/md.html)
 - [HTML](/docs/projects/preparing/html.html)
 - [Word](/docs/projects/preparing/docx.html)
-- [LaTeX](/docs/projects/preparing/tex.html)

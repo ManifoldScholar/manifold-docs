@@ -25,7 +25,7 @@ The top Contents button will drop down the text's table of contents for review, 
 ![Contents Menu](/docs/assets/reading/contents-drop.png)
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-The Contents menu is populated from the <code>toc.ncx</code> or <code>tox.xhtml</code> files in an EPUB (versions 2 and 3, respectively). For all other formats (Google Doc, HTML, Markdown, Word, and LaTeX) that are ingested using the <a href="/docs/projects/preparing/index.html#manifest">manifest strategy</a>, the dropdown will be structured according to the associated <a href="/docs/projects/preparing/index.html#yml">YAML file</a>. Texts that are ingested individually using the <a href="/docs/projects/preparing/index.html#document">document strategy</a> will not have an associated contents list.
+The Contents menu is populated from the <code>toc.ncx</code> or <code>tox.xhtml</code> files in an EPUB (versions 2 and 3, respectively). For all other formats (Google Doc, HTML, Markdown, and Word) that are ingested using the <a href="/docs/projects/preparing/index.html#manifest">manifest strategy</a>, the dropdown will be structured according to the associated <a href="/docs/projects/preparing/index.html#yml">YAML file</a>. Texts that are ingested individually using the <a href="/docs/projects/preparing/index.html#document">document strategy</a> will not have an associated contents list.
 </div>
 
 <a name="title-bar"></a>

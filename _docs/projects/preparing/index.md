@@ -88,7 +88,6 @@ The following table scopes out the source of the text title for each of the avai
 | HTML             | [Metadata Header](html.html#html-sdu)            |
 | Google Doc       | Title of the document                            |
 | Word             | Paragraph styled as `Title`                      |
-| LaTeX            | Not yet defined                                  |
 
 <sup>a</sup>EPUBs can only be ingested using the Document strategy but are themselves self-contained structured documents. As such the system will be able to ascertain the title of the individual text sections based off the metadata provided within the EPUB.
 
