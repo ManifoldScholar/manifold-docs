@@ -2,8 +2,7 @@
 layout: page
 title: Google OAuth Configuration
 menus:
-  oauth:
-    title: Google
+  settings:
 ---
 
 If this feature is enabled, Manifold will include a "Log in with Google" button on the login page. Clicking the button will open a popup that allows users to authenticate using their Google account. On successful authentication, Manifold will create a user record \(if it is the user's first time logging in\) and an associated identity record.
