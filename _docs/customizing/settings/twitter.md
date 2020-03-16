@@ -2,7 +2,7 @@
 layout: page
 title: Twitter OAuth Configuration
 menus:
-  oauth:
+  settings:
     title: Twitter
 ---
 
