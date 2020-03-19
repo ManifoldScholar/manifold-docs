@@ -2,7 +2,8 @@
 layout: page
 title: Google OAuth Configuration
 menus:
-  settings:
+  integrations:
+    title: Google
 ---
 
 If this feature is enabled, Manifold will include a "Log in with Google" button on the login page. Clicking the button will open a popup that allows users to authenticate using their Google account. On successful authentication, Manifold will create a user record \(if it is the user's first time logging in\) and an associated identity record.
@@ -11,7 +12,7 @@ These instructions document the process for acquiring OAuth keys from Google. It
 
 ## Requirements
 
-Before adding OAuth support for Google to Manifold, you will need to [configure Google Services for Manifold](/docs/customizing/external_services/google/index.html).
+Before adding OAuth support for Google to Manifold, you will need to [configure Google Services for Manifold](/docs/customizing/settings/integrations.html#google_services).
 
 ## Callback URL
 
@@ -48,9 +49,9 @@ The Manifold API handles OAuth callbacks. For Google, the callback route is loca
 
 ## Update Manifold Settings
 
-In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab, in the section labelled "Google OAuth Configuration," enter the Client ID into the field labeled "Google Client ID." Enter the Client Secret value into the field labeled "Google Client Secret."
+Back in Manifold, under the "Google OAuth" header, enter the Client ID into the field labeled `Google Client ID`. Enter the Client Secret value into the field labeled `Google Client Secret`.
 
-If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
+Alternatively, if you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
 ``` conf
 # Google OAuth Integration

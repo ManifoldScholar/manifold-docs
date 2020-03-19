@@ -65,5 +65,9 @@ The `Body` field provides a space where you can input the content of your page. 
 To manage visibility of your page you can adjust the slider dials in this section. You have the option to to have a link to the page appear in the navigation bars in the header, footer, or to hide the link to the page entirely.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. To have a link to the page appear in either the header or footer, <code>Hide Page</code> needs to be toggled off.
+<strong>Notes</strong>
+<ul>
+<li>To have a link to the page appear in either the header or footer, <code>Hide Page</code> needs to be toggled off.</li>
+<li>When <code>Disable Library Views</code> is toggled on (see the <a href="/docs/customizing/settings/general.html">Settings section</a>), page navigation will not be available in the footer.</li>
+</ul>
 </div>

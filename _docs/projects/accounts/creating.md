@@ -11,7 +11,7 @@ menus:
 
 ### From the Homepage
 
-User accounts can be created by new visitors to a Manifold instance by clicking on the silhouette avatar in the upper left of the screen and then clicking `Need to sign up?` on the modal screen that pops up. From there the new user can sign up by entering their email, name, and a password. Alternatively one can create an account using their Facebook, Twitter, or Google credentials from the same screen if the Manifold instance you are working on has been so [configured](/docs/customizing/external_services/oauth/index.html) by an Administrator.
+User accounts can be created by new visitors to a Manifold instance by clicking on the silhouette avatar in the upper left of the screen and then clicking `Need to sign up?` on the modal screen that pops up. From there the new user can sign up by entering their email, name, and a password. Alternatively one can create an account using their Facebook, Twitter, or Google credentials from the same screen if the Manifold instance you are working on has been so [configured](/docs/customizing/settings/integrations.html#oauth) by an Administrator.
 
 ### From the Backend
 
