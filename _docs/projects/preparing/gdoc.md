@@ -8,11 +8,11 @@ menus:
 
 ## Prerequisites
 
-A Manifold instance must first be set up to [integrate with Google Services](/docs/customizing/external_services/google/drive.html) before it can ingest Google Docs.
+A Manifold instance must first be set up to [integrate with Google Services](/docs/customizing/settings/integrations#google_services.html) before it can ingest Google Docs.
 
 ## Permissions
 
-Once a Manifold instance is integrated with [Google Services](/docs/customizing/external_services/google/drive.html), the system can ingest any Google Doc that is publicly available or that has its permissions set so that anyone with the link can view it.
+Once a Manifold instance is integrated with [Google Services](/docs/customizing/settings/integrations#google_services.html), the system can ingest any Google Doc that is publicly available or that has its permissions set so that anyone with the link can view it.
 
 ![Google Doc Permissions](/docs/assets/projects/link-sharing.png)
 

@@ -71,15 +71,20 @@ If left blank, Manifold will reset to its default accent color.
 
 ### Library Header Foreground Color
 
-
+If a value is entered here, it will override the value of the accent color for links contained with the header bar.
 
 ### Library Header Foreground Active Color
 
-
+The color value entered has two purposes: it indicates what page a reader is presently viewing (e.g., Home, Projects, Following), and it also serves as the hover color for links to pages in the header bar.
 
 ### Library Header Background Color
 
+By default the header bar background is white. By entering a color value here, a publisher can further bring their instance in line with their branding expectations.
 
+<figure>
+  <img src="/docs/assets/customizing/libraryHeader.png" alt="Library Header Color Elements">
+  <figcaption>Here we see the header bar with the following values: <code>Accent Color</code>, Yellow; <code>Header Foreground Color</code>, White; <code>Header Foreground Active Color</code>, Red; and <code>Header Background Color</code>, Black.</figcaption>
+</figure>
 
 ## Typography
 
@@ -95,10 +100,10 @@ If you do not have a Typekit account, Manifold will defer to two sets of open-li
 
 ![Instance Header](/docs/assets/customizing/instance-header.png)
 
-The instance header bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. It can be configured to appear atop all Manifold pages outside of the reader, or it can be set to specifically target only those projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone).
+The press header bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. It can be configured to appear atop all Manifold pages outside of the reader, or it can be set to specifically target only those projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. The instance header bar can be deployed alongside the standard library header; it does not <em>only</em> need to be used in conjunction with projects in standalone mode.
+<strong>Note</strong>. The press header bar can be deployed in addition to the standard header; it does not <em>only</em> need to be used in conjunction with projects in standalone mode.
 </div>
 
 ### Text

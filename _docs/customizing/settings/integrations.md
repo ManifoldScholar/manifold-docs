@@ -6,16 +6,20 @@ menus:
     weight: 3
 ---
 
-The `Integrations` menu is where Manifold administrators can set up integrations with a number of external services, including Google, Twitter, and Facebook, for third party authentication and for social sharing functionality.
+The `Integrations` menu is where Manifold administrators can leverage external services, including Google, Twitter, and Facebook, for third party authentication, social sharing functionality, and to enable text ingestion from Google Docs.
 
+![Integrations](/docs/assets/customizing/integrations.png)
+
+Before a publisher can input values into each of these fields, they will first need to set up accounts with Google, Facebook, and Twitter as described here:
+
+<a name="google_services"></a>
 ## Google Services
 
-By configuring Google Services, a publisher will unlock the ability to import texts from Google Docs into the Manifold reader, import resources in bulk into existing projects, and get detailed analytics about reader use and interaction with the Manifold instance.
+By configuring Google Services, a publisher will unlock the ability to import texts from Google Docs into the Manifold reader, import resources in bulk into existing projects (using Google Drive), and leverage Google Analytics to get detailed statistics about reader use and interaction with the Manifold instance.
 
-Manifold can utilize Google Services to enable additional helpful features.
-
-- [Analytics](/docs/customizing/external_services/google/analytics.html)
-- [Drive](/docs/customizing/external_services/google/drive.html)
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. To make it possible for your readers to log into your Manifold instance using their Google credentials, see the <a href="/docs/customizing/settings/integrations.html#oauth">OAuth section</a> below.
+</div>
 
 To begin using these features, you must first complete some configuration through the Google Developer Console.
 
@@ -38,9 +42,11 @@ Before adding Google Services support to Manifold, you will need a Google develo
 
 ### Update Manifold Settings
 
-In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab, upload the `google_service.json` file.
+Under the "Google Services Integration" header, upload the `google_service.json` file. Doing so will automatically populate the rest of the fields in the section.
 
-If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
+![Google Services](/docs/assets/customizing/gservices.png)
+
+Alternatively, if you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
 ``` conf
 # Config Files
@@ -55,19 +61,23 @@ MANIFOLD_SETTING_INTEGRATIONS_GOOGLE_CLIENT_ID=
 
 If a file path is present at the path set in `MANIFOLD_SETTING_CONFIG_GOOGLE_SERVICE`, values will first be set from this file, then overwritten by any subsequent matching keys.
 
+### Next Steps
+
+With Google Services now configured, you can enable Google Analytics and Drive integrations with your instance, as described in these two sections:
+
+- [Analytics](/docs/customizing/settings/analytics.html)
+- [Drive](/docs/customizing/settings/drive.html)
+
+<a name="oauth"></a>
 ## OAuth
 
-By configuring OAuth, your readers can login to Manifold using their Facebook, Twitter, and/or Google login. Configuring each OAuth Provider involves generating access tokens and storing them in Manifold. Follow the specific instructions for each provider to set this up.
+By configuring OAuth, your readers can login to Manifold using their Facebook, Twitter, or Google login. Configuring each OAuth Provider involves generating access tokens and storing them in Manifold. Follow the specific instructions for each provider to set this up.
 
-- [Facebook OAuth](/docs/customizing/external_services/oauth/facebook.html)
-- [Twitter OAuth](/docs/customizing/external_services/oauth/twitter.html)
-- [Google OAuth](/docs/customizing/external_services/oauth/google.html)
+- [Facebook OAuth](/docs/customizing/settings/facebook.html)
+- [Twitter OAuth](/docs/customizing/settings/twitter.html)
+- [Google OAuth](/docs/customizing/settings/google.html)
 
-Once the external services are configured on the third party sites, the required values can be entered in the `Integrations` sidebar under the backend `Settings` menu.
-
-![Integrations](/docs/assets/customizing/integrations.png)
-
-### Notes
+## Notes
 
 <small>
 <a name="note-1"></a><sup>1</sup> If managing settings in the environment (through `.env`), add the "google_service.json" file into your app at "/var/opt/manifold/api/keys".

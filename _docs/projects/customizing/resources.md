@@ -86,7 +86,7 @@ If you are unsure of the minimum width or height, leave those fields blank, and 
 
 To add resources in bulk you'll first need a CSV or Google Sheet describing the files you are uploading. A template for that purpose is [provided here as the Manifold Resource Log](/docs/assets/projects/manifold-resource-log.xlsx). Add or adjust columns to suit your needs. Manifold's upload process can be adapted to map data in different ways.
 
-You will also need to save all your resources in a Google Drive folder with permissions extending viewing access to all those who have possession of the link. At this point only Google Drive is supported as viable means to host resources that are to be imported into the system. Your instance will need to have Google Services configured for this process to be successful. See the [customizing external services section](/docs/customizing/external_services/google/index.html) for more.
+You will also need to save all your resources in a Google Drive folder with permissions extending viewing access to all those who have possession of the link. At this point only Google Drive is supported as viable means to host resources that are to be imported into the system. Your instance will need to have Google Services configured for this process to be successful. See the [Integrations section](/docs/customizing/settings/integrations.html) for more.
 
 Once your sheet is filled out (and saved as a CSV) and your resources saved to Google, click `Bulk Add Resources` to add a collection of resources in one step.
 
@@ -113,63 +113,63 @@ From the Resource page you can search through all resources that have been added
 <a name="resource-import"></a>
 # Resource Import Matrix
 
-| Manifold Resource Log    | Resource Metadata         | Resource Attributes               |
-|--------------------------|---------------------------|-----------------------------------|
-| Title                    | Title                     | title                             |
-| Kind                     | Kind                      | kind                              |
-| N/A                      | N/A                       | created_at<sup>a</sup>            |
-| Caption                  | Caption                   | caption                           |
-| Description              | Description               | description                       |
-| Fingerprint              | Fingerprint               | fingerprint                       |
-| URL                      | Link URL                  | external_url                      |
-| URL                      | iFrame URL                | external_url                      |
-| Video ID                 | Video ID                  | external_id                       |
-| Host Name                | External Video Type       | external_type                     |
-| Allow Download?          | Allow Download?           | allow_download                    |
-| Sub Kind                 | Externally Linked Video?  | sub_kind                          |
-| Slug                     | Slug                      | slug                 |
-| Minimum Width            | Minimum Width             | minimum_width                     |
-| Minimum Height           | Minimum Height            | minimum_height                    |
-| Tags                     | Tags                      | tag_list                          |
-| Series Title             | Series Title              | metadata.series_title             |
-| Container                | Container Title           | metadata.container_title          |
-| ISBN                     | ISBN                      | metadata.isbn                     |
-| ISSN                     | ISSN                      | metadata.issn                     |
-| DOI                      | DOI                       | metadata.doi                      |
-| Original Publisher       | Original Publisher        | metadata.original_publisher       |
-| Original Publisher Place | Original Publisher Place  | metadata.original_publisher_place |
-| Original Title           | Original Title            | metadata.original_title           |
-| Publisher                | Publisher                 | metadata.publisher                |
-| Publisher Place          | Publisher Place           | metadata.publisher_place          |
-| Version                  | Version                   | metadata.version                  |
-| Series Number            | Series Number             | metadata.series_number            |
-| Edition                  | Edition                   | metadata.edition                  |
-| Issue                    | Issue                     | metadata.issue                    |
-| Volume                   | Volume                    | metadata.volume                   |
-| License                  | Rights                    | metadata.rights                   |
-| Territory                | Rights Territory          | metadata.rights_territory         |
-| Restrictions             | Restrictions              | metadata.restrictions             |
-| Copyright Holder         | Rights Holder             | metadata.rights_holder            |
-| Creator                  | Creator                   | metadata.creator                  |
-| Alt-Text                 | Alt Text                  | metadata.alt_text                 |
-| Credit Line              | Credit                    | metadata.credit                   |
-| Copyright Status         | Copyright Status          | metadata.copyright_status         |
-| Filename                 | {Kind} File               | attachment.attachment             |
-| High Res                 | High Resolution Image     | attachment.high_res               |
-| N/A                      | Thumbnail Image           | attachment.variant_thumbnail      |
-| N/A                      | Poster Image              | attachment.variant_poster         |
-| File Variant 1           | Variant (1)               | attachment.variant_format_one     |
-| File Variant 2           | Variant (2)               | attachment.variant_format_two     |
-| Collection               | —                         | —                                 |
-| Figure Number            | —                         | —                                 |
-| Permission Status        | —                         | —                                 |
-| Print Color Solution     | —                         | —                                 |
-| Print Intention          | —                         | —                                 |
-| Skip                     | —                         | —                                 |
-| Source                   | —                         | —                                 |
-| Special Instructions     | —                         | —                                 |
-| Synchronized Subtitles   | —                         | —                                 |
-| Transcript               | —                         | —                                 |
-| Translation              | —                         | —                                 |
+| Manifold Resource Log    | Resource Metadata        | Resource Attributes               |
+| ------------------------ | ------------------------ | --------------------------------- |
+| Title                    | Title                    | title                             |
+| Kind                     | Kind                     | kind                              |
+| N/A                      | N/A                      | created_at<sup>a</sup>            |
+| Caption                  | Caption                  | caption                           |
+| Description              | Description              | description                       |
+| Fingerprint              | Fingerprint              | fingerprint                       |
+| URL                      | Link URL                 | external_url                      |
+| URL                      | iFrame URL               | external_url                      |
+| Video ID                 | Video ID                 | external_id                       |
+| Host Name                | External Video Type      | external_type                     |
+| Allow Download?          | Allow Download?          | allow_download                    |
+| Sub Kind                 | Externally Linked Video? | sub_kind                          |
+| Slug                     | Slug                     | slug                              |
+| Minimum Width            | Minimum Width            | minimum_width                     |
+| Minimum Height           | Minimum Height           | minimum_height                    |
+| Tags                     | Tags                     | tag_list                          |
+| Series Title             | Series Title             | metadata.series_title             |
+| Container                | Container Title          | metadata.container_title          |
+| ISBN                     | ISBN                     | metadata.isbn                     |
+| ISSN                     | ISSN                     | metadata.issn                     |
+| DOI                      | DOI                      | metadata.doi                      |
+| Original Publisher       | Original Publisher       | metadata.original_publisher       |
+| Original Publisher Place | Original Publisher Place | metadata.original_publisher_place |
+| Original Title           | Original Title           | metadata.original_title           |
+| Publisher                | Publisher                | metadata.publisher                |
+| Publisher Place          | Publisher Place          | metadata.publisher_place          |
+| Version                  | Version                  | metadata.version                  |
+| Series Number            | Series Number            | metadata.series_number            |
+| Edition                  | Edition                  | metadata.edition                  |
+| Issue                    | Issue                    | metadata.issue                    |
+| Volume                   | Volume                   | metadata.volume                   |
+| License                  | Rights                   | metadata.rights                   |
+| Territory                | Rights Territory         | metadata.rights_territory         |
+| Restrictions             | Restrictions             | metadata.restrictions             |
+| Copyright Holder         | Rights Holder            | metadata.rights_holder            |
+| Creator                  | Creator                  | metadata.creator                  |
+| Alt-Text                 | Alt Text                 | metadata.alt_text                 |
+| Credit Line              | Credit                   | metadata.credit                   |
+| Copyright Status         | Copyright Status         | metadata.copyright_status         |
+| Filename                 | {Kind} File              | attachment.attachment             |
+| High Res                 | High Resolution Image    | attachment.high_res               |
+| N/A                      | Thumbnail Image          | attachment.variant_thumbnail      |
+| N/A                      | Poster Image             | attachment.variant_poster         |
+| File Variant 1           | Variant (1)              | attachment.variant_format_one     |
+| File Variant 2           | Variant (2)              | attachment.variant_format_two     |
+| Collection               | —                        | —                                 |
+| Figure Number            | —                        | —                                 |
+| Permission Status        | —                        | —                                 |
+| Print Color Solution     | —                        | —                                 |
+| Print Intention          | —                        | —                                 |
+| Skip                     | —                        | —                                 |
+| Source                   | —                        | —                                 |
+| Special Instructions     | —                        | —                                 |
+| Synchronized Subtitles   | —                        | —                                 |
+| Transcript               | —                        | —                                 |
+| Translation              | —                        | —                                 |
 
 <sup>a</sup>This field is automatically populated by the system and cannot be changed manually.

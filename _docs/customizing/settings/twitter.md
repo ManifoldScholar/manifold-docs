@@ -2,7 +2,7 @@
 layout: page
 title: Twitter OAuth Configuration
 menus:
-  settings:
+  integrations:
     title: Twitter
 ---
 
@@ -48,9 +48,9 @@ The Manifold API handles OAuth callbacks. For Twitter, the callback route is loc
 
 ## Update Manifold Settings
 
-In the Manifold backend, navigate to the "settings" menu item. Under the "integration" tab enter the Consumer Key into the field labeled "Twitter Consumer Key." Enter the Consumer secret into the field labeled "Twitter Consumer Secret."
+Back in Manifold, under the "Twitter" header, enter the Consumer Key into the field labeled `Twitter Consumer Key`. Enter the Consumer secret into the field labeled `Twitter Consumer Secret`.
 
-If you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
+Alternatively, if you manage settings in the environment \(`MANAGE_SETTINGS_FROM_ENV=1` in your `.env` file\), you should set the corresponding settings in `.env`:
 
 ``` conf
 # Google OAuth Integration
