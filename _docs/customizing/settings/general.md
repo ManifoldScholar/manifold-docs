@@ -105,7 +105,7 @@ If this slider is toggled on, all projects will render in [standalone mode](/doc
 When projects are in standalone mode, the standard library header that displays a custom logo and color scheme will be supplanted by standalone header with fewer branding options.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. To learn more about adjusting the branding of the standard library header bar, see the <a href="docs/customizing/settings/theme.html">Theming page</a>.
+<strong>Note</strong>. To learn more about adjusting the branding of the standard library header bar, see the <a href="/docs/customizing/settings/theme.html">Theming page</a>.
 </div>
 
 ## Library Page Redirect URL *(Contextual)*
