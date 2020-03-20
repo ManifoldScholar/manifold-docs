@@ -14,7 +14,7 @@ Save the project and continue. New projects are automatically saved in _draft_ m
 
 A good first step on a project is to ingest a text. Click on the "Texts" tab to view the texts associated with this project.
 
-Manifold can ingest EPUBs, Markdown documents, HTML, Google Docs, Word documents, and LaTex files. [Ingesting Google docs requires some additional configuration](/docs/customizing/external_services/google/index.html), so for the purposes of getting started, we'll begin with an EPUB ingestion. If you don't have a DRM-free EPUB on hand, you can always grab one from the [standard ebooks project](https://standardebooks.org/).
+Manifold can ingest EPUBs, Markdown documents, HTML, Google Docs, Word documents, and LaTex files. [Ingesting Google docs requires some additional configuration](/docs/customizing/settings/integrations.html#google-services), so for the purposes of getting started, we'll begin with an EPUB ingestion. If you don't have a DRM-free EPUB on hand, you can always grab one from the [standard ebooks project](https://standardebooks.org/).
 
 ![Project Texts](/docs/assets/installing/texts.png)
 
