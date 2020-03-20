@@ -79,6 +79,8 @@ When a reader clicks on the email icon link they will be directed to an editable
 
 ![Email Form](/docs/assets/customizing/email-form.png)
 
+<a name="behaviors"></a>
+
 ## Behaviors
 
 For those publishers who want to leverage the power of Manifold with their existing web presence, they have the option to disable their main Manifold landing page and all associated library views of their projects.
@@ -89,24 +91,27 @@ The fields below describe how to enable and customize this functionality.
 
 ## Disable Library Views
 
-The main feature here is that we're adding the ability to disable library routes. If the library is disabled, we expect to see a few new behaviors:
+When this slider is toggled on, project library views will be disabled. Additionally,
 
-1. Any route that is set to isLibrary in frontend/routes.js will either redirect or return a 404 page not found error.
-2. If a "Library Page Redirect URL" is set in the backend, library pages will redirect to that URL rather than 404ing.
-3. If a "Home Page Redirect URL" is set in the backend, the manifold home page will redirect to that URL rather than 404ing.
-4. Frontend pages that are not library pages——and this includes project pages and transactional pages (subscriptiongs, reading groups, etc)—will render with the normal header and standalone footer. The normal header, however, will render without the primary navigation, and without the global search.
-5. Transactional pages will render in the context of the last project that the user visited. This means that the global search will be scoped to that project and the transaction content will be preceeded by a back link to the project.
-6. We also expose a setting if library pages are disabled that force all projects to always render in standalone mode. This may be desirable, but it may not be, depending on the use case.
-7. Finaly, to help presses line up Manifold branding with their own press branding, we are exposing foreground and background header colors in settings/theme.
+- Frontend pages that are not library pages—project pages and transactional pages  like those for customizing notifications and reading groups—will render with the normal library header and standalone footer (versus the [Standalone header](/docs/projects/customizing/general.html#standalone-mode)).
+- The header will render without global search, and links to `Home`, `Projects`, and `Following` pages will be removed ([custom Pages](/docs/customizing/records/pages.html) can still render in the header).
+- Transactional pages will render in the context of the last project that the user visited.
+- Global search will be scoped to the project level.
 
+## Enforce Standalone Mode for All Projects *(Contextual)*
 
+If this slider is toggled on, all projects will render in [standalone mode](/docs/projects/customizing/general.html#standalone-mode), overriding individual project settings.
 
-5. When library mode is disabled, we remove home, projects, and following from the primary navigation. In theory, you could make “page” records that linked to the top-level pages on your current site to kind-of mimic that site’s nav.
+When projects are in standalone mode, the standard library header that displays a custom logo and color scheme will be supplanted by standalone header with fewer branding options.
 
-## Enforce Standalone Mode for All Projects
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. To learn more about adjusting the branding of the standard library header bar, see the <a href="docs/customizing/settings/theme.html">Theming page</a>.
+</div>
 
-## Library Page Redirect URL
+## Library Page Redirect URL *(Contextual)*
 
-3. If a "Home Page Redirect URL" is set in the backend, the manifold home page will redirect to that URL rather than 404ing.
+Library pages—with the exception of the instance's home page—will redirect to the URL designated in this field when library views are disabled. If left blank, requests to display library pages will return a `404 Page Not Found` error.
 
-## Home Page Redirect URL
+## Home Page Redirect URL *(Contextual)*
+
+The Manifold home page will redirect to the URL designated in this field when library views are disabled. If left blank, requests to display library pages will return a `404 Page Not Found` error.
