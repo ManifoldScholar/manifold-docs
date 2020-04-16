@@ -148,10 +148,35 @@ After your style rules have been saved the Text Sections dropdown will become av
 
 ### Reingest
 
-If you have modified your source document—the document(s) you originally uploaded into the system—after it has already been ingested, you can use the reingestion process to replace the existing text with the new version.
+In situations where you need to modify the content of a text you have already loaded into Manifold, you can use the Reingest process.
 
-This process is not versioning control but a means to address the need to make minor corrections and modifications to a text.
+![Reingest View](/docs/assets/projects/reingest.png)
+
+Presently there is no means to directly modify Manifold texts (though such authoring components are under discussion). Instead you will need to adjust the source document—the document(s) you originally uploaded into the system—and then reload (or in the parlance of Manifold, reingest) it, replacing the existing text with the modified version.
+
+This process is not versioning control but a means to address the need to make minor corrections and modifications.
 
 When you reingest a text, all the annotations, highlights, and resource placements that have been made will persist, unless such drastic changes were performed that the system can no longer identify their original anchors. In this unlikely case, annotations and highlights will be orphaned and no longer accessible.
 
-To reingest a text, click on `Reingest` from the text landing page sidebar. You will see the same readout as when you initially ingested the text. Follow the same steps from the [`Adding Texts` section](/docs/projects/customizing/texts.html#adding-texts) above and when completed your text will have been replaced by the newer version.
+To reingest a text, click on `Reingest` from the text record's sidebar. You will see the same readout as when you initially ingested the text. Follow the same steps from the [`Adding Texts` section](/docs/projects/customizing/texts.html#adding-texts) above and when completed your text will have been replaced by the newer version.
+
+It is important to note that the following fields associated with the specific text record—and *not* the project generally—will be overridden by a reingest:
+
+- General
+  - Title
+  - Subtitle
+  - Publication Date
+  - Description
+  - Cover
+- People
+  - Authors
+  - Contributors
+- Metadata
+  - Rights
+  - Unique Identifier
+
+If you have manually adjusted these fields after your text was initially loaded, the reingest will reset them to their initial state.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. In cases where author or contributor records have been added to a text after it was first ingested, those records will remain through the reingest process. However, if an author or contributor was removed from the record, they will reappear after the reingest.
+</div>
