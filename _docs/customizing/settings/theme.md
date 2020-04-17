@@ -90,7 +90,69 @@ By default the header bar background is white. By entering a color value here, a
 
 ### Typekit ID
 
-Manifold was designed to employ two TypeKit fonts throughout the app: `Sofia Pro` and `Freight Text`. If you have a valid Typekit account and enter your ID in this field, those two fonts will load for your readers.
+Manifold was designed to employ two TypeKit fonts throughout the app: `Freight Text Pro` and `Sofia Pro`.
+
+![Typekit Settings](/docs/assets/customizing/typekit.png)
+
+If you have a valid Typekit account, select the following settings from your Typekit dashboard and then save your Typekit ID to Manifold. Once done, these two fonts will load for your readers.
+
+<table>
+<caption style="text-align:left; font-size:120%;">Freight Text Pro</caption>
+  <thead>
+  <tr>
+  <td style="font-weight:bold">Font Selection</td>
+  <td style="font-weight:bold">Character Set</td>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Light</td>
+      <td>Default</td>
+    </tr>
+    <tr>
+      <td>Book</td>
+      <td>OpenType Features</td>
+    </tr>
+    <tr>
+      <td>Book Italic</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+<caption style="text-align:left; font-size:120%;">Sofia Pro</caption>
+  <thead>
+  <tr>
+  <td style="font-weight:bold">Font Selection</td>
+  <td style="font-weight:bold">Character Set</td>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Light</td>
+      <td>Default</td>
+    </tr>
+    <tr>
+      <td>Regular</td>
+      <td>OpenType Features</td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Semi Bold</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bold</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+In Typekit, you have the option under the `Character Set` heading to choose `All Characters` instead of `Default`. Selecting `All Characters` will make available to Manifold the full range of a diacritical characters possible for each font, thus more specialized characters will render in Manifold without relying on fallbacks. This will cause pages to load more slowly page, but the effect will likely be negligible in most cases.
 
 If you do not have a Typekit account, Manifold will defer to two sets of open-license alternatives that are included at installation: `Trueno` and `Aleo`.
 
