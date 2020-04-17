@@ -8,8 +8,10 @@ menu:
     weight: 7
 ---
 
-For general upgrade instructions, see the upgrading documentation for your type of installation.
+For general upgrade instructions, see the upgrading documentation for your type of installation: [Ubuntu](/docs/installing/ubuntu/upgrading.html) or [CentOS/RHEL](/docs/installing/centos/upgrading.html).
 
-## Upgrading from version 2.0.x
+## Upgrading from Versions Previous to 2.1.x
 
-Before upgrading from version 2.0.x to any subsequent version, you must first upgrade to v2.1.x. Attempting to upgrade directly from v2.0.x to v3.0.x will fail. For discussion of this requirement, see this [github issue](https://github.com/ManifoldScholar/manifold/issues/2151#issuecomment-492287811).
+If you are running an instance of Manifold version 2.0.x or earlier, you must first upgrade to version 2.1.x before upgrading to a later version. Attempting to upgrade directly from versions previous to 2.1.x to later versions will fail.
+
+For discussion of this requirement, see this [github issue](https://github.com/ManifoldScholar/manifold/issues/2151#issuecomment-492287811).
