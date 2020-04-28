@@ -118,14 +118,25 @@ In the example above there are three buttons on the left, two on the right, and 
 
 To create a new button or link, click one of the four respective buttons labeled, "Add Button [or Link] to Left [or Right] side."
 
-The interface is very plastic, so you can drag/drop elements from one quadrant (e.g., left-side link) to another (right-side button), and the system will change the link/button behavior accordingly.
+The interface is very plastic, so you can drag/drop elements from one column (e.g., left-side link) to another (right-side button), and the system will change the link/button behavior accordingly.
 
-When creating a new button or link a drawer will slide open from the right and prompt users for a title, a type, and then what the button/link should relate to. Because button and links are oriented around their type or action, we will consider them along those lines:
+When creating a new button or link a drawer will slide open from the right and prompt users for a title, a type, and then what the button/link should relate to. Because button and links are oriented around their type or action, we will consider them along those lines in the following sections.
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<p><strong>Note</strong>. Calls-to-action are contextual relative to whether or not a project is configured for <a href="/docs/projects/customizing/access.html#entitlements">restricted access</a>.</p>
+<p><code>Start Reading</code> and <code>Table of Contents</code> calls-to-action types will always appear in the hero, though only those with the appropriate credentials will be able to follow them to their intended target.</p>
+<p><code>Link</code> and <code>Download</code> calls-to-action have visibility settings that allow a publisher to choose whether or not they always appear or appear to either authorized or unauthorized users. Thus it is possible to configure a project to showcase one set of calls to actions for authorized users and a different set for unauthorized users.</p>
+</div>
 
 <a name="actionsLink"></a>
+
 #### Link
 
 Links point to any content, either hosted on Manifold or remotely, that can be described with a URL. Two examples: a link can be used to create a button that reads "Buy Now" and links to the publisher's shopping cart. Or a link could be used to show a link to related content on the author's personal website.
+
+The `Visibility` field in the Link configuration drawer allows a publisher to determine when this element will appear in the hero: always, only for authorized users, or only for unauthorized users.
+
+For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements") for more.
 
 <a name="actionsRead"></a>
 #### Start Reading
@@ -184,6 +195,10 @@ A Table of Contents link/button opens a specific text to the section that the fi
 #### Download
 
 The Download action allows publishers the means to load a file into the system that readers can download to their device. This can be useful if, say, the publisher wants to provide their readers with an ebook associated with the project or an archive of all the source files that were ingested into the Manifold reader. It could also be used to share collections of data or specific materials that require pride of place on the project page.
+
+The `Visibility` field in the Download configuration drawer allows a publisher to determine when this element will appear in the hero: always, only for authorized users, or only for unauthorized users.
+
+For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements") for more.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. There are no restrictions on the kind of file uploaded into this field.
@@ -304,15 +319,15 @@ The Table of Contents Block renders the table of contents for a specific text in
 
 Manifold populates this block using the source document's navigational table of contents or header structure, as described here:
 
-| Upload Format   | Navigational File |
-|:---------------:|:-----------------:|
-| EPUB3           | `tox.xhtml`       |
-| EPUB2           | `tox.ncx`         |
-| Manifest Ingest | `contents.yml`    |
-| DOCX            | Header structure  |
-| Google Doc      | Header structure  |
-| Markdown        | Header structure  |
-| HTML            | Header structure  |
+|  Upload Format  | Navigational File |
+| :-------------: | :---------------: |
+|      EPUB3      |    `tox.xhtml`    |
+|      EPUB2      |     `tox.ncx`     |
+| Manifest Ingest |  `contents.yml`   |
+|      DOCX       | Header structure  |
+|   Google Doc    | Header structure  |
+|    Markdown     | Header structure  |
+|      HTML       | Header structure  |
 
 In other words, the Contents dropdown in the Manifold reader for the selected text will mirror the readout for a Table of Contents block pointing to that same text.
 

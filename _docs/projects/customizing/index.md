@@ -45,7 +45,7 @@ All available means to customize a project are contained on this page and broken
 
 * [General](/docs/projects/customizing/general.html)
 * [Layout](/docs/projects/customizing/layout.html)
-* [Permissions](/docs/projects/customizing/permissions.html)
+* [Permissions](/docs/projects/customizing/access.html)
 * [People](/docs/projects/customizing/people.html)
 * [Texts](/docs/projects/customizing/texts.html)
 * [Resources](/docs/projects/customizing/resources.html)

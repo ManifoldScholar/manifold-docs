@@ -11,6 +11,8 @@ Selecting the `Settings` menu in admin mode will bring you to the `General` sett
 
 ![General Settings](/docs/assets/customizing/general.png)
 
+## About
+
 ### How Do You Refer to Your Manifold Installation?
 
 The name entered in this field will be used on the account creation modal that new users will see when they join your instance: `By creating this account, you agree to {name}’s terms and conditions.` It will also appear in the email sent to new users welcoming them to your instance: `Welcome to {name}. Thanks for signing up!`
@@ -83,13 +85,35 @@ When a reader clicks on the email icon link they will be directed to an editable
 
 ## Behaviors
 
+### Restrict Access to All Projects
+
+By default all Manifold projects are openly accessible. This toggle allows publishers to adjust that, so all projects are instead restricted and require an entitlement that is gained, for example, via a purchase, subscription, membership, etc.
+
+Such entitlements are bestowed to specific users or reading groups within the settings of individual projects. To learn more about that process and how restricted projects behave differently from open ones, see the [Access section](/docs/projects/customizing/access.html#entitlements).
+
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. When this setting is toggled on, publishers will still have the ability to make certain projects openly accessible for general readers.
+</div>
+
+### Restricted Access Notice Header *(Contextual)*
+
+When `Project Access is Restricted` is toggled on, the text in this field will display (with the `Restricted Access Notice Body`) below the project hero for only those users who don't have credentials to access the project.
+
+This field is customizable and Markdown enabled. If left blank, the default message will display: “Access to this project is restricted.”
+
+![Restricted Notice](/docs/assets/projects/restrictedNotice.png)
+
+### Restricted Access Notice Body *(Contextual)*
+
+When `Project Access is Restricted` is toggled on, the text in this field will display (with the `Restricted Access Notice Header`) below the project hero for only those users who don't have credentials to access the project.
+
+This field is customizable and Markdown enabled. If left blank, the default message will display: “Only users granted permission may view this project's texts, resources, and other content.”
+
+### Disable Library Views
+
 For those publishers who want to leverage the power of Manifold with their existing web presence, they have the option to disable their main Manifold landing page and all associated library views of their projects.
 
 When those library views are disabled, publishers can instead point their audience to specific Manifold projects directly from their website without having to compete with the Manifold platform as a sort of secondary web presence.
-
-The fields below describe how to enable and customize this functionality.
-
-## Disable Library Views
 
 When this slider is toggled on, project library views will be disabled. Additionally,
 
