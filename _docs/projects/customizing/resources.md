@@ -116,6 +116,7 @@ From the Resource page you can search through all resources that have been added
 | Manifold Resource Log    | Resource Metadata        | Resource Attributes               |
 | ------------------------ | ------------------------ | --------------------------------- |
 | Title                    | Title                    | title                             |
+| N/A                      | Sort Title               | N/A                               |
 | Kind                     | Kind                     | kind                              |
 | N/A                      | N/A                      | created_at<sup>a</sup>            |
 | Caption                  | Caption                  | caption                           |
@@ -146,7 +147,7 @@ From the Resource page you can search through all resources that have been added
 | Edition                  | Edition                  | metadata.edition                  |
 | Issue                    | Issue                    | metadata.issue                    |
 | Volume                   | Volume                   | metadata.volume                   |
-| License                  | Rights                   | metadata.rights                   |
+| Rights                   | Rights                   | metadata.rights                   |
 | Territory                | Rights Territory         | metadata.rights_territory         |
 | Restrictions             | Restrictions             | metadata.restrictions             |
 | Copyright Holder         | Rights Holder            | metadata.rights_holder            |
@@ -154,22 +155,19 @@ From the Resource page you can search through all resources that have been added
 | Alt-Text                 | Alt Text                 | metadata.alt_text                 |
 | Credit Line              | Credit                   | metadata.credit                   |
 | Copyright Status         | Copyright Status         | metadata.copyright_status         |
-| Filename                 | {Kind} File              | attachment.attachment             |
+| Filename                 | N/A                      | attachment.attachment             |
 | High Res                 | High Resolution Image    | attachment.high_res               |
-| N/A                      | Thumbnail Image          | attachment.variant_thumbnail      |
-| N/A                      | Poster Image             | attachment.variant_poster         |
-| File Variant 1           | Variant (1)              | attachment.variant_format_one     |
-| File Variant 2           | Variant (2)              | attachment.variant_format_two     |
-| Collection               | —                        | —                                 |
-| Figure Number            | —                        | —                                 |
-| Permission Status        | —                        | —                                 |
-| Print Color Solution     | —                        | —                                 |
-| Print Intention          | —                        | —                                 |
-| Skip                     | —                        | —                                 |
-| Source                   | —                        | —                                 |
-| Special Instructions     | —                        | —                                 |
-| Synchronized Subtitles   | —                        | —                                 |
-| Transcript               | —                        | —                                 |
-| Translation              | —                        | —                                 |
+| Thumbnail                | Thumbnail Image          | attachment.variant_thumbnail      |
+| Poster                   | Poster Image             | attachment.variant_poster         |
+| File Variant 1           | Variant #1               | attachment.variant_format_one     |
+| File Variant 2           | Variant #2               | attachment.variant_format_two     |
+| Collection               | Collection               | resource_collections              |
+| Figure Number            | N/A                      | N/A                               |
+| Permission Status        | N/A                      | N/A                               |
+| Print Color Solution     | N/A                      | N/A                               |
+| Print Intention          | N/A                      | N/A                               |
+| Skip                     | N/A                      | N/A                               |
+| Source                   | N/A                      | N/A                               |
+| Special Instructions     | N/A                      | N/A                               |
 
 <sup>a</sup>This field is automatically populated by the system and cannot be changed manually.
