@@ -136,7 +136,7 @@ Links point to any content, either hosted on Manifold or remotely, that can be d
 
 The `Visibility` field in the Link configuration drawer allows a publisher to determine when this element will appear in the hero: always, only for authorized users, or only for unauthorized users.
 
-For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements") for more.
+For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements) for more.
 
 <a name="actionsRead"></a>
 #### Start Reading
@@ -198,7 +198,7 @@ The Download action allows publishers the means to load a file into the system t
 
 The `Visibility` field in the Download configuration drawer allows a publisher to determine when this element will appear in the hero: always, only for authorized users, or only for unauthorized users.
 
-For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements") for more.
+For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements) for more.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. There are no restrictions on the kind of file uploaded into this field.
