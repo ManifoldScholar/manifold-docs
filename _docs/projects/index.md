@@ -9,7 +9,7 @@ menus:
 
 To create or modify new projects, accounts, global content, and system settings, users will first need to be able to access the Manifold backend.
 
-The backend is available by default to users with the following roles: `Administrator`, `Editor`, `Project Creator`, and `Marketeer`. The backend is also available to `Readers` who have been granted permissions to do so. For more details, see the [User Accounts](/docs/projects/accounts/users.html) and [Permissions](/docs/projects/customizing/permissions.html) sections.
+The backend is available by default to users with the following roles: `Administrator`, `Editor`, `Project Creator`, and `Marketeer`. The backend is also available to `Readers` who have been granted permissions to do so. For more details, see the [User Accounts](/docs/projects/accounts/users.html) and [Access](/docs/projects/customizing/access.html) sections.
 
 <a name="accessing"></a>
 ## Accessing the Backend
