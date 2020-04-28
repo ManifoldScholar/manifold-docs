@@ -10,40 +10,42 @@ The following metadata fields are made available through Manifold. The three col
 
 `Project`-level metadata describes a project in its entirety, whereas `Text`- and `Resource`-level metadata describes specific materials within a project.
 
-| Metadata Field           | [Project][1] | [Text][2] | [Resource][3] | [Collection][4]             |
-|--------------------------|:------------:|:---------:|:-------------:|:---------------------------:|
-| Alt Text                 |              |           |       x       |                             |
-| Caption                  |              |           |       x       |                             |
-| Container Title          |       x      |     x     |       x       |                             |
-| Copyright Status         |              |           |       x       |                             |
-| Creator                  |              |           |       x       |                             |
-| Credit                   |              |           |       x       |                             |
-| Description              |       x      |     x     |       x       |              x              |
-| DOI                      |       x      |     x     |       x       |                             |
-| Edition                  |       x      |     x     |       x       |                             |
-| ISBN                     |       x      |     x     |       x       |                             |
-| ISSN                     |       x      |     x     |       x       |                             |
-| Issue                    |       x      |     x     |       x       |                             |
-| Language                 |              |     x     |               |                             |
-| Original Publisher       |       x      |     x     |       x       |                             |
-| Original Publisher Place |       x      |     x     |       x       |                             |
-| Original Title           |       x      |     x     |       x       |                             |
-| Publication Date         |       x      |     x     |               |                             |
-| Publisher                |       x      |     x     |       x       |                             |
-| Publisher Place          |       x      |     x     |       x       |                             |
-| Resources DOI            |              |           |               |        x<sup>a</sup>        |
-| Restrictions             |       x      |     x     |       x       |                             |
-| Rights                   |       x      |     x     |       x       |                             |
-| Rights Holder            |       x      |     x     |       x       |                             |
-| Rights Territory         |       x      |     x     |       x       |                             |
-| Series Number            |       x      |     x     |       x       |                             |
-| Series Title             |       x      |     x     |       x       |                             |
-| Subtitle                 |       x      |           |               |                             |
-| Tags                     |              |           |       x       |                             |
-| Title                    |       x      |     x     |       x       |              x              |
-| Unique Identifier        |              |     x     |               |                             |
-| Version                  |       x      |     x     |       x       |                             |
-| Volume                   |       x      |     x     |       x       |                             |
+| Metadata Field           | [Project][1] | [Text][2] | [Resource][3] | [Collection][4] |
+| ------------------------ | :----------: | :-------: | :-----------: | :-------------: |
+| Alt Text                 |              |           |       x       |                 |
+| Caption                  |              |           |       x       |                 |
+| Container Title          |      x       |     x     |       x       |                 |
+| Copyright Status         |              |           |       x       |                 |
+| Creator                  |              |           |       x       |                 |
+| Credit                   |              |           |       x       |                 |
+| Description              |      x       |     x     |       x       |        x        |
+| DOI                      |      x       |     x     |       x       |                 |
+| Edition                  |      x       |     x     |       x       |                 |
+| Fingerprint              |              |           |       x       |                 |
+| ISBN                     |      x       |     x     |       x       |                 |
+| ISSN                     |      x       |     x     |       x       |                 |
+| Issue                    |      x       |     x     |       x       |                 |
+| Language                 |              |     x     |               |                 |
+| Original Publisher       |      x       |     x     |       x       |                 |
+| Original Publisher Place |      x       |     x     |       x       |                 |
+| Original Title           |      x       |     x     |       x       |                 |
+| Publication Date         |      x       |     x     |               |                 |
+| Publisher                |      x       |     x     |       x       |                 |
+| Publisher Place          |      x       |     x     |       x       |                 |
+| Resources DOI            |              |           |               |  x<sup>a</sup>  |
+| Restrictions             |      x       |     x     |       x       |                 |
+| Rights                   |      x       |     x     |       x       |                 |
+| Rights Holder            |      x       |     x     |       x       |                 |
+| Rights Territory         |      x       |     x     |       x       |                 |
+| Series Number            |      x       |     x     |       x       |                 |
+| Series Title             |      x       |     x     |       x       |                 |
+| Sort Title               |              |           |       x       |                 |
+| Subtitle                 |      x       |           |               |                 |
+| Tags                     |              |           |       x       |                 |
+| Title                    |      x       |     x     |       x       |        x        |
+| Unique Identifier        |              |     x     |               |                 |
+| Version                  |      x       |     x     |       x       |                 |
+| Volume                   |      x       |     x     |       x       |                 |
 
 <sup>a</sup>The Resources DOI applies to project's entire library of resources, not sub-collections created and curated by users.
 
@@ -132,11 +134,13 @@ For resources, the `Description` is an opportunity to translate the visual to th
 
 **Copyright Status**. A means to describe where this material falls in the copyright landscape (e.g., Public Domain, Fair Use, In Copyright, Unknown)
 
-**Fingerprint**. A resource fingerprint is a unique ID that allows a user to reimport the same spreadsheet and update the corresponding resources—instead of creating duplicate resources. This guards against changes to titles and filenames. If a user does not define a fingerprint at upload, the system will automatically create one and populate the field.
+**Fingerprint**. A resource fingerprint is a unique ID—a key—that allows a user to reimport the same spreadsheet and update the corresponding resources—instead of creating duplicate resources. This guards against changes to titles and filenames. If a user does not define a fingerprint at upload, the system will automatically create one and populate the field.
 
 **Language**. Describes the primary language of which the text is composed in, using the ISO 639-1 abbreviations.
 
 **Slug**. The slug is the last part of the URL that identifies a specific page (or element) on a Manifold instance. For example: `https://{instance-domain}/project/{project-slug}/resource/{resource-slug}`
+
+**Sort Title**. This field, available to resources, allows a publisher to define how the content should be alphabetically sorted in lists (e.g., if a link resource is titled NYTimes, a publisher may want to spell that out in this field—New York Times—so readers will discover it where expected). If left blank, the system will sort by the resource title. 
 
 **Tags**. Tags group and relate media to one another and can server as a mean to navigate among like materials.
 

@@ -112,6 +112,7 @@ For detailed descriptions of these fields, please refer to the [Metadata](/docs/
 | -------- | ------------------------ | :---: | :-----------: | :---: | :---: | :---: | :---: | :------: | :---------: | :----------: | :---------: |
 | General  | Kind                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
 | General  | Title                    |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
+| General  | Sort Title               |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
 | General  | Fingerprint              |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
 | General  | Slug                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
 | General  | Tags                     |   x   |       x       |   x   |   x   |   x   |   x   |    x     |      x      |      x       |      x      |
