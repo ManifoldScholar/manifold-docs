@@ -10,7 +10,7 @@ menu:
 
 Unless you are reading or adding a text to an existing Manifold instance, you will need to install the software on a server to publish texts.
 
-**The current, stable version of Manifold is v{{site.data.current.version}}**.
+**The current, stable version of Manifold is {{site.data.current.version}}**.
 
 * [Hosting Manifold on Ubuntu](/docs/installing/ubuntu/index.html)
 * [Hosting Manifold on RHEL/Centos](/docs/installing/centos/index.html)
