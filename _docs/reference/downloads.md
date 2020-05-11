@@ -3,7 +3,7 @@ layout: page
 title: Downloads
 menu:
   reference:
-    weight: 3
+    weight: 4
 ---
 {% for os in site.data.releases %}
   {% assign key = os[0] %}
