@@ -107,7 +107,7 @@ When `Project Access is Restricted` is toggled on, the text in this field will d
 
 This field is customizable and Markdown enabled. If left blank, the default message will display: “Access to this project is restricted.”
 
-![Restricted Notice](/docs/assets/projects/restrictedNotice.png)
+![Restricted Notice](/docs/assets/customizing/restrictedNotice.png)
 
 #### Restricted Access Notice Body
 
