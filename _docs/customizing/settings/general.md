@@ -101,13 +101,15 @@ When `Project Access is Restricted` is toggled on, the text in this field will d
 
 This field is customizable and Markdown enabled. If left blank, the default message will display: “Access to this project is restricted.”
 
-![Restricted Notice](/docs/assets/projects/restrictedNotice.png)
+![Restricted Notice](/docs/assets/customizing/restrictedNotice.png)
 
 ### Restricted Access Notice Body *(Contextual)*
 
 When `Project Access is Restricted` is toggled on, the text in this field will display (with the `Restricted Access Notice Header`) below the project hero for only those users who don't have credentials to access the project.
 
 This field is customizable and Markdown enabled. If left blank, the default message will display: “Only users granted permission may view this project's texts, resources, and other content.”
+
+<a name="disable-library"></a>
 
 ### Disable Library Views
 
@@ -122,20 +124,56 @@ When this slider is toggled on, project library views will be disabled. Addition
 - Transactional pages will render in the context of the last project that the user visited.
 - Global search will be scoped to the project level.
 
-## Enforce Standalone Mode for All Projects *(Contextual)*
+### Enforce Standalone Mode for All Projects *(Contextual)*
 
 If this slider is toggled on, all projects will render in [standalone mode](/docs/projects/customizing/general.html#standalone-mode), overriding individual project settings.
 
 When projects are in standalone mode, the standard library header that displays a custom logo and color scheme will be supplanted by standalone header with fewer branding options.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. To learn more about adjusting the branding of the standard library header bar, see the <a href="/docs/customizing/settings/theme.html">Theming page</a>.
+<strong>Note</strong>. To learn more about adjusting the branding of the standard library header, see the <a href="/docs/customizing/settings/theme.html">Theming page</a>, under ther <code>Branding</code> heading.
 </div>
 
-## Library Page Redirect URL *(Contextual)*
+### Library Page Redirect URL *(Contextual)*
 
 Library pages—with the exception of the instance's home page—will redirect to the URL designated in this field when library views are disabled. If left blank, requests to display library pages will return a `404 Page Not Found` error.
 
-## Home Page Redirect URL *(Contextual)*
+### Home Page Redirect URL *(Contextual)*
 
 The Manifold home page will redirect to the URL designated in this field when library views are disabled. If left blank, requests to display library pages will return a `404 Page Not Found` error.
+
+## Disable Public Annotations and Comments
+
+When this global setting is toggled on, users will not be able to pin a public annotation to any text in the instance. *This does not prevent users from annotating texts entirely.* However users will be able to only leave annotations in the context of a reading group of which they are a member—and viewable to other members of that group—or as a private annotation, viewable only to the user themself.
+
+Because of that, someone who doesn't have an account, or someone who is logged in as a Reader, won't see any annotations throughout the instance when this toggle is engaged. The exception would be Readers who are members of reading groups: they will be able to see annotations that have been left in the context of those reading groups. 
+
+So long as this setting is engaged, it is not possible to convert a private annotation into a public one, and public reading groups will function as if they were private ones.
+
+If you wish to further limit the annotation functionality across your instance, you can also disable reading groups (described below). When publishers disable both public annotation and reading groups, users will only be able to leave private annotations they alone can see.
+
+To learn how to disable public annotations for specific projects, instead of for an instance globally, see the [project settings section](/docs/projects/customizing/general.html).
+
+## Disable Reading Groups
+
+By engaging this toggle, users will not be able to create new or join existing reading groups. Additionally, existing reading group annotations created before this toggle was enabled will no longer be visible to anyone—including the users who left the annotations.
+
+This is a global setting that will affect all readings groups across the instance. Reading groups themselves don’t have direct relationships to projects; instead they are a collection of users and a way of grouping people and annotations. Thus it is not possible to selectively disable all reading group functionality on a project-by-project basis. However, if `Disable Public Annotations and Comments` (described above) is engaged globally or for a specific project (learn more about that process in the [project settings](/docs/projects/customizing/general.html)) then all reading groups will function as if they were private reading groups and then only be accessible to group members.
+
+When this toggle is enabled, the application will display differently in certain scenarios:
+
+After selecting text in the reader, the pop-up language will change from "Current Group" to "Current Visibility."
+
+![Restricted Popup](/docs/assets/customizing/restrict-pop.jpg)
+
+Extending from that use case, the menu heading, when selecting the context of the annotation, will adjust likewise from "Reading Group" to "Visibility." Existing reading groups will no longer appear in the dropdown.
+
+![Restricted Group](/docs/assets/customizing/restrict-group.jpg)
+
+The visibility dropdown's heading will change from "Reading Groups" to "Visibility." And as with the pop-up, existing reading groups will no longer render in the listings.
+
+![Restricted Visibility](/docs/assets/customizing/restrict-visibility.jpg)
+
+Last, the user dropdown will no longer provide a link to "Mange Groups."
+
+![Restricted Drowndown](/docs/assets/customizing/restrict-dropdown.jpg)

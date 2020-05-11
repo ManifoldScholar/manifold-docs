@@ -5,11 +5,12 @@ menus:
   projects_customizing:
     weight: 1
 ---
+
 The General sidebar provides controls for the most top-level elements for how a project is registered and displayed across the system.
 
-## General Attributes
+![General Sidebar Elements](/docs/assets/projects/general.png)
 
-![General Attributes](/docs/assets/projects/general-attributes.png)
+## General
 
 ### Title
 
@@ -47,9 +48,27 @@ You can also upload (as a JPEG, TIFF, GIF, or PNG) a new avatar using the right 
 
 Note that even if you add a book cover to display in the project's [hero block](/docs/projects/customizing/layout.html), you will also need to add it here as a custom image for the cover to show in library views.
 
-## Visibility
+## Taxonomy
 
-![Visibility](/docs/assets/projects/visibility.png)
+<a name="subjects"></a>
+
+### Subjects
+
+Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library.html)).
+
+Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing. Once accepted the Subject name will appear beneath the `Add a Subject` field alongside any others that have been associated with the project.
+
+To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings/subjects.html). And to see how Subjects can be used to curate Smart Collections, visit the [Project Collections](/docs/projects/collections.html#smart-collections) page.
+
+<a name="tags"></a>
+
+### Tags
+
+Unlike Subjects, Tags can be created by any user who has permission to modify a project and can be used to add further richness to the existing subject classification. Like Subjects, the Tag field provides a helper so that as you begin typing any similar tags that have already been created on your instance will be revealed.
+
+To see how Tags can be used to curate Smart Collections, visit the [Project Collections](/docs/projects/collections.html#smart-collections) page.
+
+## Presentation
 
 <a name="draft-mode"></a>
 
@@ -80,8 +99,7 @@ The Finished toggle is a means to indicate that a project is no longer actively 
 ![Finished](/docs/assets/projects/finished.png)
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. If a project is toggled to Finished and no publication date is set, in list views no date of any kind will appear.<br/><br/>
-<img src="/docs/assets/projects/nopub.png" alt="nopub">
+<strong>Note</strong>. If a project is toggled to Finished and no publication date is set, in list views no date of any kind will appear.
 </div>
 
 <a name="standalone"></a>
@@ -103,11 +121,11 @@ When a project is offered in standalone mode, the library header is replaced wit
 <figure>
   <img src="/docs/assets/projects/library.png" alt="Library Bar" style="margin-bottom: 1em;">
   <img src="/docs/assets/projects/standalone.png" alt="Standalone Bar">
-  <figcaption><em>Above</em>, the standard Manifold library header; <em>below</em>, the standalone header along with a header bar, which serve as branding and navigation elements.</figcaption>
+  <figcaption><em>Above</em>, the standard Manifold header; <em>below</em>, the standalone header along with the optional top bar enabled, which serve as branding and navigation elements.</figcaption>
 </figure>
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. For those with <a href="/docs/projects/accounts/users.html">Administrator credentials</a>, see the Header Bar options on the <a href="/docs/customizing/settings/theme.html#instance-header">Theming Settings page</a> to enable and customize the text, link, and color of the optional header bar),
+<strong>Note</strong>. For those with <a href="/docs/projects/accounts/users.html">Administrator credentials</a>, see the Top Bar options on the <a href="/docs/customizing/settings/theme.html#instance-header">Theming Settings page</a> to enable and customize the text, link, and color of the optional top bar),
 </div>
 
 Additionally, when a project is in standalone mode, the following behaviors can also be expected:
@@ -124,63 +142,48 @@ Additionally, when a project is in standalone mode, the following behaviors can 
 
 - project subpages for individual resources or resource collections show the standalone header with no breadcrumbs.
 
-These settings work in conjunction with the header bar configurations, which can be adjusted on a project-by-project basis or generally across an entire instance.
+These settings work in conjunction with the top bar configurations, which can be adjusted on a project-by-project basis or generally across an entire instance.
 
-See the [Header Bar section](/docs/projects/customizing/general.html#header-bar) below to adjust an individual project's header bar text and link URL. Those with [Administrator credentials](/docs/projects/accounts/users.html) can modify the header bar globally across the instance—its text, link URL, color, and behavior—on the [Theme Settings page](/docs/customizing/settings/theme.html#instance-header).
+See the [Top Bar section](/docs/projects/customizing/general.html#top-bar) below to adjust an individual project's top bar text and link URL. Those with [Administrator credentials](/docs/projects/accounts/users.html) can modify the top bar globally across the instance—its text, link URL, color, and behavior—on the [Theme Settings page](/docs/customizing/settings/theme.html#instance-header).
+
+If you enable or enforce standalone mode on a project but don’t see a top bar on your project, check that the `Top Bar Text` and `Top Bar URL` fields (described below) are filled in. Or, if the project is intended to follow the default instance top bar theme, check the <a href="/docs/customizing/settings/theme.html#instance-header">Theme Settings page</a> to see that Top Bar Display Mode is not set to <code>Disabled</code>.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<ul><li>Regardless of how many projects are set for Standalone Mode, the standard Manifold landing page will still exist. Further, if a reader navigates to an instance's landing page (by happenstance or by entering it into the URL bar) they will be able to see all the projects on the instance—excepting those in <a href="/docs/projects/customizing/general.html#draft-mode">Draft Mode</a> or those where Standalone Mode is enforced (so long as they aren't also part of a project collection).</li>
-<li>If you enable or enforce standalone mode on a project but don't see a header bar on your project, check the <a href="/docs/customizing/settings/theme.html#instance-header">Theme Settings page</a> to see that Header Bar Display Mode is not set to <code>Disabled</code>. N.B., only users with <a href="/docs/projects/accounts/users.html">Administrator credentials</a> can access the Theme Settings page.</li>
-</ul>
+<strong>Note</strong>. Regardless of how many projects are set for Standalone Mode, the standard Manifold library page will still exist. Further, if a reader navigates to an instance’s library page (by happenstance or by entering it into the URL bar) they will be able to see all the projects on the instance—excepting those in <a href="/docs/projects/customizing/general.html#draft-mode">Draft Mode</a> or those where Standalone Mode is enforced (so long as they aren’t also part of a project collection). To Disable Library Views entirely, see the <a href="/docs/customizing/settings/general.html#disable-library">General instance settings</a>.
 </div>
 
-## Taxonomy
+<a name="top-bar"></a>
 
-![Taxonomy](/docs/assets/projects/taxonomy.png)
+### Top Bar Text
 
-<a name="subjects"></a>
+The top bar is a thin, customizable band that serves as a means to contextualize a Manifold page for readers in relation to a larger mission.
 
-### Subjects
-
-Subjects provide a means to categorize projects, which readers can use as filters to sort through the collection of projects on the landing page (see [Projects Library](/docs/reading/library.html)).
-
-Subjects can only be created by users with Administrator roles. All other roles that can access the backend can only select from the list of subjects already loaded into the system. To associate a subject with a project, simply begin typing in this field, and the system will populate those subjects in the system that most closely resemble what you are typing. Once accepted the Subject name will appear beneath the `Add a Subject` field alongside any others that have been associated with the project.
-
-To learn more about how to create Subjects as an Administrator, see the [Subjects section](/docs/customizing/settings/subjects.html). And to see how Subjects can be used to curate Smart Collections, visit the [Project Collections](/docs/projects/collections.html#smart-collections) page.
-
-<a name="tags"></a>
-
-### Tags
-
-Unlike Subjects, Tags can be created by any user who has permission to modify a project and can be used to add further richness to the existing subject classification. Like Subjects, the Tag field provides a helper so that as you begin typing any similar tags that have already been created on your instance will be revealed.
-
-To see how Tags can be used to curate Smart Collections, visit the [Project Collections](/docs/projects/collections.html#smart-collections) page.
-
-<a name="header-bar"></a>
-
-## Header Bar
-The header bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. The header bar options on this page function as project-specific overrides to the global header bar configurations set by those with [Administrator credentials](/docs/projects/accounts/users.html) on the [Theme Settings page](/docs/customizing/settings/theme.html#instance-header).
+Text entered in this field appears in the top bar for the specific project, superseding the top bar text entered by those with [Administrator credentials](/docs/projects/accounts/users.html) on the [Theme Settings page](/docs/customizing/settings/theme.html#instance-header).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Notes</strong>
 <ul>
-<li>The header bar color and display parameters are only configurable for users with Administrator credentials from the Theme Settings page.</li>
-<li>The header bar is <em>not</em> required for standalone projects; the header bar can be used strictly with standalone projects or generally across the entire instance.</li>
+<li>The top bar color and display parameters are only configurable for users with Administrator credentials from the Theme Settings page.</li>
+<li>If this field is left blank, the top bar settings for the project  will default to the instance-wide settings</li>
+<li>The top bar is <em>not</em> required for standalone projects; it is highly configurable and can used on a project-by-project basis or it can be used in conjunction with standalone projects settings or generally across the entire instance.</li>
+<li>This field is <em>not</em> Markdown enabled and only accepts one line of text.</li>
 </ul>
 </div>
 
-![Header Bar](/docs/assets/projects/header-bar.png)
+### Top Bar URL
 
-### Header Bar Text
+The top bar functions as a clickable link. The URL entered here will serve as the link target to any user who clicks on the top bar. As with the Top Bar Text above, the value entered here will supersede the input from the [Theme Settings page](/docs/customizing/settings/theme.html#instance-header).
 
-Text entered here appears in the header bar for the specific project being editing, superseding the header bar text entered by those with [Administrator credentials](/docs/projects/accounts/users.html) on the [Theme Settings page](/docs/customizing/settings/theme.html#instance-header).
+## Restrictions
 
-![Header Bar Text](/docs/assets/projects/header-bar-text.png)
+### Disable Public Annotations and Comments
 
-<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. This field is <em>not</em> Markdown enabled and only accepts one line of text.
-</div>
+When this local setting is toggled on, users will not be able to pin public annotations to any text that is a part of this specific project. *This does not prevent users from annotating texts in this project entirely.* Users will be able to leave annotations in the context of a reading group of which they are a member—and viewable to other members of that group—or as a private annotation, viewable only to the user themself.
 
-### Header Bar URL
+Because of that, someone who doesn't have an account, or someone who is logged in as a Reader, won't see annotations on any text in the project so long as this toggle is engaged. The exception would be Readers who are members of reading groups: they will be able to see annotations that have been left in the context of those reading groups. 
 
-The header bar functions as a clickable link. The URL entered here will serve as the link target to any user who clicks on the header bar. As with the Header Bar Text above, the value entered here will supersede the input from the [Theme Settings page](/docs/customizing/settings/theme.html#instance-header).
+While this setting is engaged, it will not possible to convert a private annotation into a public one, and public reading groups will function as if they were private ones.
+
+To learn how to disable public annotations globally across an entire Manifold instance, instead of locally for specific projects, see the [General Settings section](/docs/customizing/settings/general).
+
+Likewise, that section describes how to further limit the annotation functionality by disabling reading groups across an entire instance. When publishers disable both public annotation and reading groups globally, users will only be able to leave private annotations they alone can see.
