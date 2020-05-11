@@ -69,21 +69,21 @@ If left blank, Manifold will reset to its default accent color.
 <strong>Note</strong>. Manifold will still calculate values for secondary system colors in line with accessibility standards even if a custom value has been input.
 </div>
 
-### Library Header Foreground Color
+### Header Foreground Color
 
-If a value is entered here, it will override the value of the accent color for links contained with the header bar.
+If a value is entered here, it will override the value of the accent color for links contained within the Manifold header.
 
-### Library Header Foreground Active Color
+### Header Foreground Active Color
 
-The color value entered has two purposes: it indicates what page a reader is presently viewing (e.g., Home, Projects, Following), and it also serves as the hover color for links to pages in the header bar.
+The color value entered has two purposes: it indicates what page a reader is presently viewing (e.g., Home, Projects, Following), and it also serves as the hover color for links to pages in the Manifold header.
 
-### Library Header Background Color
+### Header Background Color
 
-By default the header bar background is white. By entering a color value here, a publisher can further bring their instance in line with their branding expectations.
+By default the Manifold header background is white. By entering a color value here, a publisher can further bring their instance in line with their branding expectations.
 
 <figure>
   <img src="/docs/assets/customizing/libraryHeader.png" alt="Library Header Color Elements">
-  <figcaption>Here we see the header bar with the following values: <code>Accent Color</code>, Yellow; <code>Header Foreground Color</code>, White; <code>Header Foreground Active Color</code>, Red; and <code>Header Background Color</code>, Black.</figcaption>
+  <figcaption>Here we see the Manifold header with the following values: <code>Accent Color</code>, Yellow; <code>Header Foreground Color</code>, White; <code>Header Foreground Active Color</code>, Red; and <code>Header Background Color</code>, Black.</figcaption>
 </figure>
 
 ## Typography
@@ -158,21 +158,21 @@ If you do not have a Typekit account, Manifold will defer to two sets of open-li
 
 <a name="instance-header"></a>
 
-## Press Header Bar
+## Top Bar
 
-![Instance Header](/docs/assets/customizing/instance-header.png)
+![Top Bar Menu](/docs/assets/customizing/top-bar.png)
 
-The press header bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. It can be configured to appear atop all Manifold pages outside of the reader, or it can be set to specifically target only those projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone).
+The top bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. It can be configured to appear atop all Manifold pages outside of the reader, set to specifically target only those projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone), or configured on a project-by-project basis..
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. The press header bar can be deployed in addition to the standard header; it does not <em>only</em> need to be used in conjunction with projects in standalone mode.
+<strong>Note</strong>. The top bar can be deployed in addition to the standard header; it does not <em>only</em> need to be used in conjunction with projects in standalone mode.
 </div>
 
 ### Text
 
-Text entered here appears in the header bar globally across the instance, but it can be superseded on individual projects if so configured in a project's [General settings](/docs/projects/customizing/general.html#header-bar).
+Text entered here appears in the top bar globally across the instance, but it can be superseded on individual projects if so configured in a project's [General settings](/docs/projects/customizing/general.html#top-bar).
 
-![Header Bar Text](/docs/assets/projects/header-bar-text.png)
+![Top Bar Text](/docs/assets/projects/top-bar-text.png)
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. This field is <em>not</em> Markdown enabled and only accepts one line of text.
@@ -180,22 +180,22 @@ Text entered here appears in the header bar globally across the instance, but it
 
 ### Color
 
-The color of the header bar is customizable. To define the color of the header bar for your Manifold instance, enter an HTML color hex value—including the hash symbol (#)—in this field (e.g., `#2980B9`).
+The color of the top bar is customizable. To define the color of the top bar for your Manifold instance, enter an HTML color hex value—including the hash symbol (#)—in this field (e.g., `#2980B9`).
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. The color of the header bar is a global setting and cannot be adjusted for individual projects.
+<strong>Note</strong>. The color of the top bar is a global setting and cannot be adjusted for individual projects.
 </div>
 
 ### URL
 
-The header bar functions as a clickable link. The URL entered here will serve as the target link to any user who clicks on the header bar. Like the Header Bar Text, input here can be overriden on a project's [General settings](/docs/projects/customizing/general.html#header-bar) page.
+The top bar functions as a clickable link. The URL entered here will serve as the target link to any user who clicks on the top bar. Like the Top Bar Text, input here can be overriden on a project's [General settings](/docs/projects/customizing/general.html#top-bar) page.
 
-### Press Bar Display Mode
+### Top Bar Display Mode
 
-- **Disabled**. When set to `Disabled` the header bar will not display—*even if* a user fills in the [header bar fields](/docs/projects/customizing/general.html#header-bar) for an individual project or sets one up to appear in [standalone mode](/docs/projects/customizing/general.html#standalone).
-- **Always Visible**. If toggled to `Always Visible`, so long as the text and URL have been provided, the header bar will display on all Manifold pages (excepting those within the reader), regardless of whether or not those pages are associated with a standalone project. If users have enabled [standalone mode](/docs/projects/customizing/general.html#standalone) and the [header bar](/docs/projects/customizing/general.html#header-bar) for individual projects, those settings will override the text and URL entered here in the Theme settings.
-- **Only Visible in Standalone Mode**. To set the header bar to only appear on those pages associated with projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone), select `Only Visible in Standalone Mode`.
+- **Disabled**. When set to `Disabled` the top bar will not display—*unless* a user fills in the [top bar fields](/docs/projects/customizing/general.html#top-bar) for an individual project.
+- **Always Visible**. If toggled to `Always Visible`, so long as the text and URL have been provided, the top bar will display on all Manifold pages (excepting those within the reader). If users have enabled [project-specific top-bar attributes](/docs/projects/customizing/general.html#top-bar), those settings will override the text and URL entered here.
+- **Only Visible in Standalone Mode**. To set the top bar to appear on projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone), select `Only Visible in Standalone Mode`. Project-level overrides are still possible with this setting selected.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-The header won't display unless text and a URL are provided. However, if the header bar is enabled to be visible in standalone mode and a user has input text and a URL for those projects individually in their <a href="/docs/projects/customizing/general.html">General settings</a>, the header bar will appear, even if that information has not been filled in here in the Theme settings.
+<strong>Note </strong>. The header won't display unless text and a URL are provided.
 </div>
