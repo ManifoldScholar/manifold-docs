@@ -116,11 +116,11 @@ Any Manifold project can be rendered in standalone mode or in library mode. Usin
 - **Enabled**. If standalone mode is `Enabled`, the user must come to that project with the following suffix appended to the URL for standalone presentation; otherwise users will encounter the default library view of the project: `?mode=standalone`. This is useful for publishers who want to present a project as standalone when directed from a specific location (e.g., a publisher's or author's website), while allowing the same project to be viewed in library mode for those arriving to it from other locations.
 - **Enforced**. If standalone mode is `Enforced`, that project can only be viewed in standalone mode regardless of from where a user is coming to the project. Additionally, projects that are enforcing standalone mode are removed from the projects page library and the landing page, in cases where the instance isn't displaying project collections.
 
-When a project is offered in standalone mode, the library header is replaced with a more minimal standalone header that persists down the page as a reader scrolls. The project's title and subtitle are integral to this standalone header and serve as clickable links, returning users to the project landing page as they explore subpages within the project.
+When a project is offered in standalone mode, the header is replaced with a more minimal standalone header that persists down the page as a reader scrolls. The project's title and subtitle are integral to this standalone header and serve as clickable links, returning users to the project landing page as they explore subpages within the project.
 
 <figure>
-  <img src="/docs/assets/projects/library.png" alt="Library Bar" style="margin-bottom: 1em;">
-  <img src="/docs/assets/projects/standalone.png" alt="Standalone Bar">
+  <img src="/docs/assets/projects/library.png" alt="Header" style="margin-bottom: 1em;">
+  <img src="/docs/assets/projects/standalone.png" alt="Standalone and Top Bar">
   <figcaption><em>Above</em>, the standard Manifold header; <em>below</em>, the standalone header along with the optional top bar enabled, which serve as branding and navigation elements.</figcaption>
 </figure>
 
