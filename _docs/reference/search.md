@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Phrasal Search
+title: Search Functionality
 menu:
   reference:
     weight: 2

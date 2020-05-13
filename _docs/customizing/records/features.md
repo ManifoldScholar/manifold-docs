@@ -6,7 +6,7 @@ menus:
     weight: 2
 ---
 
-The `Features` sections provides controls to customize the featured content area at the top of the home page.
+The `Features` sections provides controls to customize the optional Feature block that is positioned below the Manifold header on the library landing page.
 
 ![Featured Content](/docs/assets/customizing/featured-content.png)
 
@@ -28,7 +28,9 @@ The Feature Preview isn't an editable field. Instead it allows users to get a se
 
 ### Published
 
-The Published slider determines if a feature is promoted to the home page. Toggling a slider on for one feature will not toggle it off for other features. Instead, Manifold will select a random feature from among the published features and show it on the home page. A new random feature will be selected every time the home page loads. Toggle this field off for those features you don't want to be active.
+The Published slider determines if a Feature is promoted to the home page. Toggling a slider on for one feature will not toggle it off for other features. Instead, if multiple Features have the `Published` toggle active, Manifold will select a random Feature from among them and show it on the home page. A new random feature will be selected every time the home page loads. Toggle this field off for those features you don't want to be active.
+
+If no Features have the `Published` toggle activated, Manifold will not include any Feature on the library landing page, and instead promote either the library or the first project collection to the top of the page.
 
 ### Header
 
@@ -84,10 +86,10 @@ The `Background Color`, `Foreground Color`, and `Header Color` fields accept sta
 When input, values should be formatted as follows, replacing zeroes with figures associated with the color you are intending:
 
 | Value | Format               |
-|:-----:|:---------------------|
-| RGB   | rgb(0, 0, 0)         |
-| HEX   | #000000              |
-| HSL   | hsl(0, 0%, 0%)       |
+| :---: | :------------------- |
+|  RGB  | rgb(0, 0, 0)         |
+|  HEX  | #000000              |
+|  HSL  | hsl(0, 0%, 0%)       |
 | RGBA  | rgba(0, 0, 0, 0.0)   |
 | HSLA  | hsla(0, 0%, 0%, 0.0) |
 

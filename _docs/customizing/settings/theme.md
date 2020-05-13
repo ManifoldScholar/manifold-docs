@@ -162,7 +162,7 @@ If you do not have a Typekit account, Manifold will defer to two sets of open-li
 
 ![Top Bar Menu](/docs/assets/customizing/top-bar.png)
 
-The top bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. It can be configured to appear atop all Manifold pages outside of the reader, set to specifically target only those projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone), or configured on a project-by-project basis..
+The top bar is a thin, customizable branding element that serves as a means to contextualize a Manifold page for readers in relation to a larger mission. It can be configured to appear atop all Manifold pages outside of the reader, set to specifically target only those projects that are enabled for [standalone mode](/docs/projects/customizing/general.html#standalone), or configured on a project-by-project basis.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. The top bar can be deployed in addition to the standard header; it does not <em>only</em> need to be used in conjunction with projects in standalone mode.
