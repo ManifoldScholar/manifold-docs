@@ -27,6 +27,7 @@ The Hero block is required of every project and is anchored immediately below th
 This section will first consider all the options available within the Hero block before moving onto options for each of the content blocks.
 
 <a name="heroBlock"></a>
+
 ## Hero Block
 
 The hero block can be as basic or as involved as a project requires. Some projects may only require a title, description, and cover image. Others may want to use buttons and/or links to reference related material. For iterative projects, the scope and complexity of this block will likely change as content is added to the project.
@@ -36,6 +37,7 @@ Controls to adjust the appearance of the Hero block are contained within the Des
 ![Hero Block Controls](/docs/assets/projects/layout-hero.png)
 
 <a name="descriptionImages"></a>
+
 ### Description + Images
 
 When opting to edit this section, a drawer from the right will open in which you can adjust the following settings: Dark Mode, Background Image, Cover Image, and Image Credits.
@@ -47,6 +49,7 @@ When opting to edit this section, a drawer from the right will open in which you
 </div>
 
 <a name="descriptionDark"></a>
+
 #### Dark Mode
 
 This toggle adjusts the background color of the blade. The default is light gray. When Dark Mode is toggled on the color changes to slate gray.
@@ -54,6 +57,7 @@ This toggle adjusts the background color of the blade. The default is light gray
 If a [Background Image](/docs/projects/customizing/layout.html#backImage) is added to this blade, the image will supersede this setting.
 
 <a name="description"></a>
+
 #### Description
 
 This field allows users to add or edit a project description that will render in the hero block. If any descriptive text was included when the project was first created, it will appear here.
@@ -65,6 +69,7 @@ Recommended length is three to five sentences. If your project requires further 
 </div>
 
 <a name="backImage"></a>
+
 #### Background Image
 
 The Background Image displays behind the content of the Hero blade as a means to enhance the visual identity of a project. If a Background Image is loaded, the image will supersede the setting of the [Dark Mode toggle](/docs/projects/customizing/layout.html#descriptionDark).
@@ -80,6 +85,7 @@ When a project is shared socially, the hero image is included as part of that tr
 </div>
 
 <a name="coverImage"></a>
+
 #### Cover Image
 
 The cover image appears over the right side of the hero block and can be used to show a book cover associated with the project, or a custom cover created specifically for electronic use or use on Manifold.
@@ -93,6 +99,7 @@ Acceptable formats for upload are GIF, JPEG, JPG, and PNG.
 </div>
 
 <a name="imageCredits"></a>
+
 #### Image Credits
 
 If your background or cover image have credit lines associated with them, they can be entered into this field. The credit lines will appear beneath the cover image.
@@ -106,6 +113,7 @@ If you need to add a blank space, use two consecutive <a href="https://www.w3sch
 </div>
 
 <a name="callActions"></a>
+
 ### Calls-to-Action
 
 Here users can add buttons or links to the hero block that act as shortcuts to project materials on Manifold or related content hosted remotely.
@@ -136,9 +144,10 @@ Links point to any content, either hosted on Manifold or remotely, that can be d
 
 The `Visibility` field in the Link configuration drawer allows a publisher to determine when this element will appear in the hero: always, only for authorized users, or only for unauthorized users.
 
-For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements) for more.
+For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise, links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements) for more on how a project's accessibility settings can pair with how and when links appear in the Hero block.
 
 <a name="actionsRead"></a>
+
 #### Start Reading
 
 The Start Reading action allows a publisher to create a button/link that will direct readers to the opening page of a specific text loaded to the project.
@@ -167,10 +176,15 @@ Manifold will use the metadata within the selected text to determine the opening
 - Texts loaded as standalone documents will open to the first page.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
-<strong>Note</strong>. You can create more than one Start Reading link/button if you have multiple texts in your project.
+<strong>Notes</strong>.
+<ul>
+<li>You can create more than one Start Reading link/button if you have multiple texts in your project.</li>
+<li>The Start Reading call-to-action does not have any visibility settings. Star Reading actions will always display in the header. If a project is set for restricted access, only those with the appropriate credentials will be able to follow the link to their intended text.</li>
+</ul>
 </div>
 
 <a name="actionsTOC"></a>
+
 #### Table of Contents
 
 A Table of Contents link/button opens a specific text to the section that the file's internal metadata describes as being its table of contents.
@@ -191,20 +205,26 @@ A Table of Contents link/button opens a specific text to the section that the fi
 
 - Selecting the Table of Contents action for [Manifest ingests](/docs/projects/preparing/index.html#manifest) and texts loaded as standalone documents will be no different than selecting the Start Reading action. This is because these formats do not inherently contain a text section (not to be confused with navigation intended for a reading system) made specifically as a table of contents that you would expect in a print book.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<strong>Note</strong>. The Table of Contents call-to-action does not have any visibility settings. TOC actions will always display in the header. If a project is set for restricted access, only those with the appropriate credentials will be able to follow the link to their intended text.
+</div>
+
 <a name="actionsDown"></a>
+
 #### Download
 
 The Download action allows publishers the means to load a file into the system that readers can download to their device. This can be useful if, say, the publisher wants to provide their readers with an ebook associated with the project or an archive of all the source files that were ingested into the Manifold reader. It could also be used to share collections of data or specific materials that require pride of place on the project page.
 
 The `Visibility` field in the Download configuration drawer allows a publisher to determine when this element will appear in the hero: always, only for authorized users, or only for unauthorized users.
 
-For example, a subscription link would be useful for unauthorized users to gain access to the project, while for authorized users that would not be of interest. Likewise links to specific materials may only be of use after a user has gained access to a project. See the [Access section](/docs/projects/customizing/access.html#entitlements) for more.
+For example, a download may be useful to supply unauthorized users with some preview content. Conversely it may be a perk of full access to supply readers with bonus content. See the [Access section](/docs/projects/customizing/access.html#entitlements) for more on how a project's accessibility settings can pair with how and when downloads appear in the Hero block.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. There are no restrictions on the kind of file uploaded into this field.
 </div>
 
 <a name="actionsSocial"></a>
+
 ### Social Links
 
 The Social Links submenu allows a publisher to associate a Twitter hashtag and social account handles for Twitter, Facebook, and Instagram with a project. These will appear as active, clickable links below the project description.
@@ -226,6 +246,7 @@ The different social networks require their handles to be formatted as follows:
 </div>
 
 <a name="contentBlocks"></a>
+
 ## Content Blocks
 
 Content blocks are situated below the Hero block. None of them are required, and they can be arranged and rearranged using the drag-and-drop interface in the Manifold backend to meet the needs of the project.
@@ -250,14 +271,33 @@ To unhind a block, click on the crossed-out eye icon. If you delete a block and 
 
 Edit an existing block by clicking on the pencil icon to the right of the block's name. Doing so will open a drawer from the right of the screen giving you access to the editable block content.
 
+<div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
+<p><strong>Note</strong>. All content blocks are contextual relative to whether or not a project is configured for <a href="/docs/projects/customizing/access.html#entitlements">restricted access</a>.</p>
+</div>
+
 <a name="mdBlock"></a>
+
 ### Markdown
 
 The Markdown Block allows users to create sections of markdown content on a project page. The block can be assigned a gray background to help it stand out from other content on the page. Possible uses of this block include adding descriptive text about the project, supplemental textual content, or speaking to a project's grant funding or relation to upcoming events, like conferences or author appearances.
 
 ![Markdown Block Rendered in Frontend](/docs/assets/projects/mdFront.png)
 
-There are two sections to consider when editing a Markdown block: Body and Style.
+There are three sections to consider when editing a Markdown block: Access, Body, and Style.
+
+![Mardown Menu](/docs/assets/projects/md-menu.png)
+
+#### Access
+
+Publishers can use this dropdown to customize the project's landing page behavior and for whom this block will appear. This field works in concert with the project's [access restriction settings](/docs/projects/customizing/access.html#entitlements). 
+
+If `Always Visible` is selected, the content block will be visible on the project landing page for all who arrive there, whether they have accounts on the instance or not.
+
+When `Visible Only When Authorized` is chosen, only those who (1) have accounts on the instance, (2) are logged in, and (3) have secured the necessary permissions to access the project will see the content block.
+
+Conversely, if `Visible Only When Unauthorized` is selected, the block will display only for those who don't have specific access to the project or aren't logged in to their accounts.
+
+The default setting for this field is `Always Visible`.
 
 #### Body
 
@@ -280,6 +320,7 @@ In the Style section, users can select how the block should appear, with a white
 </div>
 
 <a name="metaBlock"></a>
+
 ### Metadata
 
 The Metadata Block will render metadata about the project in three columns. Project metadata is managed in the [Metadata menu](/docs/projects/customizing/metadata.html) of the project record and cannot be directly modified in this view. Instead here users can choose to reveal a project's metadata on the landing page and where it is situated among any other content blocks.
@@ -288,7 +329,20 @@ The Metadata Block will render metadata about the project in three columns. Proj
 
 This block will not appear if no metadata has been added to a project.
 
+Likewise, publishers can use the `Access` dropdown in the block's edit menu to customize the project's landing page behavior and for whom this block will appear. This field works in concert with the project's [access restriction settings](/docs/projects/customizing/access.html#entitlements).
+
+![Metadata Block Menu](/docs/assets/projects/metadata-menu.png)
+
+If `Always Visible` is selected, the content block will be visible on the project landing page for all who arrive there, whether they have accounts on the instance or not.
+
+When `Visible Only When Authorized` is chosen, only those who (1) have accounts on the instance, (2) are logged in, and (3) have secured the necessary permissions to access the project will see the content block.
+
+Conversely, if `Visible Only When Unauthorized` is selected, the block will display only for those who don't have specific access to the project or aren't logged in to their accounts.
+
+The default setting for this field is `Always Visible`. 
+
 <a name="activityBlock"></a>
+
 ### Recent Activity
 
 The Recent Activity block lists the last six activity records for the project. Activities show as tiles indicating when Tweets, Texts, or Resources are added to a project.
@@ -297,18 +351,43 @@ The Recent Activity block lists the last six activity records for the project. A
 
 Activity records can be managed in the project’s [Activity menu](/docs/projects/customizing/activity.html). If a project contains more than six activity records, users will be shown a button that links to the full, paginated list of activity on a separate screen.
 
+Likewise, publishers can use the `Access` dropdown in the block's edit menu to customize the project's landing page behavior and for whom this block will appear. This field works in concert with the project's [access restriction settings](/docs/projects/customizing/access.html#entitlements).
+
+![Activity Menu](/docs/assets/projects/activity-menu.png)
+
+If `Always Visible` is selected, the content block will be visible on the project landing page for all who arrive there, whether they have accounts on the instance or not.
+
+When `Visible Only When Authorized` is chosen, only those who (1) have accounts on the instance, (2) are logged in, and (3) have secured the necessary permissions to access the project will see the content block.
+
+Conversely, if `Visible Only When Unauthorized` is selected, the block will display only for those who don't have specific access to the project or aren't logged in to their accounts.
+
+The default setting for this field is `Always Visible`. 
+
 <a name="resourceBlock"></a>
+
 ### Resources
 
 The Resources Block renders a teaser of the ten most recently updated resources on a project, accompanied by a link to the resource library for the project. Individual resources are managed in the [Resource menu](/docs/projects/customizing/resources.html).
 
+Likewise, publishers can use the `Access` dropdown in the block's edit menu to customize the project's landing page behavior and for whom this block will appear. This field works in concert with the project's [access restriction settings](/docs/projects/customizing/access.html#entitlements).
+
 ![Resource Block](/docs/assets/projects/resourceBlock.png)
 
-Users have the option to customize the title of the block. By default it will read as "Resources" on the project page.
+If `Always Visible` is selected, the content block will be visible on the project landing page for all who arrive there, whether they have accounts on the instance or not.
 
-![Resource Block Backend Interface](/docs/assets/projects/resourceBack.png)
+When `Visible Only When Authorized` is chosen, only those who (1) have accounts on the instance, (2) are logged in, and (3) have secured the necessary permissions to access the project will see the content block.
 
-If the “Show All Collections” switch is enabled, this block will also list each of the project’s resource collections. When toggled off, users can use the Select Collection dropdown to show only specific collections. If the project has collections, the block will also render a link to the “all collections” view for the project. Resource collections are managed in the [Resource Collection menu](/docs/projects/customizing/collections.html).
+Conversely, if `Visible Only When Unauthorized` is selected, the block will display only for those who don't have specific access to the project or aren't logged in to their accounts.
+
+The default setting for this field is `Always Visible`. 
+
+Users have the option to customize the title of the block using the `Title` field. By default, or if left blank, it will read as "Resources" on the project page.
+
+![Resource Block Backend Interface](/docs/assets/projects/resource-menu.png)
+
+If the `Show All Collections` switch is enabled, this block will also list each of the project’s resource collections. When toggled off, users can use the `Show Specific Collections` dropdown to show only certain collections the publisher deems of particular interest. Publishers can also manually order how the collections will appear in the block using the horizontal grab bars to the right of the collection's name.
+
+This block will also render a link to the “all collections” view for the project. Resource collections are managed in the [Resource Collection menu](/docs/projects/customizing/collections.html).
 
 <a name="tocBlock"></a>
 ### Table of Contents
@@ -332,6 +411,20 @@ Manifold populates this block using the source document's navigational table of 
 In other words, the Contents dropdown in the Manifold reader for the selected text will mirror the readout for a Table of Contents block pointing to that same text.
 
 When editing this block in the backend, an editor will be confronted with the following options:
+
+![TOC Block Menu](/docs/assets/projects/toc-menu.png)
+
+#### Access
+
+Publishers can use this dropdown to customize the project's landing page behavior and for whom this block will appear. This field works in concert with the project's [access restriction settings](/docs/projects/customizing/access.html#entitlements). 
+
+If `Always Visible` is selected, the content block will be visible on the project landing page for all who arrive there, whether they have accounts on the instance or not.
+
+When `Visible Only When Authorized` is chosen, only those who (1) have accounts on the instance, (2) are logged in, and (3) have secured the necessary permissions to access the project will see the content block.
+
+Conversely, if `Visible Only When Unauthorized` is selected, the block will display only for those who don't have specific access to the project or aren't logged in to their accounts.
+
+The default setting for this field is `Always Visible`.
 
 #### Title
 
@@ -361,6 +454,18 @@ The Text Block lists some or all texts associated with the project. The texts th
 ![Text Block Frontend](/docs/assets/projects/textsBlock.png)
 
 An editor can modify the following settings for a Text block in the backend. Depending on which settings are toggled on/off, different elements within the block may move to better serve visual comprehension of the page.
+
+#### Access
+
+Publishers can use this dropdown to customize the project's landing page behavior and for whom this block will appear. This field works in concert with the project's [access restriction settings](/docs/projects/customizing/access.html#entitlements). 
+
+If `Always Visible` is selected, the content block will be visible on the project landing page for all who arrive there, whether they have accounts on the instance or not.
+
+When `Visible Only When Authorized` is chosen, only those who (1) have accounts on the instance, (2) are logged in, and (3) have secured the necessary permissions to access the project will see the content block.
+
+Conversely, if `Visible Only When Unauthorized` is selected, the block will display only for those who don't have specific access to the project or aren't logged in to their accounts.
+
+The default setting for this field is `Always Visible`.
 
 #### Title
 
@@ -422,9 +527,11 @@ This field can be further modified by the Categories dropdown.
 
 This field works in tandem with how a project's [texts are grouped](/docs/projects/customizing/texts.html#grouping-texts). Using the “Add a Category” dropdown, an editor can choose which custom text categories render in the block. Thus an editor can employ more than one text block, each showing only certain categories.
 
-If not categories are selected and “Show Uncategorized Texts” is toggled on, any uncategorized texts will still appear as Manifold treat uncategorized texts differently from those with custom groupings.
+Categories will show in the content block in the same order in which they are organized in the [Texts sidebar](/docs/projects/customizing/texts.html#grouping-texts). That sorting scheme can be overridden directly through this menu by using the grab bars beside the category names, dragging/dropping them in the preferred order.
 
-![Text Block Backend Interface](/docs/assets/projects/textBlockBack.png)
+If no categories are selected and “Show Uncategorized Texts” is toggled on, any uncategorized texts will still appear as Manifold treats uncategorized texts differently from those with custom groupings.
+
+![Text Block Backend Menu](/docs/assets/projects/text-menu.png)
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
 <strong>Note</strong>. A project can have multiple Texts blocks, allowing a publisher the means to showcase a project's textual materials in contextually appropriate ways.

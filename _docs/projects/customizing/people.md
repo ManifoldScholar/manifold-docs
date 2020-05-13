@@ -30,8 +30,6 @@ From this screen you can modify the user accounts that are associated with the p
 
 ## Changing Record Order
 
-If there is more than one record under the `Author` or `Contributor` heading, you will have the option to manage in which order they will display, by clicking on the up or down arrow between the edit and remove icons to the right of the record's name:
+If there is more than one record under the `Author` or `Contributor` heading, you can resort them using the horizontal grab bars on the far right, which allow users to  manually drag and drop the records into the desired order.
 
-![Order Maker](/docs/assets/projects/order-maker.png)
-
-When you do so the listing will move up or down accordingly and display throughout the system in the order in which you see them here.
+![Order Maker Records](/docs/assets/projects/order-maker.png)
