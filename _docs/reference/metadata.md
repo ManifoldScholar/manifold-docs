@@ -3,7 +3,7 @@ layout: page
 title: Metadata
 menu:
   reference:
-    weight: 3
+    weight: 4
 ---
 
 The following metadata fields are made available through Manifold. The three columns—`Project`, `Text`, and `Resource`—denote where the fields apply.
