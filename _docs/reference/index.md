@@ -11,6 +11,7 @@ The Manifold Documentation Reference section provides:
 
 - a [glossary](/docs/reference/glossary.html) of Manifold-specific vocabulary,
 - a description of [phrasal search](/docs/reference/search.html) operation in the application,
+- an overview of some common [interface](/docs/reference/interface.html) functionality,
 - a table of all the available [metadata fields](/docs/reference/metadata.html) available on the platform, and
 - a listing of available [download packages](/docs/reference/downloads.html).
 

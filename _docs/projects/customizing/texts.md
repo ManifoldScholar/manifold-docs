@@ -153,8 +153,10 @@ In situations where multiple backend users are uploading and editing files, this
 </div>
 
 <a name="managing-texts-general"></a>
+
 ### General
 
+<<<<<<< HEAD
 When you access a text record in the backend, you'll arrive first in the `General` menu where you can adjust the following aspects of the text.
 
 <div style="background: #d4f2ff; margin: 20px 0; padding: 15px;">
@@ -228,9 +230,53 @@ Previously, only texts loaded in the EPUB format would render a cover in this sp
 <strong>Note</strong>. In situations where Manifold is creating an EPUB of a text, for download or export, it will use the cover file stored in this field as the cover for the Manifold-generated EPUB.
 </div>
 
+=======
+When you access the text landing page in the backend, you'll arrive first on the text's `General` panel where you can adjust a number of the text's fundamental attributes:
+
+#### Title
+
+Manifold will look for metadata in the source text during the ingestion process that is designated as the material's title. If Manifold cannot find title information it will automatically assign a random UUID as the title. That can be adjusted to a more appropriate title here.
+
+See the [preparing texts section](/docs/projects/preparing/index.html) to learn how to include title metadata in the source text.
+
+#### Subtitle
+
+If Manifold cannot determine a text's subtitle during ingestion it will assume there is no subtitle. If that is not accurate, one can be supplied here.
+
+#### Publication Date
+
+This is a calendar entry field that allows a publisher to describe the publication date of a specific text, which may or may not coincide with the publication date of the Manifold project.
+
+#### Slug
+
+Some parts of Manifold URLs are customizable. For Texts, publishers can describe the name of the text that will appear in the URL along this paradigm:
+
+```html
+domain.org/read/text-slug-from-this-field/section/{UUID}
+```
+
+#### Description
+
+If description metadata is included in the source document in a way that Manifold can understand, it will be included here. If not, a description for this specific text can be included in this field, either as plain text or composed in Markdown.
+
+See the [preparing texts section](/docs/projects/preparing/index.html) to learn how to include description metadata in the source text.
+
+#### Cover
+
+When an EPUB is ingested Manifold will include the cover thumbnail in this field. For all other ingestion types, publishers can manually add a cover file here. Thumbnails saved to this field will render in [Text content blocks](/docs/projects/customizing/layout.html#textsBlock).
+
+#### Published?
+
+This toggle provides publishers a means to define a text as being officially published. This toggle will append a Published badge in [Text content blocks](/docs/projects/customizing/layout.html#textsBlock) and will also remove the category ribbon that appears in yellow at the bottom of the reader.
+
+>>>>>>> Final v5 notes
 #### Section Label
 
 `Section Label` refers to the navigation header that appears at the bottom of a unit of text. By default the header reads `Next Chapter`. Below that header is the title of the next unit of text. If your text is broken up by another conventions (e.g., article, part), you can specify that here to better orient readers to the nature of the content.
+
+The content entered in the `Title` and `Description` fields are included when a URL from the text is shared with another platform capable of conveying that information to its readers (e.g., Facebook).
+
+Likewise, the text's title and subtile, its makers (authors, contributors), and description can be toggled to be shown on the project landing page in a text content block. To learn more about all the customizations possible for display elements in a text block, see the [Layout](/docs/projects/customizing/layout.html) section.
 
 <a name="textsPeople"></a>
 ### People
