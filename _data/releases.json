@@ -371,6 +371,18 @@
       "platform_version": "7",
       "arch": "x86_64",
       "url": "https://storage.googleapis.com/manifold-dist/centos7/manifold-5.0.0~rc.1-1.el7.x86_64.rpm"
+    },
+    "5.0.0-rc.2": {
+      "build_version": "5.0.0-rc.2",
+      "build_git_revision": "75f3a248e7e0d88b99ba7ecda7a12dc8ca8b023f",
+      "basename": "manifold-5.0.0~rc.2-1.el7.x86_64.rpm",
+      "sha1": "21e29393b3db985d6defdcf8573c8ed57ba0005c",
+      "sha256": "6e8805f62201b9a072752c2062eda9afeae9ce743a70b87bf748f268c18028f0",
+      "sha512": "b51d2bb972ca6a5ed63c75c317259d892a5ecec3593fa98ce4108c69e4d055c900efea5a6dfa7c7550ddc39116daa8ec99a5f82f517fce4e0d90d891afadd346",
+      "platform": "el",
+      "platform_version": "7",
+      "arch": "x86_64",
+      "url": "https://storage.googleapis.com/manifold-dist/centos7/manifold-5.0.0~rc.2-1.el7.x86_64.rpm"
     }
   },
   "ubuntu16": {
@@ -865,6 +877,18 @@
       "platform_version": "16.04",
       "arch": "x86_64",
       "url": "https://storage.googleapis.com/manifold-dist/ubuntu16/manifold_5.0.0~rc.1-1_amd64.deb"
+    },
+    "5.0.0-rc.2": {
+      "build_version": "5.0.0-rc.2",
+      "build_git_revision": "75f3a248e7e0d88b99ba7ecda7a12dc8ca8b023f",
+      "basename": "manifold_5.0.0~rc.2-1_amd64.deb",
+      "sha1": "3f94acce4254b9e679e10b329a7cde3e1a100337",
+      "sha256": "54b1e1aeb28c9264218467dec0da9c2a0162550e27cba7c1aaec4fbfed11b412",
+      "sha512": "75d478cfc26c3cbaaf2491985278c160289a6fb7ea4b98948dd741cd6660083790ae7f82b392343ad891d4e048c92e567734d186c074378e15357bcde156c4fb",
+      "platform": "ubuntu",
+      "platform_version": "16.04",
+      "arch": "x86_64",
+      "url": "https://storage.googleapis.com/manifold-dist/ubuntu16/manifold_5.0.0~rc.2-1_amd64.deb"
     }
   },
   "ubuntu18": {
@@ -1239,6 +1263,18 @@
       "platform_version": "18.04",
       "arch": "x86_64",
       "url": "https://storage.googleapis.com/manifold-dist/ubuntu18/manifold_5.0.0~rc.1-1_amd64.deb"
+    },
+    "5.0.0-rc.2": {
+      "build_version": "5.0.0-rc.2",
+      "build_git_revision": "75f3a248e7e0d88b99ba7ecda7a12dc8ca8b023f",
+      "basename": "manifold_5.0.0~rc.2-1_amd64.deb",
+      "sha1": "5057ff6f749b50f25c3ea4165e86a18e5acd8196",
+      "sha256": "58830b6fcd2ea46f4a8fa6dabeec71085cae1bc498caaa793fcc2afc77eed037",
+      "sha512": "495d94e38bc9bf1aceee156397eb53b3819066e40b36cfe27e147f4e385eaa89acd7fd772ec5af5b0decabd2df66815683e3d0048df9c6aefdff07fac784e9ca",
+      "platform": "ubuntu",
+      "platform_version": "18.04",
+      "arch": "x86_64",
+      "url": "https://storage.googleapis.com/manifold-dist/ubuntu18/manifold_5.0.0~rc.2-1_amd64.deb"
     }
   }
 }
