@@ -131,11 +131,11 @@ brew services start redis
 
 ### Ensure Java is present
 
-Java is needed for ElasticSearch. We'll use [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) to install it. You will likely be prompted for your password.
+Java 8 is needed for ElasticSearch. The Oracle distribution is no longer being supported/available so we'll use [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) to install the OpenJDK implementation. You will likely be prompted for your password.
 
 ```
-brew tap caskroom/versions
-brew cask install java8
+brew tap homebrew/cask-versions
+brew cask install adoptopenjdk8
 ```
 
 ### Install additional libraries
