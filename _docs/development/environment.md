@@ -183,7 +183,7 @@ git clone https://github.com/ManifoldScholar/manifold.git manifold
 cd ~/src/manifold
 ```
 
-## Step 4: Install API dependencies and setup the database.
+## Step 3: Install API dependencies and setup the database.
 
 Next, install Bundler and Manifold's gem dependencies. There is a Gemfile in the root of the repository, which includes dependencies related to Manifold's tooling. There is also a Gemfile in the `api` directory, which is the root of the Rails application that is Manifold's API backend. You'll need to install both sets of gems.
 
@@ -196,7 +196,7 @@ bundle install
 ```
 
 
-## Step 5: Setup .env file.
+## Step 4: Setup .env file.
 
 Generate a secret key and store it. You'll add it to the environment file below, where it says `ENTER_YOUR_SECRET_KEY`
 
@@ -224,7 +224,7 @@ RAILS_DB_NAME=manifold_development
 ELASTICSEARCH_URL=http://127.0.0.1:29200
 ```
 
-## Step 6: Create the database.
+## Step 5: Create the database.
 
 The API is a Rails application, and you'll use standard Rails commands to manage the database. The following commands create the database, loads the schema, and add seed data.
 
