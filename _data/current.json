@@ -1,4 +1,5 @@
 {
   "version": "v5.1.3",
+  "version-docker": "v5.1.4-beta.1",
   "os": "ubuntu18"
 }
