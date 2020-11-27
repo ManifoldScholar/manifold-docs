@@ -78,3 +78,5 @@ Create an admin user
 docker exec -it manifold-docker-compose_api_rails_1 \
 rails manifold:user:create:admin['email@example.com','test123!','First','Last']
 ```
+
+_With some terminal configurations don't forget to escape `[` and `]` like `\[`._
